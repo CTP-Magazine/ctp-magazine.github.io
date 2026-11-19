@@ -1,0 +1,19 @@
+{
+  "generated": "2026-11-19T15:37:52.431540+00:00",
+  "date_checked": "2026-11-19",
+  "feeds_total": 114,
+  "feeds_succeeded": 114,
+  "feeds_failed": [],
+  "items_fetched": 2035,
+  "duplicates_removed": 72,
+  "articles_written": 300,
+  "excerpt_over_limit": 0,
+  "images_logged": 84,
+  "images_usable": 5,
+  "images_hero_eligible": 5,
+  "terms_breakdown": {
+    "full_text": 14,
+    "abstract": 138,
+    "excerpt": 148
+  }
+}

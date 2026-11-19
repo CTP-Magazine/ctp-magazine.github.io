@@ -27,5 +27,3 @@ This is the magazine's own asset tree. Every CTP site keeps its own `/assets` wi
 2. Resize to the right size first (1920×1080 for hero, 2048×512 for the horizontal banner).
 3. Put it in the right subfolder, never loose in `/assets`.
 4. Record its source, licence, and credit.
-
----

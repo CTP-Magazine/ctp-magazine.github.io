@@ -1,6 +1,3 @@
-# ctp-magazine.github.io
-CTP Magazine: Your Gateway into the C-domain
-
 # CTP Magazine
 
 **Your Gateway into the C-domain.**
@@ -57,7 +54,7 @@ There is **no open submission form**. Bloggers contact the magazine to set it up
 
 ## The site
 
-Built on the CTP templates — same format and structure, same 41 themes, same left and right column modules, mobile-friendly throughout. A media player sits at the top of the right column. The footer carries the full privacy, copyright, publication, and syndication information.
+Built on the CTP-EOS template — same format and structure, same 41 themes, same left and right column modules, mobile-friendly throughout. A media player sits at the top of the right column. The footer carries the full privacy, copyright, publication, and syndication information.
 
 ## Related
 
@@ -69,5 +66,3 @@ Built on the CTP templates — same format and structure, same 41 themes, same l
 ## License
 
 The site code in this repository is licensed under the **MIT License** (see `LICENSE`). Article content remains under its original publishers' licences — see `rss-feeds.md` for the republication rule on each feed.
-
----
