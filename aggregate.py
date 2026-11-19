@@ -3,7 +3,8 @@
 CTP Magazine aggregator.
 
 Fetches every cleared feed listed in rss-feeds.md, extracts title / link /
-excerpt / date / image per item, dedupes by link, applies the per-feed
+excerpt / date / image per item, dedupes by link AND by near-duplicate
+title (same story from different feeds), applies the per-feed
 republication rules from the clearance list, and writes articles.json.
 
 Republication rules (from rss-feeds.md — the clearance is the rule):
@@ -607,6 +608,121 @@ def normalise_link(link: str) -> str:
 
 
 # ---------------------------------------------------------------------------
+# Near-duplicate detection (2026-11-19): different RSS feeds pull the same
+# story, so deduping by link alone leaves repeats — e.g. seven "Afterlife
+# With Archie" casting stories from the Google News "afterlife" feed.
+# Titles are compared by word-set similarity; when two articles are
+# near-duplicates the newest is kept and the rest are dropped. This runs
+# in aggregate.py itself (after the 300 cap), so every 12h run dedupes
+# the same way — never a one-off cleanup of articles.json.
+# ---------------------------------------------------------------------------
+
+TITLE_STOPWORDS = {
+    "the", "a", "an", "and", "or", "of", "to", "in", "on", "for", "with",
+    "at", "by", "from", "its", "it", "is", "are", "as", "new", "this",
+    "that", "these", "those", "will", "would", "can", "could", "has",
+    "have", "had", "be", "been", "was", "were", "into", "over", "under",
+    "after", "before", "between", "about", "against", "through", "during",
+    "per", "via", "vs",
+}
+NEAR_DUP_JACCARD = 0.50       # word-set Jaccard at or above this = duplicate
+NEAR_DUP_JACCARD_MIN = 4      # ... and at least this many shared words
+NEAR_DUP_OVERLAP = 0.80       # shorter title mostly inside the longer one
+NEAR_DUP_OVERLAP_MIN = 5      # ... and at least this many shared words
+AGGREGATOR_WINDOW_MIN = 120   # same aggregator feed, same day, this close
+
+
+def title_word_set(title: str) -> frozenset:
+    """Normalised word set for a headline: lowercase, punctuation gone,
+    trailing source suffix stripped (" - IMDb", " | Space photo of the
+    day..."), stopwords and single-letter alpha tokens dropped. Digits
+    are kept — "Voyager 1" and "Voyager 2" are different stories."""
+    t = (title or "").strip()
+    # Strip one trailing source suffix (" - X" / " | X", short segment).
+    for sep in (" | ", " - "):
+        idx = t.rfind(sep)
+        if idx > 0 and len(t[idx + len(sep):].split()) <= 5:
+            t = t[:idx]
+            break
+    t = t.lower()
+    t = re.sub(r"[^a-z0-9 ]", " ", t)
+    words = set()
+    for w in t.split():
+        if w in TITLE_STOPWORDS:
+            continue
+        if len(w) == 1 and w.isalpha():   # stray "s" from possessives
+            continue
+        words.add(w)
+    return frozenset(words)
+
+
+def titles_near_duplicate(a: frozenset, b: frozenset) -> bool:
+    """True when two normalised title word sets describe the same story:
+    identical sets, or a high Jaccard similarity, or the shorter set
+    mostly contained in the longer one. Thresholds are deliberately
+    conservative — collapsing two genuinely different stories is worse
+    than leaving a repeat in. Guard: two long titles that differ by a
+    single content word/number are NOT collapsed — that is how distinct
+    stories look ("Voyager 1" vs "Voyager 2", "Work" vs "Singles"
+    horoscope), not how repeats look."""
+    if not a or not b:
+        return False
+    if a == b:
+        return True
+    if len(a) >= 6 and len(b) >= 6 and len(a ^ b) <= 2:
+        return False
+    inter = len(a & b)
+    if inter == 0:
+        return False
+    jaccard = inter / len(a | b)
+    if jaccard >= NEAR_DUP_JACCARD and inter >= NEAR_DUP_JACCARD_MIN:
+        return True
+    overlap = inter / min(len(a), len(b))
+    if overlap >= NEAR_DUP_OVERLAP and inter >= NEAR_DUP_OVERLAP_MIN:
+        return True
+    return False
+
+
+def same_event_aggregator(a: dict, kept_a: dict, ws, ks,
+                          freq: dict) -> bool:
+    """Second signal, for aggregator feeds only (Google News / Bing News):
+    they return many outlets covering the SAME event on the same day,
+    often with headlines that share almost no words — UPI's "casts new
+    versions of Riverdale favorites" vs TVLine's cast list are the same
+    casting announcement. Same aggregator feed, same day, within 2
+    hours, and the headlines share either >= 3 content words, or >= 2
+    content words that are rare by feed count (each in <= 2 feeds) —
+    the rarity bar is what keeps two different stories in the same topic
+    feed apart ("Astronomers discover a triple-star system" vs "a giant
+    star eats another star" share only the generic "astronomers" /
+    "star"). Rarity is measured by feed count, not title count, because
+    a story arriving as 13 near-identical variants would inflate its
+    own words' title frequency. Restricted to aggregator feeds on
+    purpose: publisher feeds (NASA, arXiv, ...) put out distinct items,
+    and the same test false-positives on them (two arXiv papers in one
+    category share generic words). `freq` maps each word to the number
+    of distinct feeds whose titles contain it, counted over the
+    300-article dedupe input."""
+    feed = a["feed"]
+    if not (feed.startswith("Google News")
+            or feed.startswith("Bing News")):
+        return False
+    if feed != kept_a["feed"]:
+        return False
+    da, db = a["date"], kept_a["date"]
+    if not da or not db or da[:10] != db[:10]:
+        return False
+    if abs((a["_date_sort"] - kept_a["_date_sort"]).total_seconds()) \
+            > AGGREGATOR_WINDOW_MIN * 60:
+        return False
+    shared = ws & ks
+    if len(shared) >= 3:
+        return True
+    rare = [w for w in shared if freq.get(w, 0) <= 2]
+    return len(shared) >= 2 and len(rare) >= 2
+
+
+# ---------------------------------------------------------------------------
 # Per-feed worker
 # ---------------------------------------------------------------------------
 
@@ -720,6 +836,56 @@ def main() -> int:
     deduped = deduped[:MAX_ITEMS_TOTAL]
     print(f"Capped at newest {MAX_ITEMS_TOTAL}: {len(deduped)} articles")
 
+    # Near-duplicate pass (same story, different feed/headline): newest
+    # first, keep the first of each group, drop the rest. Two signals:
+    # title similarity (Jaccard/overlap on normalised word sets) and the
+    # aggregator-event signal (same Google/Bing News feed, same day,
+    # within 2h, shared words with a rarity bar). Word frequencies are
+    # counted over the 300-article input so the rarity bar is measured
+    # against this run. Runs AFTER the cap, so the final count drops by
+    # the number of repeats removed.
+    # Word rarity is measured by FEED count, not title count: a story
+    # that arrives as 13 near-identical variants inflates its own
+    # words' title frequency, so title counts would call "archie" common
+    # exactly when it is most distinctive. Feed count does not inflate
+    # that way ("archie" is in 1 feed; "star" is in many).
+    from collections import defaultdict
+    _word_feeds = defaultdict(set)
+    for _a in deduped:
+        for _w in title_word_set(_a["title"]):
+            _word_feeds[_w].add(_a["feed"])
+    _freq = {w: len(fs) for w, fs in _word_feeds.items()}
+    kept_sets, kept_arts, final, near_groups = [], [], [], []
+    near_dupes = 0
+    for a in deduped:
+        ws = title_word_set(a["title"])
+        hit, signal = None, ""
+        for i, ks in enumerate(kept_sets):
+            if titles_near_duplicate(ws, ks):
+                hit, signal = i, "title-similarity"
+                break
+            if same_event_aggregator(a, kept_arts[i], ws, ks, _freq):
+                hit, signal = i, "aggregator-event"
+                break
+        if hit is None:
+            kept_sets.append(ws)
+            kept_arts.append(a)
+            final.append(a)
+        else:
+            near_dupes += 1
+            near_groups.append({
+                "kept_title": final[hit]["title"],
+                "kept_feed": final[hit]["feed"],
+                "kept_link": final[hit]["link"],
+                "dropped_title": a["title"],
+                "dropped_feed": a["feed"],
+                "dropped_link": a["link"],
+                "signal": signal,
+            })
+    deduped = final
+    print(f"Near-duplicates removed: {near_dupes}; "
+          f"articles after dedupe: {len(deduped)}")
+
     # Excerpt-rule audit: no excerpt-feed item over 200 words.
     over = [a for a in deduped
             if a["terms"] == TERMS_EXCERPT and a["_words"] > MAX_WORDS_EXCERPT]
@@ -788,6 +954,8 @@ def main() -> int:
         ],
         "items_fetched": len(all_items),
         "duplicates_removed": dupes,
+        "near_duplicates_removed": near_dupes,
+        "near_duplicate_groups": near_groups,
         "articles_written": len(articles),
         "excerpt_over_limit": len(over),
         "images_logged": len(image_log),
