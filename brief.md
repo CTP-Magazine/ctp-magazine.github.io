@@ -29,3 +29,7 @@ ctp-magazine.github.io, a curated news front door for the CTP audience. 114 veri
 ## Reporting
 
 Report what shipped and what is still open, in plain counts.
+
+## Masthead banner — removed for now (2026-11-19)
+- The 1920x600 masthead banner image (assets/branding/ctp-magazine-1920x600.jpg) was removed from the top of the page (commit 35a88e64). The site now opens with the standard masthead (CTP square + header text + tagline), matching the other CTP sites.
+- This is FOR NOW, not permanent. Resofactor will put something else in the masthead area at a later date, when he figures out what. The site is a work in progress. The image file stays in the repo (also used in the org profile README), so the banner can be restored with one edit.
