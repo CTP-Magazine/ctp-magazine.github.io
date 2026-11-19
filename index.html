@@ -1472,6 +1472,15 @@ button, [role="button"], select, summary, input:not([type="checkbox"], [type="ra
           }
           return '';
         }
+        /* Front-door cap: arXiv preprints are 103 of 271 articles, so the
+           default All Topics view would read like a pre-print dump. Cap
+           arXiv at 4 cards in All Topics only; topic views are uncapped
+           (a reader who chooses Physics wants preprints). */
+        var ARXIV_CAP = 4;
+        function isArxiv(a) {
+          var s = String(field(a, ['feed', 'publisher', 'source']) || '').toLowerCase();
+          return s.indexOf('arxiv') === 0;
+        }
         function filtered() {
           var items = all;
           if (activeTopic) {
@@ -1480,10 +1489,20 @@ button, [role="button"], select, summary, input:not([type="checkbox"], [type="ra
             });
           }
           var q = (searchEl.value || '').toLowerCase().trim();
-          if (!q) return items;
-          return items.filter(function (a) {
-            return String(field(a, ['title'])).toLowerCase().indexOf(q) > -1;
-          });
+          if (q) {
+            items = items.filter(function (a) {
+              return String(field(a, ['title'])).toLowerCase().indexOf(q) > -1;
+            });
+          }
+          if (!activeTopic) {
+            var n = 0;
+            items = items.filter(function (a) {
+              if (!isArxiv(a)) return true;
+              if (n < ARXIV_CAP) { n++; return true; }
+              return false;
+            });
+          }
+          return items;
         }
         function render() {
           var items = filtered();
@@ -1492,7 +1511,7 @@ button, [role="button"], select, summary, input:not([type="checkbox"], [type="ra
           if (topicLine) {
             topicLine.textContent = activeTopic
               ? 'Showing ' + activeTopic + ' — ' + items.length + ' article' + (items.length === 1 ? '' : 's')
-              : 'Showing all topics — ' + all.length + ' articles';
+              : 'Showing all topics — ' + items.length + ' articles';
           }
           if (!items.length) {
             var p = document.createElement('p');
