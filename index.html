@@ -1029,7 +1029,8 @@ button, [role="button"], select, summary, input:not([type="checkbox"], [type="ra
           <div class="module-title">About the Magazine</div>
           <div class="module-body">
             <p class="lead">A classic science magazine for the C-domain era — hard science and the speculative side by side.</p>
-            <p>CTP Magazine is a daily-updating magazine portal curating articles from around the internet — space, astronomy, consciousness, near-death experiences, UFOs and UAPs — in the format of a classic science magazine, OMNI-style: big visuals, features and short items, and a sense of wonder about the future.</p>
+            <p>CTP Magazine is a daily-updating magazine portal curating articles from around the internet — space, astronomy, consciousness, near-death experiences, UFOs and UAPs — in the format of a classic science magazine, OMNI-style.</p>
+            <p>Big visuals, features and short items, and a sense of wonder about the future.</p>
             <p>It pulls from 114 verified RSS feeds, every one vetted live and cleared for what the magazine may republish before it goes on the list. Articles are refreshed every 12 hours, and every item carries its attribution and a link back to the original.</p>
           </div>
         </section>
@@ -1069,7 +1070,8 @@ button, [role="button"], select, summary, input:not([type="checkbox"], [type="ra
           <div class="module-body">
             <p><b>Write a blog nobody reads? Let the magazine carry it.</b></p>
             <p>Many bloggers on Substack, Blogger and elsewhere get little traffic, for one simple reason: nobody follows a one-off single blog. The writing is good — the audience never finds it.</p>
-            <p>CTP Magazine syndicates blogs like yours and pushes the articles into this portal, in front of the magazine's readers: an excerpt plus a prominent link back to your original (or full text where your licence allows), with attribution on every item. Your work stays yours — the magazine just puts it where people are already reading.</p>
+            <p>CTP Magazine syndicates blogs like yours and pushes the articles into this portal, in front of the magazine's readers: an excerpt plus a prominent link back to your original (or full text where your licence allows), with attribution on every item.</p>
+            <p>Your work stays yours — the magazine just puts it where people are already reading.</p>
             <p>There is no open submission form and no feed drop-off. Syndication is set up by contact: email <a href="mailto:syndication@ctp-energy.com">syndication@ctp-energy.com</a> and the magazine will set it up with you. Every feed is vetted by the magazine first, before it is added — that vetting is what keeps the portal worth reading.</p>
           </div>
         </section>
@@ -1520,9 +1522,16 @@ button, [role="button"], select, summary, input:not([type="checkbox"], [type="ra
             card.appendChild(h);
             var ex = field(a, ['excerpt', 'summary', 'description']);
             if (ex) {
-              var p = document.createElement('p');
-              p.textContent = ex;
-              card.appendChild(p);
+              /* Excerpts arrive paragraph-separated ("\n\n") from the
+                 aggregator — render each paragraph as its own <p> so a
+                 card is never one unformatted wall. */
+              String(ex).split(/\n\n+/).forEach(function (para) {
+                para = para.trim();
+                if (!para) return;
+                var p = document.createElement('p');
+                p.textContent = para;
+                card.appendChild(p);
+              });
             }
             if (url) {
               var more = document.createElement('a');

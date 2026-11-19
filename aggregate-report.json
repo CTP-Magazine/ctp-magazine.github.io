@@ -1,19 +1,26 @@
 {
-  "generated": "2026-11-19T16:42:58.062157+00:00",
+  "generated": "2026-11-19T16:51:38.047431+00:00",
   "date_checked": "2026-11-19",
   "feeds_total": 114,
-  "feeds_succeeded": 114,
-  "feeds_failed": [],
-  "items_fetched": 2037,
-  "duplicates_removed": 72,
+  "feeds_succeeded": 113,
+  "feeds_failed": [
+    {
+      "num": 58,
+      "feed": "Space Policy Online",
+      "url": "https://www.spacepolicyonline.com/feed/",
+      "error": "ValueError: returned an HTML page, not a feed"
+    }
+  ],
+  "items_fetched": 2027,
+  "duplicates_removed": 70,
   "articles_written": 300,
   "excerpt_over_limit": 0,
-  "images_logged": 92,
-  "images_usable": 5,
-  "images_hero_eligible": 5,
+  "images_logged": 93,
+  "images_usable": 6,
+  "images_hero_eligible": 6,
   "terms_breakdown": {
-    "full_text": 15,
-    "abstract": 123,
-    "excerpt": 162
+    "full_text": 16,
+    "abstract": 116,
+    "excerpt": 168
   }
 }

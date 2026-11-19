@@ -59,6 +59,17 @@ REPORT_JSON = BASE / "aggregate-report.json"
 MAX_WORDS_EXCERPT = 200          # hard ceiling, Phys.org's own stated limit
 MAX_WORDS_FULL_TEXT = 5000       # safety valve only; RSS full text is far shorter
 MAX_WORDS_ABSTRACT = 1000        # safety valve only; abstracts are ~150-300 words
+# READABILITY RULE (2026-11-19, site-wide, enforced in code): no card may
+# ever render as one unformatted wall. Every excerpt the aggregator writes
+# is a readable teaser — paragraph breaks preserved, capped at the first
+# 3 paragraphs / ~300 words / ~1500 characters, whichever comes first.
+# The republication ceilings above still govern what the magazine MAY
+# carry; these display caps govern what the CARD shows. The full article
+# is always one click away on the source link.
+MAX_PARAS_DISPLAY = 3            # card shows at most 3 paragraphs
+MAX_WORDS_DISPLAY = 300          # card shows at most ~300 words
+MAX_CHARS_DISPLAY = 1500         # card shows at most ~1500 characters
+MAX_PARA_CHARS = 600             # no single paragraph over ~600 chars
 MAX_ITEMS_PER_FEED = 25          # Google News returns ~100; take the newest 25
 MAX_ITEMS_TOTAL = 300            # newest first
 FETCH_TIMEOUT = 25
@@ -224,14 +235,24 @@ def find_descendants(elem, name: str):
 
 
 def strip_html(text: str) -> str:
+    """Strip HTML but PRESERVE paragraph breaks: block closers (</p>,
+    </div>, </li>, headings, blockquote) and <br> become paragraph
+    separators (\"\\n\\n\") before the tags are removed, and whitespace is
+    collapsed only WITHIN a paragraph. Returns paragraphs separated by
+    \"\\n\\n\". Titles (no block tags) come back as a single line, as before."""
     if not text:
         return ""
     text = re.sub(r"<(script|style)[^>]*>.*?</\1>", " ", text,
                   flags=re.S | re.I)
+    text = re.sub(r"</(p|div|li|h[1-6]|blockquote|tr|section|article)>",
+                  "\n\n", text, flags=re.I)
+    text = re.sub(r"<br\s*/?>", "\n\n", text, flags=re.I)
     text = re.sub(r"<[^>]+>", " ", text)
     text = html.unescape(text)
-    text = re.sub(r"\s+", " ", text).strip()
-    return text
+    paras = [re.sub(r"\s+", " ", p).strip()
+             for p in text.split("\n\n")]
+    paras = [p for p in paras if p]
+    return "\n\n".join(paras)
 
 
 def parse_date(raw: str):
@@ -402,23 +423,106 @@ def parse_feed(xml_bytes: bytes, feed: dict) -> list[dict]:
 # Excerpt rules + image gating
 # ---------------------------------------------------------------------------
 
-def cap_words(text: str, limit: int) -> str:
-    words = text.split()
-    if len(words) <= limit:
-        return text
-    # Ellipsis glued to the last word so the word count stays at the limit.
-    return " ".join(words[:limit]).rstrip(" .,;:") + "…"
+def split_sentences(text: str) -> list[str]:
+    """Split text at sentence boundaries (. ! ? followed by a capital or
+    a number). Used to break an over-long paragraph into readable chunks."""
+    parts = re.split(r"(?<=[.!?])\s+(?=[\"'“\(\[]?[A-Z0-9])", text)
+    return [p.strip() for p in parts if p.strip()]
+
+
+def break_long_paragraph(para: str, max_len: int = MAX_PARA_CHARS) -> list[str]:
+    """Break one over-long paragraph into sentence chunks, each at most
+    ~max_len characters. Falls back to word-boundary chunks when the
+    paragraph has no sentence boundaries (one giant sentence)."""
+    if len(para) <= max_len:
+        return [para]
+    sents = split_sentences(para)
+    if len(sents) <= 1:
+        words = para.split()
+        chunks, cur = [], ""
+        for w in words:
+            if cur and len(cur) + 1 + len(w) > max_len:
+                chunks.append(cur)
+                cur = w
+            else:
+                cur = (cur + " " + w).strip() if cur else w
+        if cur:
+            chunks.append(cur)
+        return chunks
+    chunks, cur = [], ""
+    for s in sents:
+        if cur and len(cur) + 1 + len(s) > max_len:
+            chunks.append(cur)
+            cur = s
+        else:
+            cur = (cur + " " + s).strip() if cur else s
+    if cur:
+        chunks.append(cur)
+    return chunks
+
+
+def to_display_paragraphs(text: str, max_paras: int, max_words: int,
+                          max_chars: int) -> str:
+    """Turn paragraph-preserved text into a readable card teaser: at most
+    max_paras paragraphs, max_words words, and max_chars characters
+    (ellipsis included), whichever limit is hit first. Over-long
+    paragraphs are broken at sentence boundaries so no single paragraph
+    is a wall. Returns paragraphs separated by \"\\n\\n\"."""
+    src_paras = [p.strip() for p in text.split("\n\n") if p.strip()]
+    if not src_paras:
+        return ""
+    # 1. Take source paragraphs up to the word limit.
+    kept, words, truncated = [], 0, False
+    for p in src_paras:
+        pw = p.split()
+        room = max_words - words
+        if room <= 0:
+            truncated = True
+            break
+        if len(pw) > room:
+            kept.append(" ".join(pw[:room]))
+            words += room
+            truncated = True
+            break
+        kept.append(p)
+        words += len(pw)
+    # 2. Break any over-long paragraph at sentence boundaries.
+    disp = []
+    for p in kept:
+        disp.extend(break_long_paragraph(p))
+    # 3. Cap display paragraphs, then total characters (ellipsis included).
+    if len(disp) > max_paras:
+        disp = disp[:max_paras]
+        truncated = True
+    out = "\n\n".join(disp)
+    if len(out) > max_chars:
+        cut = out[:max_chars - 1]
+        idx = max(cut.rfind(" "), cut.rfind("\n"))
+        if idx > 0:
+            cut = cut[:idx]
+        out = cut.rstrip(" .,;:\n") + "…"
+        truncated = True
+    elif truncated:
+        out = out.rstrip(" .,;:\n") + "…"
+    return out
 
 
 def apply_terms(raw_text: str, terms: str) -> tuple[str, int]:
-    """Return (excerpt, word_count) under the feed's republication rule."""
-    text = strip_html(raw_text)
+    """Return (excerpt, word_count). The republication rule still governs
+    what the magazine MAY carry (full text / abstract / excerpt), but the
+    CARD shows a readable teaser: paragraph breaks preserved, first 3
+    paragraphs / ~300 words / ~1500 characters. Excerpt feeds keep their
+    200-word hard ceiling (the tighter limit wins). The full article is
+    always one click away on the source link."""
+    text = strip_html(raw_text)   # now paragraph-preserving ("\n\n")
     if terms == TERMS_FULL:
-        text = cap_words(text, MAX_WORDS_FULL_TEXT)
+        limit = min(MAX_WORDS_FULL_TEXT, MAX_WORDS_DISPLAY)
     elif terms == TERMS_ABSTRACT:
-        text = cap_words(text, MAX_WORDS_ABSTRACT)
+        limit = min(MAX_WORDS_ABSTRACT, MAX_WORDS_DISPLAY)
     else:
-        text = cap_words(text, MAX_WORDS_EXCERPT)
+        limit = MAX_WORDS_EXCERPT   # 200, the hard ceiling
+    text = to_display_paragraphs(text, MAX_PARAS_DISPLAY, limit,
+                                 MAX_CHARS_DISPLAY)
     return text, len(text.split())
 
 
