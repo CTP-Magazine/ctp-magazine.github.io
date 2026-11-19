@@ -107,6 +107,62 @@ AGENCY_CREDITS = ("getty", "reuters", "associated press", "ap ", "afp",
                   "shutterstock", "alamy", "reprinted")
 
 
+# ---------------------------------------------------------------------------
+# Topic tagging (2026-11-19): every article carries a `topic` so the
+# Topics module can filter the list like MSN — each topic returns the
+# stories from its own feeds. One clear dict, keyed by feed number
+# (rss-feeds.md sections). NDE is checked first because IANDS (#23) and
+# Windbridge (#69) sit inside the Consciousness sections (3 and 8).
+# Unmapped feeds fall through to "Science & the Future" — topic is
+# never left blank. All 114 feed numbers are covered exactly once.
+# ---------------------------------------------------------------------------
+TOPIC_SPACE = "Space & Astronomy"
+TOPIC_UFO = "UFOs & UAPs"
+TOPIC_CONSCIOUSNESS = "Consciousness"
+TOPIC_NDE = "Near-Death Experiences"
+TOPIC_PHYSICS = "Physics & Preprints"
+TOPIC_FUTURE = "Science & the Future"
+TOPICS = (TOPIC_SPACE, TOPIC_UFO, TOPIC_CONSCIOUSNESS, TOPIC_NDE,
+          TOPIC_PHYSICS, TOPIC_FUTURE)
+
+TOPIC_FEEDS = {
+    # NDE first: #23 and #69 sit inside the Consciousness sections.
+    # Only these five feeds are NDE: IANDS #23, Windbridge #69, Google
+    # News near-death experience #78, Google News afterlife #89,
+    # Bing News near-death experience #91. IONS #24 stays Consciousness.
+    TOPIC_NDE: {23, 69, 78, 89, 91},
+    # Space & Astronomy: sections 1 (#1-17) + 6 (#54-58) + space/astro
+    # aggregator feeds (#81 space, #82 astronomy, #88 interstellar
+    # travel, #94 space, #95 astronomy).
+    TOPIC_SPACE: set(range(1, 18)) | {54, 55, 56, 57, 58, 81, 82, 88, 94, 95},
+    # UFOs & UAPs: sections 2 (#18-22) + 7 (#59-61) + UAP/disclosure
+    # aggregator feeds (#79 UAP, #80 unidentified flying object,
+    # #84 UFO disclosure, #85 UAP disclosure, #92 UFO, #93 UAP).
+    TOPIC_UFO: {18, 19, 20, 21, 22, 59, 60, 61, 79, 80, 84, 85, 92, 93},
+    # Consciousness: sections 3 (#24-30; #23 is NDE) + 8 (#62-68, #70-71;
+    # #69 is NDE) + consciousness/spirituality aggregator feeds.
+    TOPIC_CONSCIOUSNESS: (set(range(24, 31)) | set(range(62, 69)) | {70, 71}
+                          | {77, 83, 86, 87, 90, 96, 97, 98, 99, 100, 101,
+                             102, 103, 104, 105, 106, 107, 108, 109, 110,
+                             113, 114}),
+    # Physics & Preprints: sections 4 (#31-36) + 9 (#72-76).
+    TOPIC_PHYSICS: set(range(31, 37)) | set(range(72, 77)),
+    # Science & the Future: section 5 (#37-53) + the two unclaimed
+    # aggregator feeds (#111 ancient civilizations, #112 extreme weather).
+    TOPIC_FUTURE: set(range(37, 54)) | {111, 112},
+}
+
+
+def topic_for_feed(num: int) -> str:
+    """Topic for a feed number (rss-feeds.md). NDE is checked first;
+    anything unmapped is the catch-all, never blank."""
+    for topic in (TOPIC_NDE, TOPIC_SPACE, TOPIC_UFO, TOPIC_CONSCIOUSNESS,
+                  TOPIC_PHYSICS, TOPIC_FUTURE):
+        if num in TOPIC_FEEDS[topic]:
+            return topic
+    return TOPIC_FUTURE
+
+
 def classify_terms(terms_cell: str) -> str:
     t = terms_cell.upper()
     if "FULL TEXT" in t:
@@ -592,6 +648,7 @@ def process_feed(feed: dict) -> dict:
             "source": feed["publisher"],
             "publisher": feed["publisher"],
             "feed": feed["feed"],
+            "topic": topic_for_feed(feed["num"]),
             "date": it["date"].isoformat() if it["date"] else None,
             "_date_sort": it["date"] or datetime.min.replace(
                 tzinfo=timezone.utc),
@@ -685,6 +742,7 @@ def main() -> int:
             "source": a["source"],
             "publisher": a["publisher"],
             "feed": a["feed"],
+            "topic": a["topic"],
             "date": a["date"],
             "excerpt": a["excerpt"],
             "terms": a["terms"],
@@ -739,6 +797,12 @@ def main() -> int:
             t: sum(1 for a in articles if a["terms"] == t)
             for t in (TERMS_FULL, TERMS_ABSTRACT, TERMS_EXCERPT)
         },
+        "topic_breakdown": {
+            t: sum(1 for a in articles if a["topic"] == t)
+            for t in TOPICS
+        },
+        "articles_without_topic": sum(
+            1 for a in articles if not a.get("topic")),
     }
     Path(args.report).write_text(
         json.dumps(report, ensure_ascii=False, indent=2) + "\n",

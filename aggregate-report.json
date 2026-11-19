@@ -1,26 +1,53 @@
 {
-  "generated": "2026-11-19T16:51:38.047431+00:00",
+  "generated": "2026-11-19T17:01:28.800200+00:00",
   "date_checked": "2026-11-19",
   "feeds_total": 114,
-  "feeds_succeeded": 113,
+  "feeds_succeeded": 110,
   "feeds_failed": [
     {
-      "num": 58,
-      "feed": "Space Policy Online",
-      "url": "https://www.spacepolicyonline.com/feed/",
-      "error": "ValueError: returned an HTML page, not a feed"
+      "num": 79,
+      "feed": "Google News — UAP",
+      "url": "https://news.google.com/rss/search?q=UAP&hl=en-US&gl=US&ceid=US:en",
+      "error": "HTTPError: HTTP Error 429: Too Many Requests"
+    },
+    {
+      "num": 82,
+      "feed": "Google News — astronomy",
+      "url": "https://news.google.com/rss/search?q=astronomy&hl=en-US&gl=US&ceid=US:en",
+      "error": "HTTPError: HTTP Error 429: Too Many Requests"
+    },
+    {
+      "num": 98,
+      "feed": "Google News — healing crystals",
+      "url": "https://news.google.com/rss/search?q=healing%20crystals&hl=en-US&gl=US&ceid=US:en",
+      "error": "HTTPError: HTTP Error 429: Too Many Requests"
+    },
+    {
+      "num": 104,
+      "feed": "Google News — dream science",
+      "url": "https://news.google.com/rss/search?q=dream%20science&hl=en-US&gl=US&ceid=US:en",
+      "error": "HTTPError: HTTP Error 429: Too Many Requests"
     }
   ],
-  "items_fetched": 2027,
-  "duplicates_removed": 70,
+  "items_fetched": 1938,
+  "duplicates_removed": 60,
   "articles_written": 300,
   "excerpt_over_limit": 0,
-  "images_logged": 93,
+  "images_logged": 94,
   "images_usable": 6,
   "images_hero_eligible": 6,
   "terms_breakdown": {
     "full_text": 16,
-    "abstract": 116,
-    "excerpt": 168
-  }
+    "abstract": 123,
+    "excerpt": 161
+  },
+  "topic_breakdown": {
+    "Space & Astronomy": 46,
+    "UFOs & UAPs": 3,
+    "Consciousness": 40,
+    "Near-Death Experiences": 13,
+    "Physics & Preprints": 125,
+    "Science & the Future": 73
+  },
+  "articles_without_topic": 0
 }

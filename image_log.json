@@ -2,6 +2,42 @@
   "generated": "2026-11-19",
   "images": [
     {
+      "image_url": "https://scx1.b-cdn.net/csz/news/tmb/2022/prison-1.jpg",
+      "article_link": "https://phys.org/news/2026-11-mandatory-minimum-sentencing-oftentimes-months.html",
+      "article_title": "Mandatory minimum sentencing oftentimes means 10 more months in prison, study finds",
+      "source": "Science X",
+      "licence": "EXCERPT + LINK — up to 200 words + hyperlink, no permission needed inside that limit",
+      "credit": "Science X",
+      "usable": false,
+      "usable_reason": "licence does not cover images (Science X)",
+      "hero_eligible": false,
+      "date_checked": "2026-11-19"
+    },
+    {
+      "image_url": "https://scx1.b-cdn.net/csz/news/tmb/2026/hku-lunar-sample-resea-2.jpg",
+      "article_link": "https://phys.org/news/2026-11-lunar-sample-yields-discoveries-revealing.html",
+      "article_title": "Lunar sample research yields new discoveries, revealing the history of the moon's largest impact basin",
+      "source": "Science X",
+      "licence": "EXCERPT + LINK — publisher allows up to 200 words + hyperlink, no permission needed inside that limit",
+      "credit": "Science X",
+      "usable": false,
+      "usable_reason": "licence does not cover images (Science X)",
+      "hero_eligible": false,
+      "date_checked": "2026-11-19"
+    },
+    {
+      "image_url": "https://lede-admin.nautil.us/wp-content/uploads/sites/70/2026/11/Art-for-Science-After-Super-IntelligenceCROP.jpg?w=564",
+      "article_link": "https://nautil.us/science-after-super-intelligence-1286807/",
+      "article_title": "Science After Super Intelligence",
+      "source": "Nautilus",
+      "licence": "EXCERPT + LINK — commercial, all rights reserved",
+      "credit": "Nautilus",
+      "usable": false,
+      "usable_reason": "licence does not cover images (Nautilus)",
+      "hero_eligible": false,
+      "date_checked": "2026-11-19"
+    },
+    {
       "image_url": "https://scx1.b-cdn.net/csz/news/tmb/2026/study-revolutionises-u.jpg",
       "article_link": "https://phys.org/news/2026-11-museum-specimens-yield-subspecies-zealand.html",
       "article_title": "Museum specimens yield new subspecies of New Zealand bush wren decades after its extinction",
@@ -770,18 +806,6 @@
       "date_checked": "2026-11-19"
     },
     {
-      "image_url": "https://scx1.b-cdn.net/csz/news/tmb/2026/skku-researchers-use-a.jpg",
-      "article_link": "https://phys.org/news/2026-11-ai-optimize-sensor-ultrasensitive-vitamin.html",
-      "article_title": "Researchers use AI to optimize sensor design for ultrasensitive vitamin C detection",
-      "source": "Science X",
-      "licence": "EXCERPT + LINK — up to 200 words + hyperlink, no permission needed inside that limit",
-      "credit": "Science X",
-      "usable": false,
-      "usable_reason": "licence does not cover images (Science X)",
-      "hero_eligible": false,
-      "date_checked": "2026-11-19"
-    },
-    {
       "image_url": "https://www.theblackvault.com/documentarchive/wp-content/uploads/2026/11/FAA-Air-Traffic-Outage-Alert-300x300.jpg",
       "article_link": "https://www.theblackvault.com/documentarchive/faa-releases-records-on-major-northeast-air-traffic-control-outage-but-key-technical-details-remain-missing/?utm_source=rss&utm_medium=rss&utm_campaign=faa-releases-records-on-major-northeast-air-traffic-control-outage-but-key-technical-details-remain-missing",
       "article_title": "FAA Releases Records on Major Northeast Air Traffic Control Outage, But Key Technical Details Remain Missing",
@@ -802,18 +826,6 @@
       "credit": "EarthSky",
       "usable": false,
       "usable_reason": "licence does not cover images (EarthSky)",
-      "hero_eligible": false,
-      "date_checked": "2026-11-19"
-    },
-    {
-      "image_url": "https://scx1.b-cdn.net/csz/news/tmb/2026/a-severe-drought-is-ta.jpg",
-      "article_link": "https://phys.org/news/2026-11-pacific-island-nations-declare-el.html",
-      "article_title": "Pacific island nations declare El Niño drought crisis",
-      "source": "Science X",
-      "licence": "EXCERPT + LINK — up to 200 words + hyperlink, no permission needed inside that limit",
-      "credit": "Science X",
-      "usable": false,
-      "usable_reason": "licence does not cover images (Science X)",
       "hero_eligible": false,
       "date_checked": "2026-11-19"
     },

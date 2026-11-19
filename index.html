@@ -119,6 +119,7 @@ button, [role="button"], select, summary, input:not([type="checkbox"], [type="ra
       }
       .menu li:last-child a { border-bottom: none; }
       .menu li a:hover { background: var(--blue-wash); color: var(--link-hover); text-decoration: none; }
+      .menu li a.is-active { background: var(--blue-wash); color: var(--link-hover); font-weight: 700; text-decoration: none; }
       .menu .ext { color: var(--muted); font-size: 11px; }
 
       .li-group { margin-bottom: 12px; }
@@ -937,12 +938,14 @@ button, [role="button"], select, summary, input:not([type="checkbox"], [type="ra
 
         <section class="module" id="topics" aria-label="Topics">
           <div class="module-title">Topics</div>
-          <ul class="menu">
-            <li><a href="#latest">Space &amp; Astronomy</a></li>
-            <li><a href="#latest">UFOs &amp; UAPs</a></li>
-            <li><a href="#latest">Consciousness &amp; Near-Death Experiences</a></li>
-            <li><a href="#latest">Physics &amp; Preprints</a></li>
-            <li><a href="#latest">Science &amp; the Future</a></li>
+          <ul class="menu" id="topicMenu">
+            <li><a href="#latest" data-topic="" class="is-active">All Topics</a></li>
+            <li><a href="#latest" data-topic="Space &amp; Astronomy">Space &amp; Astronomy</a></li>
+            <li><a href="#latest" data-topic="UFOs &amp; UAPs">UFOs &amp; UAPs</a></li>
+            <li><a href="#latest" data-topic="Consciousness">Consciousness</a></li>
+            <li><a href="#latest" data-topic="Near-Death Experiences">Near-Death Experiences</a></li>
+            <li><a href="#latest" data-topic="Physics &amp; Preprints">Physics &amp; Preprints</a></li>
+            <li><a href="#latest" data-topic="Science &amp; the Future">Science &amp; the Future</a></li>
           </ul>
         </section>
 
@@ -1056,6 +1059,7 @@ button, [role="button"], select, summary, input:not([type="checkbox"], [type="ra
             <div class="art-search">
               <input type="search" id="artSearch" placeholder="Search article titles…" aria-label="Search article titles" />
             </div>
+            <p class="art-note" id="artTopicLine">Showing all topics</p>
             <div id="articleList">
               <p class="art-note">Loading the latest articles…</p>
             </div>
@@ -1451,8 +1455,15 @@ button, [role="button"], select, summary, input:not([type="checkbox"], [type="ra
         var moreBtn = document.getElementById('artMore');
         var searchEl = document.getElementById('artSearch');
         var countEl = document.getElementById('statusArticleCount');
+        var topicMenu = document.getElementById('topicMenu');
+        var topicLine = document.getElementById('artTopicLine');
         var all = [];
         var shown = 0;
+        /* Active topic filter ('' = all topics). Each article carries a
+           `topic` from aggregate.py, so a topic returns exactly the
+           stories from its own feeds — like MSN, each topic shows
+           different stories. */
+        var activeTopic = '';
 
         function field(a, names) {
           for (var i = 0; i < names.length; i++) {
@@ -1461,9 +1472,15 @@ button, [role="button"], select, summary, input:not([type="checkbox"], [type="ra
           return '';
         }
         function filtered() {
+          var items = all;
+          if (activeTopic) {
+            items = items.filter(function (a) {
+              return field(a, ['topic']) === activeTopic;
+            });
+          }
           var q = (searchEl.value || '').toLowerCase().trim();
-          if (!q) return all;
-          return all.filter(function (a) {
+          if (!q) return items;
+          return items.filter(function (a) {
             return String(field(a, ['title'])).toLowerCase().indexOf(q) > -1;
           });
         }
@@ -1471,10 +1488,17 @@ button, [role="button"], select, summary, input:not([type="checkbox"], [type="ra
           var items = filtered();
           var slice = items.slice(0, shown);
           listEl.innerHTML = '';
+          if (topicLine) {
+            topicLine.textContent = activeTopic
+              ? 'Showing ' + activeTopic + ' — ' + items.length + ' article' + (items.length === 1 ? '' : 's')
+              : 'Showing all topics — ' + all.length + ' articles';
+          }
           if (!items.length) {
             var p = document.createElement('p');
             p.className = 'art-note';
-            p.textContent = all.length ? 'No articles match that search.' : 'No articles yet — check back soon.';
+            p.textContent = all.length
+              ? (activeTopic ? 'No articles in ' + activeTopic + ' yet — check back soon.' : 'No articles match that search.')
+              : 'No articles yet — check back soon.';
             listEl.appendChild(p);
           }
           slice.forEach(function (a) {
@@ -1546,6 +1570,23 @@ button, [role="button"], select, summary, input:not([type="checkbox"], [type="ra
         }
         moreBtn.addEventListener('click', function () { shown += PAGE; render(); });
         searchEl.addEventListener('input', function () { shown = PAGE; render(); });
+        /* Topic filter — clicking a topic shows only that topic's stories
+           (from the already-loaded articles.json; no new fetch). The
+           link's href="#latest" still scrolls to the list; the handler
+           only sets the filter and highlights the active topic. */
+        if (topicMenu) {
+          topicMenu.addEventListener('click', function (ev) {
+            var a = ev.target.closest ? ev.target.closest('a[data-topic]') : null;
+            if (!a) return;
+            activeTopic = a.getAttribute('data-topic') || '';
+            var links = topicMenu.querySelectorAll('a[data-topic]');
+            for (var i = 0; i < links.length; i++) {
+              links[i].classList.toggle('is-active', links[i] === a);
+            }
+            shown = PAGE;
+            render();
+          });
+        }
 
         fetch('articles.json')
           .then(function (r) { if (!r.ok) throw new Error('articles'); return r.json(); })
