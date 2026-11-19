@@ -1,0 +1,44 @@
+# CTP Magazine — RSS aggregator
+# Runs every 12 hours (and on demand): fetches all cleared feeds in
+# rss-feeds.md, applies the per-feed republication rules, writes
+# articles.json (+ image_log.json and aggregate-report.json) and
+# commits them back to main if anything changed.
+# Stdlib-only Python: no pip installs needed.
+
+name: Aggregate RSS feeds
+
+on:
+  schedule:
+    # Every 12 hours, at 00:00 and 12:00 UTC.
+    - cron: "0 0,12 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  aggregate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Run aggregator
+        run: python3 aggregate.py
+
+      - name: Commit updated articles if changed
+        run: |
+          git config user.name "CTP Magazine aggregator"
+          git config user.email "actions@github.com"
+          git add articles.json image_log.json aggregate-report.json
+          if git diff --cached --quiet; then
+            echo "No changes to articles.json — nothing to commit."
+          else
+            git commit -m "Update articles.json ($(date -u +%Y-%m-%d\ %H:%M\ UTC))"
+            git push
+          fi
