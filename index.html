@@ -122,6 +122,16 @@ button, [role="button"], select, summary, input:not([type="checkbox"], [type="ra
       .menu li a.is-active { background: var(--blue-wash); color: var(--link-hover); font-weight: 700; text-decoration: none; }
       .menu .ext { color: var(--muted); font-size: 11px; }
 
+      /* ---------- Tags ---------- */
+      #releases, #tags { scroll-margin-top: 52px; }
+      .tag-cloud { display: flex; flex-wrap: wrap; gap: 6px; }
+      .tag-cloud a {
+        display: inline-block; padding: 4px 10px; font-size: 13px;
+        border: 1px solid var(--border-soft); background: var(--blue-wash); color: var(--text-2);
+      }
+      .tag-cloud a:hover { border-color: var(--hover-border); color: var(--link-hover); text-decoration: none; }
+      .tag-cloud a.is-active { color: var(--link-hover); font-weight: 700; border-color: var(--hover-border); }
+
       .li-group { margin-bottom: 12px; }
       .li-group:last-child { margin-bottom: 0; }
       .li-group h4 {
@@ -858,9 +868,11 @@ button, [role="button"], select, summary, input:not([type="checkbox"], [type="ra
       <div class="nav-links">
       <a href="#top">Home</a>
       <a href="#latest">Latest</a>
+      <a href="#releases">Releases</a>
       <a href="#topics">Topics</a>
       <a href="#syndicate">Syndicate</a>
       <a href="#club">Club CTP</a>
+      <a href="#tags">Tags</a>
       <a href="#ecosystem">Ecosystem</a>
       </div>
       <div class="nav-controls">
@@ -928,10 +940,12 @@ button, [role="button"], select, summary, input:not([type="checkbox"], [type="ra
           <ul class="menu">
             <li><a href="#top">Home</a></li>
             <li><a href="#latest">Latest Articles</a></li>
+            <li><a href="#releases">Magazine Releases</a></li>
             <li><a href="#topics">Topics</a></li>
             <li><a href="#about">About the Magazine</a></li>
             <li><a href="#syndicate">Syndicate With Us</a></li>
             <li><a href="#club">Club CTP</a></li>
+            <li><a href="#tags">Tags</a></li>
             <li><a href="#ecosystem">Ecosystem</a></li>
           </ul>
         </section>
@@ -1050,6 +1064,35 @@ button, [role="button"], select, summary, input:not([type="checkbox"], [type="ra
               <a href="https://images.nasa.gov/details/iss058e005282" target="_blank" rel="noopener"><img src="assets/hero/hero-06-aurora-earth-limb.jpg" alt="Aurora over Earth's limb, from the ISS — NASA, public domain" loading="lazy" /></a>
             </div>
             <p class="strip-credit">Images: ESO (CC BY 4.0) and NASA (public domain) — from the magazine's hero rotation.</p>
+          </div>
+        </section>
+
+        <section class="module" id="releases" aria-label="Magazine releases">
+          <div class="module-title">Magazine Releases</div>
+          <div class="module-body">
+            <p><b>CTP MAGAZINE ALPHA IS LIVE</b></p>
+            <p class="art-note">November 19, 2026</p>
+            <p>The Alpha launch of CTP Magazine is now live.</p>
+            <p><a href="https://ctp-magazine.github.io/">https://ctp-magazine.github.io/</a></p>
+            <p>CTP Magazine is being built as a publishing and syndication platform for ideas, perspectives, commentary, and original writing across the expanding CTPVerse and the wider worlds of science, technology, innovation, space, culture, and the future.</p>
+            <p>We are opening the door to two groups:</p>
+            <p><b>BLOGGERS: DO YOU HAVE A BLOG?</b></p>
+            <p>If you already publish a blog, articles, essays, or commentary and want to reach readers beyond your existing audience, we want to hear from you.</p>
+            <p>We are interested in syndicating relevant contributions and helping good writing find a broader audience. If you have an existing body of work, a publication, or a blog you would like considered for syndication, get in touch.</p>
+            <p><b>WRITERS AND COLUMNISTS: CONTRIBUTE TO CTP MAGAZINE</b></p>
+            <p>We are also looking for writers, independent journalists, subject-matter contributors, and columnists interested in developing regular or occasional content for CTP Magazine.</p>
+            <p>Bring your perspective, your expertise, your interests, and your voice. We want contributors with something worthwhile to say and the initiative to help build a publication.</p>
+            <p><b>A NOTE ABOUT COMPENSATION AND THE BUSINESS MODEL</b></p>
+            <p>Let's be straightforward about where we are.</p>
+            <p>CTP Magazine is at Alpha launch. We are building the publication and its audience from the ground up. At this stage, we cannot offer contributor payments, salaries, or guaranteed compensation. I don't know when we will reach the traffic levels needed to support paid contributions, and I am not going to pretend otherwise or make promises we cannot yet fulfill.</p>
+            <p>The business model starts with readership. We need to build substantial, sustained traffic. That audience creates the foundation for monetization and, in turn, the possibility of compensating contributors as the publication grows.</p>
+            <p>The immediate opportunity is to participate early, publish work, build visibility, and grow alongside the platform. As CTP Magazine attracts readers, contributors benefit from having their work reach a larger audience. Our objective is to build a publication where increased readership creates value for both the magazine and the people contributing to it.</p>
+            <p>This is a growth-stage publishing initiative. We are being transparent about that from day one.</p>
+            <p>Visit the Alpha, explore what we are building, and share it.</p>
+            <p>If you run a blog you would like syndicated, or you are interested in writing or contributing a column, <a href="mailto:syndication@ctp-energy.com">contact us</a>.</p>
+            <p><b>CTP MAGAZINE</b><br />A publication in the CTPVerse</p>
+            <p><a href="https://ctp-magazine.github.io/">https://ctp-magazine.github.io/</a></p>
+            <p class="art-note">#CTPMagazine #Writing #Blogging #Syndication #Contributors #Publishing #CTPVerse</p>
           </div>
         </section>
 
@@ -1226,6 +1269,27 @@ button, [role="button"], select, summary, input:not([type="checkbox"], [type="ra
               <ul><li>Recognition</li><li>Exclusive access</li><li>Private opportunities</li><li>Long-term ecosystem participation</li></ul>
             </div>
             <p style="margin-top:10px;">On CTP Magazine, Club CTP is the membership layer of the magazine itself — the identity that carries across CTP Music, CTP University and the whole CTPVerse. <a href="https://ctp-music.github.io/#club" target="_blank" rel="noopener">See Club CTP on the Music Portal ↗</a></p>
+          </div>
+        </section>
+
+        <section class="module" id="tags" aria-label="Tags">
+          <div class="module-title">Tags</div>
+          <div class="module-body">
+            <div class="tag-cloud" id="tagCloud">
+              <a href="#latest" data-topic="Space &amp; Astronomy">Space &amp; Astronomy</a>
+              <a href="#latest" data-topic="UFOs &amp; UAPs">UFOs &amp; UAPs</a>
+              <a href="#latest" data-topic="Consciousness">Consciousness</a>
+              <a href="#latest" data-topic="Near-Death Experiences">Near-Death Experiences</a>
+              <a href="#latest" data-topic="Physics &amp; Preprints">Physics &amp; Preprints</a>
+              <a href="#latest" data-topic="Science &amp; the Future">Science &amp; the Future</a>
+              <a href="#latest" data-search="CTP Magazine">CTP Magazine</a>
+              <a href="#latest" data-search="CTPVerse">CTPVerse</a>
+              <a href="#latest" data-search="Writing">Writing</a>
+              <a href="#latest" data-search="Blogging">Blogging</a>
+              <a href="#latest" data-search="Syndication">Syndication</a>
+              <a href="#latest" data-search="Contributors">Contributors</a>
+              <a href="#latest" data-search="Publishing">Publishing</a>
+            </div>
           </div>
         </section>
       </aside>
@@ -1457,6 +1521,7 @@ button, [role="button"], select, summary, input:not([type="checkbox"], [type="ra
         var searchEl = document.getElementById('artSearch');
         var countEl = document.getElementById('statusArticleCount');
         var topicMenu = document.getElementById('topicMenu');
+        var tagCloud = document.getElementById('tagCloud');
         var topicLine = document.getElementById('artTopicLine');
         var all = [];
         var shown = 0;
@@ -1589,19 +1654,60 @@ button, [role="button"], select, summary, input:not([type="checkbox"], [type="ra
           moreBtn.style.display = items.length > shown ? '' : 'none';
         }
         moreBtn.addEventListener('click', function () { shown += PAGE; render(); });
-        searchEl.addEventListener('input', function () { shown = PAGE; render(); });
+        searchEl.addEventListener('input', function () { clearSearchTagHighlight(); shown = PAGE; render(); });
         /* Topic filter — clicking a topic shows only that topic's stories
            (from the already-loaded articles.json; no new fetch). The
            link's href="#latest" still scrolls to the list; the handler
            only sets the filter and highlights the active topic. */
+        /* Keep the Topics menu and the Tags cloud in step: whichever one
+           the reader clicks, both show the same active topic. */
+        function syncTopicHighlight() {
+          var menus = [topicMenu, tagCloud];
+          for (var m = 0; m < menus.length; m++) {
+            if (!menus[m]) continue;
+            var links = menus[m].querySelectorAll('a[data-topic]');
+            for (var i = 0; i < links.length; i++) {
+              links[i].classList.toggle('is-active', (links[i].getAttribute('data-topic') || '') === activeTopic);
+            }
+          }
+        }
+        function clearSearchTagHighlight() {
+          if (!tagCloud) return;
+          var links = tagCloud.querySelectorAll('a[data-search]');
+          for (var i = 0; i < links.length; i++) {
+            links[i].classList.remove('is-active');
+          }
+        }
         if (topicMenu) {
           topicMenu.addEventListener('click', function (ev) {
             var a = ev.target.closest ? ev.target.closest('a[data-topic]') : null;
             if (!a) return;
             activeTopic = a.getAttribute('data-topic') || '';
-            var links = topicMenu.querySelectorAll('a[data-topic]');
-            for (var i = 0; i < links.length; i++) {
-              links[i].classList.toggle('is-active', links[i] === a);
+            syncTopicHighlight();
+            clearSearchTagHighlight();
+            shown = PAGE;
+            render();
+          });
+        }
+        /* Tags cloud — a topic tag works exactly like the Topics menu; a
+           keyword tag puts that word in the title search box and filters
+           by it. Either way the link's href="#latest" scrolls to the list. */
+        if (tagCloud) {
+          tagCloud.addEventListener('click', function (ev) {
+            var a = ev.target.closest ? ev.target.closest('a') : null;
+            if (!a) return;
+            if (a.hasAttribute('data-topic')) {
+              activeTopic = a.getAttribute('data-topic') || '';
+              syncTopicHighlight();
+              clearSearchTagHighlight();
+            } else if (a.hasAttribute('data-search')) {
+              activeTopic = '';
+              searchEl.value = a.getAttribute('data-search') || '';
+              syncTopicHighlight();
+              clearSearchTagHighlight();
+              a.classList.add('is-active');
+            } else {
+              return;
             }
             shown = PAGE;
             render();
