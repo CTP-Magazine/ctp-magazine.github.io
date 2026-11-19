@@ -10,8 +10,8 @@ Live at **https://ctp-magazine.github.io/**
 
 ## From the magazine
 
-<a href="https://ctp-magazine.github.io/"><img src="https://ctp-magazine.github.io/assets/hero/hero-01-gum-nebulae.jpg" width="49%" alt="The Gum 10 and Gum 11 nebulae — ESO, CC BY 4.0"></a>
-<a href="https://ctp-magazine.github.io/"><img src="https://ctp-magazine.github.io/assets/hero/hero-02-helix-nebula.jpg" width="49%" alt="The Helix Nebula — NASA, public domain"></a>
+<a href="https://www.eso.org/public/images/potw2623a/" target="_blank" rel="noopener"><img src="https://ctp-magazine.github.io/assets/hero/hero-01-gum-nebulae.jpg" width="49%" alt="The Gum 10 and Gum 11 nebulae — ESO, CC BY 4.0"></a>
+<a href="https://www.jpl.nasa.gov/images/pia15817-the-helix-nebula-unraveling-at-the-seams/" target="_blank" rel="noopener"><img src="https://ctp-magazine.github.io/assets/hero/hero-02-helix-nebula.jpg" width="49%" alt="The Helix Nebula — NASA, public domain"></a>
 
 *The Gum 10 and Gum 11 nebulae (ESO, CC BY 4.0) and the Helix Nebula (NASA, public domain) — from the magazine's hero rotation.*
 
