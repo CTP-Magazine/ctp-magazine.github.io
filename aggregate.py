@@ -468,6 +468,19 @@ def process_feed(feed: dict) -> dict:
         excerpt, wc = apply_terms(it["raw_text"], feed["terms"])
         usable, usable_reason = image_usable(
             feed, it["image"], it["image_credit_raw"])
+        # APOD items: the image credit lives on the APOD article page, not
+        # in the feed, and APOD images are routinely credited to a named
+        # astrophotographer (verified 2026-11-19: the 2026-11-19 Horsehead
+        # image is credited to Mark E. Killion). The feed alone cannot
+        # verify the image as NASA-only, so APOD images are never usable
+        # for thumbnails — do not guess, leave the card text-only.
+        if (usable and feed["publisher"].lower() == "nasa"
+                and (it["title"].lower().startswith("apod")
+                     or "/apod" in it["link"].lower())):
+            usable = False
+            usable_reason = ("APOD image — credit is on the article page, "
+                             "often a named photographer; not verifiable "
+                             "from the feed")
         credit = it["image_credit_raw"] or feed["publisher"]
         articles.append({
             "title": it["title"],
@@ -554,6 +567,11 @@ def main() -> int:
         print(f"  OVER-LIMIT {a['_words']}w: {a['title'][:80]}")
 
     # Final article objects (drop internal sort/word-count keys).
+    # The image field carries a URL ONLY when the image is cleared for
+    # reuse — an uncleared image is blanked here, so the card template
+    # can render a thumbnail from `image` alone and every other card
+    # stays text-only. The raw URL is still recorded in image_log.json
+    # for the audit trail.
     articles = []
     image_log = []
     for a in deduped:
@@ -567,7 +585,7 @@ def main() -> int:
             "excerpt": a["excerpt"],
             "terms": a["terms"],
             "attribution": a["attribution"],
-            "image": a["image"],
+            "image": a["image"] if a["image_usable"] else "",
             "image_usable": a["image_usable"],
             "image_credit": a["image_credit"],
             "image_hero_eligible": a["image_hero_eligible"],

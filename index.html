@@ -812,10 +812,38 @@ button, [role="button"], select, summary, input:not([type="checkbox"], [type="ra
       .article-card .a-more { font-size: 13.5px; font-weight: 600; }
       .art-actions { margin-top: 12px; text-align: center; }
       .art-note { font-size: 14px; color: var(--text-2); }
+
+      /* ---------- Masthead banner (branding image, above the masthead) ---------- */
+      .masthead-banner { display: block; line-height: 0; width: 100%; }
+      .masthead-banner img { display: block; width: 100%; height: auto; border: 1px solid var(--border-soft); border-bottom: 0; }
+
+      /* ---------- Left-column brand badge (square, above Main Menu) ---------- */
+      .brand-badge { display: block; line-height: 0; border: 1px solid var(--border-soft); }
+      .brand-badge img { display: block; width: 100%; height: auto; }
+
+      /* ---------- Photo strip (center column, between About and Latest) ---------- */
+      .strip-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; }
+      .strip-grid a { display: block; line-height: 0; }
+      .strip-grid img { display: block; width: 100%; height: 110px; object-fit: cover; border: 1px solid var(--border-soft); }
+      .strip-credit { font-size: 12px; color: var(--muted); margin: 8px 0 0; }
+
+      /* ---------- Right-column photo panel (under the radio) ---------- */
+      .photo-panel .panel-link { display: block; line-height: 0; }
+      .photo-panel .panel-link img { display: block; width: 100%; height: auto; border-bottom: 1px solid var(--border-soft); }
+      .photo-panel .panel-credit { font-size: 12.5px; color: var(--muted); margin: 0; }
+
+      /* ---------- Article thumbnails (cleared images only) ---------- */
+      .article-card { overflow: hidden; }
+      .article-card .a-thumb { float: left; width: 140px; height: 105px; margin: 4px 12px 6px 0; border: 1px solid var(--border-soft); line-height: 0; }
+      .article-card .a-thumb img { display: block; width: 100%; height: 100%; object-fit: cover; }
     </style>
   </head>
   <body id="top">
     <div class="site-shell">
+
+    <a class="masthead-banner" href="#top" aria-label="CTP Magazine — home">
+      <img src="assets/branding/ctp-magazine-1920x600.jpg" alt="CTP Magazine — Your Gateway into the C-domain" width="1920" height="600" />
+    </a>
 
     <header class="masthead">
       <div class="logo-mark" role="img" aria-label="CTP">CTP</div>
@@ -890,6 +918,10 @@ button, [role="button"], select, summary, input:not([type="checkbox"], [type="ra
 
       <!-- ================= LEFT COLUMN ================= -->
       <aside class="col col-left">
+        <a class="brand-badge" href="#top" aria-label="CTP Magazine — home">
+          <img src="assets/branding/ctp-magazine-1254x1254.png" alt="CTP Magazine" width="1254" height="1254" />
+        </a>
+
         <section class="module" aria-label="Main menu">
           <div class="module-title">Main Menu</div>
           <ul class="menu">
@@ -958,31 +990,31 @@ button, [role="button"], select, summary, input:not([type="checkbox"], [type="ra
             </figure>
             <figure class="hero-slide" aria-hidden="true">
               <a class="hero-link" href="https://www.jpl.nasa.gov/images/pia15817-the-helix-nebula-unraveling-at-the-seams/" target="_blank" rel="noopener" tabindex="-1">
-                <img src="assets/hero/hero-02-helix-nebula.jpg" alt="The Helix Nebula unraveling at the seams, seen in infrared" width="1920" height="1920" loading="lazy" />
+                <img src="assets/hero/hero-02-helix-nebula.jpg" alt="The Helix Nebula unraveling at the seams, seen in infrared" width="1920" height="1920" />
                 <span class="hero-credit"><b>The Helix Nebula</b> · NASA/JPL-Caltech · Public domain</span>
               </a>
             </figure>
             <figure class="hero-slide" aria-hidden="true">
               <a class="hero-link" href="http://photojournal.jpl.nasa.gov/catalog/PIA08787" target="_blank" rel="noopener" tabindex="-1">
-                <img src="assets/hero/hero-03-andromeda-galaxy.jpg" alt="The Andromeda Galaxy in ultraviolet light" width="1920" height="622" loading="lazy" />
+                <img src="assets/hero/hero-03-andromeda-galaxy.jpg" alt="The Andromeda Galaxy in ultraviolet light" width="1920" height="622" />
                 <span class="hero-credit"><b>Andromeda Galaxy</b> · NASA/JPL-Caltech · Public domain</span>
               </a>
             </figure>
             <figure class="hero-slide" aria-hidden="true">
               <a class="hero-link" href="https://images.nasa.gov/details/art001e000669" target="_blank" rel="noopener" tabindex="-1">
-                <img src="assets/hero/hero-04-artemis-orion-moon.jpg" alt="The Artemis I Orion spacecraft with the Moon behind it" width="1920" height="1440" loading="lazy" />
+                <img src="assets/hero/hero-04-artemis-orion-moon.jpg" alt="The Artemis I Orion spacecraft with the Moon behind it" width="1920" height="1440" />
                 <span class="hero-credit"><b>Artemis I — Orion and the Moon</b> · NASA · Public domain</span>
               </a>
             </figure>
             <figure class="hero-slide" aria-hidden="true">
               <a class="hero-link" href="https://images.nasa.gov/details/art001e001822" target="_blank" rel="noopener" tabindex="-1">
-                <img src="assets/hero/hero-05-earth-orion-array.jpg" alt="Earth and the Moon seen from the Artemis I Orion spacecraft" width="1920" height="1440" loading="lazy" />
+                <img src="assets/hero/hero-05-earth-orion-array.jpg" alt="Earth and the Moon seen from the Artemis I Orion spacecraft" width="1920" height="1440" />
                 <span class="hero-credit"><b>Artemis I — Earth and Moon</b> · NASA · Public domain</span>
               </a>
             </figure>
             <figure class="hero-slide" aria-hidden="true">
               <a class="hero-link" href="https://images.nasa.gov/details/iss058e005282" target="_blank" rel="noopener" tabindex="-1">
-                <img src="assets/hero/hero-06-aurora-earth-limb.jpg" alt="Aurora glowing over Earth's limb, photographed from the International Space Station" width="1920" height="1280" loading="lazy" />
+                <img src="assets/hero/hero-06-aurora-earth-limb.jpg" alt="Aurora glowing over Earth's limb, photographed from the International Space Station" width="1920" height="1280" />
                 <span class="hero-credit"><b>Aurora over Earth's limb, from the ISS</b> · NASA · Public domain</span>
               </a>
             </figure>
@@ -999,6 +1031,21 @@ button, [role="button"], select, summary, input:not([type="checkbox"], [type="ra
             <p class="lead">A classic science magazine for the C-domain era — hard science and the speculative side by side.</p>
             <p>CTP Magazine is a daily-updating magazine portal curating articles from around the internet — space, astronomy, consciousness, near-death experiences, UFOs and UAPs — in the format of a classic science magazine, OMNI-style: big visuals, features and short items, and a sense of wonder about the future.</p>
             <p>It pulls from 114 verified RSS feeds, every one vetted live and cleared for what the magazine may republish before it goes on the list. Articles are refreshed every 12 hours, and every item carries its attribution and a link back to the original.</p>
+          </div>
+        </section>
+
+        <section class="module photo-strip" aria-label="From the magazine">
+          <div class="module-title">From the Magazine</div>
+          <div class="module-body">
+            <div class="strip-grid">
+              <a href="#top"><img src="assets/hero/hero-01-gum-nebulae.jpg" alt="Gum 10 and Gum 11 nebulae — ESO, CC BY 4.0" loading="lazy" /></a>
+              <a href="#top"><img src="assets/hero/hero-02-helix-nebula.jpg" alt="The Helix Nebula — NASA/JPL-Caltech, public domain" loading="lazy" /></a>
+              <a href="#top"><img src="assets/hero/hero-03-andromeda-galaxy.jpg" alt="The Andromeda Galaxy — NASA/JPL-Caltech, public domain" loading="lazy" /></a>
+              <a href="#top"><img src="assets/hero/hero-04-artemis-orion-moon.jpg" alt="Artemis I — Orion and the Moon — NASA, public domain" loading="lazy" /></a>
+              <a href="#top"><img src="assets/hero/hero-05-earth-orion-array.jpg" alt="Artemis I — Earth and Moon — NASA, public domain" loading="lazy" /></a>
+              <a href="#top"><img src="assets/hero/hero-06-aurora-earth-limb.jpg" alt="Aurora over Earth's limb, from the ISS — NASA, public domain" loading="lazy" /></a>
+            </div>
+            <p class="strip-credit">Images: ESO (CC BY 4.0) and NASA (public domain) — from the magazine's hero rotation.</p>
           </div>
         </section>
 
@@ -1061,6 +1108,12 @@ button, [role="button"], select, summary, input:not([type="checkbox"], [type="ra
             <div class="mp-source" id="mpSource">stream.laut.fm/chillstream</div>
             <audio id="mpAudio" preload="none"></audio>
           </div>
+        </section>
+
+        <section class="module photo-panel" aria-label="Photo of the edition">
+          <div class="module-title">Photo of the Edition</div>
+          <a href="#top" class="panel-link"><img src="assets/hero/hero-06-aurora-earth-limb.jpg" alt="Aurora over Earth's limb, from the ISS — NASA, public domain" loading="lazy" /></a>
+          <div class="module-body"><p class="panel-credit">Aurora over Earth's limb, from the ISS · NASA · Public domain</p></div>
         </section>
 
         <section class="module status" id="magazine-status" aria-label="Magazine status">
@@ -1437,6 +1490,24 @@ button, [role="button"], select, summary, input:not([type="checkbox"], [type="ra
             }
             meta.textContent = [src, dateTxt].filter(Boolean).join(' · ');
             card.appendChild(meta);
+            /* Thumbnail — only when the article carries a cleared image URL
+               (aggregate.py blanks the image field for uncleared sources,
+               so a present image is always NASA public domain, ESO CC BY
+               4.0, or a CC-BY journal figure). Text-only otherwise. */
+            var thumb = field(a, ['image']);
+            if (thumb && url) {
+              var tlink = document.createElement('a');
+              tlink.className = 'a-thumb';
+              tlink.href = url; tlink.target = '_blank'; tlink.rel = 'noopener';
+              var timg = document.createElement('img');
+              timg.src = thumb; timg.alt = field(a, ['title']) || '';
+              timg.loading = 'lazy';
+              var cred = field(a, ['image_credit']);
+              if (cred) timg.title = 'Image: ' + cred;
+              timg.onerror = function(){ tlink.style.display = 'none'; };
+              tlink.appendChild(timg);
+              card.appendChild(tlink);
+            }
             var h = document.createElement('h3');
             if (url) {
               var link = document.createElement('a');
