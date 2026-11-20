@@ -1,251 +1,13 @@
 {
-  "generated": "2026-11-20T04:45:05.842314+00:00",
-  "date_checked": "2026-11-20",
+  "generated": "2026-11-19T17:14:58.297860+00:00",
+  "date_checked": "2026-11-19",
   "feeds_total": 114,
-  "feeds_succeeded": 109,
-  "feeds_failed": [
-    {
-      "num": 17,
-      "feed": "Space Daily",
-      "url": "https://www.spacedaily.com/rss/",
-      "error": "HTTPError: HTTP Error 403: Forbidden"
-    },
-    {
-      "num": 91,
-      "feed": "Bing News — near-death experience",
-      "url": "https://www.bing.com/news/search?q=near-death%20experience&format=rss",
-      "error": "ValueError: returned an HTML page, not a feed"
-    },
-    {
-      "num": 95,
-      "feed": "Bing News — astronomy",
-      "url": "https://www.bing.com/news/search?q=astronomy&format=rss",
-      "error": "ValueError: returned an HTML page, not a feed"
-    },
-    {
-      "num": 112,
-      "feed": "Google News — extreme weather",
-      "url": "https://news.google.com/rss/search?q=extreme%20weather&hl=en-US&gl=US&ceid=US:en",
-      "error": "HTTPError: HTTP Error 429: Too Many Requests"
-    },
-    {
-      "num": 113,
-      "feed": "Bing News — yoga",
-      "url": "https://www.bing.com/news/search?q=yoga&format=rss",
-      "error": "ValueError: returned an HTML page, not a feed"
-    }
-  ],
-  "items_fetched": 1975,
-  "duplicates_removed": 70,
-  "near_duplicates_removed": 46,
+  "feeds_succeeded": 114,
+  "feeds_failed": [],
+  "items_fetched": 2038,
+  "duplicates_removed": 71,
+  "near_duplicates_removed": 29,
   "near_duplicate_groups": [
-    {
-      "kept_title": "Daily Horoscope for November 20, 2026 - Orlando Sentinel",
-      "kept_feed": "Google News — astrology",
-      "kept_link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPeU9LMTZHNHljbzAyV295X3JtQVljRml3V2g0M0NXdXRDdjMwMjVlSzlCSHZsaE5BWnVwcndtRnhKb19KYXE3Rzc4ZkZDYkxJWkRDRWpORU9vVHhhRmQyLWJSa3BrZTNhLUxtTVoyR21nc0R5SURRUnZOdUotMkV5WlppZ3diZFU?oc=5",
-      "dropped_title": "Daily Horoscope for November 20, 2026 - Hartford Courant",
-      "dropped_feed": "Google News — astrology",
-      "dropped_link": "https://news.google.com/rss/articles/CBMifEFVX3lxTFA5U2NQNTF2MnU4Z3ZyVVpVLTljai1YdVpWSG1aMGdVSXMtcktaMEJQQXVQOFh3MDBwMEJPQXlpVzZYTGJWTlJseVNJOTR4VWVLazMzNFpBWE02aDctbExfWndkRElWRXgtS1RaS0xDVlRSQUVCQmhRQ1UyQWU?oc=5",
-      "signal": "title-similarity"
-    },
-    {
-      "kept_title": "Mercury-bound X-ray telescope delivers first images after eight years in space",
-      "kept_feed": "Phys.org — Space News",
-      "kept_link": "https://phys.org/news/2026-11-mercury-bound-ray-telescope-images.html",
-      "dropped_title": "Mercury-bound X-ray telescope delivers first images after eight years in space - Phys.org",
-      "dropped_feed": "Google News — space",
-      "dropped_link": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBTbWVveEpWRGROUVBHYUpNSGRGYUd2Z0w2TnVuTW5JeHBLU0VNeEFMSGJWRUJ5cVhwSWl4STFuVjRsdG8wR21LV2sxRjI2SEZ0Q2N2NUI2YWl0RC1qbW1Kb3JXdlVfN0xvX1p4b2dyQXhDS296U1ZpSg?oc=5",
-      "signal": "title-similarity"
-    },
-    {
-      "kept_title": "SpaceX scrubs launch of classified payload for the U.S. Space Force, targets Friday",
-      "kept_feed": "Spaceflight Now",
-      "kept_link": "https://spaceflightnow.com/2026/11/19/live-coverage-spacex-to-launch-classified-payload-for-the-u-s-space-force-2/",
-      "dropped_title": "SpaceX scrubs launch of classified payload for the U.S. Space Force, targets Friday - Spaceflight Now",
-      "dropped_feed": "Google News — space",
-      "dropped_link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNbktEejlaa2VQdktxTDNTN3dYWld4QW5vMjhpMWFJZ1N6WGRLM3RteUFUTllWVXRNVENlXzF5TWhTbEdiWHhpNUxUUGYzX3NZbWpVbFJPOEtiU2ZhS0FmdTQ1ejZtOG4tTDJKWkk5bHhvMWhBRHVuNzRFTm9US1JVYlBLWUFoMXFGcWpwN1RnNzlPbWNDeUUxSlVmdEw1TXpGSDl6ZDVVT1daaHgtQmFDOHRQZ24?oc=5",
-      "signal": "title-similarity"
-    },
-    {
-      "kept_title": "On this day in space! Nov. 19, 2005: Japan's Hayabusa spacecraft makes 1st-ever liftoff from surface of an asteroid",
-      "kept_feed": "Space.com",
-      "kept_link": "https://www.space.com/space-exploration/on-this-day-in-space-november-19-2005",
-      "dropped_title": "On this day in space! Nov. 19, 2005: Japan's Hayabusa spacecraft makes 1st-ever liftoff from surface of an asteroid - Space",
-      "dropped_feed": "Google News — space",
-      "dropped_link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPWE9sX1ZiLV9ZMTNWTDNYRWRiMVhINEpQT2NETXdXYTNGODM4RERBRERqWjExVmV6Nkk5RGJfY2U3SVFhVmtXdHFQX3FaYkdCLXEtZE9LRU9WSHpzb3V4VTdvZGQ0MUVBa1RBcU1Cb2hzalhVSzdaa254dlpVdVNzeDM4aw?oc=5",
-      "signal": "title-similarity"
-    },
-    {
-      "kept_title": "California bids to bring US Space Academy to the Golden State - FOX40",
-      "kept_feed": "Google News — space",
-      "kept_link": "https://news.google.com/rss/articles/CBMiekFVX3lxTFAyTHZwTmpjdjVMOUpSX0hhemJ0XzY5QV9CSXBYWUZOa0Vqck9ieWEwZXBxS1o2aHJJTkM4T21oMHc1TkFXVjhfXzhGVVJfUjlLWHRIZEFuT3QyV0pGcWtUdFVvYTRrajhlVzRCMlJzZlE0b2QwZm52LXBB0gF_QVVfeXFMTkZEdEM5LUZHWDZsUWlPclRtY0R2dzMyQkh6SjUtaE4wa1NsX3RCRWhEaFlCS1VkN0JYNzN3R2hvOFg3SlRHN3V1LXp1dDd3ZmwtakJWR1ZKdHJuNENGRGFTalhfWGo1Y0pOVERQT0dzdUFfcXlHSTN4OTdOcC01SQ?oc=5",
-      "dropped_title": "California’s vision for the United States Space Academy - University of California",
-      "dropped_feed": "Google News — space",
-      "dropped_link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQOWYwZjVUcnVKVUdqYTVxYThlVFZzZ0d0TWo3YkxGYlI2UzVYWkd1YjdrT3MxWWRCOXdZU3VBdTYtcTd2eE5pY1VHaFItbjM1VV9GVFJsUzhCSXZHREgtRHpjR3Bwbk8yTGk0YmlqcTQxcklmdlpwWTNfUlhrOG9aSjNSX25zQUZjZElhYXhZcDVXQS00dk1IN2RXZVo?oc=5",
-      "signal": "aggregator-event"
-    },
-    {
-      "kept_title": "California bids to bring US Space Academy to the Golden State - FOX40",
-      "kept_feed": "Google News — space",
-      "kept_link": "https://news.google.com/rss/articles/CBMiekFVX3lxTFAyTHZwTmpjdjVMOUpSX0hhemJ0XzY5QV9CSXBYWUZOa0Vqck9ieWEwZXBxS1o2aHJJTkM4T21oMHc1TkFXVjhfXzhGVVJfUjlLWHRIZEFuT3QyV0pGcWtUdFVvYTRrajhlVzRCMlJzZlE0b2QwZm52LXBB0gF_QVVfeXFMTkZEdEM5LUZHWDZsUWlPclRtY0R2dzMyQkh6SjUtaE4wa1NsX3RCRWhEaFlCS1VkN0JYNzN3R2hvOFg3SlRHN3V1LXp1dDd3ZmwtakJWR1ZKdHJuNENGRGFTalhfWGo1Y0pOVERQT0dzdUFfcXlHSTN4OTdOcC01SQ?oc=5",
-      "dropped_title": "USU Submits Request to Become Home of Planned US Space Academy - Utah State University",
-      "dropped_feed": "Google News — space",
-      "dropped_link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNdVIzOHc5OWRiM3Nib1BPTHNSSkd2VWtmQ2trQjVhN2FqUzR3YkYtMEx1a3hDb1RtYURxZ2hENzZmVXBRZERqdjlXQlh2ZDZlaWhBYi1sN2phNWRvdzFUdmZvTUppMm1xSE9Cc250NzNhUkRkdGktYXBlSnhQYjZZWHFibXBWbENEbUlPazktUTFxVHE5bkNkcDJjaw?oc=5",
-      "signal": "aggregator-event"
-    },
-    {
-      "kept_title": "The view from the tower: Watch Starship come in for chopsticks catch in epic slo-mo video",
-      "kept_feed": "Space.com",
-      "kept_link": "https://www.space.com/space-exploration/launches-spacecraft/the-view-from-the-tower-watch-starship-come-in-for-chopsticks-catch-in-epic-slo-mo-video",
-      "dropped_title": "The view from the tower: Watch Starship come in for chopsticks catch in epic slo-mo video - Space",
-      "dropped_feed": "Google News — space",
-      "dropped_link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNZ1dzUzQ0TDdoTy1kNldDaUdPcGNnSWFTOXJqUlNUZHVFQzRRbjFpdXk5RG5iSEQ2MjlDR0NSa3J6WWx0MkNKeEZ4SXRHTG1XWDRILXBNS09RZmpWZ1ZDNmtUcUpkQ09YbEZDRUNiRXh2ODA2MFpPZ3BVaDNralpHZnFwemY3UktIMDlXZHBJelRNdGpLMzgzbE5BZlFCTzhqdFFRLWh6WWo1d2ZjZDdGWHYzaEZJcERFb2taSDRBSlFEV19paUNlODJGTzB6NUlFdG1kSC1mcU0td0lfaGRMRUFB?oc=5",
-      "signal": "title-similarity"
-    },
-    {
-      "kept_title": "What satellites leave behind - Astronomy Magazine",
-      "kept_feed": "Google News — astronomy",
-      "kept_link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9xOEUtRmxoaW16Q09VMU1JSHJwdmhiWUhjN3BQVU9QVEtfOU9hR3dfY3RSVHVrY3lWQ3dLMlROSFNGeHd1bXFxRG9DajJaUG00cEd3YjJDZGdGUXRRWWx4WW45eGJTc3RpYVdNa3h3ZUY?oc=5",
-      "dropped_title": "What satellites leave behind",
-      "dropped_feed": "Astronomy Magazine",
-      "dropped_link": "https://www.astronomy.com/science/what-satellites-leave-behind/",
-      "signal": "title-similarity"
-    },
-    {
-      "kept_title": "Disney+ Officially Replaces Riverdale & Sabrina Stars in Horror Reboot - Comic Book Resources",
-      "kept_feed": "Google News — afterlife",
-      "kept_link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPenJCcE1YZl9Ub2dSaW84dndoakNuNFAtT2pqUzRRUUJjajJqREJKMDlMYklLOVBEVzRtWS1mRm5zRm8yWDdDUlF4TjEtYXJpLURTVERSS3BOVmNsdG1FcmRiOUVjZWc5QTZiRWNacTFRRmpGX1lNS1lsNERvTTNnVVBRckg?oc=5",
-      "dropped_title": "Disney+ Reveals Main Cast for Upcoming \"Afterlife with Archie\" Horror Series - LaughingPlace.com",
-      "dropped_feed": "Google News — afterlife",
-      "dropped_link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQa3pYQUFweDZuUmhWczN4cW1STjZGZXctOTZrRlJTdTl6Smo1X3pMcVloVURZdVBscUVtTS14WFVJbVRhMmV0ZktZOUtPWmk0VUhEc29nTGxaZ090LUpRcmZ2RHN0ZmxfWTRIcjhZOGRlYnFuTmhqamUxeEdLaXg5T19SYXExZWtIWVB1M2x1aGdhWmxYXzJIdg?oc=5",
-      "signal": "aggregator-event"
-    },
-    {
-      "kept_title": "Review: La Jolla Playhouse’s ‘Grim’ a playful pop journey to the afterlife - San Diego Union-Tribune",
-      "kept_feed": "Google News — afterlife",
-      "kept_link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNUXdEcU1EdDZYempZQXNIVERyQmp3MTU2ZjUtLS11OXFPTlFFM0hDX2Y4bWxFenRJeHg4bXlrMmxrNjlBNW5QVFQ1Y3E2VUpiX1EyRTEzRFRnUDFoWk1YOW1kNGhQTzBkTzF1SUs0eWlOX2dwbkJyeGVJSWxDaE5GMWZDVS1JczNDSmllWGVKdjVzV3ZMMFBYNWgyLXI2REcyX3F3TFBPWFNBcDVWLVBQWmI1cmhHaUJMNUxV?oc=5",
-      "dropped_title": "A Pop-Star Acting Newbie, the Afterlife and “Dirty Energy”: The Making of ‘La Bola Negra’ - IMDb",
-      "dropped_feed": "Google News — afterlife",
-      "dropped_link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1HX21UZEh4QmJvQmkycGRVc05qRWZONjRjN1JESUdXZnZQNHNTeUFLaWwtNXF5RzhhNWJsUzBCcGh0OG1vWjljaVlKZXVpZmF0R1lta2VkNGhRU0pzMVFYWW80cFpIVWFOX0JIUll3?oc=5",
-      "signal": "aggregator-event"
-    },
-    {
-      "kept_title": "Logan Kim Reveals Podcast’s Real Name on Ghostbusters: Afterlife’s 5th Anniversary - Ghostbusters News",
-      "kept_feed": "Google News — afterlife",
-      "kept_link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNN0s4cmNFVGUyRlNfa3E3ck1rSURjS18zNHIwOGhXZnJFUHZmdW5oaUZ5ekluS3liSjY5SXpXZ1V6UEZGRmxZWFkzTF9kc0JoeGMxQW11NS0xYmdza0RsOFJLeEs2ZnpyMG43UG45d3lGRVRldmw5QzhrTmtqXzM1U2x5X2ViOThhY2JQVUs2T01FNEhDMjNtWHJoLWk2cXU4WlRPQnpLRkIwbWFhamJsY1ROTWNudnNjbVNteGRB?oc=5",
-      "dropped_title": "Dan Aykroyd Celebrates Ghostbusters: Afterlife’s 5-Year Anniversary with a Look Behind the Scenes - Ghostbusters News",
-      "dropped_feed": "Google News — afterlife",
-      "dropped_link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPVTVHYktMelUtZHRiRmhyT0VtQ0xmNnJBNy1HUktLYTNrb2dRLVdWdkM3R3VXeWNxNFpTamZLYjdYSmtQdWs2dHRQbXp4MWQ0c0NueDJkdnpEUG5uQlZyblZjRXJPd2NEZkFUTjF4bWdqenNNeWtYQXdoVm5zN3NaUzcxSXQ4ZXJDLXhkUERmS1ZrenFWRUVxcDVyWFNCbHNScjVUOFRvZHBUZkRjRC1Ydk9JVlJtZS1QQk1YYXd5cDBmOHkyUmtN?oc=5",
-      "signal": "aggregator-event"
-    },
-    {
-      "kept_title": "Mysterious Radio Signals From 5,000 Light-Years Away Lead Scientists to a Surprising Discovery",
-      "kept_feed": "SciTechDaily",
-      "kept_link": "https://scitechdaily.com/mysterious-radio-signals-from-5000-light-years-away-lead-scientists-to-a-surprising-discovery/",
-      "dropped_title": "Mysterious Radio Signals From 5,000 Light-Years Away Lead Scientists to a Surprising Discovery - SciTechDaily",
-      "dropped_feed": "Google News — astronomy",
-      "dropped_link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQYi1Ea0IzNzY0V2twemRpQS1sRWpsdmFDOTZNSEYwQlFXYjNxbEY4MjJXUWxueklkTlBzOWx1UklBUkl2bGFKUGp0bENlQjlsdWdXR3hBeHEyQ1Y1R3RYV05IX2NhNE9mZ20yRGx5ZXBuNllQWTJWOVBNMUstNXhjYTZmNmQ2VDY4NTdsQ0RpWnRuRndLaTg0aEJVcGdXMmFITTFNNlROWHRxSzJ3NW80WEI4TENxYjBtUXNJ?oc=5",
-      "signal": "title-similarity"
-    },
-    {
-      "kept_title": "‘Afterlife With Archie’ finds its Archie, Veronica, Betty, and more to fight zombies in Riverdale - Entertainment Weekly",
-      "kept_feed": "Google News — afterlife",
-      "kept_link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPYkdEWGo3UUM1M0o2ZXJ2MjU3WC1OQnhTTl9iVTRIOG84cTFiaDhrV2dqYUJzY09TODktamtqXzFqRXJPVkFUWEExeEJ5NGR3aXVjU1Fiako5dWNFTW5KamozS0lXMWs4dlEwMDlHU1kwVWN4aGRYUzBOMW1sUDdNd3RGSUxuZw?oc=5",
-      "dropped_title": "Meet The Gang Starring In Disney’s AFTERLIFE WITH ARCHIE Series - Fangoria",
-      "dropped_feed": "Google News — afterlife",
-      "dropped_link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5KYjFVT3hrZ01Cb2c3cVRHS004RkVIRFdpbXdzYnBBRktWMmlyRW5SQlRwV0FzaG1vTjlmazhQbVA5R0xOczQzNFlWTkpoVXR1eWQyT3UwUEw2a0VZUmZMOXNiU2NnZDRkZVZr?oc=5",
-      "signal": "aggregator-event"
-    },
-    {
-      "kept_title": "Religiosity and Spirituality Linked to Higher Quality of Life in Older Adults - Bioengineer.org",
-      "kept_feed": "Google News — spirituality",
-      "kept_link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPazdqQ1ctSmMzR3FucHFyenc4U05iR1hXUlJkenltTDNzZ3Q5M0w1TEhVenFEaHNpLWpkRFFGMWFWbzkxWnpiRG4wVUlZWGJnNWJaUXV5bGYyUHFsWWpaaFlZbjUyekdZdHBzdVM2SS0yVTZwb29ZS0Fsa2FWWDZXUXNWMW85Mk9NQkdpU3pOQzdZMXc4c215ZGppOW1EbkI5Skh1Yg?oc=5",
-      "dropped_title": "Spirituality and religiosity associated with better quality of life in older adults - Phys.org",
-      "dropped_feed": "Google News — spirituality",
-      "dropped_link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPRHFHelF4Z29NNXZRS0dfRl9kb2tDX1dHVjc4bnQ1OFVsdlF5cmhTcE9NY21weEd0SElWc1BOSTc4T2U0M0tyUHRyUTRDcDVzelh4c2s0MVdLTmhXdzZ5SS1jemwtUFZWZ2EweEVRX1k4ZjZ6cTFnbk4wYVBYSy1zcS1YbUw?oc=5",
-      "signal": "title-similarity"
-    },
-    {
-      "kept_title": "China rolls out rocket for launch of 1st international astronaut to Tiangong space station (video)",
-      "kept_feed": "Space.com",
-      "kept_link": "https://www.space.com/space-exploration/human-spaceflight/china-rolls-out-rocket-for-launch-of-1st-international-astronaut-to-tiangong-space-station-video",
-      "dropped_title": "China rolls out rocket for launch of 1st international astronaut to Tiangong space station (video) - Space",
-      "dropped_feed": "Google News — space",
-      "dropped_link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxONU16eTVzOWtlaHB4dmRuUkdQZnFOR1cyNXlHSFlxd3BQNWhOTUVKb01LVDhJRUItMjdSeU1jbHFnSVNzUHR0OTBKMEk0dVBGTG9PYTFsLTJEYmIyc1VWcHJIOFlObGJxQ0J4bExuZXl6elBCcEVYQVFjVFM1clRwaG5HbGlPc3JyVDctd3BMSjVob2R6a05zZGZjZ0ZKc3E5TGpIaVg1YXpkT2FSanJWa0s5R0RERm10T3BwVmNMZzg5MUtGUHJBcTZQekVxOWh5NTBHOGU5NFNIMlJFNHF1LVhNeTZIb2x4anc?oc=5",
-      "signal": "title-similarity"
-    },
-    {
-      "kept_title": "‘Afterlife With Archie’ finds its Archie, Veronica, Betty, and more to fight zombies in Riverdale - Entertainment Weekly",
-      "kept_feed": "Google News — afterlife",
-      "kept_link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPYkdEWGo3UUM1M0o2ZXJ2MjU3WC1OQnhTTl9iVTRIOG84cTFiaDhrV2dqYUJzY09TODktamtqXzFqRXJPVkFUWEExeEJ5NGR3aXVjU1Fiako5dWNFTW5KamozS0lXMWs4dlEwMDlHU1kwVWN4aGRYUzBOMW1sUDdNd3RGSUxuZw?oc=5",
-      "dropped_title": "Afterlife With Archie Is The Archie TV Show We All Need - Den of Geek",
-      "dropped_feed": "Google News — afterlife",
-      "dropped_link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOZGwtcUgwLUI1Z2Y1RXU0N0xHdndnSmFBbFBRdWw4dzd2M0EzZXpVR1Y0eG5uWXZ1c0d1MTh3MUh3cEF4QkQtd0dBb0xFR3NsZ3Y1ZWhBLWd1R2FVeVc3TnpZUHlPYjBlRnFNODRUSVVNZzVTb0hNQ21TZVdWVWpiNkRmcGY?oc=5",
-      "signal": "aggregator-event"
-    },
-    {
-      "kept_title": "‘Afterlife With Archie’ finds its Archie, Veronica, Betty, and more to fight zombies in Riverdale - Entertainment Weekly",
-      "kept_feed": "Google News — afterlife",
-      "kept_link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPYkdEWGo3UUM1M0o2ZXJ2MjU3WC1OQnhTTl9iVTRIOG84cTFiaDhrV2dqYUJzY09TODktamtqXzFqRXJPVkFUWEExeEJ5NGR3aXVjU1Fiako5dWNFTW5KamozS0lXMWs4dlEwMDlHU1kwVWN4aGRYUzBOMW1sUDdNd3RGSUxuZw?oc=5",
-      "dropped_title": "‘Afterlife with Archie’ series casts its Archie, Betty, Veronica, Jughead and Sabrina - MOViN 92.5",
-      "dropped_feed": "Google News — afterlife",
-      "dropped_link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOS2R4N3VndjNuei05bTBGcEh6V2VPc0QyYXJwTEpZcWVIbWFJZkZNQWlzQVNYMThJY3dYR0hMaEdCcXUtWDVNWXIycGdwdDlUVEFESEZ5MERYMkVCeHVIWV9BMF9TMlZ5YnE5T1ozejM0X1E1Ml9NM3V4bXV4S05fTDVEQWZkSjFBNTZjSHRiUDIzWXh5LTBHNGVCbVkxVWhFM0hCMlp6OEdLUQ?oc=5",
-      "signal": "aggregator-event"
-    },
-    {
-      "kept_title": "Hear stars being born in Chandra’s new sonifications - Astronomy Magazine",
-      "kept_feed": "Google News — astronomy",
-      "kept_link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPZzJPeW9XQ2l0TDVnRm55QldSTmNqZGFMMTFRbEt3VUpINjlqcjhqM184WUtseTkxZmR6VG5yaXJuNDFXY0N4VFh6TGJ1SlB3eXJDM01FbGZ3a0t4dW1yWDRwdHdYTWxuczNFWGN4czMxUHRPNlh2OWJ0RGlueUItaTI5MER2aldwRWF4cUxoYw?oc=5",
-      "dropped_title": "Hear stars being born in Chandra’s new sonifications",
-      "dropped_feed": "Astronomy Magazine",
-      "dropped_link": "https://www.astronomy.com/science/hear-stars-being-born-in-chandras-new-sonifications/",
-      "signal": "title-similarity"
-    },
-    {
-      "kept_title": "Daily Horoscope for November 20, 2026 - Orlando Sentinel",
-      "kept_feed": "Google News — astrology",
-      "kept_link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPeU9LMTZHNHljbzAyV295X3JtQVljRml3V2g0M0NXdXRDdjMwMjVlSzlCSHZsaE5BWnVwcndtRnhKb19KYXE3Rzc4ZkZDYkxJWkRDRWpORU9vVHhhRmQyLWJSa3BrZTNhLUxtTVoyR21nc0R5SURRUnZOdUotMkV5WlppZ3diZFU?oc=5",
-      "dropped_title": "Horoscope Today: Daily astrological predictions for November 20, 2026 - The Times of India",
-      "dropped_feed": "Google News — astrology",
-      "dropped_link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNWUptQ2RiZU9XUjNZc0RJbF8yVE1IZndJLXc1MkF0Vm5WU19LQTVDZHMycGxvUHZPT19ueWNoZU1HSGJpU0c5QjFzRF9PRU9zWndBSGJfUXFnWnAzX3ZIa1pqQWNWMERWQzZ1OGNCLU1UelVIelFoVXlFeEdhRGFqMU9ZRGVQYk9fcUMyYjFUNy1NbUM5TENmTXJ0TUpmTkppR2JScHFrR0FaT2lnYnRJaXBGTzEzZEhlS0U0bFBDeXVpNmhRMDRZcGF5X2RrTm1BajVFNWVNbktNX1ZxOTVueW42MNIB6AFBVV95cUxObzR1MnRrdkJrcjhXZDZ1MlV4R09LQVdXMDBUQ2Q5Rk9zZ1NEcnpLbk8yNGdJVEZIdHZPaDhwTFRvOEhKa2hXaWR3RG8wUDB5REFMQVFBbjhjUlI4cnZuS1Jya3diam5PU0pRX0pxMUlIeU9CaC1pdnNKUTU2bzZMeEJzeG42ZGMxcWRuRnBySmhYY3QyYW9ZOUhZQU9jWC1idWhWTGtlcUs3MUJObkN1aTFtOWw0VEVmMVA2S1ZYdFdYbEI2eDRZSUd6bmlPa3J0czZlTjJIbVZtbC10OHZoaGI0LW5yYUFE?oc=5",
-      "signal": "title-similarity"
-    },
-    {
-      "kept_title": "AFTERLIFE WITH ARCHIE series casts new Archie, Veronica, Betty, Jughead and Sabrina - Comics Beat",
-      "kept_feed": "Google News — afterlife",
-      "kept_link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE44c1ZhWmlMNnpMazZnRTFKYUR3MW0xU2NFVWJUVk5JZmVfZlF1SG9PaElmaEVaUWR0WGN6ZDRGWkhCMTJ1VnFQeXM1Y2FDcUdfVE5JWmd3bFpSWVl1T09yM29ISERqVnFh?oc=5",
-      "dropped_title": "Afterlife with Archie: Disney+ series casts Archie, Betty, Veronica, Jughead, and Sabrina - IMDb",
-      "dropped_feed": "Google News — afterlife",
-      "dropped_link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5ZNWdnMGhNOGdrMlJZazVOQjRqeUhGcE1VSXJPZXFLd3Z1bnlxV01OX2NyRUZjLTdGa2ZhY1BZLUVMcFVpZmQ3NE4yZ0dKM05UaEtiX3pGZ0hOalNWeGhhVUdZdlF2X1U?oc=5",
-      "signal": "aggregator-event"
-    },
-    {
-      "kept_title": "AFTERLIFE WITH ARCHIE series casts new Archie, Veronica, Betty, Jughead and Sabrina - Comics Beat",
-      "kept_feed": "Google News — afterlife",
-      "kept_link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE44c1ZhWmlMNnpMazZnRTFKYUR3MW0xU2NFVWJUVk5JZmVfZlF1SG9PaElmaEVaUWR0WGN6ZDRGWkhCMTJ1VnFQeXM1Y2FDcUdfVE5JWmd3bFpSWVl1T09yM29ISERqVnFh?oc=5",
-      "dropped_title": "‘Afterlife With Archie’ Casts Its Core Five for Disney+’s Zombie Apocalypse Series - IMDb",
-      "dropped_feed": "Google News — afterlife",
-      "dropped_link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE51TlBSamdRYzNLc0VObGtGVXVwMEQwWjRlTnpXS1ZaT1dnQVNVT0V1TkdNSm9DUTl0bXdtYnRxNU84ME5sRDM5cFdDcDRRQzhldEpyaWZET3B3VlFISTZmd0U0YnFTclE?oc=5",
-      "signal": "aggregator-event"
-    },
-    {
-      "kept_title": "AFTERLIFE WITH ARCHIE series casts new Archie, Veronica, Betty, Jughead and Sabrina - Comics Beat",
-      "kept_feed": "Google News — afterlife",
-      "kept_link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE44c1ZhWmlMNnpMazZnRTFKYUR3MW0xU2NFVWJUVk5JZmVfZlF1SG9PaElmaEVaUWR0WGN6ZDRGWkhCMTJ1VnFQeXM1Y2FDcUdfVE5JWmd3bFpSWVl1T09yM29ISERqVnFh?oc=5",
-      "dropped_title": "Afterlife With Archie: Disney+'s New Live-Action Riverdale Series Finds Its Archie, Betty, Veronica, Jughead, And Sabrina - IMDb",
-      "dropped_feed": "Google News — afterlife",
-      "dropped_link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE45TG5NdU9JTzRIU3NGTlQ1ZVVfZGNMLXowSi1UTW9NQzFrZ0tJMk1iZ2VqZEVKYWdyZDRobUpBOEFBTVVURC1iX3FuNXZMX0d2RXMwaVpaN1JCanpJYmF3c3Y4Sjh2dw?oc=5",
-      "signal": "title-similarity"
-    },
-    {
-      "kept_title": "AFTERLIFE WITH ARCHIE series casts new Archie, Veronica, Betty, Jughead and Sabrina - Comics Beat",
-      "kept_feed": "Google News — afterlife",
-      "kept_link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE44c1ZhWmlMNnpMazZnRTFKYUR3MW0xU2NFVWJUVk5JZmVfZlF1SG9PaElmaEVaUWR0WGN6ZDRGWkhCMTJ1VnFQeXM1Y2FDcUdfVE5JWmd3bFpSWVl1T09yM29ISERqVnFh?oc=5",
-      "dropped_title": "'Afterlife with Archie' casts new versions of 'Riverdale' favorites - upi",
-      "dropped_feed": "Google News — afterlife",
-      "dropped_link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPbXFqUnNTT3pFQW10ZVJlV1RYYk1abTFfeGNfbkFCUno5NlNmcDB0RGE3bWp5LVFkMVZ6RXB5NHdicm4zeGlZWktpd0toSGttSGtrV0l2M3NPbjNsTU9vSlliMzdUaElhd0tIM21WWGtwR0RXZGdjQXhlSi1DSEZ1dlg1SlVwWkFic3lVNDhHRXkzV21fQnVVOGc5Nklad9IBowFBVV95cUxQT2wtV1ZTWDZIV0ZpQ05oQU1jcDcyNi0zZFRDaE1GQTJadEhfUXNIVFdfczBJUUhsdXlTMzZuN0xnRkczbUpROE8wdnVySlVCUk54aER5SThDMVJaQVJlOHU0RTNCSGc2bnpIN0lCZmJCQTFzNGR6WktpVG52SXdfRTVibTNGS0ZRbzAzM0JNdmVnNUdMdGlJOUhRRXkybFp2NHcw?oc=5",
-      "signal": "aggregator-event"
-    },
     {
       "kept_title": "What if space and time don’t exist? Physicists are chasing hints that our reality emerges from something deeper",
       "kept_feed": "Live Science",
@@ -256,67 +18,112 @@
       "signal": "title-similarity"
     },
     {
-      "kept_title": "AFTERLIFE WITH ARCHIE series casts new Archie, Veronica, Betty, Jughead and Sabrina - Comics Beat",
+      "kept_title": "'Afterlife with Archie' casts new versions of 'Riverdale' favorites - upi",
       "kept_feed": "Google News — afterlife",
-      "kept_link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE44c1ZhWmlMNnpMazZnRTFKYUR3MW0xU2NFVWJUVk5JZmVfZlF1SG9PaElmaEVaUWR0WGN6ZDRGWkhCMTJ1VnFQeXM1Y2FDcUdfVE5JWmd3bFpSWVl1T09yM29ISERqVnFh?oc=5",
+      "kept_link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPbXFqUnNTT3pFQW10ZVJlV1RYYk1abTFfeGNfbkFCUno5NlNmcDB0RGE3bWp5LVFkMVZ6RXB5NHdicm4zeGlZWktpd0toSGttSGtrV0l2M3NPbjNsTU9vSlliMzdUaElhd0tIM21WWGtwR0RXZGdjQXhlSi1DSEZ1dlg1SlVwWkFic3lVNDhHRXkzV21fQnVVOGc5Nklad9IBowFBVV95cUxQT2wtV1ZTWDZIV0ZpQ05oQU1jcDcyNi0zZFRDaE1GQTJadEhfUXNIVFdfczBJUUhsdXlTMzZuN0xnRkczbUpROE8wdnVySlVCUk54aER5SThDMVJaQVJlOHU0RTNCSGc2bnpIN0lCZmJCQTFzNGR6WktpVG52SXdfRTVibTNGS0ZRbzAzM0JNdmVnNUdMdGlJOUhRRXkybFp2NHcw?oc=5",
       "dropped_title": "Afterlife With Archie Cast: Archie, Betty, Veronica, Jughead & Sabrina Actors In Disney Plus Riverdale Series - TVLine",
       "dropped_feed": "Google News — afterlife",
       "dropped_link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPcnVhanJXV0RmLW9GOXA2SHJRSDROcXZsY0lKczE5bXVmYzBzT1hTaUNuYmh2X2ZpXzFmUDR5NDFqZ2NsN3FDZXVWNlNkSkxkZHdRVG42UTJpX1BrODFlV3FsU1A0QXFjTWlfTnJmTjNobXRHV2NRcDdFRTJqQnd6SkZQVndxTHRDempJV1JvQnJJbWpQd3hyS00zaF9XX1hUSDRVWlExYUF2dHBxNHlqa2xwY3hyQQ?oc=5",
-      "signal": "title-similarity"
+      "signal": "aggregator-event"
     },
     {
-      "kept_title": "AFTERLIFE WITH ARCHIE series casts new Archie, Veronica, Betty, Jughead and Sabrina - Comics Beat",
+      "kept_title": "'Afterlife with Archie' casts new versions of 'Riverdale' favorites - upi",
       "kept_feed": "Google News — afterlife",
-      "kept_link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE44c1ZhWmlMNnpMazZnRTFKYUR3MW0xU2NFVWJUVk5JZmVfZlF1SG9PaElmaEVaUWR0WGN6ZDRGWkhCMTJ1VnFQeXM1Y2FDcUdfVE5JWmd3bFpSWVl1T09yM29ISERqVnFh?oc=5",
-      "dropped_title": "Disney+’s ‘Afterlife With Archie’ Finds Its Archie, Veronica, Betty, Jughead and Sabrina - TheWrap",
+      "kept_link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPbXFqUnNTT3pFQW10ZVJlV1RYYk1abTFfeGNfbkFCUno5NlNmcDB0RGE3bWp5LVFkMVZ6RXB5NHdicm4zeGlZWktpd0toSGttSGtrV0l2M3NPbjNsTU9vSlliMzdUaElhd0tIM21WWGtwR0RXZGdjQXhlSi1DSEZ1dlg1SlVwWkFic3lVNDhHRXkzV21fQnVVOGc5Nklad9IBowFBVV95cUxQT2wtV1ZTWDZIV0ZpQ05oQU1jcDcyNi0zZFRDaE1GQTJadEhfUXNIVFdfczBJUUhsdXlTMzZuN0xnRkczbUpROE8wdnVySlVCUk54aER5SThDMVJaQVJlOHU0RTNCSGc2bnpIN0lCZmJCQTFzNGR6WktpVG52SXdfRTVibTNGS0ZRbzAzM0JNdmVnNUdMdGlJOUhRRXkybFp2NHcw?oc=5",
+      "dropped_title": "Afterlife with Archie: Archie, Veronica, Betty, Jughead & Sabrina Cast - Bleeding Cool News",
       "dropped_feed": "Google News — afterlife",
-      "dropped_link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPdTdDZjl2WFpBM3ZPaEFjM2ZUeHhockJQSFp3cU5Ta2tWOTlNRGs0ZG9iVGtHWGhkSTBfeVRjZUF2X2hLQkRibXNzRzZ6MUhBZGdhRWRvUHlYd05yNm9rN2lSQlVyMWEtS19rblQ1d2RNVHFCbnl1OWlBOTVVamgweW9La0o4UGtuTUE?oc=5",
-      "signal": "title-similarity"
+      "dropped_link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOWGdlWDhsWnZ1Snp5X2RRSVdlbE5YZ2kzdTVHeXQ5enRPWndXM0M1TWVyekJQWTNEQnRIWUM3MnNJMXNmVmR1bW50Ymh2enZKTGlCNmNTWHBzV3BUbjVYamFpSHdjSV93X1ZMSGZGUGRfM1lySWxQUDhIel9mYlhhakk2WkJlbktqSXR5Z1JIMTltQzEyUHBBRQ?oc=5",
+      "signal": "aggregator-event"
     },
     {
-      "kept_title": "AFTERLIFE WITH ARCHIE series casts new Archie, Veronica, Betty, Jughead and Sabrina - Comics Beat",
+      "kept_title": "'Afterlife with Archie' casts new versions of 'Riverdale' favorites - upi",
       "kept_feed": "Google News — afterlife",
-      "kept_link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE44c1ZhWmlMNnpMazZnRTFKYUR3MW0xU2NFVWJUVk5JZmVfZlF1SG9PaElmaEVaUWR0WGN6ZDRGWkhCMTJ1VnFQeXM1Y2FDcUdfVE5JWmd3bFpSWVl1T09yM29ISERqVnFh?oc=5",
+      "kept_link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPbXFqUnNTT3pFQW10ZVJlV1RYYk1abTFfeGNfbkFCUno5NlNmcDB0RGE3bWp5LVFkMVZ6RXB5NHdicm4zeGlZWktpd0toSGttSGtrV0l2M3NPbjNsTU9vSlliMzdUaElhd0tIM21WWGtwR0RXZGdjQXhlSi1DSEZ1dlg1SlVwWkFic3lVNDhHRXkzV21fQnVVOGc5Nklad9IBowFBVV95cUxQT2wtV1ZTWDZIV0ZpQ05oQU1jcDcyNi0zZFRDaE1GQTJadEhfUXNIVFdfczBJUUhsdXlTMzZuN0xnRkczbUpROE8wdnVySlVCUk54aER5SThDMVJaQVJlOHU0RTNCSGc2bnpIN0lCZmJCQTFzNGR6WktpVG52SXdfRTVibTNGS0ZRbzAzM0JNdmVnNUdMdGlJOUhRRXkybFp2NHcw?oc=5",
+      "dropped_title": "Disney+’s ‘Afterlife With Archie’ Finds Its Archie, Veronica, Betty, Jughead and Sabrina - Yahoo News UK",
+      "dropped_feed": "Google News — afterlife",
+      "dropped_link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOeWY4MGQzd3cxdjZtdGEtY0ZIbkNfOWQ0amJyNEFXdkQ1RU5pdnpDUEd6dHpSSjVEQ1ptX2Z2ZzJTalNVOWhMVVMxbG5QRFB1c0tPZXoyUnJ4NjUyQmV0dU4xSkhMU2dwVUFaUWZ6UVA3V245VFZGNE8zRmJBeU42WVJsTQ?oc=5",
+      "signal": "aggregator-event"
+    },
+    {
+      "kept_title": "'Afterlife with Archie' casts new versions of 'Riverdale' favorites - upi",
+      "kept_feed": "Google News — afterlife",
+      "kept_link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPbXFqUnNTT3pFQW10ZVJlV1RYYk1abTFfeGNfbkFCUno5NlNmcDB0RGE3bWp5LVFkMVZ6RXB5NHdicm4zeGlZWktpd0toSGttSGtrV0l2M3NPbjNsTU9vSlliMzdUaElhd0tIM21WWGtwR0RXZGdjQXhlSi1DSEZ1dlg1SlVwWkFic3lVNDhHRXkzV21fQnVVOGc5Nklad9IBowFBVV95cUxQT2wtV1ZTWDZIV0ZpQ05oQU1jcDcyNi0zZFRDaE1GQTJadEhfUXNIVFdfczBJUUhsdXlTMzZuN0xnRkczbUpROE8wdnVySlVCUk54aER5SThDMVJaQVJlOHU0RTNCSGc2bnpIN0lCZmJCQTFzNGR6WktpVG52SXdfRTVibTNGS0ZRbzAzM0JNdmVnNUdMdGlJOUhRRXkybFp2NHcw?oc=5",
+      "dropped_title": "‘Afterlife With Archie’ Disney+ Series Casts Its Archie, Veronica, Betty, Jughead & Sabrina - IMDb",
+      "dropped_feed": "Google News — afterlife",
+      "dropped_link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5qWXNuWUdEdm5EV3pkREZoUXpsRWVoVVNkMDNFZ0dyRzFYVWRJcTE3a0l1d2M4M0FKdzJTV2tsZkpnN1dlMExzTEVLSVRXVWl3ZnB1Qm5nS2JjUmhhVW9KeTZWanRrY0U?oc=5",
+      "signal": "aggregator-event"
+    },
+    {
+      "kept_title": "'Afterlife with Archie' casts new versions of 'Riverdale' favorites - upi",
+      "kept_feed": "Google News — afterlife",
+      "kept_link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPbXFqUnNTT3pFQW10ZVJlV1RYYk1abTFfeGNfbkFCUno5NlNmcDB0RGE3bWp5LVFkMVZ6RXB5NHdicm4zeGlZWktpd0toSGttSGtrV0l2M3NPbjNsTU9vSlliMzdUaElhd0tIM21WWGtwR0RXZGdjQXhlSi1DSEZ1dlg1SlVwWkFic3lVNDhHRXkzV21fQnVVOGc5Nklad9IBowFBVV95cUxQT2wtV1ZTWDZIV0ZpQ05oQU1jcDcyNi0zZFRDaE1GQTJadEhfUXNIVFdfczBJUUhsdXlTMzZuN0xnRkczbUpROE8wdnVySlVCUk54aER5SThDMVJaQVJlOHU0RTNCSGc2bnpIN0lCZmJCQTFzNGR6WktpVG52SXdfRTVibTNGS0ZRbzAzM0JNdmVnNUdMdGlJOUhRRXkybFp2NHcw?oc=5",
       "dropped_title": "‘Afterlife With Archie’ Finds Its Archie, Veronica, Betty, Jughead and Sabrina for the Disney+ Zombie Series - IMDb",
       "dropped_feed": "Google News — afterlife",
       "dropped_link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9sVWtxWl9KWUVUb0l4MjBCOTRKbHM1dFZmUkFDRVRLdmQ2VEJ6eURGWGw3Wjc5Q0oxWmtLQ05Sak5pYnNIOFZqazh3Y1Y0RFQ0dGlkaEd5NkpEak5mMkhmYllsUGFneEU?oc=5",
-      "signal": "title-similarity"
+      "signal": "aggregator-event"
     },
     {
-      "kept_title": "AFTERLIFE WITH ARCHIE series casts new Archie, Veronica, Betty, Jughead and Sabrina - Comics Beat",
+      "kept_title": "'Afterlife with Archie' casts new versions of 'Riverdale' favorites - upi",
       "kept_feed": "Google News — afterlife",
-      "kept_link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE44c1ZhWmlMNnpMazZnRTFKYUR3MW0xU2NFVWJUVk5JZmVfZlF1SG9PaElmaEVaUWR0WGN6ZDRGWkhCMTJ1VnFQeXM1Y2FDcUdfVE5JWmd3bFpSWVl1T09yM29ISERqVnFh?oc=5",
+      "kept_link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPbXFqUnNTT3pFQW10ZVJlV1RYYk1abTFfeGNfbkFCUno5NlNmcDB0RGE3bWp5LVFkMVZ6RXB5NHdicm4zeGlZWktpd0toSGttSGtrV0l2M3NPbjNsTU9vSlliMzdUaElhd0tIM21WWGtwR0RXZGdjQXhlSi1DSEZ1dlg1SlVwWkFic3lVNDhHRXkzV21fQnVVOGc5Nklad9IBowFBVV95cUxQT2wtV1ZTWDZIV0ZpQ05oQU1jcDcyNi0zZFRDaE1GQTJadEhfUXNIVFdfczBJUUhsdXlTMzZuN0xnRkczbUpROE8wdnVySlVCUk54aER5SThDMVJaQVJlOHU0RTNCSGc2bnpIN0lCZmJCQTFzNGR6WktpVG52SXdfRTVibTNGS0ZRbzAzM0JNdmVnNUdMdGlJOUhRRXkybFp2NHcw?oc=5",
       "dropped_title": "Disney+ Casts Archie, Betty, Veronica, Jughead and Sabrina in Zombie Horror Series ‘Afterlife With Archie’ - Dread Central",
       "dropped_feed": "Google News — afterlife",
       "dropped_link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOc1ZnVnIxQWtHLXdJNDc5NlJ1Y0FhQWllVkxoWXFJV0FROE9CMnNLSVJZM0FkeS04Y0dJUUNOZzRsb2oyejY2bnJhRm5zZmhReE5nVlYzdWg2NmxtMG1pMDItaHhCZWhCdDBXeUtyNU5PeU5NUzFQT1pfQjhfQmxHdTNmdHFIamNsNnFJaXNQelQ5WmgtQlFoM2I5cFI?oc=5",
-      "signal": "title-similarity"
+      "signal": "aggregator-event"
     },
     {
-      "kept_title": "AFTERLIFE WITH ARCHIE series casts new Archie, Veronica, Betty, Jughead and Sabrina - Comics Beat",
+      "kept_title": "'Afterlife with Archie' casts new versions of 'Riverdale' favorites - upi",
       "kept_feed": "Google News — afterlife",
-      "kept_link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE44c1ZhWmlMNnpMazZnRTFKYUR3MW0xU2NFVWJUVk5JZmVfZlF1SG9PaElmaEVaUWR0WGN6ZDRGWkhCMTJ1VnFQeXM1Y2FDcUdfVE5JWmd3bFpSWVl1T09yM29ISERqVnFh?oc=5",
+      "kept_link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPbXFqUnNTT3pFQW10ZVJlV1RYYk1abTFfeGNfbkFCUno5NlNmcDB0RGE3bWp5LVFkMVZ6RXB5NHdicm4zeGlZWktpd0toSGttSGtrV0l2M3NPbjNsTU9vSlliMzdUaElhd0tIM21WWGtwR0RXZGdjQXhlSi1DSEZ1dlg1SlVwWkFic3lVNDhHRXkzV21fQnVVOGc5Nklad9IBowFBVV95cUxQT2wtV1ZTWDZIV0ZpQ05oQU1jcDcyNi0zZFRDaE1GQTJadEhfUXNIVFdfczBJUUhsdXlTMzZuN0xnRkczbUpROE8wdnVySlVCUk54aER5SThDMVJaQVJlOHU0RTNCSGc2bnpIN0lCZmJCQTFzNGR6WktpVG52SXdfRTVibTNGS0ZRbzAzM0JNdmVnNUdMdGlJOUhRRXkybFp2NHcw?oc=5",
       "dropped_title": "‘Afterlife With Archie’ Disney+ Series Finds Its Archie, Betty, Veronica, Jughead and Sabrina - Bloody Disgusting",
       "dropped_feed": "Google News — afterlife",
       "dropped_link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNNVB5VWRXREZSOXRGdWxOaTdmVjNGMzJGcGVBOEtJZ3JaakNaclIwS3h0NFhWaXdNS3JyRG92VF90UjJzdHYxNV9TVVgwYkZBRUJUOWROOF9hRG43Zkl4VExHSU5MRG1iV2hHeExoNXF5V05jSmUtU0syOTI4RVE4VGllTWJVbktDMEE?oc=5",
-      "signal": "title-similarity"
+      "signal": "aggregator-event"
     },
     {
-      "kept_title": "AFTERLIFE WITH ARCHIE series casts new Archie, Veronica, Betty, Jughead and Sabrina - Comics Beat",
+      "kept_title": "'Afterlife with Archie' casts new versions of 'Riverdale' favorites - upi",
       "kept_feed": "Google News — afterlife",
-      "kept_link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE44c1ZhWmlMNnpMazZnRTFKYUR3MW0xU2NFVWJUVk5JZmVfZlF1SG9PaElmaEVaUWR0WGN6ZDRGWkhCMTJ1VnFQeXM1Y2FDcUdfVE5JWmd3bFpSWVl1T09yM29ISERqVnFh?oc=5",
+      "kept_link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPbXFqUnNTT3pFQW10ZVJlV1RYYk1abTFfeGNfbkFCUno5NlNmcDB0RGE3bWp5LVFkMVZ6RXB5NHdicm4zeGlZWktpd0toSGttSGtrV0l2M3NPbjNsTU9vSlliMzdUaElhd0tIM21WWGtwR0RXZGdjQXhlSi1DSEZ1dlg1SlVwWkFic3lVNDhHRXkzV21fQnVVOGc5Nklad9IBowFBVV95cUxQT2wtV1ZTWDZIV0ZpQ05oQU1jcDcyNi0zZFRDaE1GQTJadEhfUXNIVFdfczBJUUhsdXlTMzZuN0xnRkczbUpROE8wdnVySlVCUk54aER5SThDMVJaQVJlOHU0RTNCSGc2bnpIN0lCZmJCQTFzNGR6WktpVG52SXdfRTVibTNGS0ZRbzAzM0JNdmVnNUdMdGlJOUhRRXkybFp2NHcw?oc=5",
       "dropped_title": "‘Afterlife With Archie’ Disney+ Show Casts Archie, Betty, Veronica, Jughead and Sabrina the Teenage Witch - Variety",
       "dropped_feed": "Google News — afterlife",
       "dropped_link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQRzBOZU1XM0U1NlNZSm9xMGt3bk92dWpvQWFhN3hNNTVILTl4OHdlejRBckJyVlVYLUN2RDV1MmZGUU9TUi1qRGkzTEtlMUVIR2pIVVFpSHJ1bzJ5Z2w0RWxqRkhMNi1OVVVuVFlUNkg4VjR6NWdYTTZPRnZFWjBlUkxwQ3JKdVZQX2dz?oc=5",
-      "signal": "title-similarity"
+      "signal": "aggregator-event"
     },
     {
-      "kept_title": "Voyager 1 team, unbowed by communications glitch, celebrates epic 1-light-day distance milestone",
-      "kept_feed": "Space.com",
-      "kept_link": "https://www.space.com/space-exploration/voyager/voyager-1-team-unbowed-by-communications-glitch-celebrates-epic-1-light-day-distance-milestone",
-      "dropped_title": "Voyager 1 team, unbowed by communications glitch, celebrates epic 1-light-day distance milestone",
-      "dropped_feed": "Bing News — space",
-      "dropped_link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6affd04ce65e4738b608c1fb7ed6f1aa&url=https%3a%2f%2fwww.space.com%2fspace-exploration%2fvoyager%2fvoyager-1-team-unbowed-by-communications-glitch-celebrates-epic-1-light-day-distance-milestone&c=6865330359545901195&mkt=en-us",
-      "signal": "title-similarity"
+      "kept_title": "'Afterlife with Archie' casts new versions of 'Riverdale' favorites - upi",
+      "kept_feed": "Google News — afterlife",
+      "kept_link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPbXFqUnNTT3pFQW10ZVJlV1RYYk1abTFfeGNfbkFCUno5NlNmcDB0RGE3bWp5LVFkMVZ6RXB5NHdicm4zeGlZWktpd0toSGttSGtrV0l2M3NPbjNsTU9vSlliMzdUaElhd0tIM21WWGtwR0RXZGdjQXhlSi1DSEZ1dlg1SlVwWkFic3lVNDhHRXkzV21fQnVVOGc5Nklad9IBowFBVV95cUxQT2wtV1ZTWDZIV0ZpQ05oQU1jcDcyNi0zZFRDaE1GQTJadEhfUXNIVFdfczBJUUhsdXlTMzZuN0xnRkczbUpROE8wdnVySlVCUk54aER5SThDMVJaQVJlOHU0RTNCSGc2bnpIN0lCZmJCQTFzNGR6WktpVG52SXdfRTVibTNGS0ZRbzAzM0JNdmVnNUdMdGlJOUhRRXkybFp2NHcw?oc=5",
+      "dropped_title": "‘Afterlife With Archie’ Disney+ Series Casts Archie, Veronica, Betty, Jughead and Sabrina - Mezha.net",
+      "dropped_feed": "Google News — afterlife",
+      "dropped_link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNY0VueHJpU2xhajE1TGVGVFpYVG5raG5NTTR3UHY2ejRHQXdnNmVQSjV3N21naVVoWXZVNzR3TjJ4OFgtS2x1YWs2eXJQZWt4bXVneFRGLTJKVURKWC15ZjB2VlpnbXUybnBfelBOOUpLN0NhRVk2WlFzbElOVmpUNjNyTmZwV28?oc=5",
+      "signal": "aggregator-event"
+    },
+    {
+      "kept_title": "'Afterlife with Archie' casts new versions of 'Riverdale' favorites - upi",
+      "kept_feed": "Google News — afterlife",
+      "kept_link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPbXFqUnNTT3pFQW10ZVJlV1RYYk1abTFfeGNfbkFCUno5NlNmcDB0RGE3bWp5LVFkMVZ6RXB5NHdicm4zeGlZWktpd0toSGttSGtrV0l2M3NPbjNsTU9vSlliMzdUaElhd0tIM21WWGtwR0RXZGdjQXhlSi1DSEZ1dlg1SlVwWkFic3lVNDhHRXkzV21fQnVVOGc5Nklad9IBowFBVV95cUxQT2wtV1ZTWDZIV0ZpQ05oQU1jcDcyNi0zZFRDaE1GQTJadEhfUXNIVFdfczBJUUhsdXlTMzZuN0xnRkczbUpROE8wdnVySlVCUk54aER5SThDMVJaQVJlOHU0RTNCSGc2bnpIN0lCZmJCQTFzNGR6WktpVG52SXdfRTVibTNGS0ZRbzAzM0JNdmVnNUdMdGlJOUhRRXkybFp2NHcw?oc=5",
+      "dropped_title": "Disney+’s New Riverdale Reboot Officially Casts Archie, Jughead, Betty & Veronica - ScreenRant",
+      "dropped_feed": "Google News — afterlife",
+      "dropped_link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQSVRfRFhiX1Y0VmJLREhYUzVqRW1IN0pMNDZGazZoRjZDbkhXbHM3NURmbk93aEY4VHQ1MTByYlBwQzAySGtaQkFaaF9SRVpmY0RDVmpHTnE2SmhZcGd5ZXgtc19PdGJyQ19MWVpRMjFxZXp0ajNQWk5KQWJuclhISzZWdExsWjRKYk9ZdFk4NGNyWXBMZTJMOUZ0VHJSREJiazFESVpjaVBPOXNsM0E?oc=5",
+      "signal": "aggregator-event"
+    },
+    {
+      "kept_title": "'Afterlife with Archie' casts new versions of 'Riverdale' favorites - upi",
+      "kept_feed": "Google News — afterlife",
+      "kept_link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPbXFqUnNTT3pFQW10ZVJlV1RYYk1abTFfeGNfbkFCUno5NlNmcDB0RGE3bWp5LVFkMVZ6RXB5NHdicm4zeGlZWktpd0toSGttSGtrV0l2M3NPbjNsTU9vSlliMzdUaElhd0tIM21WWGtwR0RXZGdjQXhlSi1DSEZ1dlg1SlVwWkFic3lVNDhHRXkzV21fQnVVOGc5Nklad9IBowFBVV95cUxQT2wtV1ZTWDZIV0ZpQ05oQU1jcDcyNi0zZFRDaE1GQTJadEhfUXNIVFdfczBJUUhsdXlTMzZuN0xnRkczbUpROE8wdnVySlVCUk54aER5SThDMVJaQVJlOHU0RTNCSGc2bnpIN0lCZmJCQTFzNGR6WktpVG52SXdfRTVibTNGS0ZRbzAzM0JNdmVnNUdMdGlJOUhRRXkybFp2NHcw?oc=5",
+      "dropped_title": "‘Afterlife With Archie’ Disney+ Series Casts Its Archie, Veronica, Betty, Jughead & Sabrina - Deadline",
+      "dropped_feed": "Google News — afterlife",
+      "dropped_link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQMk15aDlxZkMyVVY5MWJHcHN0XzhNMnI4OVJudVF3aEVJOXVUakxGWEM1TkdrZHJYdFF3aVRISEZVcGZKbmFDXzFZZGVZTmxKV3pjTHRNV2xNdFlBSWFXNXhONjFIYTMwMFpFWUZKUkZuZ0hsZFNvVTlRM3Bvbk00WHV2RlRSamhONVk0T3d2Nnk?oc=5",
+      "signal": "aggregator-event"
+    },
+    {
+      "kept_title": "Astronomers Witness Giant Star ‘Eat’ Another Star - Newsweek",
+      "kept_feed": "Google News — astronomy",
+      "kept_link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQMDBMMUYtaGtFXzk1STVTXzF5X2hVcE5lUEZjREdRT0FyMGxGeGpCekJ0OXdrTU5uTzlzcXNZQ0o0MDhqNlFWRWdLRUprSkJNNUVjSUdrMGhJWHFvU3hQdmpndkE1RGJ1ZFBhNFhJdHJMc1FpUFNEZGxHY2RzNGxYUzQyanUtbnk5?oc=5",
+      "dropped_title": "Astronomers Watch a Giant Star Swallow Its Companion for the First Time - Technology Org",
+      "dropped_feed": "Google News — astronomy",
+      "dropped_link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPaFZ4eERxVFdxT1ptVThXOE53X2lrb0VaTkIxLWF1Y0ZMbTZvZU1LRVJ4ajNYZEJnYzQ2bHV2cmptWGk1clpqTER4MVhHR3kyc2o0eHRUbVAzZGlkUzE3SUstRHo1R05NM0NPVjVoSDVCRkhCM0xCMkdDZGRxTWxaQVFqbUJkR28yY3NvZUMwUEZNejF5SUVDY0xnUUE?oc=5",
+      "signal": "aggregator-event"
     },
     {
       "kept_title": "Lake Pelku",
@@ -328,61 +135,34 @@
       "signal": "title-similarity"
     },
     {
-      "kept_title": "Astronomers just witnessed a dying star gobble up its neighbor in real time - Scientific American",
-      "kept_feed": "Google News — astronomy",
-      "kept_link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQdEJadEpsdUFSaV9Rb2E4OFR4dFRpaE50TDlzWWhLV2Z4d05RbXR1clNWVGQxOFotekg4WGRfT3hzU2tnWnEzUFpvaWFULXZaWEo3OU9qWGdNZGRGeWtTZklTaEU4V2paLVo1WnM0U250b3ppZkV2cXVSVktYSk9rOFJOOWRsZGRzZVQyX0lWMjc1LXNvSHdYZ1pQVEhzV3JwZmI5Um96dUNkZm9YN3RYZkM2NGFYeU9qMlZz?oc=5",
+      "kept_title": "Astronomers discover remarkable triple-star system just 28 light-years from Earth",
+      "kept_feed": "Phys.org — Space News",
+      "kept_link": "https://phys.org/news/2026-11-astronomers-remarkable-triple-star-years.html",
       "dropped_title": "Astronomers discover remarkable triple-star system just 28 light-years from Earth - Phys.org",
       "dropped_feed": "Google News — astronomy",
       "dropped_link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQZDE0R0prM0lJRXpfMmU4Rl8waVZmNzB3X2ExLTlMaGN0eENEaWkxZFZEbk16d1VnOGc4ZTlaVVJfTjdCSUNkYl93WDNZY0tTNENuaGZOUjUxSEJnVy0yQld5ZThUWG4zSnMzakd2S0VHLXNZQTJzYXBRSWJaeUIzYQ?oc=5",
+      "signal": "title-similarity"
+    },
+    {
+      "kept_title": "Empire State Building glows gold for NASA's Voyager spacecraft | Space photo of the day for Nov. 19, 2026",
+      "kept_feed": "Space.com",
+      "kept_link": "https://www.space.com/space-exploration/voyager/empire-state-building-glows-gold-for-nasas-voyager-spacecraft-space-photo-of-the-day-for-nov-19-2026",
+      "dropped_title": "Empire State Building glows gold for NASA's Voyager spacecraft | Space photo of the day for Nov. 19, 2026 - Space",
+      "dropped_feed": "Google News — space",
+      "dropped_link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPcFpXcUtlYWNUQzYtU2pFR3d0ZGZ6MHEwenU2U3Zfa2dDZUk0QWlQM0FaLUtkTVVJbHNOR19zUGl4Sjd2N01Uc0FYOVkwaUN5M1JJSnd6ZUZsQjlzUWJyTGRRMnhSRDJXa3RtREIxcndzZnVTSGlkX1V4OUZrR0Nnc2QyZUV4WXZrVVFIMlRvc3BNdnZGWVI5OXlnRV95c3hHdFNpMzJIYzVQSDFLb2JjdnNQTmpIVjQ1aEdHRkc2ODQ2VElQU29JaW5UUzRxQmViMXpYVnlCcVFpdURuQ0IzTmNn?oc=5",
+      "signal": "title-similarity"
+    },
+    {
+      "kept_title": "USDA Meteorologist Brad Rippey says Strong El Niño Brings Winter Moisture Relief and Spring Severe Weather Risks - Oklahoma Farm Report",
+      "kept_feed": "Google News — extreme weather",
+      "kept_link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxNR003bG5JN2JneWlrdGpKQUVaMFJmeHdaQTlKQU1JS0doOE00c00zVUl2MlpDSTkyNU9zRGU1R3hSbkdURHZZd0hjSE1ZMThUVG1jZ21mOXh1Y19VMDFlOFVFUkRfN0p5bzZRNldta25sSFFYc05rNWNlVnVKWlpuYXNULVU3ZUh1d045S21JQ0tOdER6NDhVZEdqdHBicEVTZksySGtXQk41enF3RmJYSm81WFNsd1E1czFsbjdldUNQLUlXZGMzcTlmRmlic0t3eUYyYy10cXFDS0N5MHRzV2ZMRnlhZUxBai1fT3FoeVY?oc=5",
+      "dropped_title": "Nine U.S. states experience extreme weather linked to El Niño - Peoples Gazette Nigeria",
+      "dropped_feed": "Google News — extreme weather",
+      "dropped_link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNTHhWTGtEVmRuaU9ubXpaWWxOUURuWG0yU0ZhWnVkMFJNTkwxbXFvaDhJZGg1WTNRSWUwYlBJcjA2N2R6NGhWeTgyaEpSRldhdGotVWdvTjlUaWxJb25sLU5zVlFpV1J2MDBWV0FYWjAzX0tPYkZhOHJOQktpOTFMWnFDQkVRbndrelVlQg?oc=5",
       "signal": "aggregator-event"
     },
     {
-      "kept_title": "On this day in space! Nov. 19, 2005: Japan's Hayabusa spacecraft makes 1st-ever liftoff from surface of an asteroid",
-      "kept_feed": "Space.com",
-      "kept_link": "https://www.space.com/space-exploration/on-this-day-in-space-november-19-2005",
-      "dropped_title": "On this day in space! Nov. 19, 2005: Japan's Hayabusa spacecraft makes 1st-ever liftoff from surface of an asteroid",
-      "dropped_feed": "Bing News — space",
-      "dropped_link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6affd04ce65e4738b608c1fb7ed6f1aa&url=https%3a%2f%2fwww.space.com%2fspace-exploration%2fon-this-day-in-space-november-19-2005&c=12411538746128513649&mkt=en-us",
-      "signal": "title-similarity"
-    },
-    {
-      "kept_title": "ESA's Hera probe uses 'superhuman' vision to inspect NASA's asteroid crash site",
-      "kept_feed": "Phys.org — Space News",
-      "kept_link": "https://phys.org/news/2026-11-esa-hera-probe-superhuman-vision.html",
-      "dropped_title": "ESA's Hera Probe Uses \"Superhuman\" Vision to Inspect NASA's Asteroid Crash Site",
-      "dropped_feed": "Universe Today",
-      "dropped_link": "https://www.universetoday.com/articles/esas-hera-probe-uses-superhuman-vision-to-inspect-nasas-asteroid-crash-site",
-      "signal": "title-similarity"
-    },
-    {
-      "kept_title": "Euclid's hunt for strong gravitational lenses is off to a strong start",
-      "kept_feed": "Phys.org — Space News",
-      "kept_link": "https://phys.org/news/2026-11-euclid-strong-gravitational-lenses.html",
-      "dropped_title": "Euclid's Hunt for Strong Gravitational Lenses is Off to a Strong Start",
-      "dropped_feed": "Universe Today",
-      "dropped_link": "https://www.universetoday.com/articles/euclids-hunt-for-strong-gravitational-lenses-is-off-to-a-strong-start",
-      "signal": "title-similarity"
-    },
-    {
-      "kept_title": "NASA conducts latest RS-25 engine test in support of future Artemis missions",
-      "kept_feed": "Phys.org — Space News",
-      "kept_link": "https://phys.org/news/2026-11-nasa-latest-rs-future-artemis.html",
-      "dropped_title": "NASA Conducts Latest RS-25 Engine Test in Support of Future Artemis Missions",
-      "dropped_feed": "NASA Breaking News",
-      "dropped_link": "https://www.nasa.gov/image-article/latest-rs-25-engine-test-in-support-of-future-artemis-missions/",
-      "signal": "title-similarity"
-    },
-    {
-      "kept_title": "NASA’s Voyager 1 Makes History Reaching One Light-Day from Earth - NASA Jet Propulsion Laboratory (JPL) (.gov)",
-      "kept_feed": "Google News — space",
-      "kept_link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQelRGOHJxbEMwRVBiLWxqbGw2Mk81cEY2bTlWbWxCS3pqQnQ3SktsaUp6ZGEwblYyV2g5THBxT25jVDM4QUNPdlZBVC1HTEdKMFNDMElwSHQ5bFJnOG1ubXBad19ZSzlQOEwyMms0QVE3VjBrUkpQRjM5WlBUaVJhZ252ZHFUV0ZOM0djSFJZWWRzN2JrYjRFR1BR?oc=5",
-      "dropped_title": "NASA’s Voyager 1 Makes History Reaching One Light-Day From Earth",
-      "dropped_feed": "NASA Breaking News",
-      "dropped_link": "https://www.nasa.gov/news-release/nasas-voyager-1-makes-history-reaching-one-light-day-from-earth/",
-      "signal": "title-similarity"
-    },
-    {
-      "kept_title": "Your Energy in One Word, Based on Your Birth Month - Parade Magazine",
+      "kept_title": "Your Energy in One Word, According to Your Birth Month - Parade Magazine",
       "kept_feed": "Google News — astrology",
       "kept_link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9KTGJ0VGF3YktLdUppRHIxQW1LVUhRRk1ROWZwdXFlT1c1M1RHbHB0TUF2VTdfVXpXT0F2cDlIeVgwX1BPY3BrUzVwV21yaWNQNElXMElfWDBBdFRKdUViTzlkeE14LVRv?oc=5",
       "dropped_title": "What You'll Manifest Before 2026 Ends, According to Your Birth Month - Parade Magazine",
@@ -391,58 +171,22 @@
       "signal": "aggregator-event"
     },
     {
-      "kept_title": "The view from the tower: Watch Starship come in for chopsticks catch in epic slo-mo video",
+      "kept_title": "Nonprofit Common Space will launch 1st 'humanitarian satellite' in 2027",
       "kept_feed": "Space.com",
-      "kept_link": "https://www.space.com/space-exploration/launches-spacecraft/the-view-from-the-tower-watch-starship-come-in-for-chopsticks-catch-in-epic-slo-mo-video",
-      "dropped_title": "The view from the tower: Watch Starship come in for chopsticks catch in epic slo-mo video",
-      "dropped_feed": "Bing News — space",
-      "dropped_link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6affd04ce65e4738b608c1fb7ed6f1aa&url=https%3a%2f%2fwww.space.com%2fspace-exploration%2flaunches-spacecraft%2fthe-view-from-the-tower-watch-starship-come-in-for-chopsticks-catch-in-epic-slo-mo-video&c=12550263451395733472&mkt=en-us",
+      "kept_link": "https://www.space.com/space-exploration/satellites/nonprofit-common-space-will-launch-1st-humanitarian-satellite-in-2027",
+      "dropped_title": "Nonprofit Common Space will launch 1st 'humanitarian satellite' in 2027 - Space",
+      "dropped_feed": "Google News — space",
+      "dropped_link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQaTV1Uk1NbGkwNnpFQTJCZ3dudHBQT2hITmFQclpDX0ZUejlRRU02OHNVcGNXTGxGc2JMUS1FLVJNRHN4TEJVNUhVTnhjdTlWckRzVVhveDZBOUdDaGV0UFkxcWtoLUJXTU9FX1ZTRjRoeExIUU5lUHVQbldlRFZqTG50ZHVfUzQyQjYtWFdoczI2Q1NVWHhXNVhiLVJOejR5X1p5b1F5SGRaeWc0cUkyQzFEY196VlBTVjZWcA?oc=5",
       "signal": "title-similarity"
     },
     {
-      "kept_title": "No more asteroid landing: Engine trouble forces Japan's Hayabusa2 probe to change plans",
+      "kept_title": "What's next for NASA interstellar Voyager 1 probe after passing 1 light-day from Earth?",
       "kept_feed": "Space.com",
-      "kept_link": "https://www.space.com/space-exploration/asteroid-comet-missions/no-more-asteroid-landing-engine-trouble-forces-japans-hayabusa2-probe-to-change-plans",
-      "dropped_title": "No more asteroid landing: Engine trouble forces Japan's Hayabusa2 probe to change plans",
-      "dropped_feed": "Bing News — space",
-      "dropped_link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6affd04ce65e4738b608c1fb7ed6f1aa&url=https%3a%2f%2fwww.space.com%2fspace-exploration%2fasteroid-comet-missions%2fno-more-asteroid-landing-engine-trouble-forces-japans-hayabusa2-probe-to-change-plans&c=15818218054216963773&mkt=en-us",
+      "kept_link": "https://www.space.com/space-exploration/voyager/whats-next-for-nasa-interstellar-voyager-1-probe-after-passing-1-light-day-from-earth",
+      "dropped_title": "What's next for NASA interstellar Voyager 1 probe after passing 1 light-day from Earth? - Space",
+      "dropped_feed": "Google News — space",
+      "dropped_link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPOFY4dUlhdHViWlp6MEs0QVkxSFRONlNOaG82QWVpZTlSVE83dUlTeG5rcm8zTXZlNV85Z2Y2RzRHUzRLRmVidEVZcVQtYVlnSm94dFlyOFNMVjF0dzRlTVo3OFFHVVpFdXRSU19CcmhEMFBvSGZ4aG5BNlVvemdBNVFsRk5wbnFMZk5SQUVxa3d5dWhaN2UzYzJNUGtOdlV6LWxuUV93WEFwWk9yeXQ5UnpHZXRsMlpDNXZxQWpTVlRzdFhXS05BWjBiZFd1Zw?oc=5",
       "signal": "title-similarity"
-    },
-    {
-      "kept_title": "China rolls out rocket for launch of 1st international astronaut to Tiangong space station (video)",
-      "kept_feed": "Space.com",
-      "kept_link": "https://www.space.com/space-exploration/human-spaceflight/china-rolls-out-rocket-for-launch-of-1st-international-astronaut-to-tiangong-space-station-video",
-      "dropped_title": "China rolls out rocket for launch of 1st international astronaut to Tiangong space station (video)",
-      "dropped_feed": "Bing News — space",
-      "dropped_link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6affd04ce65e4738b608c1fb7ed6f1aa&url=https%3a%2f%2fwww.space.com%2fspace-exploration%2fhuman-spaceflight%2fchina-rolls-out-rocket-for-launch-of-1st-international-astronaut-to-tiangong-space-station-video&c=5490236693270480572&mkt=en-us",
-      "signal": "title-similarity"
-    },
-    {
-      "kept_title": "Religiosity and Spirituality Linked to Higher Quality of Life in Older Adults - Bioengineer.org",
-      "kept_feed": "Google News — spirituality",
-      "kept_link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPazdqQ1ctSmMzR3FucHFyenc4U05iR1hXUlJkenltTDNzZ3Q5M0w1TEhVenFEaHNpLWpkRFFGMWFWbzkxWnpiRG4wVUlZWGJnNWJaUXV5bGYyUHFsWWpaaFlZbjUyekdZdHBzdVM2SS0yVTZwb29ZS0Fsa2FWWDZXUXNWMW85Mk9NQkdpU3pOQzdZMXc4c215ZGppOW1EbkI5Skh1Yg?oc=5",
-      "dropped_title": "Spirituality and religiosity associated with better quality of life in older adults",
-      "dropped_feed": "Bing News — spirituality",
-      "dropped_link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6affd04cf33c454da62357248606f53e&url=https%3a%2f%2fphys.org%2fnews%2f2026-11-spirituality-religiosity-quality-life-older.html&c=12106902474837712006&mkt=en-us",
-      "signal": "title-similarity"
-    },
-    {
-      "kept_title": "Your Daily Horoscope by Madame Clairevoyant: November 19, 2026 - The Cut",
-      "kept_feed": "Google News — astrology",
-      "kept_link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPeEJKSUp3eFhENEJOUTNCRkhoUzFEakdWY0RELVo5Nno1V2UtamhkR2toV3UwWFFIQ2xnMl9iU0dZSGg2MHQxdC00MlFMbk42YVpQUlpxQmo0dzhBdGJ3T01CaVJLTjRmcnlWSHZ4SjdfNTBpeEN3YUl5NHlDblBodXdRZHYzeTJvSHBGekJfdmdxZS1oMGhn?oc=5",
-      "dropped_title": "Horoscopes Today, November 19, 2026 - USA Today",
-      "dropped_feed": "Google News — astrology",
-      "dropped_link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNSElFeHU1N1Jwc0lpR3JKUWJncllRYjNTQlpWRnZCenpEMWVBY3Bwdld3V3VLQlY1emhvWHNhYURTRTg1S3p4ZXdiRUtqNDBkZmkzREZJNms5dFlmV2hVaDFpUEVEcWZWNmNxUUZpT1VaRUZNWDVwcVpwVUE5QUVhbkRiNWZ1YlRmUVRXMW9naEQ?oc=5",
-      "signal": "aggregator-event"
-    },
-    {
-      "kept_title": "Your Daily Horoscope by Madame Clairevoyant: November 19, 2026 - The Cut",
-      "kept_feed": "Google News — astrology",
-      "kept_link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPeEJKSUp3eFhENEJOUTNCRkhoUzFEakdWY0RELVo5Nno1V2UtamhkR2toV3UwWFFIQ2xnMl9iU0dZSGg2MHQxdC00MlFMbk42YVpQUlpxQmo0dzhBdGJ3T01CaVJLTjRmcnlWSHZ4SjdfNTBpeEN3YUl5NHlDblBodXdRZHYzeTJvSHBGekJfdmdxZS1oMGhn?oc=5",
-      "dropped_title": "Daily Astrology News Alert, 19 November 2026: Aquarius Moon Faces Mars, Jupiter and Ketu Across the Zodia - The Times of India",
-      "dropped_feed": "Google News — astrology",
-      "dropped_link": "https://news.google.com/rss/articles/CBMizgJBVV95cUxOa0lVRGVYWl9DT3NtemZQOVB1ZWVUd0ZqZWZYV09OOXBGMWEtTFJOWG9KNHJrYlhIS2txa05rMXFRRnZsQ0k4VnRlTmllVWN5V3kzVFV0eDZQUFROTThLcUxSeUR5TDZIMzl1WGt4NVI1UDBuVi1hYWphdFVLZFdiRU1IVnBaYWlwN1F0eVdXZW9PNkhTZjlWMDVGdzNJZkRwMFYyb2wxdmoyNVEwV3ZzaEtOVy1lRUQxVDM2b19HejhTOTRaLWpzVTdMX0I2aHdkdk1JWWJycl9na3NsOWNxQUpvTlFtbmx1ZEpfUmZVUnlGZk4zUnd3V1R2eFhVVXhuOWJYUlg3cmdKbTJDeTFXYXM1clU2czJjdk04ZFcxOWZ2QWtaZ25fam9ucW5UTTczS2x5TnhYLXRTd3Y3di1XVmI4WGxoZHg4SXd2M0Z30gHTAkFVX3lxTE5xTFJYTEtFZHpBdEl4WU1fNzl1cjJZUTFST3ctUEVrbC1vUlN5WjJTOGhQR3lTWDF1Q3RIWEhFQjl4SUQ2a0RCTl9oY2xBUlFxU1dpRXB4d0I3MDR5akdHRzI0encxT0U1dU5yQ1dMbm53LTc0bkt3TVo2Sy04WE5NTm9aNHlhaXFFLTJPYXdBZWUxUU5CajlLdmtZaEJDekNMYVFkdzQyOHdNVmNESy1CWHU2cUg4Nng1cG9VWHVKdGdhbnNTaEx3Q01ZZjU1NGZMdnIyWVFKbXFUa3gxekJjZnFhVDBVeVVwREJ3YnZBLVI0QW4wTXlHRFRSS0F1NkdlQmw2ZXZlbVVoUnRvdFpTQmdsZGdiZnFSNUYxNG9xUkU5d1ptTnJoNjhRVno3clJpQ0VhdjlBSThkNVB3Z09BeWtLclZJYUE4RDFRc3dsZEFqTQ?oc=5",
-      "signal": "aggregator-event"
     },
     {
       "kept_title": "Get $400 off the first Vaonis Vespera Pro model ahead of Black Friday — only eight left in stock",
@@ -450,27 +194,99 @@
       "kept_link": "https://www.space.com/stargazing/skywatching-kit/get-400-off-the-first-vaonis-vespera-pro-model-ahead-of-black-friday-2026",
       "dropped_title": "Get $400 off the first Vaonis Vespera Pro model ahead of Black Friday — only eight left in stock",
       "dropped_feed": "Bing News — space",
-      "dropped_link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6affd04ce65e4738b608c1fb7ed6f1aa&url=https%3a%2f%2fwww.space.com%2fstargazing%2fskywatching-kit%2fget-400-off-the-first-vaonis-vespera-pro-model-ahead-of-black-friday-2026&c=3627963272281829486&mkt=en-us",
+      "dropped_link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aff2e925e1244ae9d7f02b47e4be0bd&url=https%3a%2f%2fwww.space.com%2fstargazing%2fskywatching-kit%2fget-400-off-the-first-vaonis-vespera-pro-model-ahead-of-black-friday-2026&c=3627963272281829486&mkt=en-us",
+      "signal": "title-similarity"
+    },
+    {
+      "kept_title": "Daily Astrology News Alert, 19 November 2026: Aquarius Moon Faces Mars, Jupiter and Ketu Across the Zodia - The Times of India",
+      "kept_feed": "Google News — astrology",
+      "kept_link": "https://news.google.com/rss/articles/CBMizgJBVV95cUxOa0lVRGVYWl9DT3NtemZQOVB1ZWVUd0ZqZWZYV09OOXBGMWEtTFJOWG9KNHJrYlhIS2txa05rMXFRRnZsQ0k4VnRlTmllVWN5V3kzVFV0eDZQUFROTThLcUxSeUR5TDZIMzl1WGt4NVI1UDBuVi1hYWphdFVLZFdiRU1IVnBaYWlwN1F0eVdXZW9PNkhTZjlWMDVGdzNJZkRwMFYyb2wxdmoyNVEwV3ZzaEtOVy1lRUQxVDM2b19HejhTOTRaLWpzVTdMX0I2aHdkdk1JWWJycl9na3NsOWNxQUpvTlFtbmx1ZEpfUmZVUnlGZk4zUnd3V1R2eFhVVXhuOWJYUlg3cmdKbTJDeTFXYXM1clU2czJjdk04ZFcxOWZ2QWtaZ25fam9ucW5UTTczS2x5TnhYLXRTd3Y3di1XVmI4WGxoZHg4SXd2M0Z30gHTAkFVX3lxTE5xTFJYTEtFZHpBdEl4WU1fNzl1cjJZUTFST3ctUEVrbC1vUlN5WjJTOGhQR3lTWDF1Q3RIWEhFQjl4SUQ2a0RCTl9oY2xBUlFxU1dpRXB4d0I3MDR5akdHRzI0encxT0U1dU5yQ1dMbm53LTc0bkt3TVo2Sy04WE5NTm9aNHlhaXFFLTJPYXdBZWUxUU5CajlLdmtZaEJDekNMYVFkdzQyOHdNVmNESy1CWHU2cUg4Nng1cG9VWHVKdGdhbnNTaEx3Q01ZZjU1NGZMdnIyWVFKbXFUa3gxekJjZnFhVDBVeVVwREJ3YnZBLVI0QW4wTXlHRFRSS0F1NkdlQmw2ZXZlbVVoUnRvdFpTQmdsZGdiZnFSNUYxNG9xUkU5d1ptTnJoNjhRVno3clJpQ0VhdjlBSThkNVB3Z09BeWtLclZJYUE4RDFRc3dsZEFqTQ?oc=5",
+      "dropped_title": "Free Will Astrology (Week of November 19) - Las Vegas Weekly",
+      "dropped_feed": "Google News — astrology",
+      "dropped_link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPaGJwNk9nVHJvTWlaYmNXMzRaamxzUGlDTktPSWRIelZSVGdFeExpV3VHd3d2RGI0ZXFHYms0N0xKaVgzUW1uc3RfVG8xVGI1RWh5YmhHN0FvanY2MkdKNXd4dGs5cTBsTHhKajN2c18yaU52ZWhLLWY5a3VfU2lTSk9FanB5XzI3MEE?oc=5",
+      "signal": "aggregator-event"
+    },
+    {
+      "kept_title": "The Sky Today on Thursday, November 19: Mercury moves into Libra - Astronomy Magazine",
+      "kept_feed": "Google News — astronomy",
+      "kept_link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNQ0lHQUFmeGVHOU9LdFhkeW51MnpQUXYxUm5SUHFoY0lwRG1paGtiUm9QTU1qTExHbWszZVVHQVJDTE9PVHJoVVZpQXBqRkpSd240X1hCMURBZ3kyaXp6clJwS3gtbnNOT3ZJVzV5R0NyQnFyS1dQNS1CZlcycnhTNlR3?oc=5",
+      "dropped_title": "The Sky Today on Thursday, November 19: Mercury moves into Libra",
+      "dropped_feed": "Astronomy Magazine",
+      "dropped_link": "https://www.astronomy.com/observing/the-sky-today-thursday-november-19-2026/",
+      "signal": "title-similarity"
+    },
+    {
+      "kept_title": "Don't miss Saturn shine close to the moon on Nov. 20",
+      "kept_feed": "Space.com",
+      "kept_link": "https://www.space.com/stargazing/dont-miss-saturn-shine-close-to-the-moon-on-nov-20",
+      "dropped_title": "Don't miss Saturn shine close to the moon on Nov. 20",
+      "dropped_feed": "Bing News — space",
+      "dropped_link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aff2e925e1244ae9d7f02b47e4be0bd&url=https%3a%2f%2fwww.space.com%2fstargazing%2fdont-miss-saturn-shine-close-to-the-moon-on-nov-20&c=3856032604825183848&mkt=en-us",
+      "signal": "title-similarity"
+    },
+    {
+      "kept_title": "Astronomers have caught a star exploding in a distant galaxy. It could help them tell how fast the Universe is expanding - BBC Sky at Night Magazine",
+      "kept_feed": "Google News — astronomy",
+      "kept_link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFB3V3ozUVdoVTV3SHNZMnZyWFNhaFRNUW4wUUx4VU9WS1UxVjE3bGNkUDdibzFla1hubzB5bXF3X3NxVzdsbEdhZkw1WmxQblNpUU1zc09PN2xKNFJoX2xwQkRFR0RzT1VHaWlsRWFR?oc=5",
+      "dropped_title": "Astronomers spy a ‘bomb exploding inside a living star’ during colossal merger in Andromeda galaxy - Starlust.org",
+      "dropped_feed": "Google News — astronomy",
+      "dropped_link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNXzc4X0Q3ZFhUMWd0YUJab2JpbkxEMG9XTDZmUFNFU3Y2YjFtR1EzcjhCMlZtMnlxYzR4MmNvTnRLRGxsLUg2Z0VzRm9kM0ItVERkLVBTRVRMekRmVjJmNmxISmlhT3djVC1MWXJlaXBtb05CbHlodHZrMzVoRkdyZzVpQjJnZklxM0xIb0lHaVR1TU5uYTJBMjFNX3gzRWE3Z1g3MTZ2RnU1Q2tGcFVOSDkxUEc4ZzRwUUE?oc=5",
+      "signal": "aggregator-event"
+    },
+    {
+      "kept_title": "Netflix's '3 Body Problem' season 2 trailer gives us a release date and a chilling warning: 'They are coming to exterminate us'",
+      "kept_feed": "Space.com",
+      "kept_link": "https://www.space.com/entertainment/space-movies-shows/netflixs-3-body-problem-season-2-trailer-gives-us-a-release-date-and-a-chilling-warning-they-are-coming-to-exterminate-us",
+      "dropped_title": "Netflix's '3 Body Problem' season 2 trailer gives us a release date and a chilling warning: 'They are coming to exterminate us'",
+      "dropped_feed": "Bing News — space",
+      "dropped_link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aff2e925e1244ae9d7f02b47e4be0bd&url=https%3a%2f%2fwww.space.com%2fentertainment%2fspace-movies-shows%2fnetflixs-3-body-problem-season-2-trailer-gives-us-a-release-date-and-a-chilling-warning-they-are-coming-to-exterminate-us&c=11491439369155993835&mkt=en-us",
+      "signal": "title-similarity"
+    },
+    {
+      "kept_title": "Daily Astrology News Alert, 19 November 2026: Aquarius Moon Faces Mars, Jupiter and Ketu Across the Zodia - The Times of India",
+      "kept_feed": "Google News — astrology",
+      "kept_link": "https://news.google.com/rss/articles/CBMizgJBVV95cUxOa0lVRGVYWl9DT3NtemZQOVB1ZWVUd0ZqZWZYV09OOXBGMWEtTFJOWG9KNHJrYlhIS2txa05rMXFRRnZsQ0k4VnRlTmllVWN5V3kzVFV0eDZQUFROTThLcUxSeUR5TDZIMzl1WGt4NVI1UDBuVi1hYWphdFVLZFdiRU1IVnBaYWlwN1F0eVdXZW9PNkhTZjlWMDVGdzNJZkRwMFYyb2wxdmoyNVEwV3ZzaEtOVy1lRUQxVDM2b19HejhTOTRaLWpzVTdMX0I2aHdkdk1JWWJycl9na3NsOWNxQUpvTlFtbmx1ZEpfUmZVUnlGZk4zUnd3V1R2eFhVVXhuOWJYUlg3cmdKbTJDeTFXYXM1clU2czJjdk04ZFcxOWZ2QWtaZ25fam9ucW5UTTczS2x5TnhYLXRTd3Y3di1XVmI4WGxoZHg4SXd2M0Z30gHTAkFVX3lxTE5xTFJYTEtFZHpBdEl4WU1fNzl1cjJZUTFST3ctUEVrbC1vUlN5WjJTOGhQR3lTWDF1Q3RIWEhFQjl4SUQ2a0RCTl9oY2xBUlFxU1dpRXB4d0I3MDR5akdHRzI0encxT0U1dU5yQ1dMbm53LTc0bkt3TVo2Sy04WE5NTm9aNHlhaXFFLTJPYXdBZWUxUU5CajlLdmtZaEJDekNMYVFkdzQyOHdNVmNESy1CWHU2cUg4Nng1cG9VWHVKdGdhbnNTaEx3Q01ZZjU1NGZMdnIyWVFKbXFUa3gxekJjZnFhVDBVeVVwREJ3YnZBLVI0QW4wTXlHRFRSS0F1NkdlQmw2ZXZlbVVoUnRvdFpTQmdsZGdiZnFSNUYxNG9xUkU5d1ptTnJoNjhRVno3clJpQ0VhdjlBSThkNVB3Z09BeWtLclZJYUE4RDFRc3dsZEFqTQ?oc=5",
+      "dropped_title": "Your Daily Singles Horoscope for November 19, 2026 - Yahoo",
+      "dropped_feed": "Google News — astrology",
+      "dropped_link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPSjMyNk9ZTzVBOEt3Qjc2WWtLTFdncHlJWUctOTVEb3NZTmYwZmhOWHFaTTNUeW1CcS1FQmotcmNCZFQ1d3J5SmVjYm5PeEtYaTFvc2pIbzF0WElvRURwc0lUcGdOUlhNNjZIanlsNzc3bFI0N0Q0b0Rpb1g0SXVYdjhhWHZMdkVWbHl6NnREVGtla1VGRlE?oc=5",
+      "signal": "aggregator-event"
+    },
+    {
+      "kept_title": "Empire State Building glows gold for NASA's Voyager spacecraft | Space photo of the day for Nov. 19, 2026",
+      "kept_feed": "Space.com",
+      "kept_link": "https://www.space.com/space-exploration/voyager/empire-state-building-glows-gold-for-nasas-voyager-spacecraft-space-photo-of-the-day-for-nov-19-2026",
+      "dropped_title": "Empire State Building glows gold for NASA's Voyager spacecraft | Space photo of the day for Nov. 19, 2026",
+      "dropped_feed": "Bing News — space",
+      "dropped_link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aff2e925e1244ae9d7f02b47e4be0bd&url=https%3a%2f%2fwww.space.com%2fspace-exploration%2fvoyager%2fempire-state-building-glows-gold-for-nasas-voyager-spacecraft-space-photo-of-the-day-for-nov-19-2026&c=6491394937544317335&mkt=en-us",
+      "signal": "title-similarity"
+    },
+    {
+      "kept_title": "Nonprofit Common Space will launch 1st 'humanitarian satellite' in 2027",
+      "kept_feed": "Space.com",
+      "kept_link": "https://www.space.com/space-exploration/satellites/nonprofit-common-space-will-launch-1st-humanitarian-satellite-in-2027",
+      "dropped_title": "Nonprofit Common Space will launch 1st 'humanitarian satellite' in 2027",
+      "dropped_feed": "Bing News — space",
+      "dropped_link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aff2e925e1244ae9d7f02b47e4be0bd&url=https%3a%2f%2fwww.space.com%2fspace-exploration%2fsatellites%2fnonprofit-common-space-will-launch-1st-humanitarian-satellite-in-2027&c=13331708556775149216&mkt=en-us",
       "signal": "title-similarity"
     }
   ],
-  "articles_written": 254,
+  "articles_written": 271,
   "excerpt_over_limit": 0,
-  "images_logged": 142,
-  "images_usable": 4,
-  "images_hero_eligible": 3,
+  "images_logged": 97,
+  "images_usable": 5,
+  "images_hero_eligible": 5,
   "terms_breakdown": {
-    "full_text": 40,
-    "abstract": 0,
-    "excerpt": 214
+    "full_text": 15,
+    "abstract": 103,
+    "excerpt": 153
   },
   "topic_breakdown": {
-    "Space & Astronomy": 64,
-    "UFOs & UAPs": 7,
-    "Consciousness": 79,
-    "Near-Death Experiences": 9,
-    "Physics & Preprints": 3,
-    "Science & the Future": 92
+    "Space & Astronomy": 48,
+    "UFOs & UAPs": 4,
+    "Consciousness": 37,
+    "Near-Death Experiences": 4,
+    "Physics & Preprints": 105,
+    "Science & the Future": 73
   },
   "articles_without_topic": 0
 }
