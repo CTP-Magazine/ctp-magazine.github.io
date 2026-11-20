@@ -246,6 +246,10 @@ button, [role="button"], select, summary, input:not([type="checkbox"], [type="ra
       .ad .ad-line { font-size: 12.5px; color: var(--muted); display: block; margin-top: 2px; }
       .ads-note { font-family: "Share Tech Mono", monospace; font-size: 11px; color: var(--muted); text-transform: uppercase; letter-spacing: 1px; margin-bottom: 10px; }
 
+      /* ---------- CTPVerse Sites rotator ---------- */
+      .ctpsites-link { display: block; line-height: 0; }
+      .ctpsites-link img { display: block; width: 100%; height: auto; aspect-ratio: 1 / 1; object-fit: cover; }
+
       /* ---------- Footer ---------- */
       footer.site-foot {
         margin: 4px 0 0; border: 1px solid var(--border-soft); background: var(--surface);
@@ -991,6 +995,11 @@ button, [role="button"], select, summary, input:not([type="checkbox"], [type="ra
             </a>
           </div>
         </section>
+
+        <section class="module" aria-label="CTPVerse Sites">
+          <div class="module-title">CTPVerse Sites</div>
+          <div class="module-body" style="line-height:0;"><a id="ctpsitesLink" class="ctpsites-link" href="https://ctpverse.github.io/" target="_blank" rel="noopener" title="CTPVerse Dashboard — visit the site" aria-label="CTPVerse Dashboard"><img id="ctpsitesImg" src="https://ctpverse.github.io/assets/branding/ctpverse-org-avatar.jpg" alt="CTPVerse Dashboard" width="1024" height="1024" /></a></div>
+        </section>
       </aside>
 
       <!-- ================= CENTER COLUMN ================= -->
@@ -1733,6 +1742,40 @@ button, [role="button"], select, summary, input:not([type="checkbox"], [type="ra
             listEl.appendChild(p);
             if (countEl) countEl.textContent = 'Loading…';
           });
+      })();
+    </script>
+    <script>
+      /* CTPVerse Sites random rotator — picks a random sister site every 5s,
+         never the one currently showing; plain static swap, no fade. */
+      (function () {
+        var sites = [
+          { name: "CTPVerse Dashboard", href: "https://ctpverse.github.io/", img: "https://ctpverse.github.io/assets/branding/ctpverse-org-avatar.jpg" },
+          { name: "CTP-EOS", href: "https://ctp-eos.github.io/", img: "https://ctp-eos.github.io/assets/branding/ctp-eos-triangle-logo.jpg" },
+          { name: "FIN-DSP", href: "https://fin-dsp.github.io/", img: "https://fin-dsp.github.io/assets/branding/findsp-logo-200x200.jpg" },
+          { name: "CTP Music Portal", href: "https://ctp-music.github.io/", img: "https://ctp-music.github.io/assets/branding/ctp-music-org-avatar.jpg" },
+          { name: "CTP Space Systems", href: "https://ctp-space-systems.github.io/", img: "https://ctp-space-systems.github.io/assets/branding/ctp-space-systems-org-avatar.jpg" }
+        ];
+        var link = document.getElementById("ctpsitesLink");
+        var img = document.getElementById("ctpsitesImg");
+        if (!link || !img) return;
+        var idx = 0;
+        function show(i) {
+          idx = i;
+          var s = sites[i];
+          img.src = s.img;
+          img.alt = s.name;
+          link.href = s.href;
+          link.title = s.name + " — visit the site";
+          link.setAttribute("aria-label", s.name);
+        }
+        function randomNext() {
+          if (document.hidden) return;
+          if (window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches) return;
+          var n = idx;
+          while (n === idx) { n = Math.floor(Math.random() * sites.length); }
+          show(n);
+        }
+        setInterval(randomNext, 5000);
       })();
     </script>
   </body>
