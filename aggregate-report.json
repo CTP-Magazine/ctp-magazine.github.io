@@ -1,39 +1,9 @@
 {
-  "generated": "2026-11-20T19:23:23.286754+00:00",
-  "date_checked": "2026-11-20",
+  "generated": "2026-11-21T04:40:09.177766+00:00",
+  "date_checked": "2026-11-21",
   "feeds_total": 114,
-  "feeds_succeeded": 108,
+  "feeds_succeeded": 113,
   "feeds_failed": [
-    {
-      "num": 1,
-      "feed": "NASA Breaking News",
-      "url": "https://www.nasa.gov/rss/dyn/breaking_news.rss",
-      "error": "HTTPError: HTTP Error 429: Too Many Requests"
-    },
-    {
-      "num": 2,
-      "feed": "NASA Image of the Day",
-      "url": "https://www.nasa.gov/rss/dyn/lg_image_of_the_day.rss",
-      "error": "HTTPError: HTTP Error 429: Too Many Requests"
-    },
-    {
-      "num": 3,
-      "feed": "NASA — main news feed",
-      "url": "https://www.nasa.gov/feed/",
-      "error": "HTTPError: HTTP Error 429: Too Many Requests"
-    },
-    {
-      "num": 4,
-      "feed": "NASA — International Space Station",
-      "url": "https://www.nasa.gov/missions/station/feed/",
-      "error": "HTTPError: HTTP Error 429: Too Many Requests"
-    },
-    {
-      "num": 5,
-      "feed": "NASA — Artemis",
-      "url": "https://www.nasa.gov/missions/artemis/feed/",
-      "error": "HTTPError: HTTP Error 429: Too Many Requests"
-    },
     {
       "num": 17,
       "feed": "Space Daily",
@@ -41,44 +11,116 @@
       "error": "HTTPError: HTTP Error 403: Forbidden"
     }
   ],
-  "items_fetched": 1955,
-  "duplicates_removed": 65,
-  "near_duplicates_removed": 29,
+  "items_fetched": 2021,
+  "duplicates_removed": 80,
+  "near_duplicates_removed": 25,
   "near_duplicate_groups": [
     {
-      "kept_title": "Drenching rain expected up the East Coast through the weekend - The Washington Post",
-      "kept_feed": "Google News — extreme weather",
-      "kept_link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPcmhpUEhJdDFVbUdhcjhWelNyWkFtTkZ4Mll5QlE3WDd4UXhzNTZBOTBQVXJxR2JKSGVuR01jbUktdkdUdGlsS1FERFczcFNROWY4enF2WnlGcDBJSzhoSnN0RGRtTDFfcFIwdTZzTHphSEVRYm9rdVQ1WHNNUEtYdzBHaE95aUZWTmp0ZEthMzl2dzVzQUd5aTRwWXJEQUtBSTdqYjNacw?oc=5",
-      "dropped_title": "Flooding moving inland in Florida as rain finally lets up - FOX Weather",
-      "dropped_feed": "Google News — extreme weather",
-      "dropped_link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBGSTZoSWxqT1VFQm9GTjF3NUF4R1ZJT3RiSHVLdGZ0LVlJMjJxTXU1cGxtT0FjZWU3a2w2ejZxaGRLWTlfejlubzZXNkdiTUV6ZzlTblZWMnNxUkU4T2c0eW1Mdw?oc=5",
-      "signal": "aggregator-event"
+      "kept_title": "After 8 years in space, a groundbreaking X-ray telescope finally opens its eyes - ScienceDaily",
+      "kept_feed": "Google News — space",
+      "kept_link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9DVVhGVkMzMFlMUDU2WnlNdjFlRjM1Nms5TzRFR1dRQkdncktXbG5Eb3ZPYTJiVmJLQnhBcE5Rd19NTEhrRUVKa3E5WTRGU3owelVpdVFGLXZVamh6WlFmX2hDZ1lhLXlWSXhabnZjRQ?oc=5",
+      "dropped_title": "After 8 years in space, a groundbreaking X-ray telescope finally opens its eyes",
+      "dropped_feed": "ScienceDaily — Space & Time",
+      "dropped_link": "https://www.sciencedaily.com/releases/2026/11/261120075547.htm",
+      "signal": "title-similarity"
     },
     {
-      "kept_title": "New UFO files show Pentagon contractor planned underground vault for \"exotic material\" - CBS News",
-      "kept_feed": "Google News — UAP",
-      "kept_link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9BOW5WalR5OTNvRllrZGdYWUxjYk41ckR3QUNIQ2ZLWXQxZzlXSEtjSVU4VWg2RlNmYXBpVzJEN01CdXFtZGlBQWt5Y2NNeFprbUJGdnBTakJITmxhbVVVRUtjeWpiMHZYbVNz?oc=5",
-      "dropped_title": "Pentagon Publishes More UFO Files Amid Growing Public Curiosity - KFI AM 640",
-      "dropped_feed": "Google News — UAP",
-      "dropped_link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQcldEcVlXSnhhdnRCSFZmNzh0emFHNnFCMm9mWUJHMnVyNGQzLXR6a250R1c3UmVHQVEzbFRENlVaZldFWVY0UUoyOU9PX2tDMV9ISGFPSXpQcU5feXN5MHE0Y3BjZDN1NjlSMVVCMlpkaHU4NGMycE5jT2FrOUZWTjgxQXFVTDFjaEVDeXBPaWJNd2pMWmdnVWJDQW1uOW52dnNKOFM5dm5kWE9RQml2bA?oc=5",
-      "signal": "aggregator-event"
-    },
-    {
-      "kept_title": "Horoscope Today: Daily astrological predictions for November 21, 2026 - The Times of India",
+      "kept_title": "Daily Horoscope for November 21, 2026 - The Virginian-Pilot",
       "kept_feed": "Google News — astrology",
-      "kept_link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNYlFZdkhGVlB2Z2I0dnRic0ZKYjQtQTI2d1M5T2dLbnpRNnRkcVQyVnhOeExONGFITDd6TEszeE1rUkh1MkZyZTlSU0UzcU9tcVFWR0VBcDluS09yT2d0cU04cHlDV1FvZnNRcHhETktCd0pQVS01bmQ4NzFZMlV2TUlYb0ZrVGdGSzBobktNRHdjRE8tUG1VSzNnY3o5Z0FPVDNRUTFNbFlCV09fLTB6WkxHeHFxd2RHS2J4cllTRWhjQTNTVXdMb1lUZ2NJcmZlNFpBczM2a01Wb3I1NEh4dXd5SdIB6AFBVV95cUxQUUM2Y2lpU2dEQUpBak5BZmpXanY0TW9pV0tscEVvMld4Q3ZVUThTZ3EwdnhPaDFmNkoySlQ5NDhOZ2tkR2VCbW5DdVQ5VWdJODRtcV9wTTUyWUliT3J5NW9mdXRCYWpXdEtkdVNUVkZfY0hRZEJud3BacEtHSWxXN1FzbnZRRzAxZUY0ZEtUeGZXdEZZeW45TlJJamp1MG51Sk1JQnVIVUZGM0lDdTZVZVE4SWs1anFiRjNIbHdBbUdoMmt3Uy1QS2NPMW81VEpCX2RfcVNGLTRYTndOVURSYmtmMll5dDcw?oc=5",
-      "dropped_title": "Daily Chinese Horoscope, 20th November: Earth Dog Day Rewards Honesty, as Horses and Tigers Gain Trust Wh - The Times of India",
+      "kept_link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQMjhwaUpfaTc1OTc2SldqbzVzd09aNVlZSGZHZ3g1YzBMVE1halJjSHdjcUJIc0Q3Tjdad0ZEUEdaSktUSVhTSXBnWmtwWUZOVUdBemRyamsxRlFqRk5FNmhSUHFCeW54WDgyREQ3MUVVSERXMTFkeW8xYzR0U0xQMTV3?oc=5",
+      "dropped_title": "Daily Horoscope for November 21, 2026 - Chicago Tribune",
       "dropped_feed": "Google News — astrology",
-      "dropped_link": "https://news.google.com/rss/articles/CBMiwwJBVV95cUxOdDZNNTNka0NqUDZUZUU1VGktb3J2VWh0N0pjVHdHazhvQmRYcnlWVnpfNnFvdUZpbzFLN3RyTmZ6cTFUbTNEWWxYSWo5d1pDMmg2d2c3SnhwRUJlMmt4MGZjYk1ITGJHbEFHZE5YZDN1XzVVby1Vb3VXUTFMQk4xeWp1cmFJeUNDYllhcGRPWEpwc1phdU5FT0d2al9VeVlHTUI2bElWNjg3UnJUYW5ESlhCVEsxQjdJOFRLaEgxNVZPNUNFclZCcTNwb05lVkJoa2gtNEItelQ3WjRJeXRFNzBWYzY5a0pGNTNIUTUzWk1YN2p2TlZ4NGtCNzVkRGQ0YmgzZlRHZ3BXbFhPMW1DT1dPbWdtcXNVa21MY1Q0YVFpbUVkQ05KTG13YnRoZWxtX095a3c2ZkJMb2FwTlpmcU91SdIByAJBVV95cUxNQ3U5Nzl4UlBiT0tyclVVdGh0NGFnNkY1SWNCUVR5M0pUZVJyaFpCUHdHRXBfX2M0THhoRkRQcng5bmxzblVWaHlVUDRzRG8yOWk5X3U1MGxtejhLV0MwQTRuTmFBNEZjdDlLT0JIMUtlNndmNUd1X3Q4bkZ6Mk96RXphdFdxMWFNT0tkczRiMVlmdE5keW1fNWJKR2FLNUdXXzdhaTgteU9Bek8wd2pGbjU0YW1EdEJQcUtMQUdRcEZIR1U2dDloRW0zQ2lxTUhnYmJtR2dMNDRjZ0N4MGp6TkMyWmpHX1U2eDlzd2hlN3FtWG9DcXBrUzdpeU5PemVoVU5PWDUzLUlIdEpMRjdQdTZGSUdSNTBTM0llNk1RVWh3eTRrbjRnbkE1VzlRUk40RDBmRzJwZVdWWGtoZDAwUHB5SXM4X2Yw?oc=5",
+      "dropped_link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPVVZYZ1FwZ1M4R0xUT1NjLUpVTGxFdWdFOHFWbGVVLUNQVFZXek9pelo0c096TGtsQ1ZVTFM3bG5MNUQ4dlJxYVh3YlJMdjBhMmRnRU9xdG03cjczbGNsSS1PN2QtRlNpRFVGTDNTWjl1ZHRIUDlqQXh6Y25MQVh3ejJBRGRuUQ?oc=5",
+      "signal": "title-similarity"
+    },
+    {
+      "kept_title": "US releases 1953 report on dark, elliptical UFO and CIA records in new Pentagon files - Interesting Engineering",
+      "kept_feed": "Google News — UAP",
+      "kept_link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOZW02WFg4U2dhbUlsYUV6SDdncWlCNW51bmNXM0tfR1l2dHBWNENLN0JFZkhzMWF6VEpkV0JUTGZxNVdUd0ZhTTlBazlwbnEtc05oa3kyRVFZMDUxeWEtMFBKMlB4VnIxa0lfWHBGa2o4MHlHZTcwaWJDRVhLbEZ5dVdsSzVNd05oQlFCaVU5b1JMMkVhNzF3dXF3?oc=5",
+      "dropped_title": "New Pentagon UFO Files Reveal Plans For Underground Facility To Store 'Exotic' Tissue - HuffPost",
+      "dropped_feed": "Google News — UAP",
+      "dropped_link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOSld0eU4xMVNpRElIWWlqMkFKRklZVjZVUFRnMnJhSnVsbEcyWUMwQjk0TktFdmFIbG90UUNIT3ZXUDk1anU2NFNIUzVrdVF6XzltUzdQZzF1Rm4xMmhkcnRWOWtJQ0ZDMEkxSGU4UjBrU1NvUS1TUGp0ZXdFcVgzNVpJU3pEQ2JIU3RYYnhVZHJuU3o5aUwxeVl30gGfAUFVX3lxTE1ZcUs5b3Fza0E1cTh0dTN1UjFDeWtMNi1PRHVCb0ZCSUxOM1dBekpUTV8tRVpiSFBDVU9wcGZYZEdLWFo4cEdHNXgwVDFFcEdnbTdVelBrdmllLTlFd1huU3dkazR2bXBwbGVRYWowZWd1azVVWGFRVTREeU5raVB0OGxQNV9xODg1V3AzUVJYRUszb1oyVmFzWk9KWlFFNA?oc=5",
       "signal": "aggregator-event"
     },
     {
-      "kept_title": "Pentagon Publishes More UFO Files Amid Growing Public Curiosity - iHeart",
+      "kept_title": "Unforgiving rain brings dangerous flooding to the East Coast of Florida - FOX Weather",
+      "kept_feed": "Google News — extreme weather",
+      "kept_link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE03dUxERUNEc0J4NTZlYkt4bzYySWl5b05rTWFUeWR4bVRpeVNUa19oazJndEl6MlFsbGptVVNVeDFwd1VIaW43Y2JOaS1CaTgtRjc3UnBoOTlUdWEtb2lwUWs2bw?oc=5",
+      "dropped_title": "Drenching rain expected up the East Coast through the weekend - The Washington Post",
+      "dropped_feed": "Google News — extreme weather",
+      "dropped_link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPcmhpUEhJdDFVbUdhcjhWelNyWkFtTkZ4Mll5QlE3WDd4UXhzNTZBOTBQVXJxR2JKSGVuR01jbUktdkdUdGlsS1FERFczcFNROWY4enF2WnlGcDBJSzhoSnN0RGRtTDFfcFIwdTZzTHphSEVRYm9rdVQ1WHNNUEtYdzBHaE95aUZWTmp0ZEthMzl2dzVzQUd5aTRwWXJEQUtBSTdqYjNacw?oc=5",
+      "signal": "aggregator-event"
+    },
+    {
+      "kept_title": "Don't turn the moon into the Wild West, scientists warn",
+      "kept_feed": "Space.com",
+      "kept_link": "https://www.space.com/astronomy/moon/dont-turn-the-moon-into-the-wild-west-scientists-warn",
+      "dropped_title": "Don't turn the moon into the Wild West, scientists warn - Space",
+      "dropped_feed": "Google News — space",
+      "dropped_link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOQUxiNHBVN0NkcXZ6NFB4a2FUNGVMVWYtMEVhcGNMdDEtLVc4U2NIMmU3NHRoU3N2d2gxYzNrRVdySlVwWFpiTzZEcXdBR3AwNlFuZERiYVlSbHROTlh0dUE4U2dlZFBsb2ZiWmVXOTlCYUZrT1kxVWYwTGt6VURQZzM4MGk4a3BTZ3V5SENyeVlfTmdm?oc=5",
+      "signal": "title-similarity"
+    },
+    {
+      "kept_title": "NASA’s new Moon plan is taking shape, but some big questions remain",
+      "kept_feed": "Ars Technica — Science",
+      "kept_link": "https://arstechnica.com/space/2026/11/nasas-new-moon-plan-is-taking-shape-but-some-big-questions-remain/",
+      "dropped_title": "NASA’s new Moon plan is taking shape, but some big questions remain - Ars Technica",
+      "dropped_feed": "Google News — space",
+      "dropped_link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNSkxGaFYxWkctOHJwWWhKV1B4RXhlOVFnLU9SLTl6Nk4ydzl6WnhIXzF6SVVrRnF1enhEVUFJTUIxSHZQSHhOcFR1b3JqZzl5SndtTkxuRWl3VDlzVzd3eU9hRjZxbk9haHdRcm52VnI4Z0dBaWFMbV9CVjBBelV5cmU2ejlzdHJnYkNrVWlEYWg1QWxnVll5dlNrWmE1cDVFXzlTOFRETQ?oc=5",
+      "signal": "title-similarity"
+    },
+    {
+      "kept_title": "Trouble at Mars: NASA's Perseverance rover, Odyssey orbiter halt science work due to glitches",
+      "kept_feed": "Space.com",
+      "kept_link": "https://www.space.com/astronomy/mars/trouble-at-mars-nasas-perseverance-rover-odyssey-orbiter-halt-science-work-due-to-glitches",
+      "dropped_title": "Trouble at Mars: NASA's Perseverance rover, Odyssey orbiter halt science work due to glitches - Space",
+      "dropped_feed": "Google News — space",
+      "dropped_link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOamtDVGFIY24zQVVyR3kwc1Itcjd3MEV1dGZqb0YyR3daM1EyTFN0TzZYc2FYSFZXQndBQkxYNzBrUmpvU3llNk9hYjVsbTc2ZjRZMDh0LUNvUVIteWZiRUM0RF9iRXFrQ0V6YjdSa3ZYek9GUmRWWDFOUG1wTzFER2dkSHJMYjdhTGtwUklxaWI1ZHBEQXVRN294c0NBcUlSeEtGOHBueDhBVEFKQ05pVXNiY1I0S2ZObFp4d21Md2hoUWFINFE?oc=5",
+      "signal": "title-similarity"
+    },
+    {
+      "kept_title": "Meta-Analysis Links Religion and Spirituality to Senior Quality of Life; Next Study May Find No Link - Tech Times",
+      "kept_feed": "Google News — spirituality",
+      "kept_link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPV0xjQXg2WkFkUmV6RHVkdzlmOGViVV92TzNta1Uyd0sxOV9tRHkyRUowdWUxZUFXcXM5bkRwQTc2bTNfLVR6VWRPQ0x6aDh0YlpwanlxSll0S1hwdnNfVGZmQXBNbVhqYk9sUVFWT0dDaTFaaThCTEUyZW5nOFFQWG5ON1ZneEtUczVTUlFva2l1UGMtNUstbnBCZEhjNWozQmJVTEtvUm84d1FZY2NPV3RWYnRqTWI3Slpqd2FwampzbFk0aXl2Q0c2S2FXRTRJR1lXLW1rajJONWNJ?oc=5",
+      "dropped_title": "Meta-analysis links religion and spirituality to senior quality of life; next study may find no link",
+      "dropped_feed": "Bing News — spirituality",
+      "dropped_link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6b0120a55df14e4383ebfc5d4f5675c2&url=https%3a%2f%2fwww.msn.com%2fen-us%2fhealth%2fmindandbody%2fmeta-analysis-links-religion-and-spirituality-to-senior-quality-of-life-next-study-may-find-no-link%2far-AA2hTvMB&c=18235756314952847939&mkt=en-us",
+      "signal": "title-similarity"
+    },
+    {
+      "kept_title": "Daily Horoscope for November 21, 2026 - The Virginian-Pilot",
+      "kept_feed": "Google News — astrology",
+      "kept_link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQMjhwaUpfaTc1OTc2SldqbzVzd09aNVlZSGZHZ3g1YzBMVE1halJjSHdjcUJIc0Q3Tjdad0ZEUEdaSktUSVhTSXBnWmtwWUZOVUdBemRyamsxRlFqRk5FNmhSUHFCeW54WDgyREQ3MUVVSERXMTFkeW8xYzR0U0xQMTV3?oc=5",
+      "dropped_title": "Horoscope Today: Daily astrological predictions for November 21, 2026 - The Times of India",
+      "dropped_feed": "Google News — astrology",
+      "dropped_link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNYlFZdkhGVlB2Z2I0dnRic0ZKYjQtQTI2d1M5T2dLbnpRNnRkcVQyVnhOeExONGFITDd6TEszeE1rUkh1MkZyZTlSU0UzcU9tcVFWR0VBcDluS09yT2d0cU04cHlDV1FvZnNRcHhETktCd0pQVS01bmQ4NzFZMlV2TUlYb0ZrVGdGSzBobktNRHdjRE8tUG1VSzNnY3o5Z0FPVDNRUTFNbFlCV09fLTB6WkxHeHFxd2RHS2J4cllTRWhjQTNTVXdMb1lUZ2NJcmZlNFpBczM2a01Wb3I1NEh4dXd5SdIB6AFBVV95cUxQUUM2Y2lpU2dEQUpBak5BZmpXanY0TW9pV0tscEVvMld4Q3ZVUThTZ3EwdnhPaDFmNkoySlQ5NDhOZ2tkR2VCbW5DdVQ5VWdJODRtcV9wTTUyWUliT3J5NW9mdXRCYWpXdEtkdVNUVkZfY0hRZEJud3BacEtHSWxXN1FzbnZRRzAxZUY0ZEtUeGZXdEZZeW45TlJJamp1MG51Sk1JQnVIVUZGM0lDdTZVZVE4SWs1anFiRjNIbHdBbUdoMmt3Uy1QS2NPMW81VEpCX2RfcVNGLTRYTndOVURSYmtmMll5dDcw?oc=5",
+      "signal": "title-similarity"
+    },
+    {
+      "kept_title": "Pentagon releases declassified UFO files from various federal agencies - ABC News - Breaking News, Latest News and Videos",
       "kept_feed": "Google News — unidentified flying object",
-      "kept_link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNMWYyaWRTQnJkbUtDbGhTYmhEQkpQUENrYzQzdEhPcmlEWkF6SXJWdnhUSEozRmRaeWFYQVk3NXlocDJ1bmFkbF9PZTFXSDFmSjdWWmxyUF80THg3ZldZOU52UVcyN04ycG94dW16OFY4NlRVY1FkTllXeWpuUFFfSU16dHBXdFRhcjVsQllmeHZ6NmpOQm5jZFZPQjdwQnhmNkFDb3hCN3RBQdIBsgFBVV95cUxPRm9ESk81MmtDejBkMDBJVXo1YmpxZy10QUxzdmliUHMzblo3R1J1WU82QmoyVmEyTUpGaFNKQ3VsRm5xWFkzNnNhbWE2Vk91d01BZUtwV0VhZjVzaUpOTDVfQ2t6NTQtaEhWd1A2UHBuSjJkZW9SbzJkQmgwcXNVRTJ0cVFSS3VNNnRsS3pDMkhZZFFIU1pFNGprYVZaUmQwNUUwWWxSeG5lQXU3TmVUSnln?oc=5",
-      "dropped_title": "New UFO files show Pentagon contractor planned underground vault for \"exotic material\" - WINK News - Southwest Florida",
+      "kept_link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQbHVBS3VqSGpNSmgxTWtIa2c3aDI2WE5vS2pfVXRFNjNZd3BlWUdILWh6b245RDMtOXk3Yk91UXktV3k4ckR1dTh1R1lVbFR4MFpLRnhXVmFMMGNsaWs3SXpaTHdzekxQNmRUQkktTHMwTjU3d3V2Z2R4akdIeEM4VGlnNFFzTVVzTXprS1AyT2l3MWdGaDJxUEFiWjBMc3BwMVHSAacBQVVfeXFMUGJvM2xwYk1mVU9OYW1haDlYZlhfaF83ekszcWZrbXRWTzMtZXNOOXNYR1loRThfWElkd3NiVllpX1ZuOGV1eDQ2NHQ5aDR2M1FKZDJmb0Y5TDYzTE53T0lNQ0FvUXQ3QmtYb09QVlRRRGV2eWFjOVJFcUVCVkF1YUlkSkRGclM0eUJVV0VLSl9UZmtBb1ZKUVRtTFhoUUFXWnFiQ1hqSzQ?oc=5",
+      "dropped_title": "New Pentagon UFO Files Show Plans For Underground Tissue And ‘Exotic Material’ Storage - AOL.com",
       "dropped_feed": "Google News — unidentified flying object",
-      "dropped_link": "https://news.google.com/rss/articles/CBMigwJBVV95cUxPcWJVZi05T1FZTWQ4dGVnZU52YlAyWVQ2TmFjeHpDcXg3MG1ydXNFbks5ZHhoM3dIclFIcll2QUxad1FUX2NpdlF0TTRVVW1mdHlsckhHU1R6TjUyRS1KMTlUeFNuUzBwUkwwcXM4cjNlQUk0ejg4dlF2Yl9ZeWNiTkJ0WlYxcUNNZ3VRbTJRMnRIZm5hdWxfWVhaRl9ET1FhajUzM0MxeXo4cjBjdGdYWUNKbXVjbFMzM24tS3dsYTFjZk1YcVZ5OTc0YjctdTU4cGlldHB4cy1NampBVWozcXRiYzg2WUxxM2ktVzlLb3h4c1Y5c25oeVVDZ2pFZDV6SFRV?oc=5",
+      "dropped_link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1Lel9qZXM5c3djZVEwQ3dSTS05YzUyNVBxMkNPSk16S29xVmdmSkhRRmk5WGpQcV8wUENORjFScDJyV1pXMEI3aTVUa19tTkIxQXR4TkVkUzltTnhYaWE3ampCNGZZR0QxRXNFZnUzM3EtaFpwbEJaSHpPdGl1dw?oc=5",
+      "signal": "aggregator-event"
+    },
+    {
+      "kept_title": "Pentagon releases declassified UFO files from various federal agencies - ABC News - Breaking News, Latest News and Videos",
+      "kept_feed": "Google News — unidentified flying object",
+      "kept_link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQbHVBS3VqSGpNSmgxTWtIa2c3aDI2WE5vS2pfVXRFNjNZd3BlWUdILWh6b245RDMtOXk3Yk91UXktV3k4ckR1dTh1R1lVbFR4MFpLRnhXVmFMMGNsaWs3SXpaTHdzekxQNmRUQkktTHMwTjU3d3V2Z2R4akdIeEM4VGlnNFFzTVVzTXprS1AyT2l3MWdGaDJxUEFiWjBMc3BwMVHSAacBQVVfeXFMUGJvM2xwYk1mVU9OYW1haDlYZlhfaF83ekszcWZrbXRWTzMtZXNOOXNYR1loRThfWElkd3NiVllpX1ZuOGV1eDQ2NHQ5aDR2M1FKZDJmb0Y5TDYzTE53T0lNQ0FvUXQ3QmtYb09QVlRRRGV2eWFjOVJFcUVCVkF1YUlkSkRGclM0eUJVV0VLSl9UZmtBb1ZKUVRtTFhoUUFXWnFiQ1hqSzQ?oc=5",
+      "dropped_title": "Pentagon Publishes More UFO Files Amid Growing Public Curiosity - iHeart",
+      "dropped_feed": "Google News — unidentified flying object",
+      "dropped_link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNMWYyaWRTQnJkbUtDbGhTYmhEQkpQUENrYzQzdEhPcmlEWkF6SXJWdnhUSEozRmRaeWFYQVk3NXlocDJ1bmFkbF9PZTFXSDFmSjdWWmxyUF80THg3ZldZOU52UVcyN04ycG94dW16OFY4NlRVY1FkTllXeWpuUFFfSU16dHBXdFRhcjVsQllmeHZ6NmpOQm5jZFZPQjdwQnhmNkFDb3hCN3RBQdIBsgFBVV95cUxPRm9ESk81MmtDejBkMDBJVXo1YmpxZy10QUxzdmliUHMzblo3R1J1WU82QmoyVmEyTUpGaFNKQ3VsRm5xWFkzNnNhbWE2Vk91d01BZUtwV0VhZjVzaUpOTDVfQ2t6NTQtaEhWd1A2UHBuSjJkZW9SbzJkQmgwcXNVRTJ0cVFSS3VNNnRsS3pDMkhZZFFIU1pFNGprYVZaUmQwNUUwWWxSeG5lQXU3TmVUSnln?oc=5",
+      "signal": "aggregator-event"
+    },
+    {
+      "kept_title": "Flooding moving inland in Florida as rain finally lets up - FOX Weather",
+      "kept_feed": "Google News — extreme weather",
+      "kept_link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBGSTZoSWxqT1VFQm9GTjF3NUF4R1ZJT3RiSHVLdGZ0LVlJMjJxTXU1cGxtT0FjZWU3a2w2ejZxaGRLWTlfejlubzZXNkdiTUV6ZzlTblZWMnNxUkU4T2c0eW1Mdw?oc=5",
+      "dropped_title": "Extreme Weather Batters U.S. Coasts, Flooding Florida and California - La Voce di New York",
+      "dropped_feed": "Google News — extreme weather",
+      "dropped_link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOZ3A5bnhma0NIdW1rQ0c0RUprVWVHdjcxSl92SVlvdHc4eW56TURvVHVyTXNlNHYxUFpxREh0cjRSOXNrRW4yMlgyeGMzSXM5bDAxZzVmSkI1YmpTTllZM2V6b25FZXk3MHBwR0doQTVSQXNJZEFGWW5EaTlkVVlodVNPak10RVBXRjlnUkRRbG9IdlVnSnAySWN1aUZ0WmVTdzNHZVYzSjliQWZ5b19mWG1YWVE?oc=5",
       "signal": "aggregator-event"
     },
     {
@@ -91,49 +133,49 @@
       "signal": "title-similarity"
     },
     {
-      "kept_title": "Astronomers find an unusual triple-star system located 28 light-years from Earth - The Brighter Side of News",
-      "kept_feed": "Google News — astronomy",
-      "kept_link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxORUpOTzQwTU41MmtpZ0pfdlZVZkFZd3dhRklmbXdxRmI0UU12NmRUMmNwYzVEbDBtMktScDJpZGc2SmhmMHdUSGxlZHFEeV94R1VOdE0wUi1reXdTYlZiSE1FajlmSjZZZ0pvQnk0clNxNlFkRGtvYWVFR3lORjRseXJZRFlPRnJ6QkNBcHVncWhqcjBWU05QVTV0VGE4bE51UkRZTHpRd215bS1SbWxPcmt5MHVxV29KWnJ3?oc=5",
-      "dropped_title": "A Triple Star System 'That Shouldn't Exist,' Only 28 Light-Years from Earth",
-      "dropped_feed": "Universe Today",
-      "dropped_link": "https://www.universetoday.com/articles/a-triple-star-system-that-shouldnt-exist-only-28-light-years-from-earth",
+      "kept_title": "Flooding moving inland in Florida as rain finally lets up - FOX Weather",
+      "kept_feed": "Google News — extreme weather",
+      "kept_link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBGSTZoSWxqT1VFQm9GTjF3NUF4R1ZJT3RiSHVLdGZ0LVlJMjJxTXU1cGxtT0FjZWU3a2w2ejZxaGRLWTlfejlubzZXNkdiTUV6ZzlTblZWMnNxUkU4T2c0eW1Mdw?oc=5",
+      "dropped_title": "Heavy rain continues to lash Florida as rare flood threat persists - FOX Weather",
+      "dropped_feed": "Google News — extreme weather",
+      "dropped_link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBOMnl3WVVuRUlSdkJBdDdxQ3JqblVaYl9pRkt3NnNqNi1rSmMyX051SFZHejkyTUNnM0Z4Z2ZNODY2M1BhSGY0QUk2SHJnYmEzNTBILXE2eWdLMVRTNFB6Yk4wSQ?oc=5",
+      "signal": "aggregator-event"
+    },
+    {
+      "kept_title": "NASA Honor Awards Ceremony Recognizes Employees at Stennis Space Center",
+      "kept_feed": "NASA Breaking News",
+      "kept_link": "https://www.nasa.gov/centers-and-facilities/stennis/honor-awards-ceremony-at-stennis/",
+      "dropped_title": "NASA Honor Awards Ceremony Recognizes Employees at Stennis Space Center - NASA (.gov)",
+      "dropped_feed": "Google News — space",
+      "dropped_link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQVDV6NV85TVJEbUZJa214TFhxeVZnYTJjbzJEZXVqeTJHaWNtQmE2TllONUV1bm1GcjByRnZqYUlFMEdfY3plR21UTTYzU21tLWFjaVFoU2lDck5UUWgxUXBkUE1XMks5R3FLdkJsdFY1aEVZSFBPNW1ZOWdIZWdsVGNRTTBUZzRDYkxPTXlR?oc=5",
       "signal": "title-similarity"
     },
     {
-      "kept_title": "Astronomers find an unusual triple-star system located 28 light-years from Earth - The Brighter Side of News",
-      "kept_feed": "Google News — astronomy",
-      "kept_link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxORUpOTzQwTU41MmtpZ0pfdlZVZkFZd3dhRklmbXdxRmI0UU12NmRUMmNwYzVEbDBtMktScDJpZGc2SmhmMHdUSGxlZHFEeV94R1VOdE0wUi1reXdTYlZiSE1FajlmSjZZZ0pvQnk0clNxNlFkRGtvYWVFR3lORjRseXJZRFlPRnJ6QkNBcHVncWhqcjBWU05QVTV0VGE4bE51UkRZTHpRd215bS1SbWxPcmt5MHVxV29KWnJ3?oc=5",
-      "dropped_title": "A Triple Star System 'That Shouldn't Exist,' Only 28 Light-Years from Earth - Universe Today",
+      "kept_title": "Pentagon releases eighth batch of declassified UFO files including a 1952 CIA flying saucer evaluation report - LiveNOW from FOX",
+      "kept_feed": "Google News — UAP",
+      "kept_link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxORjNxM0ZST2JRVGlVRHpkR1NISWk4OHA2SVkwMzZzZVNPVENTWmNBUl9xd21jb2JWUmhMb05TOWlNSzB5UlFGcGI4am1pcTJ5OVVTaFphYlJrQ0xXVXFoX2dDa2dNRWt2cGhqTGFhMHhzc2t5Q2gwM3h3cUFDNXRtSnE0amE1XzNWOHVneUdR?oc=5",
+      "dropped_title": "New UFO files show Pentagon contractor planned underground vault for \"exotic material\" - CBS News",
+      "dropped_feed": "Google News — UAP",
+      "dropped_link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9BOW5WalR5OTNvRllrZGdYWUxjYk41ckR3QUNIQ2ZLWXQxZzlXSEtjSVU4VWg2RlNmYXBpVzJEN01CdXFtZGlBQWt5Y2NNeFprbUJGdnBTakJITmxhbVVVRUtjeWpiMHZYbVNz?oc=5",
+      "signal": "aggregator-event"
+    },
+    {
+      "kept_title": "NASA's Curiosity Mars Rover Collects Samples",
+      "kept_feed": "NASA Image of the Day",
+      "kept_link": "https://www.nasa.gov/image-detail/pia26804/",
+      "dropped_title": "NASA’s Curiosity Mars Rover Collects Samples",
+      "dropped_feed": "NASA Breaking News",
+      "dropped_link": "https://www.nasa.gov/image-article/nasas-curiosity-mars-rover-collects-samples/",
+      "signal": "title-similarity"
+    },
+    {
+      "kept_title": "Astronomers reveal the oceanic origin of Europa's sodium cloud",
+      "kept_feed": "Phys.org — Space News",
+      "kept_link": "https://phys.org/news/2026-11-astronomers-reveal-oceanic-europa-sodium.html",
+      "dropped_title": "Astronomers reveal the oceanic origin of Europa's sodium cloud - Phys.org",
       "dropped_feed": "Google News — astronomy",
-      "dropped_link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNOUp5cEZNaFU2MVZpQWJtXzVvMTU5TGR3SFFZVm5GYVRBZXk1aF9CZHVCLWdDZTFJeEIxTVdEWFVZdjd3Sk5uRHRfQkVkeHg3UXRfaFhUTThlMWxJbEVac0p4bzBiZzlJaF9IaUYweERFV1lTc0JVOFU0U0FaYW1BN240bmhCM0xCMnR3Sm4xRDNaaklmUEN1SGVSNFNZVk1NMktWQkp5d0ZTS2RsX29v?oc=5",
+      "dropped_link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxObW9oRmRqTDFuS2FHT1QyTHI4ZTB5MkVGakl6Z1BiZkwyMnZRWnNxYXBuNy1QQlhoVG5BcTNHU2IxQ0JERTdEN2NrT2cxaGxuSXJjSGV0UkZlSDBHbXdMRGlOZ0tNeEdwUmYtMXVUVUl6TFlvb1RjSU9RWC1OTzlLQQ?oc=5",
       "signal": "title-similarity"
-    },
-    {
-      "kept_title": "Extreme Weather Batters U.S. Coasts, Flooding Florida and California - La Voce di New York",
-      "kept_feed": "Google News — extreme weather",
-      "kept_link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOZ3A5bnhma0NIdW1rQ0c0RUprVWVHdjcxSl92SVlvdHc4eW56TURvVHVyTXNlNHYxUFpxREh0cjRSOXNrRW4yMlgyeGMzSXM5bDAxZzVmSkI1YmpTTllZM2V6b25FZXk3MHBwR0doQTVSQXNJZEFGWW5EaTlkVVlodVNPak10RVBXRjlnUkRRbG9IdlVnSnAySWN1aUZ0WmVTdzNHZVYzSjliQWZ5b19mWG1YWVE?oc=5",
-      "dropped_title": "Extreme Weather - Rutland Herald",
-      "dropped_feed": "Google News — extreme weather",
-      "dropped_link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQaGNvYnJHRUFiTVhJeUJOb3dadmpUUGFaWTJ5dzI5ZG1VcmVVMW9wS0lWZENjMVVROGNuaURiTWV6Q2VNSlV1RExTOXgxSUFYV0hCdG0wQU5vUk96bnhjV2k5ZEFpN0VxSHlnbGM2eTZXb0d0LTl5RlJaVzc5akhkT2kxNktBaDFyXzNPTl9UU2ZnSzUtR0tUMjNUeDd3a09seVpVTTdDNnQ?oc=5",
-      "signal": "aggregator-event"
-    },
-    {
-      "kept_title": "Extreme Weather Batters U.S. Coasts, Flooding Florida and California - La Voce di New York",
-      "kept_feed": "Google News — extreme weather",
-      "kept_link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOZ3A5bnhma0NIdW1rQ0c0RUprVWVHdjcxSl92SVlvdHc4eW56TURvVHVyTXNlNHYxUFpxREh0cjRSOXNrRW4yMlgyeGMzSXM5bDAxZzVmSkI1YmpTTllZM2V6b25FZXk3MHBwR0doQTVSQXNJZEFGWW5EaTlkVVlodVNPak10RVBXRjlnUkRRbG9IdlVnSnAySWN1aUZ0WmVTdzNHZVYzSjliQWZ5b19mWG1YWVE?oc=5",
-      "dropped_title": "Extreme Weather Florida - Rutland Herald",
-      "dropped_feed": "Google News — extreme weather",
-      "dropped_link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNcHRhSHJEalZtQVpoSjJYVlNKVEZja2lpdVBXclBtMjdNQVRjUHNnaFBOYVBwRWl6T2FtbWJ3dS1YczF2M2JTbjRUa2FTNXVlUW1oMkdXLW5iSkpuQzFxeW1BakV6S2c0ekM2ZTRWeldmVndfazVrY2hkd2puTXUzeUZvbWYxUng5N242cV9GWlFqeTZhLXQ3X0pMeXBPWjVXNEw1czEzZ3N4b1QtZDctUmF5UQ?oc=5",
-      "signal": "aggregator-event"
-    },
-    {
-      "kept_title": "Extreme Weather Batters U.S. Coasts, Flooding Florida and California - La Voce di New York",
-      "kept_feed": "Google News — extreme weather",
-      "kept_link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOZ3A5bnhma0NIdW1rQ0c0RUprVWVHdjcxSl92SVlvdHc4eW56TURvVHVyTXNlNHYxUFpxREh0cjRSOXNrRW4yMlgyeGMzSXM5bDAxZzVmSkI1YmpTTllZM2V6b25FZXk3MHBwR0doQTVSQXNJZEFGWW5EaTlkVVlodVNPak10RVBXRjlnUkRRbG9IdlVnSnAySWN1aUZ0WmVTdzNHZVYzSjliQWZ5b19mWG1YWVE?oc=5",
-      "dropped_title": "Extreme Weather Events Significantly Altered Infectious Disease Transmission Across Mainland China - Bioengineer.org",
-      "dropped_feed": "Google News — extreme weather",
-      "dropped_link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNamlVbjBuZW1rV2tPYWtLTTl6Q0M4blpGcDdfWDJQYXhqUTM4aE5keHpFMFRTWnpaQ1BURXVEN2pTT1RSa1BiaTA3NGtvV0swRU5sRUNPYVhLTmtlOFhTbzJVUFpTcmJ0WnV4emRtODVMR2licFdDQnR3OXp0b19yeFBJZDIxWjNTU2FWSDlKXzhZblppYjV1LTNXeXBtLW9qVEQ2RnpiU0FGLXFzVlVtUlZ3dW1JcEF4YXg1SjZjR1I?oc=5",
-      "signal": "aggregator-event"
     },
     {
       "kept_title": "Rubin brings the universe into focus - Astronomy Magazine",
@@ -142,15 +184,6 @@
       "dropped_title": "Rubin brings the universe into focus",
       "dropped_feed": "Astronomy Magazine",
       "dropped_link": "https://www.astronomy.com/science/rubin-brings-the-universe-into-focus/",
-      "signal": "title-similarity"
-    },
-    {
-      "kept_title": "Is it genuine love—or obsessive passion? Kierkegaard, the father of existentialism, had some thoughts",
-      "kept_feed": "Phys.org — all science",
-      "kept_link": "https://phys.org/news/2026-11-genuine-obsessive-passion-kierkegaard-father.html",
-      "dropped_title": "Is it genuine love – or obsessive passion? Kierkegaard, the father of existentialism, had some thoughts",
-      "dropped_feed": "The Conversation — US",
-      "dropped_link": "https://theconversation.com/is-it-genuine-love-or-obsessive-passion-kierkegaard-the-father-of-existentialism-had-some-thoughts-291950",
       "signal": "title-similarity"
     },
     {
@@ -163,12 +196,30 @@
       "signal": "title-similarity"
     },
     {
-      "kept_title": "Mystery space object moves in strange ways - EarthSky",
-      "kept_feed": "Google News — space",
-      "kept_link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE00UWNfN1RLT0pvR21UNEhZc3FPdFh4ckpLUXliSUh2aEE5c290ZTV0ZFprQkxvMEt5a2VpSFRBSmlDb1hFbHV6OTBqQ3VxWHo0Q2Y2aFlYbm1wREoyLTRCYUlQUlFxbTVFajQ4bVd5ZmtzTDlNcmc?oc=5",
-      "dropped_title": "Mystery space object moves in strange ways",
-      "dropped_feed": "EarthSky",
-      "dropped_link": "https://earthsky.org/space/mystery-space-object-1998-ky26-asteroid/",
+      "kept_title": "On this day in space! Nov. 20, 1998: Russia launches 1st module of International Space Station as construction begins on the largest human-built structure in orbit",
+      "kept_feed": "Space.com",
+      "kept_link": "https://www.space.com/space-exploration/on-this-day-in-space-november-20-2026",
+      "dropped_title": "On this day in space! Nov. 20, 1998: Russia launches 1st module of International Space Station as construction begins on the largest human-built structure in orbit",
+      "dropped_feed": "Bing News — space",
+      "dropped_link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6b0120a5c7ba488ca7c53b77a7889491&url=https%3a%2f%2fwww.space.com%2fspace-exploration%2fon-this-day-in-space-november-20-2026&c=2081000727147877618&mkt=en-us",
+      "signal": "title-similarity"
+    },
+    {
+      "kept_title": "Unidentified Anomalous Phenomena: Eighth Release of UAP Files - Inside Outer Space.",
+      "kept_feed": "Google News — UAP",
+      "kept_link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPZmdJT29UelhnYlhBSVJwVkN5RTZhRU1sMTBPNWNvdUYwQWhSQUw2TG9fZVhMTEdwSnNaeG5mVG42YjhqTV95anpuNzFrdHBHTDVUS0hHTWNZb3ZKTlBTOTZTUjVJQlRPVm9CZWhSY25VV3AyZHRtRG9uSkZXMnRfMzRSR19Gdk9FS3ZtUTFPaThLekJ5?oc=5",
+      "dropped_title": "Department of War Publishes Eighth Release of Unidentified Anomalous Phenomena Files on WA - U.S. Department of War (.gov)",
+      "dropped_feed": "Google News — UAP",
+      "dropped_link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNYjhVNGpDYmwtTWFuOV9NMXJLb2xBVnJQNmtIWDNFQ0pMS0JWbUlRN2d6UW1obW94bERlX2xsa2R5ejFkSEk1LV9lUG02Y0VDNzAyZDMxc25JMG53TlNydnozQlZnZlg3WVp0OUktOHdtUGZrYUppRjJQQU9RYU9aSzVzbzhhOUpYaE1mQm9vMEM1MkhkdlNyVGZOeUJVWWJwUVRENXpJQ0U0WVdmZnQwZ19KcGVsSmpIOVRCTlZDbVd5LVU2UmVvTkFwazFQd3g3SHFj?oc=5",
+      "signal": "title-similarity"
+    },
+    {
+      "kept_title": "Don't turn the moon into the Wild West, scientists warn",
+      "kept_feed": "Space.com",
+      "kept_link": "https://www.space.com/astronomy/moon/dont-turn-the-moon-into-the-wild-west-scientists-warn",
+      "dropped_title": "Don't turn the moon into the Wild West, scientists warn",
+      "dropped_feed": "Bing News — space",
+      "dropped_link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6b0120a5c7ba488ca7c53b77a7889491&url=https%3a%2f%2fwww.space.com%2fastronomy%2fmoon%2fdont-turn-the-moon-into-the-wild-west-scientists-warn&c=4769559001622526115&mkt=en-us",
       "signal": "title-similarity"
     },
     {
@@ -188,142 +239,25 @@
       "dropped_feed": "Google News — afterlife",
       "dropped_link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOcW9Fc0R3Q1BRMER5VVpMSE9xMTZ3alFULTdRRmt3ZUMtekRBOU9pRGZKSUlDcnpKdUFzaWpZN1lrb28xajRHODlhUDRNTVNCUWx5aEZBMDNWVm9KUFAzeHZfUkdmZkE4QkszRUhYV3F5ZGhtQl9SWThWUVp0YlYwaHVVRmlqLWRqWGc?oc=5",
       "signal": "aggregator-event"
-    },
-    {
-      "kept_title": "Afterlife with Archie, Invincible & Yellowjackets: BCTV Daily Dispatch - Bleeding Cool News",
-      "kept_feed": "Google News — afterlife",
-      "kept_link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNYWItYWg1WFNxaHhsdDZ1dnBlb1lWSU5CMWVxcTlUQmJYWXgxcVY1NEpTZ2VMXzRselhHUmlRZFM3LXJjQVhYSXpsN1VnWlJ3WVA2Zk1IYkNOdmZCUnhuY3F1ejE0UjZMUVBDWHZsZFF3dGdCS2h3UVY0eDd4UnNwcUhCTWtkTG5UaHRRMDdNczJXMGRxeUFMdEp3NA?oc=5",
-      "dropped_title": "‘Afterlife With Archie’ Casts Its Archie, Betty and Sabrina - iHorror",
-      "dropped_feed": "Google News — afterlife",
-      "dropped_link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5WeVliN2RGVVNiTnpycWxrNmFubElDVmpjUlkwbEdrYU4wN0VEa2hra29jRVgzNGo0bmEwWDZ1WHl1MDdHYVBuMGlSZWZ3b1RmUWdBUzNCTTBaXzVnaE54WmNCQ19EZkFqTWtSOGZlQ0dLS0RPckpVekRQMA?oc=5",
-      "signal": "aggregator-event"
-    },
-    {
-      "kept_title": "SpaceX Dragon cargo capsule heads home to Earth from the ISS - Space",
-      "kept_feed": "Google News — space",
-      "kept_link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNVnc4S3dTcWU4TkNqaFdkTTFhR3NLbWpYcUpaazFzRnlpMS1PcllMUXZieWxMa0NHSEhZUjZkQkY2b0lGSEEyQk4yNUFsUUYySzRQUWVOS2VHMkItbjNvNWtGc204T0pYZnZ6RHVTdTN5MTNtdmw5UGxhcDdXNDI2clRRaG1wMnJIaXF5VUxkNW5WLWpTM3ByZXRqNVFpaVdfcUFUSU5NNlNwQ2JQc1VzSFVYbU4?oc=5",
-      "dropped_title": "SpaceX Dragon cargo capsule heads home to Earth from the ISS",
-      "dropped_feed": "Space.com",
-      "dropped_link": "https://www.space.com/space-exploration/launches-spacecraft/spacex-crs-35-dragon-iss-cargo-mission-return-to-earth",
-      "signal": "title-similarity"
-    },
-    {
-      "kept_title": "Einstein was right! Scientists verify 1st image of a black hole ever captured",
-      "kept_feed": "Space.com",
-      "kept_link": "https://www.space.com/astronomy/black-holes/einstein-was-right-scientists-verify-1st-image-of-a-black-hole-ever-captured",
-      "dropped_title": "Einstein was right! Scientists verify 1st image of a black hole ever captured - Space",
-      "dropped_feed": "Google News — space",
-      "dropped_link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNaUNwZ1BDZ25mdjU5aHh4YWdqM2xIN1ZGTzRRQ2pXam5YTTNHZDRjVllIYllWV1ZUMWpQOFJJRG9KQkRweloyOGFueHhJakJ3N19sMEpHangtNlkxZ3h5NVdLYzVSTlQ2QkJHNDc5VldpYllkSmtmWHF1alBHRndvck1nVkVmQzNudnh0U0J3SV94VUdMVERheGVSS1NaX2RHN0ZSZ0s5RjdFc0ZiakpsU0lWWmFxRndjNmVYNg?oc=5",
-      "signal": "title-similarity"
-    },
-    {
-      "kept_title": "There's an impostor hiding in the Hyades star cluster. Can you spot it?",
-      "kept_feed": "Space.com",
-      "kept_link": "https://www.space.com/stargazing/theres-an-impostor-hiding-in-the-hyades-star-cluster-can-you-spot-it",
-      "dropped_title": "There's an impostor hiding in the Hyades star cluster. Can you spot it?",
-      "dropped_feed": "Bing News — space",
-      "dropped_link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6b009e1fd6ce47c3ab373b06e41984f5&url=https%3a%2f%2fwww.space.com%2fstargazing%2ftheres-an-impostor-hiding-in-the-hyades-star-cluster-can-you-spot-it&c=5105943950989486179&mkt=en-us",
-      "signal": "title-similarity"
-    },
-    {
-      "kept_title": "Older people with religious or spiritual beliefs enjoy better quality of life, study suggests - CNN",
-      "kept_feed": "Google News — spirituality",
-      "kept_link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQSDFXcElUYkNQQkEtQ0hpYUNLZTZMMjBaaGh2UkhmRHc1b2dKaUUzUklZU2tFMW92NFpta3NXVC1uRHZra3FfY0ZubWwxazJSOW8zZmFaMmJ2Qy05RVpLby1vdV9ITjM2Z3R0dWtTd3dBRWNMQTAyYkw3Y2FZXzlzTE1HQ2dsbk1XNUNWTjFzVGlJMmc?oc=5",
-      "dropped_title": "Regular Spiritual Practice Linked to Higher Quality of Life in Older Adults - Bioengineer.org",
-      "dropped_feed": "Google News — spirituality",
-      "dropped_link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOX05nd19ZLUd5LWVSM0xRY0YzV2g4Q2dUZ243NzBDZ1dvTjczNF96amF0c1dvS2Q5OFlkWTkyOFljRHVnTzVXenRJWFZieEVoZXcyWTRnQ3FoVGhlR3lDaFFXLUw2clo0b1Y2N3dremc0blpvS1NVelRaYlE0ak4xZjQyOHBlc1dmdFVSbUI2eHNVa1BPSHdIQldzazBhZ0RXREE?oc=5",
-      "signal": "aggregator-event"
-    },
-    {
-      "kept_title": "An asteroid sprouts a tail - Astronomy Magazine",
-      "kept_feed": "Google News — astronomy",
-      "kept_link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOTkNiRy1nclhJbkljWFVVcF9lMVNpZDliUG1FSHNNVGRMd1ZFM3gxNUk1U1k4a1NhWVBFUHExYl9fTWZEQ2VTbzRHV3B5cTlkakRBVnJoMXJKLUFlVTVmS3NCRjQ5bTI3ZmZEUW8tUWoxRkRkX0FNTjRjUFlUcmhkQmFlWTQ?oc=5",
-      "dropped_title": "An asteroid sprouts a tail",
-      "dropped_feed": "Astronomy Magazine",
-      "dropped_link": "https://www.astronomy.com/picture-of-the-day/photo/an-asteroid-sprouts-a-tail/",
-      "signal": "title-similarity"
-    },
-    {
-      "kept_title": "Your Daily Horoscope by Madame Clairevoyant: November 20, 2026 - The Cut",
-      "kept_feed": "Google News — astrology",
-      "kept_link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNTVVzdDNfcUtLak54MWRZckFpYnB0a2ozdUJEQmh2MmJNbkk2Wjc0VFdQOHR0MWdfUUloWHh3Wk12eG5SdDlJQTFBTFU5LTNBQm9sdGZNUTE4NFpIWXQ2a0oxN1VSQ3hjX2FiZmVUUFdGNHM3dWhFZVlWNzNfUE9Fak1Xa2wzZVBwMk42ZTEzSEJ6cXRWaEEw?oc=5",
-      "dropped_title": "Horoscopes Today, November 20, 2026 - USA Today",
-      "dropped_feed": "Google News — astrology",
-      "dropped_link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNVy0wbkltSXJTb2pyN2lkaGpxYkZVLVFxY2ZDb2NwVFdYOW9NbXg4bzdEdGhUOFhYekJLaExmNU0ycDlldEpIcUgyR2xwNDc2TU9GYmxvTl9VenFmRWY3NWJIdDNQUHpGTWRwQ0wybVZZRTZZeGd6M3pjNm03Z2lLbDdoN1l4V0Rsa0s4b0xoMmw?oc=5",
-      "signal": "aggregator-event"
-    },
-    {
-      "kept_title": "Your Daily Horoscope by Madame Clairevoyant: November 20, 2026 - The Cut",
-      "kept_feed": "Google News — astrology",
-      "kept_link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNTVVzdDNfcUtLak54MWRZckFpYnB0a2ozdUJEQmh2MmJNbkk2Wjc0VFdQOHR0MWdfUUloWHh3Wk12eG5SdDlJQTFBTFU5LTNBQm9sdGZNUTE4NFpIWXQ2a0oxN1VSQ3hjX2FiZmVUUFdGNHM3dWhFZVlWNzNfUE9Fak1Xa2wzZVBwMk42ZTEzSEJ6cXRWaEEw?oc=5",
-      "dropped_title": "Daily Astrology News Alert, 20 November 2026: Dev Uthani Ekadashi as Moon Joins Retrograde Saturn in Pisc - The Times of India",
-      "dropped_feed": "Google News — astrology",
-      "dropped_link": "https://news.google.com/rss/articles/CBMizwJBVV95cUxOeXpwY3NKTFJtdkZsQjZVY2lWWUE5NUpKODNUMy15SkpzRm9RUlM1bmVGLVZRd19aRzRzSWRqTzFoS1hIOGgzTzlTLVlHSEFzbkNzZTlKWTBTdmhLanlzRkd6SXROUW1tejczTnFtUG1RQ2hHdWJOTFBVX01xaXV6Tm5VR1VLQ2ZqcjBLYjk4RTlndEtsV3dPVVhWVGlFSFNsRWZFWHRkcjdGaTNnNXd2M0w2VEZ5R25ycjNjOFFaSHNnS0o4RDVvZWRCeFhzVkl0VkNLaGsweEx6SERpcEx4Z1F3c0JLbXFYS1A3c1BkeXF2RGRVbjczYWpSTGtOSXdXLUNYRk4xS1RGd2NJaTNaV2wyQi11MUVITFFDbDNDSUNLWXp0dVAwU2JXX2h4RGlQLWFyNHR4cVFEdDlZcV9LTjQ3TllSa3RxSVdJV3NVb9IB1AJBVV95cUxNQTdPblN4SXFrV3JCR2FGd2FQQzU0ZzJ4ajZkYkp5YWpPaHhKZjJPa0xQcUJGRS1kRzJDY2liTExxYk9jRDlPRFNPQnpRbDRJd2cycm10dDNLSW5VR1ZqR2d6bUVuZDlnaWEyNGFuWnFMQW9rZy1uVzdYUkRKX2hDbDJSWWZTMFFxRlRwUEpPX19TSjdfOHRwZ1UwejRxNjV0OFI0aGJDRm9SSDNKR1BxSzAxQkRrVnE2c0lSUFhNSGRPN3k5ZVpVUC14MU1xWWR4bGpkSVpsMzJoNDMzZFhLN3hDQll0cHJJelRMdGtVU2d1WkVvSGRNQzUtU3NSdjhNQWsxWlZfVGEwWlhGMWI2TVNBLXduVmp0SWV1T1huYTFqdjhXZTlVQjRNRkQyMl9lREExVXlsbUg3bTVDUy1IS0JSdG8xY04zeWNqYzkxX2VRNHJf?oc=5",
-      "signal": "aggregator-event"
-    },
-    {
-      "kept_title": "Eighth UAP release includes radar analysis of object traveling near Mach 2.5 - NewsNation",
-      "kept_feed": "Google News — UAP",
-      "kept_link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNU29Xcy1rTWUtWklnbk9oWFJtODkwOTVyNmJPV2RMc1JEVnpVRk5TbEdSbWpGMm4yS3lUR0hhZVVMYkZDTEpSQk5YZG9UOFlrREs2SW9pZ01ZUjNteWZtc2IzSkNrdk1TS1JxNURWbXlPcXNJc2lGNlU1eGdLbWFvbzdCaDVNTTIt0gGOAUFVX3lxTE5VdnhOX1N3NGZmZEROSEJxcElWUFZtMWhuMmc4X2FET19HbGhXNGZ6MXRkQ2M2ak9HSklzay1rd2hVZXhsSUQxNWpwY3FkbEJKWXVKR0E3NHJIS1IwN2kzMlQ1dWxlX3RfR2kxcGtqVDZCVUJ4MTR3UzZmbzZwMTZydUNTZjVwV0JuOVdISVE?oc=5",
-      "dropped_title": "Eighth UAP release includes radar analysis of object traveling near Mach 2.5",
-      "dropped_feed": "Bing News — UAP",
-      "dropped_link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6b009e1fb83a4611a571ab5cd91ca23a&url=https%3a%2f%2fwww.msn.com%2fen-us%2fnews%2fother%2feighth-uap-release-includes-radar-analysis-of-object-traveling-near-mach-25%2far-AA2hSij8&c=3232490611208624458&mkt=en-us",
-      "signal": "title-similarity"
-    },
-    {
-      "kept_title": "Russia is developing a nuclear space weapon, US intelligence report finds",
-      "kept_feed": "Space.com",
-      "kept_link": "https://www.space.com/space-exploration/satellites/russia-is-developing-a-nuclear-space-weapon-us-intelligence-report-finds",
-      "dropped_title": "Russia is developing a nuclear space weapon, US intelligence report finds",
-      "dropped_feed": "Bing News — space",
-      "dropped_link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6b009e1fd6ce47c3ab373b06e41984f5&url=https%3a%2f%2fwww.space.com%2fspace-exploration%2fsatellites%2frussia-is-developing-a-nuclear-space-weapon-us-intelligence-report-finds&c=17912715801815622734&mkt=en-us",
-      "signal": "title-similarity"
-    },
-    {
-      "kept_title": "ISS astronauts look down on the snow-capped Himalayas | Space photo of the day for Nov. 20, 2026",
-      "kept_feed": "Space.com",
-      "kept_link": "https://www.space.com/astronomy/earth/iss-astronauts-look-down-on-the-snow-capped-himalayas-space-photo-of-the-day-for-nov-20-2026",
-      "dropped_title": "ISS astronauts look down on the snow-capped Himalayas | Space photo of the day for Nov. 20, 2026",
-      "dropped_feed": "Bing News — space",
-      "dropped_link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6b009e1fd6ce47c3ab373b06e41984f5&url=https%3a%2f%2fwww.space.com%2fastronomy%2fearth%2fiss-astronauts-look-down-on-the-snow-capped-himalayas-space-photo-of-the-day-for-nov-20-2026&c=9063164321731523707&mkt=en-us",
-      "signal": "title-similarity"
-    },
-    {
-      "kept_title": "Disney +'s ‘Afterlife with Archie’ TV series adaptation will also feature Sabrina Spellman as part of Roberto Aguirre-Sacasa-penned show. Read more below. - Facebook",
-      "kept_feed": "Google News — afterlife",
-      "kept_link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNSHVWbmw2LWEtazhjYnVEb0cyd3NwM2dHY19ydEJFYzVWbUEyN0h6TU5BanBKMU5sZnE1Y2dYYkpETVpqcVhFN0xSTkZCTmZJWm95S3gxVG1OdTQxenlDOVdkeEVyQUN5TWQxQk13cFQ4UVVEalBJWFNuNU9wdzNGTy1EMFExUDNELWZFMlcyMVI2dTRsaXg1QWJwTlg4ZWpic180VldyVjlId0ZUTmVMM3ZocTQzM2gzMWxpX2lnUXc1MkpybVRHV0dybFRkVlhKWTlSaQ?oc=5",
-      "dropped_title": "Afterlife with Archie on Disney+: zombie series cast revealed - IMDb",
-      "dropped_feed": "Google News — afterlife",
-      "dropped_link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBLZk84emhhTmlsTDRYTzNPV2NaQXprU1dhV2o4WWRmaGhXRWx3Y3NNeFRMNkdURmpEMHVPTXhaeGdZVVFCZjRqcUU1TGpkbmlGbXR1a3c0WF9id0pIekFOTEJVakR3X28?oc=5",
-      "signal": "aggregator-event"
-    },
-    {
-      "kept_title": "Experts asked 50 people to draw their near-death experiences – and the strangest pattern emerged - BBC Science Focus Magazine",
-      "kept_feed": "Google News — near-death experience",
-      "kept_link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPZlhIVjlZamgxMVFQa2hMNFhjZ2lVVnd0cllUN3BOTnliSU9ObnlFUkFxZWp0bXBVeEozdTBfWFRQeFFlY2J0NVFpbTdORzJaa0NER0ZBVHk1YlU3aFBJX3AzRWJyRkJ4NGRCeFQxY2VlS05YMHppYTY5d0ZrbXY4cmp3S0dqS0VDY2FURmVQaHh6T2tURWo0eVlFaWVFMWhRN21YRHRvdWdkSW93dURuUU5EaGZMd29JMGdGMHBDeDQ4bFo2Qm40?oc=5",
-      "dropped_title": "Experts asked 50 people to draw their near-death experiences – and the strangest pattern emerged",
-      "dropped_feed": "Bing News — near-death experience",
-      "dropped_link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6b009e1f23f44223a4a4feb7e7d4a9fd&url=https%3a%2f%2fwww.msn.com%2fen-us%2fnews%2fother%2fexperts-asked-50-people-to-draw-their-near-death-experiences-and-the-strangest-pattern-emerged%2far-AA2hR8LJ&c=12943228370267675182&mkt=en-us",
-      "signal": "title-similarity"
     }
   ],
-  "articles_written": 271,
+  "articles_written": 275,
   "excerpt_over_limit": 0,
-  "images_logged": 105,
-  "images_usable": 1,
-  "images_hero_eligible": 1,
+  "images_logged": 130,
+  "images_usable": 4,
+  "images_hero_eligible": 4,
   "terms_breakdown": {
-    "full_text": 31,
-    "abstract": 41,
-    "excerpt": 199
+    "full_text": 36,
+    "abstract": 0,
+    "excerpt": 239
   },
   "topic_breakdown": {
-    "Space & Astronomy": 56,
-    "UFOs & UAPs": 16,
-    "Consciousness": 70,
-    "Near-Death Experiences": 8,
-    "Physics & Preprints": 46,
-    "Science & the Future": 75
+    "Space & Astronomy": 57,
+    "UFOs & UAPs": 29,
+    "Consciousness": 82,
+    "Near-Death Experiences": 7,
+    "Physics & Preprints": 5,
+    "Science & the Future": 95
   },
   "articles_without_topic": 0
 }
