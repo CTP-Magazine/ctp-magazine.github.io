@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-22T03:54:28.885690+00:00",
+  "generated": "2026-11-22T18:47:43.026496+00:00",
   "date_checked": "2026-11-22",
   "feeds_total": 114,
   "feeds_succeeded": 113,
@@ -11,99 +11,234 @@
       "error": "HTTPError: HTTP Error 403: Forbidden"
     }
   ],
-  "items_fetched": 1876,
-  "duplicates_removed": 62,
-  "near_duplicates_removed": 42,
+  "items_fetched": 1887,
+  "duplicates_removed": 64,
+  "near_duplicates_removed": 43,
   "near_duplicate_groups": [
     {
-      "kept_title": "Weekly Chinese Horoscope, November 23rd–29th, 2026: Luck May Rise for Rooster and Pig, While Ox and Drago - The Times of India",
-      "kept_feed": "Google News — astrology",
-      "kept_link": "https://news.google.com/rss/articles/CBMingJBVV95cUxQa292UjlCOHVMbWFOTjJuTlFVWXFNb1dHNkc5M0JfM2VlaUJtWkg3dDFsWDZPaUpGUnhTVHFyZEdRVlYwZ2cybEd6Zld0dVVrTmJPRGJmUEtzMEI0RDVzTEEyZFRQeGtnQWdVV1E3R21vWWkzTzd3ZEt3VHVXTHEtamJZSXhoWGd2MzFibEQ3aEREMFZqalpvay1KQVl4YzJ5dEk4WFVQMkJqbFVwQ05lejgwQTZKYnc1QWpkQUFKOFptc0h1Rk5nSlp0WlNpVTJOQUQ2N1Q3SmY4TUZ5VXh5aGRYa0RFOWpUY25VRUxIU2NMY054TXAwRjl5Y1NLdVA4ZUJrRHB5YklMWjJtc00wRHNwZUVfdjdPd3RmMFpn0gGjAkFVX3lxTE1VUF9NYlFPQTgwTG83MnBHNmVZbkVUVmJjTjY0SjVtLVVRdXFDVzFzSFdHTE90d1JEaVhBbXVRSWV1V1NMV0pzc2c1b1gyX2x4c3NjV0ZDQUtvZmFLTDZDdUppZk1MTmtLLUhGaGM2YjhyMThOcjg1ZDY4LUxYTW1lQlJueU5kUVVLVXFBOGZ6ZUtCM0xfN1RxMUhENjVUQzAwc3M4dlgtcWlLMmR2dUdJNHFyQkhIb2tORWJFcjhsMVVhLVcyOGozemZfNjZtXzdaM2lQSGJ4VkpVSmVUUDZvM0JYSFBBVXI2ck9kV3FYejdyQ1E5TGo3M1ktMVVmWWM4ekMyTi1FZ3p5RTllaHpQdHVEb3U4bUJKU05PUGRkY0tmTQ?oc=5",
-      "dropped_title": "Daily Horoscope for November 22, 2026 - Sun Sentinel",
-      "dropped_feed": "Google News — astrology",
-      "dropped_link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQMmZWSTJ6NXJhZWFpUHpVMTUzRk1JcGI0Q0hYZG1kSVFRSU10N3dGZ3BpNU5BUklLUkR3QVRhSjJaX3Jqd1BtLWZMTjVjMGdIT2VCT0dyNEo1VjBGNGZ3WThZYlBSZXdnaS0tYkNQUDcwVTBBOW0xdWtERjN4MEUzY2xnVQ?oc=5",
-      "signal": "aggregator-event"
-    },
-    {
-      "kept_title": "Quote of the Day From the Bhagavad Gita, November 22, 2026: How to Stay Balanced When Life is Pulling You - The Times of India",
-      "kept_feed": "Google News — astrology",
-      "kept_link": "https://news.google.com/rss/articles/CBMiqgJBVV95cUxOZ1VBQnM0a2NSRWR2d09tNUdWNGFfYU1HM2ktNHcwQXZhcFY4bTVXX2FycE4tTHdXd2VZOWhNTXBOSlZzTjZCdW4tOUlUWDZHdmtaVUtuZkpQM2Z0LTBhV3RNbFQ1SEhHclZ5UW5vcFRrSlk0aVhHVE1QWXBMOTc5T2VLUzNKRzdRWWp2ckpPQkVWS3REV211V2JKM0dUMzhMdTN0X1FCZkJvbVBpSUFHN1FoRlBEMThQb1Aza1FMT2g0b0o2RFVlNVdNR09rM0diVGRBQXBiWmk3VzUwWmlyUmNHeEs4ZGFMSGdPZnZPU1l6WDMzbl85LU9jWmhQY1Jjam1idWNIRVlGVzUzQmNScEJ0RlBFcXJ3RkVKVnFBMzRJNnIxY0ppeXhn0gGvAkFVX3lxTE5FaEdSLS04Q19tRXdlTGFqZHd1RHF4dDNwLWFtYmpraFRMdzhCNzBibVdSOEFuM1VTNFBRLU50eERFQUFNbEh0N0hHOWpZcXJvWnNGV1NLc1BEa1BfcGFSSlMwSjdlcTBLSXhGS21Yc3JBVTh6ZnNPR1hVWUhBa0NmOC1Oa3RmWEpBc2xVTWlVYnhlcXVKX0haMTdJRzRrN3IwSnBZSC0xdDhCMXM5MWZDRmZKblFJWWlTNEt1VUlsWTVfQklzMFRMTXdtaU9YalZ4ekVwOXZMTVRpZTJFMFR6MG5NNWkwOC0yNXBmYjNzeWQyaTFKLXJPQ1k4dGdpRkYzeGFmV29JVThxaU5sTVk4eHExdGFaS0R0TS13YmI3WWw0SldGLVAxQ0J1OHJxbw?oc=5",
-      "dropped_title": "Aquarius Shani Horoscope Today, 22 November 2026: Venus Returns to Libra as Shani Wants a Plain Talk Abou - The Times of India",
-      "dropped_feed": "Google News — astrology",
-      "dropped_link": "https://news.google.com/rss/articles/CBMisgJBVV95cUxQVTk3T2toZnRmY0trQkVvR1JLaEtmX183MUtVQjYtUjBNTEFaZjdmQjJFRW1MYUtvN3ExVXZCRWpKVUd5Nk11azlWejJISTc2ZXdTTXZJWDlJcXlrQW5fTnk5am5OSUtuZlQtZm1KTDdfWjNYd3V3V1FGMW02U2hSX0tNa1JkZkdUZ1JjQnRpRzZIQTlCanE5UGhxejJwSjN4ckZFUXBpLTQ3TzZVRnRQd083V2ltS3diRG9NbzFPSFhiMDB3aDdrT3c2VWNWYmMxbFNLYlNCRlBfdl9XQTV6MG9KMWRNTGZpMF9vLUNNTGFvZkJtUVI0cEFtczhzV3JobTBxRENpdmJPOFBmQ1VpMGxqRV9uOUJWcDV3aXplTGtPcGtnbkFqT3NCT3hZNHBYa3fSAbcCQVVfeXFMTWpqbjI1UTVObGFIeTlqRTd2Rm8wMlc2QlJhX2RJbE10MVNqclZvSjZoNkEwcmI4TmN1dUpLd3BNbW9OY2g0SUNDTVNIeEpfbXhOWGxuR1Y3SzhBYXd4aFcyMkx0dDlNc2hvMFIyZEE4VFk3WGNiQ3h4OXFUcFk5Si1CeS1TOTFrbWc4UUhOMjRDZ3RrYmh2R3BzR3ZLLVdqOW1RaHRrUEdoSEE2VE9iZjgwY090QVZJc0RyWnUweHI3LVJ5cnFrUGt1Mzc1cXRkcXotZmJIWnk0WjB5TE1kSk9sM1BOY052azAzNTNDSWI2UDR5eXVSUWlMQy1kWEgtSTZieXVTNjVnbHRId2UtMkRXVjBHSXBoSXBhOFUwTUktNG8yWDA4WVhSczVEWFhTaXllcl9hOVE?oc=5",
-      "signal": "aggregator-event"
-    },
-    {
-      "kept_title": "Quote of the Day From the Bhagavad Gita, November 22, 2026: How to Stay Balanced When Life is Pulling You - The Times of India",
-      "kept_feed": "Google News — astrology",
-      "kept_link": "https://news.google.com/rss/articles/CBMiqgJBVV95cUxOZ1VBQnM0a2NSRWR2d09tNUdWNGFfYU1HM2ktNHcwQXZhcFY4bTVXX2FycE4tTHdXd2VZOWhNTXBOSlZzTjZCdW4tOUlUWDZHdmtaVUtuZkpQM2Z0LTBhV3RNbFQ1SEhHclZ5UW5vcFRrSlk0aVhHVE1QWXBMOTc5T2VLUzNKRzdRWWp2ckpPQkVWS3REV211V2JKM0dUMzhMdTN0X1FCZkJvbVBpSUFHN1FoRlBEMThQb1Aza1FMT2g0b0o2RFVlNVdNR09rM0diVGRBQXBiWmk3VzUwWmlyUmNHeEs4ZGFMSGdPZnZPU1l6WDMzbl85LU9jWmhQY1Jjam1idWNIRVlGVzUzQmNScEJ0RlBFcXJ3RkVKVnFBMzRJNnIxY0ppeXhn0gGvAkFVX3lxTE5FaEdSLS04Q19tRXdlTGFqZHd1RHF4dDNwLWFtYmpraFRMdzhCNzBibVdSOEFuM1VTNFBRLU50eERFQUFNbEh0N0hHOWpZcXJvWnNGV1NLc1BEa1BfcGFSSlMwSjdlcTBLSXhGS21Yc3JBVTh6ZnNPR1hVWUhBa0NmOC1Oa3RmWEpBc2xVTWlVYnhlcXVKX0haMTdJRzRrN3IwSnBZSC0xdDhCMXM5MWZDRmZKblFJWWlTNEt1VUlsWTVfQklzMFRMTXdtaU9YalZ4ekVwOXZMTVRpZTJFMFR6MG5NNWkwOC0yNXBmYjNzeWQyaTFKLXJPQ1k4dGdpRkYzeGFmV29JVThxaU5sTVk4eHExdGFaS0R0TS13YmI3WWw0SldGLVAxQ0J1OHJxbw?oc=5",
-      "dropped_title": "Daily Horoscope for November 22, 2026 - Orlando Sentinel",
-      "dropped_feed": "Google News — astrology",
-      "dropped_link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNN0ZXcV8yLUF1WWtySDhiOUlMekQ5a1pLMHF3R2N3cHlGT2x0Ukp2VDlCbHdFMmhBcEsyMlZUSUx4cUV2aWNzeVJrZ0JPY04yWTRla2toLVFKcTY5ZFJuSXFvWXU3TFZFVGwyRUpSN1VFT3VfaFkwMVVYdHMtT3dmY05vYjZma1E?oc=5",
-      "signal": "aggregator-event"
-    },
-    {
-      "kept_title": "Religion, spirituality linked to greater life satisfaction among older adults - Scripps News",
-      "kept_feed": "Google News — spirituality",
-      "kept_link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPRjlhcWZGcnBYS0FMdzQ3QWMtbDVqVmI2Mnl0d1o5aHprV1F0bEpQNllqZFZ1UFNOTVlla1QwODFkSnBKUFJ5ME8xWUtWeXFZN1J5bnYwMXJjLVpxTEp5S0p0NnI5Z1dkZXlqSk5VYkQ2YW9mcGZCWnJiLU1aN2hXUktkXzdHNldidmFKZFJVR05SQmFCaFN6WWYzVHctaDZIYUxLQVk5XzFVWldBeVVubmpqQzlKczNJYkdIRHM2YjNUaXVGLTNR?oc=5",
-      "dropped_title": "Religion, spirituality linked to greater life satisfaction among older adults - WPTV",
-      "dropped_feed": "Google News — spirituality",
-      "dropped_link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNYmIzZk5sd2p4clhDY0VfT09qdTBNNmdxWDFMaGxCNTRBbVRKM2x1RzdYTm9Rb0xyT0VjVU15eFRLUC1kX0ZoWDgzOXNXTW5WQnN4cE95TU1ySDM5ZldHRV9ZTGR5b3lseUVDcXN3b1ExS0JUYzdlV09FZS01ZnBNZ2hUR3dSZVdDWXc5OVA2UmRsQjZkek5IdVMxZXU0YmFOWUNJWnhDb1M0dXNwMW1sOGQ4OWE1WGJPYjF6bWV3dm8?oc=5",
+      "kept_title": "Why the failure to reach a major deal at UN climate talks matters as extreme weather worsens - Newsday",
+      "kept_feed": "Google News — extreme weather",
+      "kept_link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPZnZUMGowaFFMMVNYVU5CVTR2ajVPNVhBUzVZTndsUjlyZk1kMS1UckJreXZyc1VSOXBxMmJKYlU3OFRaSlZVWmNpZ0tqRjNReTh1WjczRnF4VFdmeHg5Q2U3Q2NUNENzSzFJZ1IyY2h5eUZnc2NKSjF2VVZiNGJvYk5wUjVuUTlFNWc0bGVB?oc=5",
+      "dropped_title": "Why the failure to reach a major deal at UN climate talks matters as extreme weather worsens - Caledonian Record",
+      "dropped_feed": "Google News — extreme weather",
+      "dropped_link": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxPM0pyREFCSjBoVDJNbGVBV0tZdXppaFpRMWU3dTB1NmExcVVZSUxwQmlOR2IwNGRseEFsX25aTFpQSnRDbWd4WnFUOEg2SDNIa0JRZDdneDM2UjBWQkZCN0xDQUFkZEU2NkxsaVQ1VUJmLURYNFJuU0drNzNZV2xQMml3T1R4cVl5QngxZjcwWW5xZmlkVFdua3doeDMzaHJaZnJmU0RELUJGcll5WkxTbTR2c2pTYlM1LVVoY1FJUml3ZXhqbFRNcjB5aUczMUpzbEhXdmU0Wm5lOV8zbTY4ZWw4NVFVTmFHYndkbElMenFKZFk4bHNYX0NYZzZMRDQ?oc=5",
       "signal": "title-similarity"
     },
     {
-      "kept_title": "Religion, spirituality linked to greater life satisfaction among older adults - Scripps News",
+      "kept_title": "Why the failure to reach a major deal at UN climate talks matters as extreme weather worsens - Newsday",
+      "kept_feed": "Google News — extreme weather",
+      "kept_link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPZnZUMGowaFFMMVNYVU5CVTR2ajVPNVhBUzVZTndsUjlyZk1kMS1UckJreXZyc1VSOXBxMmJKYlU3OFRaSlZVWmNpZ0tqRjNReTh1WjczRnF4VFdmeHg5Q2U3Q2NUNENzSzFJZ1IyY2h5eUZnc2NKSjF2VVZiNGJvYk5wUjVuUTlFNWc0bGVB?oc=5",
+      "dropped_title": "Insurers covered less than 20% of the EU's $1 trillion in extreme weather losses since 1980 - The Cool Down",
+      "dropped_feed": "Google News — extreme weather",
+      "dropped_link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNTTlzWmVIcEt2c3pjS3FvNF9UQnhIc3ZBNVUxM3pyNUp4MGdOU1R0d0xXc0hrV2dpUGZud2w5U1gyNEU3RFo0T0pzSnNGVjh1UFBFcC1JcUFBNlBDTGdLa3RfVU9iQWw3anhTcGpIUmEtdzRVRFgzemdVS0dTTWE2Q3R3eHZJQWNqTng4UQ?oc=5",
+      "signal": "aggregator-event"
+    },
+    {
+      "kept_title": "SpaceX sends classified US spy satellites to orbit in early-morning launch from California coast (video)",
+      "kept_feed": "Space.com",
+      "kept_link": "https://www.space.com/space-exploration/launches-spacecraft/spacex-spy-satellite-launch-nrol-136-proliferated-architecture",
+      "dropped_title": "SpaceX sends classified US spy satellites to orbit in early-morning launch from California coast (video) - Space",
+      "dropped_feed": "Google News — space",
+      "dropped_link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxONEZiYjVhWTBHd18zRFRDbUVLa2NTZ01tb1ZmZ1dQYzhuR0tqbkVELWRfX1ppSEJiZENiSWdJaW9aSE1RdzlfTUwzelNKOXphaVptMENyenR2TEJySXRMb2VYcUpwMjN4bUdzSGRpeFloS1M2QnV2cGVsT2ZpWVdhdzNKQ0VPWDJzTTZlUnpIQUJ3RklLNm9QYmN1RTVtQUxDb0REY2sxOGd5b0kxN0xTSjB5NmcxcmF6dElqeUxFYw?oc=5",
+      "signal": "title-similarity"
+    },
+    {
+      "kept_title": "Pisces Horoscope Tomorrow, November 23, 2026: Pluto in Aquarius Helps You Let Go of an Old Worry - The Times of India",
+      "kept_feed": "Google News — astrology",
+      "kept_link": "https://news.google.com/rss/articles/CBMi1gJBVV95cUxQRGVlWHJPXzd0VVZVVDIwMUkySWMxV0NYU1pqVHMteE1iVGs0VG5xVHNyZ2RQZWVzSjlsamNWUG1MWkhXZlpQT3JibTA5QUtkX2dKR1NNZVc3VTJRbTlFblFpNFdZcnVoZmZlZjZxdmFJTlVjWG9ERS1UT1FESXIySzRHOWFFeHJxZ2dkc2l4c1N4YVpiMkUtcDVZQmhJcnBURWZqOWNPRUVBYVRWSGw4UXo2T01NZ25qNlVFTGZUcWxRTUVzM01oX2ZwZkpoMWQ3LUFBTG8xa1RPNzR3d0s5V2xBWVV1VEEtYUk2NXF2SDFZQndfVjFha21Gby1RY0RIZHVVUGowRmlSR2hXdmdtSm1fMjUwX3V2Njk2WGpvVjg5ZVVJZWF6UXlSdTFFV21VRFRfbUhxWVNUOWFQYWNKSmdhZFAxYWJmSWdfM1JwdmIxcm9uQmfSAYsCQVVfeXFMTlM0YURscWVKcVZfNi1SaGdNVXJSa1gyYVFNTUxJWkRVTWVKMGNreW8wRk5LbkxtT1Jta2xkdDVwT2ZuREIyRHdJd2Fpb2FkNDRQUEJVU1pQbzM3NXoxakZDeXNwbkFCY2d5WDBBbU1hWHBQTngyUVdESW5EMTBVd3Vrcm1sSkh5Sm9GcDY2NVFhdVEwYjdLNzdpU0ZrTmduRklGaDUyb2g4ajVQUUwtTzVvMWtPMW8yanNZVWt0aUR5d3VMbU4xVGEwa1BzZHpmcUVSOVp3cHNDcVJ4ZVdMSHFINS1CdDIzdGVLeVo0cW5nczR1V01xdDFlTklUd1RfMHNOQUJMemZUSDdB?oc=5",
+      "dropped_title": "Aquarius Horoscope Tomorrow, November 23, 2026: Late Moon Square Pluto Leaves a Family Tension to Settle - The Times of India",
+      "dropped_feed": "Google News — astrology",
+      "dropped_link": "https://news.google.com/rss/articles/CBMikAJBVV95cUxQeDN0ekpRN05QTUhjcEJ0VHNhcEtMd2ZNTVQwbG9LMFZJQ3l1YXhMT2xWTzR6UlZtZ0lsT1U3YnF4WF9DaFNEaHFvNHJSbldNaHF3NUVsVVlGM3pxMTJ6TXdnVVB4akRwalVlbHVzT1F6Tm1XY1F1QmdWTW5IR0pKUV8tMThWT2R0a3Y4Q01yZ1ZfVzNaengzS3hGclRyWHRqWGcyVGVIUHg0TDF5RW56T1hRamR2eldzdlR4S25YWERka3MzMFJQREFMYVpyN0I2VTJ3dl80cmE5LXpYM2V3NVlnNk1hMGlmZ1hpS2djYVFrOVYzV2N5alJMMVRUWHczSXdSOWFkeUtaY3hzdWZSZNIBlgJBVV95cUxNSFl1aURscFlKY21YYmNla3haM0dhUE9tNHdnTVA2Qmt5QkxQR0ZMSGZOaE1uU3llZm9JMkI3V2JiUlRfb1ViemNtRVB5aEVWQWR1QUx1dURDV2lhY083elgxTDA5akFlV1lLbURoUjVmYmIxYmdhX0VSWlVzVmtHbUpicHdKQzJnS0lQN0dPcUJLczdUWmNiSUxNLXluSUF1WjdZN1R1eE9mNGpuX3NyQk9aX0FZb3N6ZTkyaHZVQ2tTOGxXM1Z0U2hrOE1jSm90ZGhaWWt1dnltYmJvWGVIUG1IZlZkMjItc3lsTzJpOGtTeUhwQUhrcVRZWGZ5dm9yNHB4VlhTNS1yeTZucjZ6c1J4S3p6Zw?oc=5",
+      "signal": "aggregator-event"
+    },
+    {
+      "kept_title": "This viral star projector has been hyped to Mars and back, but we hunted down the best version you can buy",
+      "kept_feed": "Space.com",
+      "kept_link": "https://www.space.com/stargazing/skywatching-kit/this-viral-star-projector-has-been-hyped-to-mars-and-back-but-we-hunted-down-the-best-version-you-can-buy",
+      "dropped_title": "This viral star projector has been hyped to Mars and back, but we hunted down the best version you can buy - Space",
+      "dropped_feed": "Google News — astronomy",
+      "dropped_link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQVllLTlowdXdpUzQxdVdwOUVDbjhJem1Ta29Ubl9STXZicW9aMTYtSkhlWXRmUFhQR0NOWTRUYU8xQ1BsM2YzZWdLSjNoRFhlZ1BBYTllT0NwdVU1aElWd3BwZjlQVWE1THc5N3dPZUEya2NpR0N5T3BuTkVtQUp5SEdkd0dzeW9yYm52TzltcXh4THJXaEN4X01RZTF2OUFfSE1zV0VqVzZ2WEMyX1QxU0ZWYTMtMzQzOUhzeFFOcnBMTkdNVFVtRDA5U0pJQTNucTF4RV9GS0xPaHgzRWFiZGx1cHRyVU8zWUE?oc=5",
+      "signal": "title-similarity"
+    },
+    {
+      "kept_title": "On this day in space! Nov.22, 1989: NASA launches space shuttle Discovery on classified STS-33 mission for the US military",
+      "kept_feed": "Space.com",
+      "kept_link": "https://www.space.com/on-this-day-in-space-november-22-2026",
+      "dropped_title": "On this day in space! Nov.22, 1989: NASA launches space shuttle Discovery on classified STS-33 mission for the US military - Space",
+      "dropped_feed": "Google News — space",
+      "dropped_link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5vUm1BU0FGNlVUZ2tNdTE1RTQ3UklHbk9DN1o2QmY5WEFYRHB5N1dHdjV0a3JiTmIwQjljcXoyZFc3eGIxN1dIVmNzVTVuY0cteHF6d2gtVUs5U0NkMURxMHNUSm1BWTh6dEJJ?oc=5",
+      "signal": "title-similarity"
+    },
+    {
+      "kept_title": "Young and old stars share the southern sky - Astronomy Magazine",
+      "kept_feed": "Google News — astronomy",
+      "kept_link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNa0owVmJHaTVpUVBTXzIyZGQ3VWx2Nmp6bWhNTklFWmM2N2gwRHBPV0J6c3huY09fUlhleGJmN00xUXpveEdITUYyRlZYZ3BYZUVZQlZiWVlVQXJhTmRnYVZDQkNqZS0ySGRhMGgtWW1NVVp2UnU3Q2hTNy1tbThrclhWRQ?oc=5",
+      "dropped_title": "Young and old stars share the southern sky",
+      "dropped_feed": "Astronomy Magazine",
+      "dropped_link": "https://www.astronomy.com/science/young-and-old-stars-share-the-southern-sky/",
+      "signal": "title-similarity"
+    },
+    {
+      "kept_title": "Pentagon UAP files part 8: Radar track analysis and more - EarthSky",
+      "kept_feed": "Google News — UAP",
+      "kept_link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPZWJibXhfdU51QnBoRVktdlBWMHBITmhlVlctTkh6emJ3cXc1OHdURmdTYnpUa20ya0pOVUF2clFhV2poUlRsekhxX2t0VFRSSkZkN1FXbDQ1cDNDZFVqTmQzdmh0SzdfN3k5WFhLRDhmNFFWcEpDaUFqSXM5dzlqNW53c2lMTVE?oc=5",
+      "dropped_title": "Pentagon UAP files part 8: Radar track analysis and more",
+      "dropped_feed": "EarthSky",
+      "dropped_link": "https://earthsky.org/human-world/pentagon-uap-files-part-8-radar-track-analysis/",
+      "signal": "title-similarity"
+    },
+    {
+      "kept_title": "Your Weekly Horoscopes by Madame Clairevoyant: November 22–28 - The Cut",
+      "kept_feed": "Google News — astrology",
+      "kept_link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxONWhNd01OcWtRWXpjZGxHM3NYRGJCMUdKUkplbkJHa0ZEQ05zWGowaUxRMjZDa1NpSUY1THlFZEpadXRUQXUzeVlLemtpUVdtT3prb3JwRnl3QzZlWkdsenhWbFlOeGpYYVlLbkJZSm14eU1UeEk5alU5WThPcjRvakp5d3drTXFMNDZXTG1BejIwRS1YNldyR1hRcUEybkFVRU00?oc=5",
+      "dropped_title": "Horoscopes Today, November 22, 2026 - USA Today",
+      "dropped_feed": "Google News — astrology",
+      "dropped_link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNellwMU5MSXoxeE9mYVJVQm5xU2xBSGFzX1RfWHlCSTRlcXZRUVlydDVvMkE0ZVRaT3RBN2xDeU5FV0FGc2FQYlg3c0xiUXBPdlNnQlNicC1IRGtvZTkwV3Q1OTM2OFlRUUtFLXdqVTRodVJUWUxmZkprT2VtWWdiZF82b0YwVGV5ajlvUzM1cTM?oc=5",
+      "signal": "aggregator-event"
+    },
+    {
+      "kept_title": "Horoscope Tomorrow, November 23, 2026: Your zodiac insights await - The Times of India",
+      "kept_feed": "Google News — astrology",
+      "kept_link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPZ0NPdUlFVkx1b1MxOWg2YVA4YXdkX012ZDhuYVhjVFA3WTFTYTd6M0s5cmlwUXpuS05XekRkZkNNZWpoOEp5c1ZsUGx0ZzEzZTdWTld6b1pXX1FRY0hOa0JMdElnWEtMN04zX2VNX0F2eTA3cFZqa2lGNldrV1gyZC16cG9kalpEbkRVa0lCcTBhZG9DRTdjZE9YOW51SGlwUEF5aEg5NHFPWlM2NURaTDNmSHBzdmpXLWctOG9GaXhFNG9LWUxsVTZUQ3pDd0ZfUU9jWHl5LUNZRlJt0gHiAUFVX3lxTFBaLTJ0V1h5T0NCZGNoUHo0TC0wTHYtUTZnTmhGMXMxZEVRWVpIdDlGS2dWNkRwS1gwcmUzajVBUmJtVF9rVjRWcU03STBndUJKdzB5aEliZUFuYkVIU0VGdjZDS0dHVVl2MXZrWU1XOWJhbHBJZTNQaHJyRWJLTWFLVjNQZjFVM1ROT0dINEhfTmkzRFhKdEdpNzZTa0lYUU8teGZDS3h3NGd3TE1MY3VPam9hMUFtbk4wb2tXcFN4a19TYlJTRnJIbnA1NWlCWmpsVlNwdjJLbnAtUm9VNDNCUUE?oc=5",
+      "dropped_title": "Sagittarius Horoscope for November 2026 - Susan Miller Astrology Zone",
+      "dropped_feed": "Google News — astrology",
+      "dropped_link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQRGpwTnVBTk9rcWxQN0pSbTFHeFNPOTF1OG5tOE4xTmw2RlRqeGsyNVdWNnRHOFJnQmRlTXdkcEh3SkEyb1BLTHVvQWFfSmp6Y1B3Q0x1dXRHR014RmRsZUlvSmtWbnVwWTBIWkZzTlB2ajZuVk02aU9LMHVfTkg1SXd2RmptcDQ?oc=5",
+      "signal": "aggregator-event"
+    },
+    {
+      "kept_title": "The Sky Today on Sunday, November 22: Flat-floored lunar crater Schickard - Astronomy Magazine",
+      "kept_feed": "Google News — astronomy",
+      "kept_link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5wZDFpN3Q0RXhZTlI3YnNuVlVXQ0hDYWRzM1NCN0Zkd3AyYlpVYWdRazYza2R4cWFoOFJtV2RRUjA1clBwdnduUThxb0MxQWZYLVNwdnJBSmNkRF9hcl8wcFJlazRCQVJMWW1odmhyTUV6b0xZUGJvRGxpVFBjLXM?oc=5",
+      "dropped_title": "The Sky Today on Sunday, November 22: Flat-floored lunar crater Schickard",
+      "dropped_feed": "Astronomy Magazine",
+      "dropped_link": "https://www.astronomy.com/observing/the-sky-today-sunday-november-22-2026/",
+      "signal": "title-similarity"
+    },
+    {
+      "kept_title": "Your Horoscope for the Week of November 22 - Cosmopolitan",
+      "kept_feed": "Google News — astrology",
+      "kept_link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNUFVOcEhjLUVVNnZLQzBrSTFXc0Q2MEduVHpxN1h3R1pWeVh2WnRpR3ZIamFxdTlkN2lQY3JqeDhRVF9CazFqR0JzTmQ1UDFUNGc5QnFrZEQxYXdyNUJIUFBLZklSSEp3RzFuSmo4djJFQTRlU3V5djhOdVBYVXQ3dmJFUmhIMjV0bzlv?oc=5",
+      "dropped_title": "Your Daily Singles Horoscope for November 22, 2026 - Yahoo",
+      "dropped_feed": "Google News — astrology",
+      "dropped_link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQb2dWMEUxRFZvYkxvLURJRk9VNkVIaW1jajF1cjFnTXlmNkloWWh3eGdIalh0QVRPLVRtbXB6XzVva3g0ZlZ1aG5QTW9POFgtYkVSdEVtcHI3WkhZMDB2ZFFkVHB4eEdpVmRWY2o1SGZwc1Y5X2hyMFNHVUoxSTE5YUFuQm5yY3lEcTVuSXhNWThkOTI1cHc?oc=5",
+      "signal": "title-similarity"
+    },
+    {
+      "kept_title": "As 'Star Trek: First Contact' turns 30, Director Jonathan Frakes reflects on his triumphant time-travel blockbuster (interview)",
+      "kept_feed": "Space.com",
+      "kept_link": "https://www.space.com/entertainment/space-movies-shows/star-trek-first-contact-at-30-director-jonathan-frakes-reflects-on-his-triumphant-time-travel-blockbuster-interview",
+      "dropped_title": "As 'Star Trek: First Contact' turns 30, Director Jonathan Frakes reflects on his triumphant time-travel blockbuster (interview)",
+      "dropped_feed": "Bing News — space",
+      "dropped_link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6b0338ca1d564729b0347c7c438caa5b&url=https%3a%2f%2fwww.space.com%2fentertainment%2fspace-movies-shows%2fstar-trek-first-contact-at-30-director-jonathan-frakes-reflects-on-his-triumphant-time-travel-blockbuster-interview&c=10537578334870462881&mkt=en-us",
+      "signal": "title-similarity"
+    },
+    {
+      "kept_title": "Al-Ahly v Pyramids FC: Egyptian League top spot at stake - Egyptian Gazette",
+      "kept_feed": "Google News — pyramids",
+      "kept_link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOaXJnZU9ZeVlXQzNHd0ZMcG1qQVk5RDZPMHhFbHI4enNuVXhENkQwQnloTWQtSG5IRXJvMWtOQ2FKVUkzc2U3ZU9MNU5vTWdCY1lNVTh5NEk1TXM2eFlxanI2aVp4Rlp0QkxiRjRKUF9lVTkyTHhQR3hwQkZsVU1IU0FRV3ozRS15QVNRTmFTSjBUTlpYNFVV?oc=5",
+      "dropped_title": "Unbeaten Pyramids prepare for Al Ahly test after carefully managed FIFA break - SABC Sport",
+      "dropped_feed": "Google News — pyramids",
+      "dropped_link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNcERsNXotRG5nM0cySUotUklWTjJsWkN6LXJJRjdiTGJYVUJmaWlvaVpfd0NCOU8ySzlKVE1DVEw4b3hzWlZlcUxUbWFSdld3WDRRck5JU00zZTBNTWJmY2ZHN2YzNHRsb2lGVFlJTjRwRkdDODhsWFplUXFJd3N4cUpSU3YwbWQwQ1pxaVJsZW01bFBQUjBXT2dRWTFKclBWYzdXMUtIX2tGd1JpVVIzRHZWRHRlQQ?oc=5",
+      "signal": "aggregator-event"
+    },
+    {
+      "kept_title": "On this day in space! Nov.22, 1989: NASA launches space shuttle Discovery on classified STS-33 mission for the US military",
+      "kept_feed": "Space.com",
+      "kept_link": "https://www.space.com/on-this-day-in-space-november-22-2026",
+      "dropped_title": "On this day in space! Nov.22, 1989: NASA launches space shuttle Discovery on classified STS-33 mission for the US military",
+      "dropped_feed": "Bing News — space",
+      "dropped_link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6b0338ca1d564729b0347c7c438caa5b&url=https%3a%2f%2fwww.space.com%2fon-this-day-in-space-november-22-2026&c=13836720173825006658&mkt=en-us",
+      "signal": "title-similarity"
+    },
+    {
+      "kept_title": "Pentagon UAP files part 8: Radar track analysis and more - EarthSky",
+      "kept_feed": "Google News — UAP",
+      "kept_link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPZWJibXhfdU51QnBoRVktdlBWMHBITmhlVlctTkh6emJ3cXc1OHdURmdTYnpUa20ya0pOVUF2clFhV2poUlRsekhxX2t0VFRSSkZkN1FXbDQ1cDNDZFVqTmQzdmh0SzdfN3k5WFhLRDhmNFFWcEpDaUFqSXM5dzlqNW53c2lMTVE?oc=5",
+      "dropped_title": "Pentagon UAP files part 8: Radar track analysis and more",
+      "dropped_feed": "Bing News — UAP",
+      "dropped_link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6b0338ca53074a6592d477cabc2a4e6d&url=https%3a%2f%2fearthsky.org%2fhuman-world%2fpentagon-uap-files-part-8-radar-track-analysis%2f&c=6293461870487986653&mkt=en-us",
+      "signal": "title-similarity"
+    },
+    {
+      "kept_title": "SpaceX sends classified US spy satellites to orbit in early-morning launch from California coast (video)",
+      "kept_feed": "Space.com",
+      "kept_link": "https://www.space.com/space-exploration/launches-spacecraft/spacex-spy-satellite-launch-nrol-136-proliferated-architecture",
+      "dropped_title": "SpaceX sends classified US spy satellites to orbit in early-morning launch from California coast (video)",
+      "dropped_feed": "Bing News — space",
+      "dropped_link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6b0338ca1d564729b0347c7c438caa5b&url=https%3a%2f%2fwww.space.com%2fspace-exploration%2flaunches-spacecraft%2fspacex-spy-satellite-launch-nrol-136-proliferated-architecture&c=7287305437764134324&mkt=en-us",
+      "signal": "title-similarity"
+    },
+    {
+      "kept_title": "10 things that worry me about chasing the 2027 total solar eclipse in Egypt",
+      "kept_feed": "Space.com",
+      "kept_link": "https://www.space.com/stargazing/solar-eclipses/10-things-that-worry-me-about-chasing-the-2027-total-solar-eclipse-in-egypt",
+      "dropped_title": "10 things that worry me about chasing the 2027 total solar eclipse in Egypt",
+      "dropped_feed": "Bing News — space",
+      "dropped_link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6b0338ca1d564729b0347c7c438caa5b&url=https%3a%2f%2fwww.space.com%2fstargazing%2fsolar-eclipses%2f10-things-that-worry-me-about-chasing-the-2027-total-solar-eclipse-in-egypt&c=8248183107096293618&mkt=en-us",
+      "signal": "title-similarity"
+    },
+    {
+      "kept_title": "Daily Horoscope for November 22, 2026 - Hartford Courant",
+      "kept_feed": "Google News — astrology",
+      "kept_link": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBjRVRPMjBlSmxBaGpSMFFfcG5wUXJPNk9zblFPSERqU1M4QmMwQlB6bUlnb3B1R1VycEJEMWI2bnpwTEVzQ3phcklMSTVlTlZ6eVk4SHNTeDVJcFY1X0ZpSU1BVHBnOGJxdkl6dkJzQXh6NFI2YXNHcWMzNjI?oc=5",
+      "dropped_title": "Daily Horoscope for November 22, 2026 - Chicago Tribune",
+      "dropped_feed": "Google News — astrology",
+      "dropped_link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOZXN6SWNnZHFsdmtLVjNnbk5aMFZsREt5ei1iSmhaWWhYYmN5cy1hZ08wc0pqTlBrQjMzYUtzVXNVdW5jR2dKVjZDeFU2dUQ1NzBzbWlXMEQ5WXQ3WVE3dVV4bHFVZExuUmtUVWxyX1RodnV6RlR6djE2bkVPYi0wSlNJUE5uQQ?oc=5",
+      "signal": "title-similarity"
+    },
+    {
+      "kept_title": "Weekly Horoscope – November 22 to November 28, 2026: Check horoscope for all sun signs - Deccan Herald",
+      "kept_feed": "Google News — astrology",
+      "kept_link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQdkJuNzRab2g3YWxYQkhJTzN3UVM4RTBpVHJlaUZNT0NuTEQ1TTZfbTd2UUhkbzAxR2htUldVVkZQTEh5YXdwWDEtR2pTYkZyQ3JBTDBVc3RuZl9nUmRNSWp4VjAzVmxJU2htX0E5S3VZVU5KUTRXUDB2czFfaTdwa3BVbXRYXzBFTzlDSHEwM0FsX19YV2JNLXhzZzdYQ0dpN1ktM1JfaGhmZ09rb2JtSFRkNnZCNVJVWWIxT3JOTEhfdnZmMEYzONIB1gFBVV95cUxPdUtqazNNR0k5ZzZ3bEUwbzJaalRMT3JQay13THhFeHN4VjB1TURYUFZveEc1SjJGOUEzbEV2Vm56LUNxQVJPVV9PcThUcERXOHF2SE0yeTZDLU9sNWZRdDdaNkFGUExhZ1JuUE5QY3VOTXh2UTAyX0c1eEthVGhCVlU5UDZMN2I2dmgwSEJOZHAwWXliRlBVeXgwWUZMMlVDNUFPRUtXWDhUYmktc1gtSDN4V2E2VkZKTUxfb3dTcjJFajZVNzFxdFVGZW0wTnRTODkycWhB?oc=5",
+      "dropped_title": "Weekly Horoscope Prediction, November 22 to November 28, 2026: Read your weekly astrological predictions | Astrology - Hindustan Times",
+      "dropped_feed": "Google News — astrology",
+      "dropped_link": "https://news.google.com/rss/articles/CBMigwJBVV95cUxPSFF2TmVvNGZFcnR6WWpaWEZBZUY4d2dJdGRhTGVCWlkzbE1COS1OekhreVRrS0x4N1BOclBnY0Y0LTJvWWtzUi1uakdmcUE1Wl9jRlltMFJPQm82a2JxQUVkaWtJemVIMU4zZGRSRVpya2ZBSk9yRGtFZlFRVV9YWGc5ZTlWdERSMVFjbGMwMXNZbWRyS0RkOVhYQmZaVDc4OXJIeHZmWlhSRlZXVFdEUjVCZWpNZE5oRG1GOWROenZOWmRQUjlkWUxqQ3BPWDBvcUtmZGtLNWFSOTc3ZFFVbWd2S0w3THo3QXJQbjZRQm9vRDdjMUE3dTBfZVMxR3JlTkJV0gGIAkFVX3lxTE9IMV9hZXkwQ2NBalBYQW9OWUtIWHFxVlotdjFEbXVxdlh2b2t3ZUwzaUJqdWpxSmgwcllHY1pfSXVqYUN3UklNTmt4ZG8yT0VrRmVNZXB4QzlhVzJGRXBhUWhid001YW5ud3NMWGtWNi1iUVNBazh0d3hUX3pEMGJCWHJTeExyMlI4R0Z1bDk4WW9Ealc1c01TMWt6ZEFHVHNfbHhZcnJlb2VHU3NJcEpWT002Z1RJR05pYUM1Wkp6MFJRck91VU9nbmphNTJBSzRsbkVtdmJ4NTE2ODk4ajA5akZTVXNlcHZVY2VwSkp2c19RdWZVNWh0UUxvcmY5UW15OGhPQzI4Vw?oc=5",
+      "signal": "aggregator-event"
+    },
+    {
+      "kept_title": "People Are Sharing Their Scariest Near-Death Experiences, And I'm Speechless - Yahoo News UK",
+      "kept_feed": "Google News — near-death experience",
+      "kept_link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQUmU0aFJtc2hRaEw4aFhObzJ4NTdZdnQ5N2hDY1ZraWNwLXBWUWxZY05QWm1HNkthSzNReEUxSEdvbGppbHhQaFhLX3dpV3NXalpUeEVGeUJzX292S3FQdHhWaXR5c0ZqN1JRMVFFZWwzemFocDU4NnZpQWotZHZRMA?oc=5",
+      "dropped_title": "People are sharing their scariest near-death experiences, and I'm speechless",
+      "dropped_feed": "Bing News — near-death experience",
+      "dropped_link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6b0338ca8bb7485b8b18c1638e715198&url=https%3a%2f%2fwww.msn.com%2fen-us%2fnews%2fother%2fpeople-are-sharing-their-scariest-near-death-experiences-and-i-m-speechless%2far-AA2hWI1A&c=14883104100660989520&mkt=en-us",
+      "signal": "title-similarity"
+    },
+    {
+      "kept_title": "Religion, spirituality linked to greater life satisfaction among older adults - ktnv.com",
       "kept_feed": "Google News — spirituality",
-      "kept_link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPRjlhcWZGcnBYS0FMdzQ3QWMtbDVqVmI2Mnl0d1o5aHprV1F0bEpQNllqZFZ1UFNOTVlla1QwODFkSnBKUFJ5ME8xWUtWeXFZN1J5bnYwMXJjLVpxTEp5S0p0NnI5Z1dkZXlqSk5VYkQ2YW9mcGZCWnJiLU1aN2hXUktkXzdHNldidmFKZFJVR05SQmFCaFN6WWYzVHctaDZIYUxLQVk5XzFVWldBeVVubmpqQzlKczNJYkdIRHM2YjNUaXVGLTNR?oc=5",
+      "kept_link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPZ3NXOFVRczJ0b3VLOGRPY1VFaGtyM0Y0SllWcTQ0Z1dwbVROLWdEb2pRc1VUVl92czBxWk9tMGVIZkpxTkcwQUxHVTg5SmJfVlF5dWM4S2Y2Mm5PT1Z5ZE1lTXJPTWZZQk94NkhZTGFKY3Z4WmdsQjJYZ01lc3VXX3RQdHhjWldjZFh6Y25qMXBUbHdPQnU1WWV6Rmk5UTJsWHprTkRvaDhta2xURFE5MkZyTDczWE9EVE5GTG5aOUE?oc=5",
+      "dropped_title": "Religion, spirituality linked to greater life satisfaction among older adults - Scripps News",
+      "dropped_feed": "Google News — spirituality",
+      "dropped_link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPRjlhcWZGcnBYS0FMdzQ3QWMtbDVqVmI2Mnl0d1o5aHprV1F0bEpQNllqZFZ1UFNOTVlla1QwODFkSnBKUFJ5ME8xWUtWeXFZN1J5bnYwMXJjLVpxTEp5S0p0NnI5Z1dkZXlqSk5VYkQ2YW9mcGZCWnJiLU1aN2hXUktkXzdHNldidmFKZFJVR05SQmFCaFN6WWYzVHctaDZIYUxLQVk5XzFVWldBeVVubmpqQzlKczNJYkdIRHM2YjNUaXVGLTNR?oc=5",
+      "signal": "title-similarity"
+    },
+    {
+      "kept_title": "Religion, spirituality linked to greater life satisfaction among older adults - ktnv.com",
+      "kept_feed": "Google News — spirituality",
+      "kept_link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPZ3NXOFVRczJ0b3VLOGRPY1VFaGtyM0Y0SllWcTQ0Z1dwbVROLWdEb2pRc1VUVl92czBxWk9tMGVIZkpxTkcwQUxHVTg5SmJfVlF5dWM4S2Y2Mm5PT1Z5ZE1lTXJPTWZZQk94NkhZTGFKY3Z4WmdsQjJYZ01lc3VXX3RQdHhjWldjZFh6Y25qMXBUbHdPQnU1WWV6Rmk5UTJsWHprTkRvaDhta2xURFE5MkZyTDczWE9EVE5GTG5aOUE?oc=5",
+      "dropped_title": "Religion, spirituality linked to greater life satisfaction among older adults - KXXV",
+      "dropped_feed": "Google News — spirituality",
+      "dropped_link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQME1qaFBEcmdER3doYzlGZklYRDVTWGl6M2JxSjlxVjVMSmtpTVpzZnZmRlQ2V29pbjlrd1lWa0UyMmU0c0lTa3ZsLVRXY1VPLTJVZ0I1ZHR4OWtkRnlOZ0Y2WFJNcVlxdjh6cTliaXB2UHdqNWZzRmZJbHJnWlZfY0VmRjJQd0dVa0k4aTFzZUVSQjdtbWwwSXZ4MUNRSDVPUnRFUHZXb3N6NHd3LUhHZTZ2bFJTZldvY3A3UGNrbko?oc=5",
+      "signal": "title-similarity"
+    },
+    {
+      "kept_title": "Religion, spirituality linked to greater life satisfaction among older adults - ktnv.com",
+      "kept_feed": "Google News — spirituality",
+      "kept_link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPZ3NXOFVRczJ0b3VLOGRPY1VFaGtyM0Y0SllWcTQ0Z1dwbVROLWdEb2pRc1VUVl92czBxWk9tMGVIZkpxTkcwQUxHVTg5SmJfVlF5dWM4S2Y2Mm5PT1Z5ZE1lTXJPTWZZQk94NkhZTGFKY3Z4WmdsQjJYZ01lc3VXX3RQdHhjWldjZFh6Y25qMXBUbHdPQnU1WWV6Rmk5UTJsWHprTkRvaDhta2xURFE5MkZyTDczWE9EVE5GTG5aOUE?oc=5",
       "dropped_title": "Religion, spirituality linked to greater life satisfaction among older adults - KPAX News",
       "dropped_feed": "Google News — spirituality",
       "dropped_link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQV3JCU19ITVc1djRuUGxtaDVMaGlhZFFYc1U0Sl9lcWUtODd5MU1RMFZ5ZmFfZU9zbEt1VC15REdmQ3JLZG1VN0hmdHYzYkRPdEs0U3JXUFJheVJuYVdPSkVld21WZGZjUndIWUZFZ1hVbmVPV3llRmJYVDlMOVdRVnBJWmNURl8ta1RsS184bmNlbzF0Z3M5YWVITkNjUHFNMmZPYnBleExiWlVPRi15djh2cVhBRlA4OFUzY0pmODE?oc=5",
       "signal": "title-similarity"
     },
     {
-      "kept_title": "Religion, spirituality linked to greater life satisfaction among older adults - Scripps News",
+      "kept_title": "Religion, spirituality linked to greater life satisfaction among older adults - ktnv.com",
       "kept_feed": "Google News — spirituality",
-      "kept_link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPRjlhcWZGcnBYS0FMdzQ3QWMtbDVqVmI2Mnl0d1o5aHprV1F0bEpQNllqZFZ1UFNOTVlla1QwODFkSnBKUFJ5ME8xWUtWeXFZN1J5bnYwMXJjLVpxTEp5S0p0NnI5Z1dkZXlqSk5VYkQ2YW9mcGZCWnJiLU1aN2hXUktkXzdHNldidmFKZFJVR05SQmFCaFN6WWYzVHctaDZIYUxLQVk5XzFVWldBeVVubmpqQzlKczNJYkdIRHM2YjNUaXVGLTNR?oc=5",
-      "dropped_title": "Religion, spirituality linked to greater life satisfaction among older adults - LEX 18 News",
+      "kept_link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPZ3NXOFVRczJ0b3VLOGRPY1VFaGtyM0Y0SllWcTQ0Z1dwbVROLWdEb2pRc1VUVl92czBxWk9tMGVIZkpxTkcwQUxHVTg5SmJfVlF5dWM4S2Y2Mm5PT1Z5ZE1lTXJPTWZZQk94NkhZTGFKY3Z4WmdsQjJYZ01lc3VXX3RQdHhjWldjZFh6Y25qMXBUbHdPQnU1WWV6Rmk5UTJsWHprTkRvaDhta2xURFE5MkZyTDczWE9EVE5GTG5aOUE?oc=5",
+      "dropped_title": "Religion, spirituality linked to greater life satisfaction among older adults - KRIS 6 News Corpus Christi",
       "dropped_feed": "Google News — spirituality",
-      "dropped_link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPX2x1aVNoOFpuRVhRNzZRRC1tV000RmFOT2xENFcycTd4cEFUUnE4N2hvUUZYcDM2bXFaU3FyNlREQXFvaExKaTBDdEN2YVV2aWljaFkydFNDZU94ZVlPakZuUThIdC1MZjVWbURnQ2ZMOWhJcFVtdkRJenBvX0QwZGNXNzVkbm5ILXZ0NHNQN2ZVOVc1U1FyaVFBLVJaLTBLX212RlVpSUdKbWtvZFVZVVpST0xUTmlBSk1qeDNIamhCZw?oc=5",
+      "dropped_link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNdEhOX2RTVkwtbkJRRWhIaGpoTkFqb0RCWVBzU1Nxcjd2TGp0dElaUFVkdG5sSkw4Zmh3Rmk4MkU2ZS1vbkJLbHRJYzNyR29uUkhsYzV0YUE0NmVidElMSE1ueFczQ2hYTE13VE1QMDNwbi10dlM4dVkxQ096NDhYa1JjSEg4Vkp0TjBwZUZySnNtV3dIVmN3WFM3UlZHd3BTcmQtbW5WLUZvdGJnUDdmYUxFTHV5MktlSzdQazRzc291eDQ?oc=5",
       "signal": "title-similarity"
-    },
-    {
-      "kept_title": "Religion, spirituality linked to greater life satisfaction among older adults - Scripps News",
-      "kept_feed": "Google News — spirituality",
-      "kept_link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPRjlhcWZGcnBYS0FMdzQ3QWMtbDVqVmI2Mnl0d1o5aHprV1F0bEpQNllqZFZ1UFNOTVlla1QwODFkSnBKUFJ5ME8xWUtWeXFZN1J5bnYwMXJjLVpxTEp5S0p0NnI5Z1dkZXlqSk5VYkQ2YW9mcGZCWnJiLU1aN2hXUktkXzdHNldidmFKZFJVR05SQmFCaFN6WWYzVHctaDZIYUxLQVk5XzFVWldBeVVubmpqQzlKczNJYkdIRHM2YjNUaXVGLTNR?oc=5",
-      "dropped_title": "Religion, spirituality linked to greater life satisfaction among older adults - KGUN 9",
-      "dropped_feed": "Google News — spirituality",
-      "dropped_link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPMk83eUZua1RBSTRwX0JMNU01UkdUQ0hDcXZScW1aamhhalctd1FvQ0pVSHo0NGpFWll4Ym1VU1R0Zi1obWVQeHJGM1h5RHpQa2hOdTl1d3VQNDBmclJLOE01V0RJaU5sN19UUHlwNlRDaW1kd2JSUHMxNjdYckQxRWRZNG9pVGgtcnBPZkhLaDNMSGFhMGg0RHozcmV1M0h2UzlxZ2hrUmtENnJPYWJyVHdFekc1NHpiZmk5b1hUWm85QQ?oc=5",
-      "signal": "title-similarity"
-    },
-    {
-      "kept_title": "Religion, spirituality linked to greater life satisfaction among older adults - Scripps News",
-      "kept_feed": "Google News — spirituality",
-      "kept_link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPRjlhcWZGcnBYS0FMdzQ3QWMtbDVqVmI2Mnl0d1o5aHprV1F0bEpQNllqZFZ1UFNOTVlla1QwODFkSnBKUFJ5ME8xWUtWeXFZN1J5bnYwMXJjLVpxTEp5S0p0NnI5Z1dkZXlqSk5VYkQ2YW9mcGZCWnJiLU1aN2hXUktkXzdHNldidmFKZFJVR05SQmFCaFN6WWYzVHctaDZIYUxLQVk5XzFVWldBeVVubmpqQzlKczNJYkdIRHM2YjNUaXVGLTNR?oc=5",
-      "dropped_title": "Religion, spirituality linked to greater life satisfaction among older adults - Denver7",
-      "dropped_feed": "Google News — spirituality",
-      "dropped_link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPN2lCbDlBUjRPS3ozUnNHOWlzbVYxd1NPdzdfZjBMbmFwd3k0UW1YRWMxaU96WHJicFgwSzJaYm1VdzRhSXlZZWNwZF9sYzJiTU5rM05CU3Q3QkxobmQzOWYwTXV0ZkxBMldfMGdsd2lfSUxSWnBZQkszR3lNb25QQjE2eFkteUF2aG90anM3OW95c01fT2l1LWtDVjdkMGRONE1sZS1pZ2xRQ0dGdFdkLXRzVXVXQVZLcXd4eVl2cjNFVVZr?oc=5",
-      "signal": "title-similarity"
-    },
-    {
-      "kept_title": "Live coverage: SpaceX to launch intelligence-gathering satellites for the National Reconnaissance Office",
-      "kept_feed": "Spaceflight Now",
-      "kept_link": "https://spaceflightnow.com/2026/11/21/live-coverage-spacex-to-launch-intelligence-gathering-satellites-for-the-national-reconnaissance-office-3/",
-      "dropped_title": "Live coverage: SpaceX to launch intelligence-gathering satellites for the National Reconnaissance Office - Spaceflight Now",
-      "dropped_feed": "Google News — space",
-      "dropped_link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOMHFxSFk3SUpMZktiSGYwNE9hakNJMW55azMxSzhWYUlSbFBWMzdIdUg4bXVvNjZFWHI2OGNnOWY4OUxaM2lsZkxnbVNzTXNsLVlFUjlBNms1OHpPZDhMb2o0Y0pfam9ueVR3MzJMUXp6OXp6MnRtM0gwVmt5RXJXQzExblhXeF9mOGg1RUZpNmk0Nng3QUNmSzU2dnZNX2NTV3Y1MDBQbjhZWDljNksyMjFPMldlZXM4bUpnX1BRN08wMGNmdWtMT2JUU3E5VDhnTE01U2pGTURvWGQ0?oc=5",
-      "signal": "title-similarity"
-    },
-    {
-      "kept_title": "Mayor warns residents to prepare as 'never-before-seen' King Tides take aim at entire California coast - FOX Weather",
-      "kept_feed": "Google News — extreme weather",
-      "kept_link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxObHp4Nk1JbzJRS1VzbVoydmw3QXdLUzY0YmdaVEUtZVNWZ19LbUN3Z2ptcUplM1ZSbzhHVXlwcExsNHNuaXRwTGxWOWlJUmZUcWxyMmJuLVpHWDMwRkk3eGpyZHJ6aVlMOU82TjNJVVVTazJGenVoQ0J3djFOcHRqVnAyMFNQYUZwRHlmZEUyZjNCeGc5UU1fZHNjc0VMLUJTdXhjaDV5dDBILUN1d1ZtUG8wQ3I3ak1PX2pHal94S3VaX3NPS0tEUlBR0gHPAUFVX3lxTE5PQ2lCRDNpNGo3Z3B4UjNSaXFlOUdjdzVXcUgxcG5FTkQ2SXBHaGJqTDRpRlR1YmJpODhVS0hFRUQwMmZOU2pPa3c3SVNXa2tSME53R2RPeE9oVGdubUxaVUlzOEtSMjltdGR3ME5iaWs3WHJSWTR5d2FralpXSmdOZ2RhbVNkZk51YjBQa08tNlZTZDZESWpjOGt1ZTFHdkpfenlLc2NpZ3dfM2NfVnpjb01RMlA0a0hWZjgtakJjSVFkRHR6QXJHWUJralV0VQ?oc=5",
-      "dropped_title": "West Coast faces another week of powerful storms, King TIdes - FOX Weather",
-      "dropped_feed": "Google News — extreme weather",
-      "dropped_link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1BLXV6dmF5ajVFN3lEdTljejVaN09VUlNVSXpucGNfaDM3aWlUNm1QbEhCWGl6eHExTnRvZGVQNjhxSmdsWWctblRqSkp0anQwU2xnN2hBYUl1aFVhcDlNSzdiQQ?oc=5",
-      "signal": "aggregator-event"
     },
     {
       "kept_title": "On this day in space! Nov. 21, 1676: Danish astronomer discovers speed of light — by accident — while observing Jupiter's moon Io",
@@ -112,24 +247,6 @@
       "dropped_title": "On this day in space! Nov. 21, 1676: Danish astronomer discovers speed of light — by accident — while observing Jupiter's moon Io - Space",
       "dropped_feed": "Google News — space",
       "dropped_link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQYzN1Ym5ORmtxWUFHSEFYZzRRSjhkSEVhMEpKVXVyaEhMQnVlUXluVkNUdFdQbnpBZlFrbUpSZ3NoS2RLRHhmeERQdElZMlFzRW9obkNkeVJuNlowQU5sdlhXRXBoMlVoWl9uSFFleHBpMUlpdWEzNW1VY2VVMUtXdExlNA?oc=5",
-      "signal": "title-similarity"
-    },
-    {
-      "kept_title": "A giant star swallowed another star. James Webb reveals the aftermath - ScienceDaily",
-      "kept_feed": "Google News — space",
-      "kept_link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFAxMmtRNWRjbnhUcTAtb1Vsd1hsSks1TnQzay02UDQ3blBueGdwY1ZSRmYzQm5tbVlKZnBaSnd1UFlnUl81NDZCVVk4bTdQQTFrN2E4TDY0UzdrdVNvRGNsQU12czdwYkpLMjZxN1c0VQ?oc=5",
-      "dropped_title": "A giant star swallowed another star. James Webb reveals the aftermath",
-      "dropped_feed": "ScienceDaily — Space & Time",
-      "dropped_link": "https://www.sciencedaily.com/releases/2026/11/261120075556.htm",
-      "signal": "title-similarity"
-    },
-    {
-      "kept_title": "Tatiana Borsch Releases ‘Complete Horoscope 2027’: Astrological Predictions for a Year of Five Eclipses - markets.businessinsider.com",
-      "kept_feed": "Google News — astrology",
-      "kept_link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxNOU1POWpHWnc2WnN6UDhmRE5pVWc0RmtsTmItUDVKNy03NS1tREJTU2U5RHFoRFlsdlpDWDUyeDRqVUptN3pFX1ItNTM3MVg0MVg5ZmJ5d0JDM2pNbUVla1U3eTZRSjVYZ3R6aUFYVmdmcS0yZmpsOVpLRGhKUjFLaXpseGIwbUtCMkF1WGpUdGJPVkg5dF9McWUwU1plY1FMOGdaRnlrZDh1eThkSnZjS1FRUURzWF9zS0F2TEVFcG9Od1ZDMnd6S3Z1YXQ4UVUxVGpSOEV3UDRiOEJWVVFkdWJMNHA5UVplSi1sc1ZhczY?oc=5",
-      "dropped_title": "Tatiana Borsch Releases ‘Complete Horoscope 2027’: Astrological Predictions for a Year of Five Eclipses - StreetInsider",
-      "dropped_feed": "Google News — astrology",
-      "dropped_link": "https://news.google.com/rss/articles/CBMijAJBVV95cUxOTENfb3VXM1Zjdml3RFlhazh2REJWRXMxV0Y3TE1aUFpuSllPWVZIUmFKLWhiZFN5Q0U3bDIzVV9EZlpzWEh2Ri1hZkdrVEo3SE5ZeHU4cFo3a3BHZ0ljdDlPU18ySFNlcjZxVHB6cmNXRjYxSlJsTUU1MlJsSFpFRno1REp5YmFvUmJqWjI5VGN6d19hRUUwQWYyYVE1VkF6NW5jT015bVhfNDdXbE1Yd1RhX0FnYVVoeTR1QVlqVkRUakFOQVliRU5oM3pVRlh0d0g5LU9JZUlkbFRZSm05UE9kTERWRjQ4Z3lyLVNsQWZwMjM4UjUyUEN4dnZmRmZDdWdncmp4elVLanpO?oc=5",
       "signal": "title-similarity"
     },
     {
@@ -142,30 +259,12 @@
       "signal": "title-similarity"
     },
     {
-      "kept_title": "SpaceX will retire 1st Starship upper stage ever caught by 'chopsticks,' Elon Musk says",
-      "kept_feed": "Space.com",
-      "kept_link": "https://www.space.com/space-exploration/launches-spacecraft/spacex-will-retire-1st-starship-upper-stage-ever-caught-by-chopsticks-elon-musk-says",
-      "dropped_title": "SpaceX will retire 1st Starship upper stage ever caught by 'chopsticks,' Elon Musk says - Space",
-      "dropped_feed": "Google News — space",
-      "dropped_link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNVFVrdHE3QlZ1OHpJZXFMdDgwTjZVdFZyNjFmNVcydnlUODZlTDFIek5hNGpJMXBLUEhsREVTaGF6T0pueFRWZWZvVzAzTG81TjJncTVtZHI3c0pBLW1zbHI5ME9IZTdHX3VJY0xLUFN1UnktVEpPWUtuRlY5TXo2M09yWFZVYlB2aTFsczlZczZqUGF5WUszMS1oYkY4Y3NOX0k5NkdXZnJSNkcyczM4MkZuN3dTOVA5NlZZOEF0OFVQLUtQc1p1UTZGaG9qWTV4SnpSS3RWNzZrdU1l?oc=5",
-      "signal": "title-similarity"
-    },
-    {
       "kept_title": "Will AI ever attain consciousness? Can it be good? Views on the Singularity from Sam Altman, Ray Kurzweil, and others - Fortune",
       "kept_feed": "Google News — consciousness",
       "kept_link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQZzBTaFdxc0NubzRDalpJMWN6bHdTSG9nVEptTTloeXlDRjJPclV1MUU2TXhpMGRZblFzcVhVNnRobEdOWnBwcnA1enBQbWo5akJVTTZmZFE2WWpjQ0x1b1M2c1M0UE81U2ZnNHVmVW1JSndqc3NFMndDUUxuRkZSVzJRV1MyaHg0bkFnUlFyQUc4MU1WclZnY2N2bDJzZVdoVGo1NXJkNDB3ckxGU1JIazN3WkRRbG1Wdnpib1RSWVlRWnBkTWpYZlN0VmtlOGl3WWc?oc=5",
       "dropped_title": "Will AI ever attain consciousness? Can it be good? Views on the Singularity from Sam Altman, Ray Kurzweil, and others - Yahoo Tech",
       "dropped_feed": "Google News — consciousness science",
       "dropped_link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNSGVSanNycXc3c2JWZm03OTg5VktzR1Vid1VHektyamhWaFF5NThOSGRReUt5NS14WWxMN21JQzllQWFnVkx2MlczRmp6NDJSZU5GRXFwYUVaZHhsYnhwLS1HbWo0a19VT2ZWNXU4eDRuYzRxWlJDS3ByWmN2dXBYZ1dNcERWVndVcTQ0?oc=5",
-      "signal": "title-similarity"
-    },
-    {
-      "kept_title": "What rights do we owe a machine? - Fortune",
-      "kept_feed": "Google News — consciousness",
-      "kept_link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOQWdPcEFCUS05eHc4TUFZanI3cGpwQXpLRmdELTk1MGE3UUJjc0F2Rk0ta21XNlVHTFMxXzRCbWdybGhsc2JPVkJpREFDa095Z01vWGhtUVlmSTVpakNHVmRLRW40UGxScjFMdV9vdnRlX25XMnpzdFBBZDA4MmluMGgwWGNsWHNVTlZuRlJLeGNQR2dpQ25HRUk0S0hnYTNwa19GMDlBakJEN0ZiZXY3VUgtU1dhTWpF?oc=5",
-      "dropped_title": "What rights do we owe a machine? - Yahoo",
-      "dropped_feed": "Google News — consciousness science",
-      "dropped_link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPdk9tU0VwOVJyaXJRNmtWcTYzb1owYWFpNHhCZXBuZXJ1Mk4yOFNvTW5FZTlHQXhqcEVwVXVzZ3p3WnB1R0VTN1Jwa0sxMkhva2lhMjhsaDk4Sk5KS3BSRl9zWVQxS1MwS1E3S09ZTHp5VUlVSHdMTnZtM0J2NU9YZVFsOA?oc=5",
       "signal": "title-similarity"
     },
     {
@@ -178,57 +277,21 @@
       "signal": "title-similarity"
     },
     {
-      "kept_title": "Weekly Horoscope Prediction, November 22 to November 28, 2026: Read your weekly astrological predictions | Astrology - Hindustan Times",
-      "kept_feed": "Google News — astrology",
-      "kept_link": "https://news.google.com/rss/articles/CBMigwJBVV95cUxPSFF2TmVvNGZFcnR6WWpaWEZBZUY4d2dJdGRhTGVCWlkzbE1COS1OekhreVRrS0x4N1BOclBnY0Y0LTJvWWtzUi1uakdmcUE1Wl9jRlltMFJPQm82a2JxQUVkaWtJemVIMU4zZGRSRVpya2ZBSk9yRGtFZlFRVV9YWGc5ZTlWdERSMVFjbGMwMXNZbWRyS0RkOVhYQmZaVDc4OXJIeHZmWlhSRlZXVFdEUjVCZWpNZE5oRG1GOWROenZOWmRQUjlkWUxqQ3BPWDBvcUtmZGtLNWFSOTc3ZFFVbWd2S0w3THo3QXJQbjZRQm9vRDdjMUE3dTBfZVMxR3JlTkJV0gGIAkFVX3lxTE9IMV9hZXkwQ2NBalBYQW9OWUtIWHFxVlotdjFEbXVxdlh2b2t3ZUwzaUJqdWpxSmgwcllHY1pfSXVqYUN3UklNTmt4ZG8yT0VrRmVNZXB4QzlhVzJGRXBhUWhid001YW5ud3NMWGtWNi1iUVNBazh0d3hUX3pEMGJCWHJTeExyMlI4R0Z1bDk4WW9Ealc1c01TMWt6ZEFHVHNfbHhZcnJlb2VHU3NJcEpWT002Z1RJR05pYUM1Wkp6MFJRck91VU9nbmphNTJBSzRsbkVtdmJ4NTE2ODk4ajA5akZTVXNlcHZVY2VwSkp2c19RdWZVNWh0UUxvcmY5UW15OGhPQzI4Vw?oc=5",
-      "dropped_title": "Your Weekly Horoscope, November 22-28, 2026: Letting Go of the Old - Yoga Journal",
-      "dropped_feed": "Google News — astrology",
-      "dropped_link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQVWcxYi1meEtaWDYxc3pQaUFXdi1nWmpBVF9HQlRCajUwNkpnaVl0bUhhbnpQdDdkdmpPYVh4MXVIQWV4c3hUR3F5cFFYOTY5VEVteHQ0WXp1TGVLWS1MdW02VE9PSHpKazRabzg2VzJ4Wk1iUFFPTzlMNVlsUU5XM1BxaDlkaV84Y1BseGZB?oc=5",
-      "signal": "title-similarity"
-    },
-    {
-      "kept_title": "BepiColombo goes into orbit around Mercury today!",
-      "kept_feed": "EarthSky",
-      "kept_link": "https://earthsky.org/space/bepicolombo-mission-mercury/",
-      "dropped_title": "European-Japanese BepiColombo probe arrives in orbit around Mercury today",
+      "kept_title": "European-Japanese BepiColombo mission becomes 2nd ever to arrive in orbit around Mercury - Space",
+      "kept_feed": "Google News — space",
+      "kept_link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQZTNvdl9DUkdXMllqTXdqM053Mmc1REdQZjVTOGlXY1JGZVNvSHRTeFhIZjJXYVE0OFZ3UHBPWDdkdi1TTHZWc3lrZkNPVXd6LTFmT3kxN28zclJOcTlXLVNSanl4UnRHNzhuVDNnenhLTXRqQ3RJRk1sNEJIVTUycVA1Zi0tNnhyNjJJV2JBaFNDdUZZY1J3Vi10MTBHMXd0RXc?oc=5",
+      "dropped_title": "European-Japanese BepiColombo mission becomes 2nd ever to arrive in orbit around Mercury",
       "dropped_feed": "Space.com",
       "dropped_link": "https://www.space.com/space-exploration/missions/esa-jaxa-bepicolomobo-mission-mercury-orbit-arrival",
       "signal": "title-similarity"
     },
     {
-      "kept_title": "BepiColombo goes into orbit around Mercury today!",
-      "kept_feed": "EarthSky",
-      "kept_link": "https://earthsky.org/space/bepicolombo-mission-mercury/",
-      "dropped_title": "European-Japanese BepiColombo probe arrives in orbit around Mercury today - Space",
-      "dropped_feed": "Google News — space",
-      "dropped_link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQZTNvdl9DUkdXMllqTXdqM053Mmc1REdQZjVTOGlXY1JGZVNvSHRTeFhIZjJXYVE0OFZ3UHBPWDdkdi1TTHZWc3lrZkNPVXd6LTFmT3kxN28zclJOcTlXLVNSanl4UnRHNzhuVDNnenhLTXRqQ3RJRk1sNEJIVTUycVA1Zi0tNnhyNjJJV2JBaFNDdUZZY1J3Vi10MTBHMXd0RXc?oc=5",
-      "signal": "title-similarity"
-    },
-    {
-      "kept_title": "Religion, spirituality linked to greater life satisfaction among older adults - Scripps News",
+      "kept_title": "Religion, spirituality linked to greater life satisfaction among older adults - ktnv.com",
       "kept_feed": "Google News — spirituality",
-      "kept_link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPRjlhcWZGcnBYS0FMdzQ3QWMtbDVqVmI2Mnl0d1o5aHprV1F0bEpQNllqZFZ1UFNOTVlla1QwODFkSnBKUFJ5ME8xWUtWeXFZN1J5bnYwMXJjLVpxTEp5S0p0NnI5Z1dkZXlqSk5VYkQ2YW9mcGZCWnJiLU1aN2hXUktkXzdHNldidmFKZFJVR05SQmFCaFN6WWYzVHctaDZIYUxLQVk5XzFVWldBeVVubmpqQzlKczNJYkdIRHM2YjNUaXVGLTNR?oc=5",
+      "kept_link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPZ3NXOFVRczJ0b3VLOGRPY1VFaGtyM0Y0SllWcTQ0Z1dwbVROLWdEb2pRc1VUVl92czBxWk9tMGVIZkpxTkcwQUxHVTg5SmJfVlF5dWM4S2Y2Mm5PT1Z5ZE1lTXJPTWZZQk94NkhZTGFKY3Z4WmdsQjJYZ01lc3VXX3RQdHhjWldjZFh6Y25qMXBUbHdPQnU1WWV6Rmk5UTJsWHprTkRvaDhta2xURFE5MkZyTDczWE9EVE5GTG5aOUE?oc=5",
       "dropped_title": "Religion, spirituality linked to greater life satisfaction among older adults",
       "dropped_feed": "Bing News — spirituality",
-      "dropped_link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6b026770f6054a1faa0b23f8bc867028&url=https%3a%2f%2fwww.msn.com%2fen-us%2fnews%2fother%2freligion-spirituality-linked-to-greater-life-satisfaction-among-older-adults%2far-AA2hVHb0&c=10225830270950036106&mkt=en-us",
-      "signal": "title-similarity"
-    },
-    {
-      "kept_title": "Horoscopes Today, November 21, 2026 - USA Today",
-      "kept_feed": "Google News — astrology",
-      "kept_link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQdTctTUwtaFNWTldqMzdZNW9vbGREMnRBU3k0OTFLLVJuRkZNeXJ6cjNpT0JBX3IxWFc1dWJYeG91cFZXX2VnS0QySDlQNjBjRVUtV2Z3MDBzcHNwd1JDR3lDY2VkZWZEdXRxTC03MWx2TThGNHpKcXBrVlBTNV9MYm5oc0taVzdnc3ZMbk5tOWo?oc=5",
-      "dropped_title": "Daily Astrology News Alert, 21 November 2026: Tulsi Vivah Under Pisces Moon, Old Regrets Fade as Faith, C - The Times of India",
-      "dropped_feed": "Google News — astrology",
-      "dropped_link": "https://news.google.com/rss/articles/CBMiwAJBVV95cUxOYTJTTi1RRHJyalNzc3ZMTERhM1BrbkhIaWdWTUh0LXptLWV6UnFicDlUd1Uyd0tXNXNrNEZCWmlUNlpMMkhua0xCek5YMGY4QlNRYjZmM2V5bmV6X0pjMy1KckpWbmQ3LV9LZUQ5N3V3cFVibzdLWUNianhMM1lUZVQ1OVFuRWNNNGptOFJzUUZoQkhyMGNTZUpuT0UzUXRXejR6V0ZFeHo4XzJsVXA1U2pDVkJpRXRpSUxPaEJ0NjdCZ0RrUUJDMUdocnhNbnh2a3lfUGpmU1JRbDU2MXlfcWRaVmFrU2NOWXF2SGEwVEtJYmtFdEpjOGJmWVBfSEpCVzRqYW9kNnpnTlBSRmtBQ1pMSmVJR1ItekZPSThpTnFjMWs5UUlfR09xaGFpZ2VpMlZTV2pUUjNfVzFmMXk5dNIBxgJBVV95cUxNcVJCVnR6V0cxckw3d1ZjNjJNekwzT2lrZkJJRzNlbDF1UHp4ME9yNXpCMC1tVDhpVzNMMWpJUmZnVEh1UUdsUkN3S1QzZFdrZTg1bjJvNVBzTkpYbTc3a2tyVTIzenFReDA4SjYzUEtadWZJSkYxbWxnUlBNNmJIMUZ3azNNMEFKbXhBU2tPZ3ZPM3NOeV83YUdmUG1jMjVaWVQ0ZzU4MnBQNUVUQmxHd1Q4SWdqTEVVeGhUSkE1Y29YWnNjSElOUWdxMVczTGgzSW5qQlhwMTZlRWN4azh2ajFNS1YyWF94Tkx5MWUtbHRfWTBFekhvT01TWDc4YnFLOWJRMGpoYXdld21EbEItelhtV05ra1Fqc08wQ1hiOWo5T0ZjcjhjdEJCc0lOand3NzY3ek56S1cxbm1jbzhaay12b280QQ?oc=5",
-      "signal": "aggregator-event"
-    },
-    {
-      "kept_title": "The Sky Today on Saturday, November 21: Mercury far west of the Sun - Astronomy Magazine",
-      "kept_feed": "Google News — astronomy",
-      "kept_link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOT2VmMTU0WjM0MV9Lc3d3TzUyN0Z3djh5U09FVHFyWkNJRG1XaUFvam9wV0Y4TDJ6Tng0NFFJb09MRngycmZubkRlR0oyQldNU2I4YVF4Qmd1TlUtSVdYbU1TcEtYMnRpdDZXT2RrMDViYzNVcDZVMVRoWm1YM0doeEN3?oc=5",
-      "dropped_title": "The Sky Today on Saturday, November 21: Mercury far west of the Sun",
-      "dropped_feed": "Astronomy Magazine",
-      "dropped_link": "https://www.astronomy.com/observing/the-sky-today-saturday-november-21-2026/",
+      "dropped_link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6b0338ca72d84da0896ee51b9c4c46eb&url=https%3a%2f%2fwww.msn.com%2fen-us%2fnews%2fother%2freligion-spirituality-linked-to-greater-life-satisfaction-among-older-adults%2far-AA2hVHb0&c=10225830270950036106&mkt=en-us",
       "signal": "title-similarity"
     },
     {
@@ -237,7 +300,16 @@
       "kept_link": "https://www.space.com/space-exploration/on-this-day-in-space-november-21-2026",
       "dropped_title": "On this day in space! Nov. 21, 1676: Danish astronomer discovers speed of light — by accident — while observing Jupiter's moon Io",
       "dropped_feed": "Bing News — space",
-      "dropped_link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6b026770931145d7b9372fe27805b667&url=https%3a%2f%2fwww.space.com%2fspace-exploration%2fon-this-day-in-space-november-21-2026&c=9258451661745405899&mkt=en-us",
+      "dropped_link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6b0338ca1d564729b0347c7c438caa5b&url=https%3a%2f%2fwww.space.com%2fspace-exploration%2fon-this-day-in-space-november-21-2026&c=9258451661745405899&mkt=en-us",
+      "signal": "title-similarity"
+    },
+    {
+      "kept_title": "Why the failure to reach a major deal at UN climate talks matters as extreme weather worsens - Newsday",
+      "kept_feed": "Google News — extreme weather",
+      "kept_link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPZnZUMGowaFFMMVNYVU5CVTR2ajVPNVhBUzVZTndsUjlyZk1kMS1UckJreXZyc1VSOXBxMmJKYlU3OFRaSlZVWmNpZ0tqRjNReTh1WjczRnF4VFdmeHg5Q2U3Q2NUNENzSzFJZ1IyY2h5eUZnc2NKSjF2VVZiNGJvYk5wUjVuUTlFNWc0bGVB?oc=5",
+      "dropped_title": "Why the failure to reach a major deal at UN climate talks matters as extreme weather worsens - WPLG Local 10",
+      "dropped_feed": "Google News — extreme weather",
+      "dropped_link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNcUVEUU95ZjFwampJNHRHV1F0UDRsbXUzcGsxb21rLWQxTkttSlZ3NVVhTy1zc3ktZXBIaktDb3VqU2RqRjlZYldBaFBjUEcwdm9Qa2JaYVd2RmoxU2dZYktzYjNxTDFlZmxRWS1PYkloT1RfRDhYXzJELV9NZ3B3QXJrTFFiUDgxREt2SV9KMHlLNFdfV3IxbEFablo1cW82RGJxMXByZ2I4TGVhRGRjb08ycGlXOXFWM19KajZXeWtFQW4wX2hJ?oc=5",
       "signal": "title-similarity"
     },
     {
@@ -246,7 +318,7 @@
       "kept_link": "https://www.space.com/entertainment/space-movies-shows/this-week-in-space-podcast-episode-237-a-fond-farewell",
       "dropped_title": "This Week In Space podcast: Episode 237 — A Fond Farewell",
       "dropped_feed": "Bing News — space",
-      "dropped_link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6b026770931145d7b9372fe27805b667&url=https%3a%2f%2fwww.space.com%2fentertainment%2fspace-movies-shows%2fthis-week-in-space-podcast-episode-237-a-fond-farewell&c=12468306891396414026&mkt=en-us",
+      "dropped_link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6b0338ca1d564729b0347c7c438caa5b&url=https%3a%2f%2fwww.space.com%2fentertainment%2fspace-movies-shows%2fthis-week-in-space-podcast-episode-237-a-fond-farewell&c=12468306891396414026&mkt=en-us",
       "signal": "title-similarity"
     },
     {
@@ -261,19 +333,19 @@
     {
       "kept_title": "SpaceX launches classified mission for US Space Force from California (video)",
       "kept_feed": "Bing News — space",
-      "kept_link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6b026770931145d7b9372fe27805b667&url=https%3a%2f%2fwww.space.com%2fspace-exploration%2flaunches-spacecraft%2fspacex-falcon-9-classified-space-force-launch-ussf-317&c=5141809467200593029&mkt=en-us",
+      "kept_link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6b0338ca1d564729b0347c7c438caa5b&url=https%3a%2f%2fwww.space.com%2fspace-exploration%2flaunches-spacecraft%2fspacex-falcon-9-classified-space-force-launch-ussf-317&c=5141809467200593029&mkt=en-us",
       "dropped_title": "SpaceX launches classified mission for US Space Force from California (video)",
       "dropped_feed": "Space.com",
       "dropped_link": "https://www.space.com/space-exploration/launches-spacecraft/spacex-falcon-9-classified-space-force-launch-ussf-317",
       "signal": "title-similarity"
     },
     {
-      "kept_title": "SpaceX launches classified mission for US Space Force from California (video)",
-      "kept_feed": "Bing News — space",
-      "kept_link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6b026770931145d7b9372fe27805b667&url=https%3a%2f%2fwww.space.com%2fspace-exploration%2flaunches-spacecraft%2fspacex-falcon-9-classified-space-force-launch-ussf-317&c=5141809467200593029&mkt=en-us",
-      "dropped_title": "SpaceX launches classified mission for US Space Force from California (video) - Space",
-      "dropped_feed": "Google News — space",
-      "dropped_link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNaFpmRmxNQ2N6MU5PdnZrbHYyMWtzanU0QWZVZjY1aEJKX29VcFZ5Zkx5YkpNVGZ3dlRlQ3Y0VDZmR3U2ZFZtQXY4cEVTRm1ZSDdkbzV1TGpYYzFUVlJIOG9jeDIwS3dVR2cwandlREJac2dRMU43anlpX3lRYl90emVISEotNjRBTVNwY1cxYm1sUmlJckw2YWc2NGczRWlYU2xTUjdTejNwTFVzeWdCWEk1dU0?oc=5",
+      "kept_title": "New UFO files reveal Pentagon's plan for secret underground vault to keep 'exotic' material - The Times of India",
+      "kept_feed": "Google News — unidentified flying object",
+      "kept_link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxNU0pNVVZRcXowMmt3ZFVmRFlaS1VtOWdHSWJHd0JqYU9YTktWWHdUZVR0djNQVGZXUEZZZUt2bzhzVEZxTFBudnFmNnZ5dzh0TVZPMVk3aEZBTTRHR1hHNTI0Qy1rdThqMXA5MVUyd1NvWlVHaVNpX09ka24yZXRobGo2SVRlMk04RnUwTnVlUVp5R3pHNm1BTnlPeTFOWmdIdGpQQi1naWdxOGVmOTZBUFcza0drZzZ3cjhQbFItR3h5cUR3QS1nbTNNNEQzZy1WZlFwaEE1RmdIVlhINE5feTljWThfT3hvbURBY2NuNW3SAfYBQVVfeXFMT2gxM0wtd25NTy1zX25oLWVTX1Bic0JJT29XNGxIQTJxd0ltazhPRnhKRW53WVJpSXF0M2M5UXVCM1FLTC10QWRpam5YaTRGemFVTnZEN2dYTzh1S0Y1aDVsZ2pfQXpXeDVfQ2FnNW1vbVdERUJmX05PclBQbTh5dFppMzBCMUdPcnBmN25Kd2YyMFhWeWpuS3J4OXBieXY3ZlhHS0FNWk5hZVQ3VTlZOEJaYTM0dVlxNFdYSEZ2U2lJRkpsVExKdWdSRFJFV0VaVktnYjFtWjZmZHFZUHgxS2VUWjl1dWxua0JQMzRMV0piaEx3Qnp3?oc=5",
+      "dropped_title": "New UFO files reveal Pentagon's plan for secret underground vault to keep exotic material",
+      "dropped_feed": "Bing News — UFO",
+      "dropped_link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6b0338caeb034a6c9303fe83956e27b2&url=https%3a%2f%2fwww.msn.com%2fen-in%2fnews%2fworld%2fnew-ufo-files-reveal-pentagons-plan-for-secret-underground-vault-to-keep-exotic-material%2far-AA2hVcwz&c=8055277956112380718&mkt=en-us",
       "signal": "title-similarity"
     },
     {
@@ -282,7 +354,7 @@
       "kept_link": "https://www.space.com/space-exploration/launches-spacecraft/spacex-will-retire-1st-starship-upper-stage-ever-caught-by-chopsticks-elon-musk-says",
       "dropped_title": "SpaceX will retire 1st Starship upper stage ever caught by 'chopsticks,' Elon Musk says",
       "dropped_feed": "Bing News — space",
-      "dropped_link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6b026770931145d7b9372fe27805b667&url=https%3a%2f%2fwww.space.com%2fspace-exploration%2flaunches-spacecraft%2fspacex-will-retire-1st-starship-upper-stage-ever-caught-by-chopsticks-elon-musk-says&c=8858752013807616176&mkt=en-us",
+      "dropped_link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6b0338ca1d564729b0347c7c438caa5b&url=https%3a%2f%2fwww.space.com%2fspace-exploration%2flaunches-spacecraft%2fspacex-will-retire-1st-starship-upper-stage-ever-caught-by-chopsticks-elon-musk-says&c=8858752013807616176&mkt=en-us",
       "signal": "title-similarity"
     },
     {
@@ -291,7 +363,7 @@
       "kept_link": "https://phys.org/news/2026-11-fermi-year-sky-bridges-astronomy.html",
       "dropped_title": "Fermi's 14-year all-sky map bridges astronomy's elusive 'MeV gap'",
       "dropped_feed": "Bing News — astronomy",
-      "dropped_link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6b026770c40b4b07944bbe73301fcc66&url=https%3a%2f%2fphys.org%2fnews%2f2026-11-fermi-year-sky-bridges-astronomy.html&c=17382834044216000314&mkt=en-us",
+      "dropped_link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6b0338ca02ab42a9a482e874db9e9588&url=https%3a%2f%2fphys.org%2fnews%2f2026-11-fermi-year-sky-bridges-astronomy.html&c=17382834044216000314&mkt=en-us",
       "signal": "title-similarity"
     },
     {
@@ -300,117 +372,54 @@
       "kept_link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQZzBTaFdxc0NubzRDalpJMWN6bHdTSG9nVEptTTloeXlDRjJPclV1MUU2TXhpMGRZblFzcVhVNnRobEdOWnBwcnA1enBQbWo5akJVTTZmZFE2WWpjQ0x1b1M2c1M0UE81U2ZnNHVmVW1JSndqc3NFMndDUUxuRkZSVzJRV1MyaHg0bkFnUlFyQUc4MU1WclZnY2N2bDJzZVdoVGo1NXJkNDB3ckxGU1JIazN3WkRRbG1Wdnpib1RSWVlRWnBkTWpYZlN0VmtlOGl3WWc?oc=5",
       "dropped_title": "Will AI ever attain consciousness? Can it be good? Views on the Singularity from Sam Altman, Ray Kurzweil, and others",
       "dropped_feed": "Bing News — consciousness",
-      "dropped_link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6b026770aa5a456997d2acd726cb1bcd&url=https%3a%2f%2fwww.msn.com%2fen-ca%2fscience%2fgeneral%2fwill-ai-ever-attain-consciousness-can-it-be-good-views-on-the-singularity-from-sam-altman-ray-kurzweil-and-others%2far-AA2hVt82&c=13496407660017857974&mkt=en-us",
+      "dropped_link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6b0338ca914a4258ac01f9b6ee6cc851&url=https%3a%2f%2fwww.msn.com%2fen-ca%2fscience%2fgeneral%2fwill-ai-ever-attain-consciousness-can-it-be-good-views-on-the-singularity-from-sam-altman-ray-kurzweil-and-others%2far-AA2hVt82&c=13496407660017857974&mkt=en-us",
       "signal": "title-similarity"
     },
     {
-      "kept_title": "Pentagon UFO files reveal mysterious radar detections suggesting Mach 2.5 flight -- but there's a catch - New York Post",
-      "kept_feed": "Google News — unidentified flying object",
-      "kept_link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNVWJQa2ZDaG5IX1ZGampHVzVoeUszSlFNWDJQRjhybjBrb0tRa0V6c05Td0JJenFkSElYaTMzbkd6dU1oV0cwMXBKWWhtendsTVBORGlpMmI1X3FqZTZxd3BfY2dSa0JfbUh2RVJ6NURfWHVIOF93THRRTWU5TUVIY090WWQ3ZkpQRTYwWXlWaVdKamxoN0QtUWJrNU5BZDB6a3p3NzMxbnNYd0RFdTBYdUhQUmd2S2hITFFmU09UTDJFaUZuYVlfWXYxbU9oaExFWF9fZQ?oc=5",
-      "dropped_title": "UFO files: Mysterious ‘implants’ removed from UAP witness - NewsNation",
-      "dropped_feed": "Google News — unidentified flying object",
-      "dropped_link": "https://news.google.com/rss/articles/CBMickFVX3lxTE1jbU95MHJXOEd0WUxGSG1BYUtaUXItQUZ6cm5SMmMxUlBZVGhMc3JkeEJfVjhKYXFOdk4xaWtCVzlmUTY1dGQ0MU1lT0FIcHRwZERiT1gzVlh4VG12R0c2UzBWbGNtVGFKbURHcmNNdHBZd9IBd0FVX3lxTE1ISUdSaW9fMkFOMHJ5RjZkLWlUUTJFeWlIUUV1RTBaM1dkVXpCdkRtdDhsbXBvalBIWWpyQ2d3Z3ZJdV9UdWFNUjNYN0RNczk1TVpiYjJDcFpDbUhOcXNJZWpXNnVtdUFVb3RiWW9pT3FXQzA4OUs0?oc=5",
-      "signal": "aggregator-event"
-    },
-    {
-      "kept_title": "BepiColombo goes into orbit around Mercury today!",
-      "kept_feed": "EarthSky",
-      "kept_link": "https://earthsky.org/space/bepicolombo-mission-mercury/",
-      "dropped_title": "European-Japanese BepiColombo probe arrives in orbit around Mercury today",
+      "kept_title": "European-Japanese BepiColombo mission becomes 2nd ever to arrive in orbit around Mercury - Space",
+      "kept_feed": "Google News — space",
+      "kept_link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQZTNvdl9DUkdXMllqTXdqM053Mmc1REdQZjVTOGlXY1JGZVNvSHRTeFhIZjJXYVE0OFZ3UHBPWDdkdi1TTHZWc3lrZkNPVXd6LTFmT3kxN28zclJOcTlXLVNSanl4UnRHNzhuVDNnenhLTXRqQ3RJRk1sNEJIVTUycVA1Zi0tNnhyNjJJV2JBaFNDdUZZY1J3Vi10MTBHMXd0RXc?oc=5",
+      "dropped_title": "European-Japanese BepiColombo mission becomes 2nd ever to arrive in orbit around Mercury",
       "dropped_feed": "Bing News — space",
-      "dropped_link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6b026770931145d7b9372fe27805b667&url=https%3a%2f%2fwww.space.com%2fspace-exploration%2fmissions%2fesa-jaxa-bepicolomobo-mission-mercury-orbit-arrival&c=4001722864690256990&mkt=en-us",
+      "dropped_link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6b0338ca1d564729b0347c7c438caa5b&url=https%3a%2f%2fwww.space.com%2fspace-exploration%2fmissions%2fesa-jaxa-bepicolomobo-mission-mercury-orbit-arrival&c=4001722864690256990&mkt=en-us",
       "signal": "title-similarity"
     },
     {
-      "kept_title": "The Sky Today on Saturday, November 21: Mercury far west of the Sun - Astronomy Magazine",
-      "kept_feed": "Google News — astronomy",
-      "kept_link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOT2VmMTU0WjM0MV9Lc3d3TzUyN0Z3djh5U09FVHFyWkNJRG1XaUFvam9wV0Y4TDJ6Tng0NFFJb09MRngycmZubkRlR0oyQldNU2I4YVF4Qmd1TlUtSVdYbU1TcEtYMnRpdDZXT2RrMDViYzNVcDZVMVRoWm1YM0doeEN3?oc=5",
+      "kept_title": "The Sky Today on Saturday, November 21: Mercury far west of the Sun",
+      "kept_feed": "Astronomy Magazine",
+      "kept_link": "https://www.astronomy.com/observing/the-sky-today-saturday-november-21-2026/",
       "dropped_title": "The Sky Today on Saturday, November 21: Mercury far west of the Sun",
       "dropped_feed": "Bing News — astronomy",
-      "dropped_link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6b026770c40b4b07944bbe73301fcc66&url=https%3a%2f%2fwww.msn.com%2fen-us%2fnews%2fother%2fthe-sky-today-on-saturday-november-21-mercury-far-west-of-the-sun%2far-AA2hUmt4&c=964393440303936402&mkt=en-us",
+      "dropped_link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6b0338ca02ab42a9a482e874db9e9588&url=https%3a%2f%2fwww.msn.com%2fen-us%2fnews%2fother%2fthe-sky-today-on-saturday-november-21-mercury-far-west-of-the-sun%2far-AA2hUmt4&c=964393440303936402&mkt=en-us",
       "signal": "title-similarity"
     },
     {
-      "kept_title": "UFO files: Mysterious ‘implants’ removed from witness | CUOMO - NewsNation",
-      "kept_feed": "Google News — UAP",
-      "kept_link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNMnVoTVk4YzBJbTVab3VxMElDYzVnZURtajNnM2ZwYW9Bcmk2Q2lqeDUxWDZQYW1FazhXRVpTeGFKb1BCT2lYMTdqZ2FUNXRfSlhPSGhvOEVzeXlQZWdmWEtGLXpvQmo1S3pUT0NYdEo5UDdRUVNtN0hoLXQxT2szVktsbWdpWUFBZUMwT3pmXzY3T1lURmNPb0JYVXlFdzgtbFYwdmxHODN1NUFkODhMV2NB0gG3AUFVX3lxTE9hZl9ENTRLaW9VcG10V1Z2MjNSbUU2Zk9ZT29aTmhkWFBRTm9ZMUJ1X3Q3UWpMaDFZSnE1MlRRWFRvWWVOc1ZsX0pVVTcyMmtYSUpLaEd3RVplc0tWbjBDZkMxc2xLNnk1S0ZDUDdCRXAzaFVZTXZYaUNDcTlsaXlyRFhSUWRHakI0V0JLUXg4bGVKLVo4WU4ySlUybElfTGw5ODQtNVVEQ09Td0w2d3hlRTJaeHVqUQ?oc=5",
-      "dropped_title": "UFO files: Mysterious ‘implants’ removed from witness | CUOMO",
-      "dropped_feed": "Bing News — UFO",
-      "dropped_link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6b026770ced14529adddd0ea6967ca56&url=https%3a%2f%2fwww.yahoo.com%2fnews%2fvideos%2fufo-files-mysterious-implants-removed-080000013.html&c=17829104450218219775&mkt=en-us",
-      "signal": "title-similarity"
-    },
-    {
-      "kept_title": "Eighth UAP release includes radar analysis of object traveling near Mach 2.5",
-      "kept_feed": "Bing News — UAP",
-      "kept_link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6b02677077754e2e859b0f3b5daeaeb9&url=https%3a%2f%2fwww.msn.com%2fen-us%2fnews%2fother%2feighth-uap-release-includes-radar-analysis-of-object-traveling-near-mach-2-5%2far-AA2hVyAa&c=15583277970275425810&mkt=en-us",
-      "dropped_title": "Eighth UAP release includes radar analysis of object traveling near Mach 2.5 - NewsNation",
-      "dropped_feed": "Google News — UAP",
-      "dropped_link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNU29Xcy1rTWUtWklnbk9oWFJtODkwOTVyNmJPV2RMc1JEVnpVRk5TbEdSbWpGMm4yS3lUR0hhZVVMYkZDTEpSQk5YZG9UOFlrREs2SW9pZ01ZUjNteWZtc2IzSkNrdk1TS1JxNURWbXlPcXNJc2lGNlU1eGdLbWFvbzdCaDVNTTIt0gGOAUFVX3lxTE5VdnhOX1N3NGZmZEROSEJxcElWUFZtMWhuMmc4X2FET19HbGhXNGZ6MXRkQ2M2ak9HSklzay1rd2hVZXhsSUQxNWpwY3FkbEJKWXVKR0E3NHJIS1IwN2kzMlQ1dWxlX3RfR2kxcGtqVDZCVUJ4MTR3UzZmbzZwMTZydUNTZjVwV0JuOVdISVE?oc=5",
-      "signal": "title-similarity"
-    },
-    {
-      "kept_title": "New Pentagon UFO Files Reveal Plans For Underground Facility To Store 'Exotic' Tissue - HuffPost",
-      "kept_feed": "Google News — UAP",
-      "kept_link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOSld0eU4xMVNpRElIWWlqMkFKRklZVjZVUFRnMnJhSnVsbEcyWUMwQjk0TktFdmFIbG90UUNIT3ZXUDk1anU2NFNIUzVrdVF6XzltUzdQZzF1Rm4xMmhkcnRWOWtJQ0ZDMEkxSGU4UjBrU1NvUS1TUGp0ZXdFcVgzNVpJU3pEQ2JIU3RYYnhVZHJuU3o5aUwxeVl30gGfAUFVX3lxTE1ZcUs5b3Fza0E1cTh0dTN1UjFDeWtMNi1PRHVCb0ZCSUxOM1dBekpUTV8tRVpiSFBDVU9wcGZYZEdLWFo4cEdHNXgwVDFFcEdnbTdVelBrdmllLTlFd1huU3dkazR2bXBwbGVRYWowZWd1azVVWGFRVTREeU5raVB0OGxQNV9xODg1V3AzUVJYRUszb1oyVmFzWk9KWlFFNA?oc=5",
-      "dropped_title": "New Pentagon UFO Files Reveal Plans For Underground Facility To Store 'Exotic' Tissue - AOL.com",
-      "dropped_feed": "Google News — unidentified flying object",
-      "dropped_link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNTG9sc3VqOHhUTnFXTGc3SldQS1kzVl9PbmxlS3loejJYQldzWjRUZl9OUTZzeEpRd2gxbXpJUmhnN3QzQkxMWXlKVGNGLW5vdmJrQXRVS1VMV0JWRDZaS1RwTmNsVklxajJJdEJieHpOUkJhT1kybWZadVJPY1VyNA?oc=5",
-      "signal": "title-similarity"
-    },
-    {
-      "kept_title": "Exceptional exhibition on ancient Armenia opens at the Acropolis Museum, Greece’s most prestigious museum - Armenpress",
-      "kept_feed": "Google News — ancient civilizations",
-      "kept_link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1kaUN6bTg0RHEzLUNKRXZRV3YwZ2N2WE9uSUhPYjhoYXZYQlJBQkYtSFl3bC0zd0NsY2Q0T2JwYXhLWDNBVllxZ1A3bUJ3blhDUFHSAVdBVV95cUxOWlNHekx6ZHk3ZWVRdnN5bV9tVmp5WDVOcDMyZ1FFWFhMWWczamg0UkFxSWk1V0U3dXJlc1NWRXZhRTRhMGh0T2JFRHBfazRPYkQzMGh5cTg?oc=5",
-      "dropped_title": "Acropolis Museum Explores Ancient Armenia in New Exhibition - tovima.com",
-      "dropped_feed": "Google News — ancient civilizations",
-      "dropped_link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPbmk5RWtuRW5BT1JqMDNkWmkxVWs5dmI0ZVBEeXJzdGkxbV9ZbkRDNjkwZnozemxnU2RRckJMZlR5TlRIQkdKQ0tWaEpVdVliRUpCYU5JRkZMb0hrMUFLVkJ5RnBUeEcyS2hMYTdBRVZPZnp1azB4cllqME9FRG9ZUDFvMTFoUWs0amtsV0QxSDROU0JJMFE?oc=5",
-      "signal": "title-similarity"
-    },
-    {
-      "kept_title": "Meta-Analysis Links Religion and Spirituality to Senior Quality of Life; Next Study May Find No Link - Tech Times",
-      "kept_feed": "Google News — spirituality",
-      "kept_link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPV0xjQXg2WkFkUmV6RHVkdzlmOGViVV92TzNta1Uyd0sxOV9tRHkyRUowdWUxZUFXcXM5bkRwQTc2bTNfLVR6VWRPQ0x6aDh0YlpwanlxSll0S1hwdnNfVGZmQXBNbVhqYk9sUVFWT0dDaTFaaThCTEUyZW5nOFFQWG5ON1ZneEtUczVTUlFva2l1UGMtNUstbnBCZEhjNWozQmJVTEtvUm84d1FZY2NPV3RWYnRqTWI3Slpqd2FwampzbFk0aXl2Q0c2S2FXRTRJR1lXLW1rajJONWNJ?oc=5",
-      "dropped_title": "Meta-analysis links religion and spirituality to senior quality of life; next study may find no link",
-      "dropped_feed": "Bing News — spirituality",
-      "dropped_link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6b026770f6054a1faa0b23f8bc867028&url=https%3a%2f%2fwww.msn.com%2fen-us%2fhealth%2fmindandbody%2fmeta-analysis-links-religion-and-spirituality-to-senior-quality-of-life-next-study-may-find-no-link%2far-AA2hTvMB&c=18235756314952847939&mkt=en-us",
-      "signal": "title-similarity"
-    },
-    {
-      "kept_title": "Daily Horoscope for November 21, 2026 - Hartford Courant",
+      "kept_title": "Daily Horoscope for November 22, 2026 - Hartford Courant",
       "kept_feed": "Google News — astrology",
-      "kept_link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1lTmpTTE16NHUzZEo2R29rM1BONmdCV3RkMElaeFNveUc5MkhIdktvNXFfbi1Ka0ZUQlRHSmlIZEwwN21kc0dOMXl5NzVWY3Blazc5SkR4eXJxVm5yTER6T3p0dVhTdnh5LXBPX3FDSDJPMG5VdTRrRmJEOHY?oc=5",
-      "dropped_title": "Horoscope Today: Daily astrological predictions for November 21, 2026 - The Times of India",
+      "kept_link": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBjRVRPMjBlSmxBaGpSMFFfcG5wUXJPNk9zblFPSERqU1M4QmMwQlB6bUlnb3B1R1VycEJEMWI2bnpwTEVzQ3phcklMSTVlTlZ6eVk4SHNTeDVJcFY1X0ZpSU1BVHBnOGJxdkl6dkJzQXh6NFI2YXNHcWMzNjI?oc=5",
+      "dropped_title": "Daily Horoscope for November 21, 2026 - Hartford Courant",
       "dropped_feed": "Google News — astrology",
-      "dropped_link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNYlFZdkhGVlB2Z2I0dnRic0ZKYjQtQTI2d1M5T2dLbnpRNnRkcVQyVnhOeExONGFITDd6TEszeE1rUkh1MkZyZTlSU0UzcU9tcVFWR0VBcDluS09yT2d0cU04cHlDV1FvZnNRcHhETktCd0pQVS01bmQ4NzFZMlV2TUlYb0ZrVGdGSzBobktNRHdjRE8tUG1VSzNnY3o5Z0FPVDNRUTFNbFlCV09fLTB6WkxHeHFxd2RHS2J4cllTRWhjQTNTVXdMb1lUZ2NJcmZlNFpBczM2a01Wb3I1NEh4dXd5SdIB6AFBVV95cUxQUUM2Y2lpU2dEQUpBak5BZmpXanY0TW9pV0tscEVvMld4Q3ZVUThTZ3EwdnhPaDFmNkoySlQ5NDhOZ2tkR2VCbW5DdVQ5VWdJODRtcV9wTTUyWUliT3J5NW9mdXRCYWpXdEtkdVNUVkZfY0hRZEJud3BacEtHSWxXN1FzbnZRRzAxZUY0ZEtUeGZXdEZZeW45TlJJamp1MG51Sk1JQnVIVUZGM0lDdTZVZVE4SWs1anFiRjNIbHdBbUdoMmt3Uy1QS2NPMW81VEpCX2RfcVNGLTRYTndOVURSYmtmMll5dDcw?oc=5",
-      "signal": "title-similarity"
-    },
-    {
-      "kept_title": "New Pentagon UFO Files Reveal Plans For Underground Facility To Store 'Exotic' Tissue - HuffPost",
-      "kept_feed": "Google News — UAP",
-      "kept_link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOSld0eU4xMVNpRElIWWlqMkFKRklZVjZVUFRnMnJhSnVsbEcyWUMwQjk0TktFdmFIbG90UUNIT3ZXUDk1anU2NFNIUzVrdVF6XzltUzdQZzF1Rm4xMmhkcnRWOWtJQ0ZDMEkxSGU4UjBrU1NvUS1TUGp0ZXdFcVgzNVpJU3pEQ2JIU3RYYnhVZHJuU3o5aUwxeVl30gGfAUFVX3lxTE1ZcUs5b3Fza0E1cTh0dTN1UjFDeWtMNi1PRHVCb0ZCSUxOM1dBekpUTV8tRVpiSFBDVU9wcGZYZEdLWFo4cEdHNXgwVDFFcEdnbTdVelBrdmllLTlFd1huU3dkazR2bXBwbGVRYWowZWd1azVVWGFRVTREeU5raVB0OGxQNV9xODg1V3AzUVJYRUszb1oyVmFzWk9KWlFFNA?oc=5",
-      "dropped_title": "New Pentagon UFO Files Show Plans For Underground Tissue And ‘Exotic Material’ Storage - AOL.com",
-      "dropped_feed": "Google News — unidentified flying object",
-      "dropped_link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1Lel9qZXM5c3djZVEwQ3dSTS05YzUyNVBxMkNPSk16S29xVmdmSkhRRmk5WGpQcV8wUENORjFScDJyV1pXMEI3aTVUa19tTkIxQXR4TkVkUzltTnhYaWE3ampCNGZZR0QxRXNFZnUzM3EtaFpwbEJaSHpPdGl1dw?oc=5",
+      "dropped_link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1lTmpTTE16NHUzZEo2R29rM1BONmdCV3RkMElaeFNveUc5MkhIdktvNXFfbi1Ka0ZUQlRHSmlIZEwwN21kc0dOMXl5NzVWY3Blazc5SkR4eXJxVm5yTER6T3p0dVhTdnh5LXBPX3FDSDJPMG5VdTRrRmJEOHY?oc=5",
       "signal": "title-similarity"
     }
   ],
-  "articles_written": 258,
+  "articles_written": 257,
   "excerpt_over_limit": 0,
-  "images_logged": 139,
-  "images_usable": 2,
-  "images_hero_eligible": 2,
+  "images_logged": 130,
+  "images_usable": 0,
+  "images_hero_eligible": 0,
   "terms_breakdown": {
-    "full_text": 5,
+    "full_text": 3,
     "abstract": 0,
-    "excerpt": 253
+    "excerpt": 254
   },
   "topic_breakdown": {
-    "Space & Astronomy": 45,
-    "UFOs & UAPs": 34,
-    "Consciousness": 63,
-    "Near-Death Experiences": 4,
-    "Physics & Preprints": 1,
-    "Science & the Future": 111
+    "Space & Astronomy": 53,
+    "UFOs & UAPs": 23,
+    "Consciousness": 73,
+    "Near-Death Experiences": 5,
+    "Physics & Preprints": 0,
+    "Science & the Future": 103
   },
   "articles_without_topic": 0
 }
