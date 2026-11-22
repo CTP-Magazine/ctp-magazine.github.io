@@ -1,6 +1,198 @@
 {
-  "generated": "2026-11-21",
+  "generated": "2026-11-22",
   "images": [
+    {
+      "image_url": "https://scitechdaily.com/images/Derek-Pickell-Admiring-a-Backlit-Snowpit-777x1036.jpg",
+      "article_link": "https://scitechdaily.com/a-century-old-pollution-disaster-has-been-discovered-frozen-in-arctic-ice/",
+      "article_title": "A Century-Old Pollution Disaster Has Been Discovered Frozen in Arctic Ice",
+      "source": "SciTechDaily",
+      "licence": "EXCERPT + LINK — commercial, all rights reserved",
+      "credit": "SciTechDaily",
+      "usable": false,
+      "usable_reason": "licence does not cover images (SciTechDaily)",
+      "hero_eligible": false,
+      "date_checked": "2026-11-22"
+    },
+    {
+      "image_url": "https://scitechdaily.com/images/Tectonic-Plates-Earth-Glowing-777x583.jpg",
+      "article_link": "https://scitechdaily.com/a-chemical-signature-suddenly-disappeared-from-earths-rocks-scientists-think-they-know-why/",
+      "article_title": "A Chemical Signature Suddenly Disappeared From Earth’s Rocks. Scientists Think They Know Why",
+      "source": "SciTechDaily",
+      "licence": "EXCERPT + LINK — commercial, all rights reserved",
+      "credit": "SciTechDaily",
+      "usable": false,
+      "usable_reason": "licence does not cover images (SciTechDaily)",
+      "hero_eligible": false,
+      "date_checked": "2026-11-22"
+    },
+    {
+      "image_url": "https://www.sciencealert.com/images/2026/11/CockroachOnAmazonFlower-1200x675.png",
+      "article_link": "https://www.sciencealert.com/scientists-discover-cockroaches-doing-something-surprisingly-useful-in-the-amazon-after-dark",
+      "article_title": "Scientists Discover Cockroaches Doing Something Surprisingly Useful in The Amazon After Dark",
+      "source": "ScienceAlert",
+      "licence": "EXCERPT + LINK — commercial, all rights reserved",
+      "credit": "ScienceAlert",
+      "usable": false,
+      "usable_reason": "licence does not cover images (ScienceAlert)",
+      "hero_eligible": false,
+      "date_checked": "2026-11-22"
+    },
+    {
+      "image_url": "https://scx1.b-cdn.net/csz/news/tmb/2026/photo-of-the-team-stan.jpg",
+      "article_link": "https://phys.org/news/2026-11-feathers-reveal-eastern-black-rails.html",
+      "article_title": "Single feathers may reveal whether eastern black rails stay in Texas or migrate north",
+      "source": "Science X",
+      "licence": "EXCERPT + LINK — up to 200 words + hyperlink, no permission needed inside that limit",
+      "credit": "Science X",
+      "usable": false,
+      "usable_reason": "licence does not cover images (Science X)",
+      "hero_eligible": false,
+      "date_checked": "2026-11-22"
+    },
+    {
+      "image_url": "https://scitechdaily.com/images/Young-Boy-Homework-ADHD-777x518.jpg",
+      "article_link": "https://scitechdaily.com/new-research-finds-common-adhd-classroom-accommodations-may-not-actually-help/",
+      "article_title": "New Research Finds Common ADHD Classroom Accommodations May Not Actually Help",
+      "source": "SciTechDaily",
+      "licence": "EXCERPT + LINK — commercial, all rights reserved",
+      "credit": "SciTechDaily",
+      "usable": false,
+      "usable_reason": "licence does not cover images (SciTechDaily)",
+      "hero_eligible": false,
+      "date_checked": "2026-11-22"
+    },
+    {
+      "image_url": "https://www.psypost.org/wp-content/uploads/2026/02/neurons-3.jpg",
+      "article_link": "https://www.psypost.org/how-brain-cell-networks-expand-and-shrink-as-cocaine-habits-form/",
+      "article_title": "How brain cell networks expand and shrink as cocaine habits form",
+      "source": "PsyPost",
+      "licence": "EXCERPT + LINK — commercial, all rights reserved",
+      "credit": "PsyPost",
+      "usable": false,
+      "usable_reason": "licence does not cover images (PsyPost)",
+      "hero_eligible": false,
+      "date_checked": "2026-11-22"
+    },
+    {
+      "image_url": "https://scitechdaily.com/images/Keto-Ketogenic-Diet-777x518.jpg",
+      "article_link": "https://scitechdaily.com/new-research-reveals-why-the-keto-diet-can-trigger-inflammation-instead-of-fighting-it/",
+      "article_title": "New Research Reveals Why the Keto Diet Can Trigger Inflammation Instead of Fighting It",
+      "source": "SciTechDaily",
+      "licence": "EXCERPT + LINK — commercial, all rights reserved",
+      "credit": "SciTechDaily",
+      "usable": false,
+      "usable_reason": "licence does not cover images (SciTechDaily)",
+      "hero_eligible": false,
+      "date_checked": "2026-11-22"
+    },
+    {
+      "image_url": "https://www.psypost.org/wp-content/uploads/2026/11/smug-boss.jpg",
+      "article_link": "https://www.psypost.org/new-study-finds-bosses-who-brag-about-their-own-good-deeds-risk-disgusting-their-employees/",
+      "article_title": "New study finds bosses who share stories about their own good deeds risk disgusting employees",
+      "source": "PsyPost",
+      "licence": "EXCERPT + LINK — commercial, all rights reserved",
+      "credit": "PsyPost",
+      "usable": false,
+      "usable_reason": "licence does not cover images (PsyPost)",
+      "hero_eligible": false,
+      "date_checked": "2026-11-22"
+    },
+    {
+      "image_url": "https://scitechdaily.com/images/Woman-Body-Before-After-Weight-Loss-777x518.jpg",
+      "article_link": "https://scitechdaily.com/why-ozempic-weight-loss-stalls-for-some-people-but-not-others/",
+      "article_title": "Why Ozempic Weight Loss Stalls for Some People but Not Others",
+      "source": "SciTechDaily",
+      "licence": "EXCERPT + LINK — commercial, all rights reserved",
+      "credit": "SciTechDaily",
+      "usable": false,
+      "usable_reason": "licence does not cover images (SciTechDaily)",
+      "hero_eligible": false,
+      "date_checked": "2026-11-22"
+    },
+    {
+      "image_url": "https://scx1.b-cdn.net/csz/news/tmb/2026/the-avian-champions-of.jpg",
+      "article_link": "https://phys.org/news/2026-11-avian-champions-distance-migration-scientists.html",
+      "article_title": "The avian champions of long-distance migration keep surprising scientists",
+      "source": "Science X",
+      "licence": "EXCERPT + LINK — up to 200 words + hyperlink, no permission needed inside that limit",
+      "credit": "Science X",
+      "usable": false,
+      "usable_reason": "licence does not cover images (Science X)",
+      "hero_eligible": false,
+      "date_checked": "2026-11-22"
+    },
+    {
+      "image_url": "https://www.sciencealert.com/images/2026/11/metastatic-cancer-1200x675.jpg",
+      "article_link": "https://www.sciencealert.com/a-3-year-olds-metastatic-cancer-vanished-after-two-doses-of-experimental-therapy",
+      "article_title": "A 3-Year-Old's Metastatic Cancer Vanished After Two Doses of Experimental Therapy",
+      "source": "ScienceAlert",
+      "licence": "EXCERPT + LINK — commercial, all rights reserved",
+      "credit": "ScienceAlert",
+      "usable": false,
+      "usable_reason": "licence does not cover images (ScienceAlert)",
+      "hero_eligible": false,
+      "date_checked": "2026-11-22"
+    },
+    {
+      "image_url": "https://www.psypost.org/wp-content/uploads/2026/01/woman-jogging.jpg",
+      "article_link": "https://www.psypost.org/college-students-who-spend-more-time-in-intense-physical-activity-report-slightly-fewer-depressive-symptoms/",
+      "article_title": "College students who spend more time in intense physical activity report slightly fewer depressive symptoms",
+      "source": "PsyPost",
+      "licence": "EXCERPT + LINK — commercial, all rights reserved",
+      "credit": "PsyPost",
+      "usable": false,
+      "usable_reason": "licence does not cover images (PsyPost)",
+      "hero_eligible": false,
+      "date_checked": "2026-11-22"
+    },
+    {
+      "image_url": "https://www.sciencealert.com/images/2026/11/child-on-tablet-1200x675.jpg",
+      "article_link": "https://www.sciencealert.com/screen-time-in-childhood-is-linked-to-a-surprising-brain-benefit-in-teens-8-year-study-finds",
+      "article_title": "Screen Time in Childhood Is Linked to a Surprising Brain Benefit in Teens, 8-Year Study Finds",
+      "source": "ScienceAlert",
+      "licence": "EXCERPT + LINK — commercial, all rights reserved",
+      "credit": "ScienceAlert",
+      "usable": false,
+      "usable_reason": "licence does not cover images (ScienceAlert)",
+      "hero_eligible": false,
+      "date_checked": "2026-11-22"
+    },
+    {
+      "image_url": "https://scx1.b-cdn.net/csz/news/tmb/2026/a-necklace-with-beads.jpg",
+      "article_link": "https://phys.org/news/2026-11-sugar-based-hydrogel.html",
+      "article_title": "Repeated bending strengthens sugar-based hydrogel instead of wearing it down",
+      "source": "Science X",
+      "licence": "EXCERPT + LINK — up to 200 words + hyperlink, no permission needed inside that limit",
+      "credit": "Science X",
+      "usable": false,
+      "usable_reason": "licence does not cover images (Science X)",
+      "hero_eligible": false,
+      "date_checked": "2026-11-22"
+    },
+    {
+      "image_url": "https://www.sciencealert.com/images/2026/09/CancerBrainNest-1200x675.png",
+      "article_link": "https://www.sciencealert.com/experimental-drug-combination-cleared-tumors-in-mice-and-left-them-resistant-to-the-same-cancer",
+      "article_title": "Experimental Drug Combination Cleared Tumors in Mice And Left Them Resistant to The Same Cancer",
+      "source": "ScienceAlert",
+      "licence": "EXCERPT + LINK — commercial, all rights reserved",
+      "credit": "ScienceAlert",
+      "usable": false,
+      "usable_reason": "licence does not cover images (ScienceAlert)",
+      "hero_eligible": false,
+      "date_checked": "2026-11-22"
+    },
+    {
+      "image_url": "https://www.psypost.org/wp-content/uploads/2026/11/child-girl-punished-mother.jpg",
+      "article_link": "https://www.psypost.org/parents-who-spank-are-more-likely-to-hit-a-child-out-of-anger-years-later-study-finds/",
+      "article_title": "Parents who spank are more likely to hit a child out of anger years later, study finds",
+      "source": "PsyPost",
+      "licence": "EXCERPT + LINK — commercial, all rights reserved",
+      "credit": "PsyPost",
+      "usable": false,
+      "usable_reason": "licence does not cover images (PsyPost)",
+      "hero_eligible": false,
+      "date_checked": "2026-11-22"
+    },
     {
       "image_url": "https://scx1.b-cdn.net/csz/news/tmb/2026/dropping-degree-requir.jpg",
       "article_link": "https://phys.org/news/2026-11-degree-requirements-linked-higher-pay.html",
@@ -11,7 +203,7 @@
       "usable": false,
       "usable_reason": "licence does not cover images (Science X)",
       "hero_eligible": false,
-      "date_checked": "2026-11-21"
+      "date_checked": "2026-11-22"
     },
     {
       "image_url": "https://www.twz.com/wp-content/uploads/2026/11/TWZ-American-Aircraft-Carrier-Fleet-Tracker-As-Of-November-20-2026.png?quality=85",
@@ -23,7 +215,7 @@
       "usable": false,
       "usable_reason": "licence does not cover images (The War Zone (Recurrent))",
       "hero_eligible": false,
-      "date_checked": "2026-11-21"
+      "date_checked": "2026-11-22"
     },
     {
       "image_url": "https://futurism.com/wp-content/uploads/2026/11/good-llm-floppy-disk.jpg?quality=85&w=2048",
@@ -35,7 +227,7 @@
       "usable": false,
       "usable_reason": "licence does not cover images (Futurism (Recurrent))",
       "hero_eligible": false,
-      "date_checked": "2026-11-21"
+      "date_checked": "2026-11-22"
     },
     {
       "image_url": "https://scitechdaily.com/images/Ancient-Roman-Copper-Coin-Emperor-Magnus-Maximus-777x370.jpg",
@@ -47,7 +239,7 @@
       "usable": false,
       "usable_reason": "licence does not cover images (SciTechDaily)",
       "hero_eligible": false,
-      "date_checked": "2026-11-21"
+      "date_checked": "2026-11-22"
     },
     {
       "image_url": "https://www.psypost.org/wp-content/uploads/2026/11/overweight-man.jpg",
@@ -59,7 +251,7 @@
       "usable": false,
       "usable_reason": "licence does not cover images (PsyPost)",
       "hero_eligible": false,
-      "date_checked": "2026-11-21"
+      "date_checked": "2026-11-22"
     },
     {
       "image_url": "https://lede-admin.nautil.us/wp-content/uploads/sites/70/2026/11/AdobeStock_247676103.jpeg?w=564",
@@ -71,7 +263,7 @@
       "usable": false,
       "usable_reason": "licence does not cover images (Nautilus)",
       "hero_eligible": false,
-      "date_checked": "2026-11-21"
+      "date_checked": "2026-11-22"
     },
     {
       "image_url": "https://spaceflightnow.com/wp-content/uploads/2026/04/20260414-Falcon-9-File.jpg",
@@ -83,7 +275,7 @@
       "usable": false,
       "usable_reason": "licence does not cover images (Spaceflight Now)",
       "hero_eligible": false,
-      "date_checked": "2026-11-21"
+      "date_checked": "2026-11-22"
     },
     {
       "image_url": "https://scitechdaily.com/images/Frog-Bones-in-a-Petri-Dish-777x518.jpg",
@@ -95,7 +287,7 @@
       "usable": false,
       "usable_reason": "licence does not cover images (SciTechDaily)",
       "hero_eligible": false,
-      "date_checked": "2026-11-21"
+      "date_checked": "2026-11-22"
     },
     {
       "image_url": "https://futurism.com/wp-content/uploads/2026/11/microplastics-linked-deadly-colon-cancer.jpg?quality=85&w=2048",
@@ -107,7 +299,7 @@
       "usable": false,
       "usable_reason": "licence does not cover images (Futurism (Recurrent))",
       "hero_eligible": false,
-      "date_checked": "2026-11-21"
+      "date_checked": "2026-11-22"
     },
     {
       "image_url": "https://cdn.mos.cms.futurecdn.net/hDwaad2isLaVa7K7amh3qf-1920-80.jpg",
@@ -119,7 +311,7 @@
       "usable": false,
       "usable_reason": "licence does not cover images (Future plc)",
       "hero_eligible": false,
-      "date_checked": "2026-11-21"
+      "date_checked": "2026-11-22"
     },
     {
       "image_url": "https://scitechdaily.com/images/Illustration-of-Chaetoderma-shenloong-Dracosphera-777x434.jpg",
@@ -131,7 +323,7 @@
       "usable": false,
       "usable_reason": "licence does not cover images (SciTechDaily)",
       "hero_eligible": false,
-      "date_checked": "2026-11-21"
+      "date_checked": "2026-11-22"
     },
     {
       "image_url": "https://cdn.mos.cms.futurecdn.net/96kxfA37fd4UbqanGewvHf-1920-80.png",
@@ -143,7 +335,7 @@
       "usable": false,
       "usable_reason": "licence does not cover images (Future plc)",
       "hero_eligible": false,
-      "date_checked": "2026-11-21"
+      "date_checked": "2026-11-22"
     },
     {
       "image_url": "https://www.sciencealert.com/images/2026/11/vampire-camel-1200x675.png",
@@ -155,7 +347,7 @@
       "usable": false,
       "usable_reason": "licence does not cover images (ScienceAlert)",
       "hero_eligible": false,
-      "date_checked": "2026-11-21"
+      "date_checked": "2026-11-22"
     },
     {
       "image_url": "https://futurism.com/wp-content/uploads/2026/11/spacex-investors-elon-plan-chips-space.jpg?quality=85&w=2048",
@@ -167,7 +359,7 @@
       "usable": false,
       "usable_reason": "licence does not cover images (Futurism (Recurrent))",
       "hero_eligible": false,
-      "date_checked": "2026-11-21"
+      "date_checked": "2026-11-22"
     },
     {
       "image_url": "https://scx1.b-cdn.net/csz/news/tmb/2026/babies-in-an-ancient-g.jpg",
@@ -179,7 +371,7 @@
       "usable": false,
       "usable_reason": "licence does not cover images (Science X)",
       "hero_eligible": false,
-      "date_checked": "2026-11-21"
+      "date_checked": "2026-11-22"
     },
     {
       "image_url": "https://cdn.mos.cms.futurecdn.net/EKv5rDXkHGEoZPK2jcNPBD-1920-80.jpg",
@@ -191,7 +383,7 @@
       "usable": false,
       "usable_reason": "licence does not cover images (Future plc)",
       "hero_eligible": false,
-      "date_checked": "2026-11-21"
+      "date_checked": "2026-11-22"
     },
     {
       "image_url": "https://earthsky.org/upl/2026/11/Pleiades-and-Asteroid-Beatrix-800x831.jpg",
@@ -203,7 +395,7 @@
       "usable": false,
       "usable_reason": "licence does not cover images (EarthSky)",
       "hero_eligible": false,
-      "date_checked": "2026-11-21"
+      "date_checked": "2026-11-22"
     },
     {
       "image_url": "https://www.psypost.org/wp-content/uploads/2026/06/junk-food-brain.jpg",
@@ -215,7 +407,7 @@
       "usable": false,
       "usable_reason": "licence does not cover images (PsyPost)",
       "hero_eligible": false,
-      "date_checked": "2026-11-21"
+      "date_checked": "2026-11-22"
     },
     {
       "image_url": "https://cdn.mos.cms.futurecdn.net/Lk7KWwRZdwsKrpVCVhW7c-1920-80.jpg",
@@ -227,7 +419,7 @@
       "usable": false,
       "usable_reason": "licence does not cover images (Future plc)",
       "hero_eligible": false,
-      "date_checked": "2026-11-21"
+      "date_checked": "2026-11-22"
     },
     {
       "image_url": "https://cdn.mos.cms.futurecdn.net/ACbBKrGDi3FTxv7Q3FKbU3-1920-80.jpg",
@@ -239,7 +431,7 @@
       "usable": false,
       "usable_reason": "licence does not cover images (Future plc)",
       "hero_eligible": false,
-      "date_checked": "2026-11-21"
+      "date_checked": "2026-11-22"
     },
     {
       "image_url": "https://singularityhub.com/uploads/2026/11/pixellated-clouds-glitching-out.jpeg?auto=webp",
@@ -251,7 +443,7 @@
       "usable": false,
       "usable_reason": "licence does not cover images (Singularity University)",
       "hero_eligible": false,
-      "date_checked": "2026-11-21"
+      "date_checked": "2026-11-22"
     },
     {
       "image_url": "https://lede-admin.nautil.us/wp-content/uploads/sites/70/2026/11/Polar-Bears-HERO.jpg?w=564",
@@ -263,7 +455,7 @@
       "usable": false,
       "usable_reason": "licence does not cover images (Nautilus)",
       "hero_eligible": false,
-      "date_checked": "2026-11-21"
+      "date_checked": "2026-11-22"
     },
     {
       "image_url": "https://futurism.com/wp-content/uploads/2026/11/elon-maga-rebuke-hurt-trump.jpg?quality=85&w=2048",
@@ -275,7 +467,7 @@
       "usable": false,
       "usable_reason": "licence does not cover images (Futurism (Recurrent))",
       "hero_eligible": false,
-      "date_checked": "2026-11-21"
+      "date_checked": "2026-11-22"
     },
     {
       "image_url": "https://www.psypost.org/wp-content/uploads/2026/11/attractive-woman.jpg",
@@ -287,7 +479,7 @@
       "usable": false,
       "usable_reason": "licence does not cover images (PsyPost)",
       "hero_eligible": false,
-      "date_checked": "2026-11-21"
+      "date_checked": "2026-11-22"
     },
     {
       "image_url": "https://scx1.b-cdn.net/csz/news/tmb/2026/shaded-relief-map-of-e.jpg",
@@ -299,7 +491,7 @@
       "usable": false,
       "usable_reason": "licence does not cover images (Science X)",
       "hero_eligible": false,
-      "date_checked": "2026-11-21"
+      "date_checked": "2026-11-22"
     },
     {
       "image_url": "https://cdn.mos.cms.futurecdn.net/3mnJVuznBwEqwQGpAEL4JY-1920-80.jpg",
@@ -311,7 +503,7 @@
       "usable": false,
       "usable_reason": "licence does not cover images (Future plc)",
       "hero_eligible": false,
-      "date_checked": "2026-11-21"
+      "date_checked": "2026-11-22"
     },
     {
       "image_url": "https://futurism.com/wp-content/uploads/2026/11/economists-hyperventilating-ai-bubble.jpg?quality=85&w=2048",
@@ -323,7 +515,7 @@
       "usable": false,
       "usable_reason": "licence does not cover images (Futurism (Recurrent))",
       "hero_eligible": false,
-      "date_checked": "2026-11-21"
+      "date_checked": "2026-11-22"
     },
     {
       "image_url": "https://futurism.com/wp-content/uploads/2026/11/workers-assembling-ai-chips-strike-pay.jpg?quality=85&w=2048",
@@ -335,7 +527,7 @@
       "usable": false,
       "usable_reason": "licence does not cover images (Futurism (Recurrent))",
       "hero_eligible": false,
-      "date_checked": "2026-11-21"
+      "date_checked": "2026-11-22"
     },
     {
       "image_url": "https://counter.theconversation.com/content/297225/count.gif",
@@ -347,7 +539,7 @@
       "usable": false,
       "usable_reason": "licence does not cover images (The Conversation)",
       "hero_eligible": false,
-      "date_checked": "2026-11-21"
+      "date_checked": "2026-11-22"
     },
     {
       "image_url": "https://scitechdaily.com/images/Child-Cerebral-Palsy-Outside-777x518.jpg",
@@ -359,7 +551,7 @@
       "usable": false,
       "usable_reason": "licence does not cover images (SciTechDaily)",
       "hero_eligible": false,
-      "date_checked": "2026-11-21"
+      "date_checked": "2026-11-22"
     },
     {
       "image_url": "https://www.sciencealert.com/images/2026/10/ParkinsonsBrain-1200x675.png",
@@ -371,7 +563,7 @@
       "usable": false,
       "usable_reason": "licence does not cover images (ScienceAlert)",
       "hero_eligible": false,
-      "date_checked": "2026-11-21"
+      "date_checked": "2026-11-22"
     },
     {
       "image_url": "https://scx1.b-cdn.net/csz/news/tmb/2026/fermis-14-year-all-sky.jpg",
@@ -383,7 +575,7 @@
       "usable": false,
       "usable_reason": "licence does not cover images (Science X)",
       "hero_eligible": false,
-      "date_checked": "2026-11-21"
+      "date_checked": "2026-11-22"
     },
     {
       "image_url": "https://www.psypost.org/wp-content/uploads/2025/07/gut-brain-axis.jpg",
@@ -395,7 +587,7 @@
       "usable": false,
       "usable_reason": "licence does not cover images (PsyPost)",
       "hero_eligible": false,
-      "date_checked": "2026-11-21"
+      "date_checked": "2026-11-22"
     },
     {
       "image_url": "https://cdn.mos.cms.futurecdn.net/FBiquE8ByNwXYMJZeaXVkm-1920-80.jpg",
@@ -407,7 +599,7 @@
       "usable": false,
       "usable_reason": "licence does not cover images (Future plc)",
       "hero_eligible": false,
-      "date_checked": "2026-11-21"
+      "date_checked": "2026-11-22"
     },
     {
       "image_url": "https://earthsky.org/upl/2026/09/ESAanimationofbepicolomboseparationsep32026-resize.gif",
@@ -419,7 +611,7 @@
       "usable": false,
       "usable_reason": "licence does not cover images (EarthSky)",
       "hero_eligible": false,
-      "date_checked": "2026-11-21"
+      "date_checked": "2026-11-22"
     },
     {
       "image_url": "https://lede-admin.nautil.us/wp-content/uploads/sites/70/2026/11/bonadonna-artwork-dinosaur.jpg?w=564",
@@ -431,7 +623,7 @@
       "usable": false,
       "usable_reason": "licence does not cover images (Nautilus)",
       "hero_eligible": false,
-      "date_checked": "2026-11-21"
+      "date_checked": "2026-11-22"
     },
     {
       "image_url": "https://futurism.com/wp-content/uploads/2026/11/quantum-hackers-crack-financial-system.jpg?quality=85&w=2048",
@@ -443,7 +635,7 @@
       "usable": false,
       "usable_reason": "licence does not cover images (Futurism (Recurrent))",
       "hero_eligible": false,
-      "date_checked": "2026-11-21"
+      "date_checked": "2026-11-22"
     },
     {
       "image_url": "https://scitechdaily.com/images/Various-Medicine-Pills-Capsules-Comparing-Antidepressants-777x518.jpg",
@@ -455,7 +647,7 @@
       "usable": false,
       "usable_reason": "licence does not cover images (SciTechDaily)",
       "hero_eligible": false,
-      "date_checked": "2026-11-21"
+      "date_checked": "2026-11-22"
     },
     {
       "image_url": "https://futurism.com/wp-content/uploads/2026/11/gta-publisher-concerned-pc-reverse-engineered.jpg?quality=85&w=2048",
@@ -467,7 +659,7 @@
       "usable": false,
       "usable_reason": "licence does not cover images (Futurism (Recurrent))",
       "hero_eligible": false,
-      "date_checked": "2026-11-21"
+      "date_checked": "2026-11-22"
     },
     {
       "image_url": "https://scitechdaily.com/images/Doctor-With-Stethoscope-Holding-White-Pill-Medicine-777x518.jpg",
@@ -479,7 +671,7 @@
       "usable": false,
       "usable_reason": "licence does not cover images (SciTechDaily)",
       "hero_eligible": false,
-      "date_checked": "2026-11-21"
+      "date_checked": "2026-11-22"
     },
     {
       "image_url": "https://cdn.arstechnica.net/wp-content/uploads/2026/09/GettyImages-2201567552-1152x648.jpg",
@@ -491,7 +683,7 @@
       "usable": false,
       "usable_reason": "licence does not cover images (Condé Nast)",
       "hero_eligible": false,
-      "date_checked": "2026-11-21"
+      "date_checked": "2026-11-22"
     },
     {
       "image_url": "https://www.psypost.org/wp-content/uploads/2025/03/woman-using-dating-app-on-smartphone.jpg",
@@ -503,7 +695,7 @@
       "usable": false,
       "usable_reason": "licence does not cover images (PsyPost)",
       "hero_eligible": false,
-      "date_checked": "2026-11-21"
+      "date_checked": "2026-11-22"
     },
     {
       "image_url": "https://cdn.mos.cms.futurecdn.net/SDnuChhbcS9ZhohM4CDYKY-1920-80.jpg",
@@ -515,7 +707,7 @@
       "usable": false,
       "usable_reason": "licence does not cover images (Future plc)",
       "hero_eligible": false,
-      "date_checked": "2026-11-21"
+      "date_checked": "2026-11-22"
     },
     {
       "image_url": "https://www.sciencealert.com/images/2026/11/supercell-1200x675.png",
@@ -527,7 +719,7 @@
       "usable": false,
       "usable_reason": "licence does not cover images (ScienceAlert)",
       "hero_eligible": false,
-      "date_checked": "2026-11-21"
+      "date_checked": "2026-11-22"
     },
     {
       "image_url": "https://media.wired.com/photos/6b0013b54b02437d9d07344e/master/pass/Hera_her_CubeSats_and_their_rocky_target.png",
@@ -539,7 +731,7 @@
       "usable": false,
       "usable_reason": "licence does not cover images (Condé Nast)",
       "hero_eligible": false,
-      "date_checked": "2026-11-21"
+      "date_checked": "2026-11-22"
     },
     {
       "image_url": "https://futurism.com/wp-content/uploads/2026/11/ai-errors-erasing-productivity-gains.jpg?quality=85&w=2048",
@@ -551,7 +743,7 @@
       "usable": false,
       "usable_reason": "licence does not cover images (Futurism (Recurrent))",
       "hero_eligible": false,
-      "date_checked": "2026-11-21"
+      "date_checked": "2026-11-22"
     },
     {
       "image_url": "https://earthsky.org/upl/2026/11/svs3740-trim-0012-0017.webp",
@@ -563,7 +755,7 @@
       "usable": false,
       "usable_reason": "licence does not cover images (EarthSky)",
       "hero_eligible": false,
-      "date_checked": "2026-11-21"
+      "date_checked": "2026-11-22"
     },
     {
       "image_url": "https://tricycle.org/wp-content/uploads/2026/11/9781645475828.jpg",
@@ -575,7 +767,7 @@
       "usable": false,
       "usable_reason": "licence does not cover images (Tricycle (The Tricycle Foundation))",
       "hero_eligible": false,
-      "date_checked": "2026-11-21"
+      "date_checked": "2026-11-22"
     },
     {
       "image_url": "https://www.psypost.org/wp-content/uploads/2026/11/Joe-Rogan-Experience.jpg",
@@ -587,7 +779,7 @@
       "usable": false,
       "usable_reason": "licence does not cover images (PsyPost)",
       "hero_eligible": false,
-      "date_checked": "2026-11-21"
+      "date_checked": "2026-11-22"
     },
     {
       "image_url": "https://cdn.mos.cms.futurecdn.net/j6JB3xZgyHBLBek28yk2yN-1920-80.jpg",
@@ -599,7 +791,7 @@
       "usable": false,
       "usable_reason": "licence does not cover images (Future plc)",
       "hero_eligible": false,
-      "date_checked": "2026-11-21"
+      "date_checked": "2026-11-22"
     },
     {
       "image_url": "https://www.universetoday.com/article_images/nvweb_20261121_102438.jpg",
@@ -611,7 +803,7 @@
       "usable": false,
       "usable_reason": "licence does not cover images (Universe Today)",
       "hero_eligible": false,
-      "date_checked": "2026-11-21"
+      "date_checked": "2026-11-22"
     },
     {
       "image_url": "https://scx1.b-cdn.net/csz/news/tmb/2026/norway-had-been-pushin.jpg",
@@ -623,7 +815,7 @@
       "usable": false,
       "usable_reason": "licence does not cover images (Science X)",
       "hero_eligible": false,
-      "date_checked": "2026-11-21"
+      "date_checked": "2026-11-22"
     },
     {
       "image_url": "https://cdn.mos.cms.futurecdn.net/qypZFj3Cy5CQbVHkdscsHf-1920-80.jpg",
@@ -635,7 +827,7 @@
       "usable": false,
       "usable_reason": "licence does not cover images (Future plc)",
       "hero_eligible": false,
-      "date_checked": "2026-11-21"
+      "date_checked": "2026-11-22"
     },
     {
       "image_url": "https://earthsky.org/upl/2026/10/2026-Nov-21-Mercury-NH.jpeg",
@@ -647,7 +839,7 @@
       "usable": false,
       "usable_reason": "licence does not cover images (EarthSky)",
       "hero_eligible": false,
-      "date_checked": "2026-11-21"
+      "date_checked": "2026-11-22"
     },
     {
       "image_url": "https://www.sciencealert.com/images/2026/11/EggsOnSourdoughToastWithAvo-1200x675.png",
@@ -659,19 +851,7 @@
       "usable": false,
       "usable_reason": "licence does not cover images (ScienceAlert)",
       "hero_eligible": false,
-      "date_checked": "2026-11-21"
-    },
-    {
-      "image_url": "https://cdn.mos.cms.futurecdn.net/YaShmYFZ8edZqBUjFWgP3-1920-80.jpg",
-      "article_link": "https://www.space.com/space-exploration/launches-spacecraft/spacex-falcon-9-classified-space-force-launch-ussf-317",
-      "article_title": "SpaceX launches classified mission for US Space Force from California (video)",
-      "source": "Future plc",
-      "licence": "EXCERPT + LINK — commercial, all rights reserved",
-      "credit": "SpaceX",
-      "usable": false,
-      "usable_reason": "licence does not cover images (Future plc)",
-      "hero_eligible": false,
-      "date_checked": "2026-11-21"
+      "date_checked": "2026-11-22"
     },
     {
       "image_url": "https://assets.science.nasa.gov/dynamicimage/assets/science/cds/apod/apod/2026/november/Neptune-South-Pole-Voyager-2_2327x1670.jpg?w=2048&#038;h=1669&#038;fit=clip",
@@ -683,7 +863,7 @@
       "usable": false,
       "usable_reason": "APOD image — credit is on the article page, often a named photographer; not verifiable from the feed",
       "hero_eligible": false,
-      "date_checked": "2026-11-21"
+      "date_checked": "2026-11-22"
     },
     {
       "image_url": "https://scx1.b-cdn.net/csz/news/tmb/2026/what-makes-rock-deep-b.jpg",
@@ -695,7 +875,7 @@
       "usable": false,
       "usable_reason": "licence does not cover images (Science X)",
       "hero_eligible": false,
-      "date_checked": "2026-11-21"
+      "date_checked": "2026-11-22"
     },
     {
       "image_url": "https://scx1.b-cdn.net/csz/news/tmb/2026/strawberry-skins-stren.jpg",
@@ -707,7 +887,7 @@
       "usable": false,
       "usable_reason": "licence does not cover images (Science X)",
       "hero_eligible": false,
-      "date_checked": "2026-11-21"
+      "date_checked": "2026-11-22"
     },
     {
       "image_url": "https://scx1.b-cdn.net/csz/news/tmb/2026/section-of-a-dna-stran.jpg",
@@ -719,7 +899,7 @@
       "usable": false,
       "usable_reason": "licence does not cover images (Science X)",
       "hero_eligible": false,
-      "date_checked": "2026-11-21"
+      "date_checked": "2026-11-22"
     },
     {
       "image_url": "https://www.sciencealert.com/images/2026/11/dark-saturn-1200x675.png",
@@ -731,7 +911,7 @@
       "usable": false,
       "usable_reason": "licence does not cover images (ScienceAlert)",
       "hero_eligible": false,
-      "date_checked": "2026-11-21"
+      "date_checked": "2026-11-22"
     },
     {
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj_HO2n-L2FFm9cA6pb5U-DgrRJeezzP-cMtcDz51RYBu0rqfWIQnkObg_-WWxEIy4SIOZHa9pc3lNHftwqamcxFqBeNUXvHx1ZBGANG8BrSZPZoeZdVV4T-aqq4mwFoLua8477rKFmlneJqtO95koqIXnH-P90uPbxDmTb77VyMtgrmzMXidQ4cjLGRro/s72-w640-h384-c/UFO_Mercury.png",
@@ -743,7 +923,7 @@
       "usable": false,
       "usable_reason": "licence does not cover images (UFO Sightings Daily)",
       "hero_eligible": false,
-      "date_checked": "2026-11-21"
+      "date_checked": "2026-11-22"
     },
     {
       "image_url": "https://scitechdaily.com/images/Laser-Optical-Fiber-Experimental-Setup-777x521.jpg",
@@ -755,7 +935,7 @@
       "usable": false,
       "usable_reason": "licence does not cover images (SciTechDaily)",
       "hero_eligible": false,
-      "date_checked": "2026-11-21"
+      "date_checked": "2026-11-22"
     },
     {
       "image_url": "https://scx1.b-cdn.net/csz/news/tmb/2026/the-call-of-the-seamou.jpg",
@@ -767,7 +947,7 @@
       "usable": false,
       "usable_reason": "licence does not cover images (Science X)",
       "hero_eligible": false,
-      "date_checked": "2026-11-21"
+      "date_checked": "2026-11-22"
     },
     {
       "image_url": "https://www.sciencealert.com/images/2026/11/GettyImages-2224657411-2560x1440-1-1200x675.jpg",
@@ -779,7 +959,7 @@
       "usable": false,
       "usable_reason": "licence does not cover images (ScienceAlert)",
       "hero_eligible": false,
-      "date_checked": "2026-11-21"
+      "date_checked": "2026-11-22"
     },
     {
       "image_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgvfFjCYLGDKqTq5YcfU8-6WuFD2HFEAKNwDLrDW0Q2XOaeW2eZRel8RuzBd0Vies0v8ubhThMbovOzc-yOUTR2XtzqK3fkrh8RJBdmAAdamSKU826O3T-qN4t2A0N4sq1A07oxog1Bk5-1EArF3zvfWBPU-NOGFhHPnMMgICBBdbojFvxYzIdsaFhnN-c/s72-w374-h400-c/Earth%20Protected%20by%20Hope%20and%20Technology.png",
@@ -791,7 +971,7 @@
       "usable": false,
       "usable_reason": "licence does not cover images (UFO Sightings Daily)",
       "hero_eligible": false,
-      "date_checked": "2026-11-21"
+      "date_checked": "2026-11-22"
     },
     {
       "image_url": "https://scitechdaily.com/images/ESA-Hera-Networking-With-CubeSats-777x437.jpg",
@@ -803,7 +983,7 @@
       "usable": false,
       "usable_reason": "licence does not cover images (SciTechDaily)",
       "hero_eligible": false,
-      "date_checked": "2026-11-21"
+      "date_checked": "2026-11-22"
     },
     {
       "image_url": "https://www.psypost.org/wp-content/uploads/2026/11/rope.jpg",
@@ -815,7 +995,7 @@
       "usable": false,
       "usable_reason": "licence does not cover images (PsyPost)",
       "hero_eligible": false,
-      "date_checked": "2026-11-21"
+      "date_checked": "2026-11-22"
     },
     {
       "image_url": "https://scx1.b-cdn.net/csz/news/tmb/2026/broadening-the-role-of.jpg",
@@ -827,7 +1007,7 @@
       "usable": false,
       "usable_reason": "licence does not cover images (Science X)",
       "hero_eligible": false,
-      "date_checked": "2026-11-21"
+      "date_checked": "2026-11-22"
     },
     {
       "image_url": "https://lede-admin.nautil.us/wp-content/uploads/sites/70/2026/11/shutterstock_2094007717.jpg?w=564",
@@ -839,7 +1019,7 @@
       "usable": false,
       "usable_reason": "licence does not cover images (Nautilus)",
       "hero_eligible": false,
-      "date_checked": "2026-11-21"
+      "date_checked": "2026-11-22"
     },
     {
       "image_url": "https://scitechdaily.com/images/Comet-on-Fire-Meteor-Earth-777x486.jpg",
@@ -851,7 +1031,7 @@
       "usable": false,
       "usable_reason": "licence does not cover images (SciTechDaily)",
       "hero_eligible": false,
-      "date_checked": "2026-11-21"
+      "date_checked": "2026-11-22"
     },
     {
       "image_url": "https://www.twz.com/wp-content/uploads/2026/11/GettyImages-517453122-copy.jpg?quality=85",
@@ -863,7 +1043,7 @@
       "usable": false,
       "usable_reason": "licence does not cover images (The War Zone (Recurrent))",
       "hero_eligible": false,
-      "date_checked": "2026-11-21"
+      "date_checked": "2026-11-22"
     },
     {
       "image_url": "https://www.psypost.org/wp-content/uploads/2020/08/instagram.jpg",
@@ -875,7 +1055,7 @@
       "usable": false,
       "usable_reason": "licence does not cover images (PsyPost)",
       "hero_eligible": false,
-      "date_checked": "2026-11-21"
+      "date_checked": "2026-11-22"
     },
     {
       "image_url": "https://scx1.b-cdn.net/csz/news/tmb/2026/forever-chemicals-dont.jpg",
@@ -887,7 +1067,7 @@
       "usable": false,
       "usable_reason": "licence does not cover images (Science X)",
       "hero_eligible": false,
-      "date_checked": "2026-11-21"
+      "date_checked": "2026-11-22"
     },
     {
       "image_url": "https://www.twz.com/wp-content/uploads/2026/11/VC-25B-Bridge-Air-Force-One-copy.jpg?quality=85",
@@ -899,7 +1079,7 @@
       "usable": false,
       "usable_reason": "licence does not cover images (The War Zone (Recurrent))",
       "hero_eligible": false,
-      "date_checked": "2026-11-21"
+      "date_checked": "2026-11-22"
     },
     {
       "image_url": "https://www.newscientist.com/wp-content/uploads/2026/11/SEI_321424594.jpg",
@@ -911,7 +1091,7 @@
       "usable": false,
       "usable_reason": "licence does not cover images (New Scientist Ltd)",
       "hero_eligible": false,
-      "date_checked": "2026-11-21"
+      "date_checked": "2026-11-22"
     },
     {
       "image_url": "https://assets.science.nasa.gov/dynamicimage/assets/science/psd/photojournal/pia/pia26805/PIA26805.jpg?w=1536&#038;h=603&#038;fit=clip",
@@ -923,7 +1103,7 @@
       "usable": true,
       "usable_reason": "licence covers images",
       "hero_eligible": true,
-      "date_checked": "2026-11-21"
+      "date_checked": "2026-11-22"
     },
     {
       "image_url": "https://scx1.b-cdn.net/csz/news/tmb/2026/a-fish-as-old-as-monta.jpg",
@@ -935,19 +1115,7 @@
       "usable": false,
       "usable_reason": "licence does not cover images (Science X)",
       "hero_eligible": false,
-      "date_checked": "2026-11-21"
-    },
-    {
-      "image_url": "https://www.sciencealert.com/images/2026/11/YogaSleep-1-2560x1440-1-1200x675.jpg",
-      "article_link": "https://www.sciencealert.com/one-form-of-exercise-improves-sleep-the-most-research-shows",
-      "article_title": "One Form of Exercise Improves Sleep The Most, Research Shows",
-      "source": "ScienceAlert",
-      "licence": "EXCERPT + LINK — commercial, all rights reserved",
-      "credit": "ScienceAlert",
-      "usable": false,
-      "usable_reason": "licence does not cover images (ScienceAlert)",
-      "hero_eligible": false,
-      "date_checked": "2026-11-21"
+      "date_checked": "2026-11-22"
     },
     {
       "image_url": "https://scx1.b-cdn.net/csz/news/tmb/2026/scuba-diver-swims-near.jpg",
@@ -959,7 +1127,7 @@
       "usable": false,
       "usable_reason": "licence does not cover images (Science X)",
       "hero_eligible": false,
-      "date_checked": "2026-11-21"
+      "date_checked": "2026-11-22"
     },
     {
       "image_url": "https://www.newscientist.com/wp-content/uploads/2026/11/SEI_321280192.jpg",
@@ -971,7 +1139,7 @@
       "usable": false,
       "usable_reason": "licence does not cover images (New Scientist Ltd)",
       "hero_eligible": false,
-      "date_checked": "2026-11-21"
+      "date_checked": "2026-11-22"
     },
     {
       "image_url": "https://cdn.mos.cms.futurecdn.net/u48ZGtMRhUG9JrKTPP8fBH-1920-80.jpg",
@@ -983,7 +1151,7 @@
       "usable": false,
       "usable_reason": "licence does not cover images (Future plc)",
       "hero_eligible": false,
-      "date_checked": "2026-11-21"
+      "date_checked": "2026-11-22"
     },
     {
       "image_url": "https://scx1.b-cdn.net/csz/news/tmb/2026/a-bison-stands-against.jpg",
@@ -995,7 +1163,7 @@
       "usable": false,
       "usable_reason": "licence does not cover images (Science X)",
       "hero_eligible": false,
-      "date_checked": "2026-11-21"
+      "date_checked": "2026-11-22"
     },
     {
       "image_url": "https://www.twz.com/wp-content/uploads/2026/11/CFL-120-Karpat.jpg?quality=85",
@@ -1007,7 +1175,7 @@
       "usable": false,
       "usable_reason": "licence does not cover images (The War Zone (Recurrent))",
       "hero_eligible": false,
-      "date_checked": "2026-11-21"
+      "date_checked": "2026-11-22"
     },
     {
       "image_url": "https://www.newscientist.com/wp-content/uploads/2026/11/SEI_321431557.jpg",
@@ -1019,7 +1187,7 @@
       "usable": false,
       "usable_reason": "licence does not cover images (New Scientist Ltd)",
       "hero_eligible": false,
-      "date_checked": "2026-11-21"
+      "date_checked": "2026-11-22"
     },
     {
       "image_url": "https://futurism.com/wp-content/uploads/2026/11/jensen-huang-terror-behind-scenes.jpg?quality=85&w=2048",
@@ -1031,7 +1199,7 @@
       "usable": false,
       "usable_reason": "licence does not cover images (Futurism (Recurrent))",
       "hero_eligible": false,
-      "date_checked": "2026-11-21"
+      "date_checked": "2026-11-22"
     },
     {
       "image_url": "https://scx1.b-cdn.net/csz/news/tmb/2026/skku-discovers-twist-t.jpg",
@@ -1043,7 +1211,7 @@
       "usable": false,
       "usable_reason": "licence does not cover images (Science X)",
       "hero_eligible": false,
-      "date_checked": "2026-11-21"
+      "date_checked": "2026-11-22"
     },
     {
       "image_url": "https://cdn.mos.cms.futurecdn.net/K3vjRotmYAeC2b3V9r2VRe-1920-80.jpg",
@@ -1055,7 +1223,7 @@
       "usable": false,
       "usable_reason": "licence does not cover images (Future plc)",
       "hero_eligible": false,
-      "date_checked": "2026-11-21"
+      "date_checked": "2026-11-22"
     },
     {
       "image_url": "https://www.psypost.org/wp-content/uploads/2025/05/woman-wearing-covid-face-mask.jpg",
@@ -1067,7 +1235,7 @@
       "usable": false,
       "usable_reason": "licence does not cover images (PsyPost)",
       "hero_eligible": false,
-      "date_checked": "2026-11-21"
+      "date_checked": "2026-11-22"
     },
     {
       "image_url": "https://scx1.b-cdn.net/csz/news/tmb/2023/mobile-game.jpg",
@@ -1079,7 +1247,7 @@
       "usable": false,
       "usable_reason": "licence does not cover images (Science X)",
       "hero_eligible": false,
-      "date_checked": "2026-11-21"
+      "date_checked": "2026-11-22"
     },
     {
       "image_url": "https://scx1.b-cdn.net/csz/news/tmb/2026/instruments-such-as-th.jpg",
@@ -1091,7 +1259,7 @@
       "usable": false,
       "usable_reason": "licence does not cover images (Science X)",
       "hero_eligible": false,
-      "date_checked": "2026-11-21"
+      "date_checked": "2026-11-22"
     },
     {
       "image_url": "https://cdn.mos.cms.futurecdn.net/QqobdB5e8LcM5ERUWc2mqV-1920-80.jpg",
@@ -1103,19 +1271,7 @@
       "usable": false,
       "usable_reason": "licence does not cover images (Future plc)",
       "hero_eligible": false,
-      "date_checked": "2026-11-21"
-    },
-    {
-      "image_url": "https://www.sciencealert.com/images/2026/11/heart-illustration-1200x675.jpg",
-      "article_link": "https://www.sciencealert.com/scientists-discover-a-hidden-heart-signal-that-can-predict-sudden-cardiac-death",
-      "article_title": "Scientists Discover a Hidden Heart Signal That Can Predict Sudden Cardiac Death",
-      "source": "ScienceAlert",
-      "licence": "EXCERPT + LINK — commercial, all rights reserved",
-      "credit": "ScienceAlert",
-      "usable": false,
-      "usable_reason": "licence does not cover images (ScienceAlert)",
-      "hero_eligible": false,
-      "date_checked": "2026-11-21"
+      "date_checked": "2026-11-22"
     },
     {
       "image_url": "https://lede-admin.nautil.us/wp-content/uploads/sites/70/2026/11/AdobeStock_128324191.jpeg?w=564",
@@ -1127,7 +1283,7 @@
       "usable": false,
       "usable_reason": "licence does not cover images (Nautilus)",
       "hero_eligible": false,
-      "date_checked": "2026-11-21"
+      "date_checked": "2026-11-22"
     },
     {
       "image_url": "https://www.nasa.gov/wp-content/uploads/2026/11/elementium-illustration.png?w=1064",
@@ -1139,7 +1295,7 @@
       "usable": true,
       "usable_reason": "licence covers images",
       "hero_eligible": true,
-      "date_checked": "2026-11-21"
+      "date_checked": "2026-11-22"
     },
     {
       "image_url": "https://scitechdaily.com/images/Glowing-Human-Bone-Regeneration-777x518.jpg",
@@ -1151,7 +1307,7 @@
       "usable": false,
       "usable_reason": "licence does not cover images (SciTechDaily)",
       "hero_eligible": false,
-      "date_checked": "2026-11-21"
+      "date_checked": "2026-11-22"
     },
     {
       "image_url": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/image-2.png",
@@ -1163,7 +1319,7 @@
       "usable": false,
       "usable_reason": "licence does not cover images (Condé Nast)",
       "hero_eligible": false,
-      "date_checked": "2026-11-21"
+      "date_checked": "2026-11-22"
     },
     {
       "image_url": "https://scx1.b-cdn.net/csz/news/tmb/2026/image-of-the-multispec.jpg",
@@ -1175,7 +1331,7 @@
       "usable": false,
       "usable_reason": "licence does not cover images (Science X)",
       "hero_eligible": false,
-      "date_checked": "2026-11-21"
+      "date_checked": "2026-11-22"
     },
     {
       "image_url": "https://scx1.b-cdn.net/csz/news/tmb/2026/texas-am-agrilife-rese.jpg",
@@ -1187,7 +1343,7 @@
       "usable": false,
       "usable_reason": "licence does not cover images (Science X)",
       "hero_eligible": false,
-      "date_checked": "2026-11-21"
+      "date_checked": "2026-11-22"
     },
     {
       "image_url": "https://cdn.mos.cms.futurecdn.net/bF6HhiizhVeEMToJdkhCS-1920-80.jpg",
@@ -1199,7 +1355,7 @@
       "usable": false,
       "usable_reason": "licence does not cover images (Future plc)",
       "hero_eligible": false,
-      "date_checked": "2026-11-21"
+      "date_checked": "2026-11-22"
     },
     {
       "image_url": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/flight15_catch-1152x648.jpg",
@@ -1211,7 +1367,7 @@
       "usable": false,
       "usable_reason": "licence does not cover images (Condé Nast)",
       "hero_eligible": false,
-      "date_checked": "2026-11-21"
+      "date_checked": "2026-11-22"
     },
     {
       "image_url": "https://www.universetoday.com/article_images/North-Norway_Credit-Matthijs-Smit_1000x680_20261120_183507.jpg",
@@ -1223,7 +1379,7 @@
       "usable": false,
       "usable_reason": "licence does not cover images (Universe Today)",
       "hero_eligible": false,
-      "date_checked": "2026-11-21"
+      "date_checked": "2026-11-22"
     },
     {
       "image_url": "https://scx1.b-cdn.net/csz/news/tmb/2026/novel-ai-model-can-rel.jpg",
@@ -1235,7 +1391,7 @@
       "usable": false,
       "usable_reason": "licence does not cover images (Science X)",
       "hero_eligible": false,
-      "date_checked": "2026-11-21"
+      "date_checked": "2026-11-22"
     },
     {
       "image_url": "https://scx1.b-cdn.net/csz/news/tmb/2026/instagram-1.jpg",
@@ -1247,7 +1403,7 @@
       "usable": false,
       "usable_reason": "licence does not cover images (Science X)",
       "hero_eligible": false,
-      "date_checked": "2026-11-21"
+      "date_checked": "2026-11-22"
     },
     {
       "image_url": "https://futurism.com/wp-content/uploads/2026/11/federal-government-investigating-nvidia-accounting.jpg?quality=85&w=2048",
@@ -1259,7 +1415,7 @@
       "usable": false,
       "usable_reason": "licence does not cover images (Futurism (Recurrent))",
       "hero_eligible": false,
-      "date_checked": "2026-11-21"
+      "date_checked": "2026-11-22"
     },
     {
       "image_url": "https://scitechdaily.com/images/Old-Man-Alzheimers-Dementia-777x518.jpg",
@@ -1271,7 +1427,7 @@
       "usable": false,
       "usable_reason": "licence does not cover images (SciTechDaily)",
       "hero_eligible": false,
-      "date_checked": "2026-11-21"
+      "date_checked": "2026-11-22"
     },
     {
       "image_url": "https://www.universetoday.com/article_images/960px-Messier_77_spiral_galaxy_by_HST_20260515_070014_20261120_200628.jpg",
@@ -1283,7 +1439,7 @@
       "usable": false,
       "usable_reason": "licence does not cover images (Universe Today)",
       "hero_eligible": false,
-      "date_checked": "2026-11-21"
+      "date_checked": "2026-11-22"
     },
     {
       "image_url": "https://scx1.b-cdn.net/csz/news/tmb/2026/chips-holding-a-millio.jpg",
@@ -1295,19 +1451,7 @@
       "usable": false,
       "usable_reason": "licence does not cover images (Science X)",
       "hero_eligible": false,
-      "date_checked": "2026-11-21"
-    },
-    {
-      "image_url": "https://scx1.b-cdn.net/csz/news/tmb/2026/hazardous-glacial-lake.jpg",
-      "article_link": "https://phys.org/news/2026-11-hazardous-glacial-lakes-reservoir-style.html",
-      "article_title": "Hazardous glacial lakes need reservoir-style safety oversight, says researcher",
-      "source": "Science X",
-      "licence": "EXCERPT + LINK — up to 200 words + hyperlink, no permission needed inside that limit",
-      "credit": "Science X",
-      "usable": false,
-      "usable_reason": "licence does not cover images (Science X)",
-      "hero_eligible": false,
-      "date_checked": "2026-11-21"
+      "date_checked": "2026-11-22"
     },
     {
       "image_url": "https://cdn.mos.cms.futurecdn.net/aQAx9sgVy5bNZq3Lb57AsB-1920-80.jpg",
@@ -1319,7 +1463,7 @@
       "usable": false,
       "usable_reason": "licence does not cover images (Future plc)",
       "hero_eligible": false,
-      "date_checked": "2026-11-21"
+      "date_checked": "2026-11-22"
     },
     {
       "image_url": "https://lede-admin.nautil.us/wp-content/uploads/sites/70/2026/11/Common_Eastern_Bumble_Bee_Bombus_impatiens_-_Guelph_Ontario_01.jpg?w=564",
@@ -1331,7 +1475,7 @@
       "usable": false,
       "usable_reason": "licence does not cover images (Nautilus)",
       "hero_eligible": false,
-      "date_checked": "2026-11-21"
+      "date_checked": "2026-11-22"
     },
     {
       "image_url": "https://images.theconversation.com/files/773223/original/file-20261120-62-73fv9n.jpg?ixlib=rb-4.1.1&amp;rect=0%2C0%2C5168%2C3445&amp;q=45&amp;auto=format&amp;w=1050&amp;h=700&amp;fit=crop",
@@ -1343,7 +1487,7 @@
       "usable": false,
       "usable_reason": "licence does not cover images (The Conversation)",
       "hero_eligible": false,
-      "date_checked": "2026-11-21"
+      "date_checked": "2026-11-22"
     },
     {
       "image_url": "https://cdn.mos.cms.futurecdn.net/47TSjax8rWx4cPw6p8CEJe-1920-80.jpg",
@@ -1355,7 +1499,7 @@
       "usable": false,
       "usable_reason": "licence does not cover images (Future plc)",
       "hero_eligible": false,
-      "date_checked": "2026-11-21"
+      "date_checked": "2026-11-22"
     },
     {
       "image_url": "https://www.essentiafoundation.org/wp-content/uploads/avatar_user_149_1746214777-32x32.png",
@@ -1367,31 +1511,7 @@
       "usable": false,
       "usable_reason": "licence does not cover images (Essentia Foundation)",
       "hero_eligible": false,
-      "date_checked": "2026-11-21"
-    },
-    {
-      "image_url": "https://scx1.b-cdn.net/csz/news/tmb/2026/person-in-flood.jpg",
-      "article_link": "https://phys.org/news/2026-11-people-wade-floodwater-underestimate-danger.html",
-      "article_title": "People wade through floodwater because they underestimate danger—how to avoid risk",
-      "source": "Science X",
-      "licence": "EXCERPT + LINK — up to 200 words + hyperlink, no permission needed inside that limit",
-      "credit": "Science X",
-      "usable": false,
-      "usable_reason": "licence does not cover images (Science X)",
-      "hero_eligible": false,
-      "date_checked": "2026-11-21"
-    },
-    {
-      "image_url": "https://scx1.b-cdn.net/csz/news/tmb/2026/glacier-retreat-lakes.jpg",
-      "article_link": "https://phys.org/news/2026-11-global-analysis-reveals-lakes-amplify.html",
-      "article_title": "Global analysis reveals how lakes amplify glacier ice loss",
-      "source": "Science X",
-      "licence": "EXCERPT + LINK — up to 200 words + hyperlink, no permission needed inside that limit",
-      "credit": "Science X",
-      "usable": false,
-      "usable_reason": "licence does not cover images (Science X)",
-      "hero_eligible": false,
-      "date_checked": "2026-11-21"
+      "date_checked": "2026-11-22"
     },
     {
       "image_url": "https://www.twz.com/wp-content/uploads/2026/11/navy-cca-fa-xx-plans-coming-into-focus.jpg?quality=85",
@@ -1403,7 +1523,7 @@
       "usable": false,
       "usable_reason": "licence does not cover images (The War Zone (Recurrent))",
       "hero_eligible": false,
-      "date_checked": "2026-11-21"
+      "date_checked": "2026-11-22"
     },
     {
       "image_url": "https://scitechdaily.com/images/Man-Heart-Attack-Chest-Pain-Concept-Illustration-777x583.jpg",
@@ -1415,7 +1535,7 @@
       "usable": false,
       "usable_reason": "licence does not cover images (SciTechDaily)",
       "hero_eligible": false,
-      "date_checked": "2026-11-21"
+      "date_checked": "2026-11-22"
     },
     {
       "image_url": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/GettyImages-2305973751-1024x648.jpg",
@@ -1427,7 +1547,7 @@
       "usable": false,
       "usable_reason": "licence does not cover images (Condé Nast)",
       "hero_eligible": false,
-      "date_checked": "2026-11-21"
+      "date_checked": "2026-11-22"
     },
     {
       "image_url": "https://www.twz.com/wp-content/uploads/2026/11/Chinese-mq25.jpg?quality=85",
@@ -1439,7 +1559,7 @@
       "usable": false,
       "usable_reason": "licence does not cover images (The War Zone (Recurrent))",
       "hero_eligible": false,
-      "date_checked": "2026-11-21"
+      "date_checked": "2026-11-22"
     },
     {
       "image_url": "https://futurism.com/wp-content/uploads/2026/11/anthropic-reimann-hypothesis.jpg?quality=85&w=2048",
@@ -1451,7 +1571,7 @@
       "usable": false,
       "usable_reason": "licence does not cover images (Futurism (Recurrent))",
       "hero_eligible": false,
-      "date_checked": "2026-11-21"
+      "date_checked": "2026-11-22"
     },
     {
       "image_url": "https://www.psypost.org/wp-content/uploads/2026/11/tired-young-woman.jpg",
@@ -1463,7 +1583,7 @@
       "usable": false,
       "usable_reason": "licence does not cover images (PsyPost)",
       "hero_eligible": false,
-      "date_checked": "2026-11-21"
+      "date_checked": "2026-11-22"
     },
     {
       "image_url": "https://cdn.mos.cms.futurecdn.net/t6dSNrTvpEr2jN8TwJN8de-1920-80.jpg",
@@ -1475,7 +1595,7 @@
       "usable": false,
       "usable_reason": "licence does not cover images (Future plc)",
       "hero_eligible": false,
-      "date_checked": "2026-11-21"
+      "date_checked": "2026-11-22"
     },
     {
       "image_url": "https://lede-admin.nautil.us/wp-content/uploads/sites/70/2026/11/shutterstock_2185467127.jpg?w=564",
@@ -1487,7 +1607,7 @@
       "usable": false,
       "usable_reason": "licence does not cover images (Nautilus)",
       "hero_eligible": false,
-      "date_checked": "2026-11-21"
+      "date_checked": "2026-11-22"
     },
     {
       "image_url": "https://futurism.com/wp-content/uploads/2026/11/the-economy-is-low-key-crashing-right-now.jpg?quality=85&w=2048",
@@ -1499,7 +1619,7 @@
       "usable": false,
       "usable_reason": "licence does not cover images (Futurism (Recurrent))",
       "hero_eligible": false,
-      "date_checked": "2026-11-21"
+      "date_checked": "2026-11-22"
     },
     {
       "image_url": "https://cdn.mos.cms.futurecdn.net/jYDiqhCCxf5vbx5jgaCgSZ-1920-80.jpg",
@@ -1511,7 +1631,7 @@
       "usable": false,
       "usable_reason": "licence does not cover images (Future plc)",
       "hero_eligible": false,
-      "date_checked": "2026-11-21"
+      "date_checked": "2026-11-22"
     },
     {
       "image_url": "https://scx1.b-cdn.net/csz/news/tmb/2026/a-new-way-to-extract-o.jpg",
@@ -1523,7 +1643,7 @@
       "usable": false,
       "usable_reason": "licence does not cover images (Science X)",
       "hero_eligible": false,
-      "date_checked": "2026-11-21"
+      "date_checked": "2026-11-22"
     },
     {
       "image_url": "https://futurism.com/wp-content/uploads/2026/11/jensen-huang-daughter-nvidia-screaming.jpg?quality=85&w=2048",
@@ -1535,7 +1655,7 @@
       "usable": false,
       "usable_reason": "licence does not cover images (Futurism (Recurrent))",
       "hero_eligible": false,
-      "date_checked": "2026-11-21"
+      "date_checked": "2026-11-22"
     },
     {
       "image_url": "https://cdn.mos.cms.futurecdn.net/6WTdSErCWeS8t5puPmhPhc-1920-80.jpg",
@@ -1547,211 +1667,7 @@
       "usable": false,
       "usable_reason": "licence does not cover images (Future plc)",
       "hero_eligible": false,
-      "date_checked": "2026-11-21"
-    },
-    {
-      "image_url": "https://www.psypost.org/wp-content/uploads/2025/01/teen-with-smartphone.jpg",
-      "article_link": "https://www.psypost.org/the-earlier-kids-join-social-media-the-lower-their-test-scores-tend-to-be-study-finds/",
-      "article_title": "The earlier kids join social media, the lower their test scores tend to be, study finds",
-      "source": "PsyPost",
-      "licence": "EXCERPT + LINK — commercial, all rights reserved",
-      "credit": "PsyPost",
-      "usable": false,
-      "usable_reason": "licence does not cover images (PsyPost)",
-      "hero_eligible": false,
-      "date_checked": "2026-11-21"
-    },
-    {
-      "image_url": "https://cdn.mos.cms.futurecdn.net/eLT7BWJqChudNQegyTRzHC-1920-80.jpg",
-      "article_link": "https://www.space.com/space-exploration/satellites/russia-is-developing-a-nuclear-space-weapon-us-intelligence-report-finds",
-      "article_title": "Russia is developing a nuclear space weapon, US intelligence report finds",
-      "source": "Future plc",
-      "licence": "EXCERPT + LINK — commercial, all rights reserved",
-      "credit": "Los Alamos National Laboratory",
-      "usable": false,
-      "usable_reason": "licence does not cover images (Future plc)",
-      "hero_eligible": false,
-      "date_checked": "2026-11-21"
-    },
-    {
-      "image_url": "https://lede-admin.nautil.us/wp-content/uploads/sites/70/2026/11/AdobeStock_2072923046_Editorial_Use_Only.jpeg?w=564",
-      "article_link": "https://nautil.us/a-physician-explains-glp-1s-biggest-potential-side-effect-a-rare-but-serious-eye-condition-1286851/",
-      "article_title": "A Physician Explains GLP-1s’ Biggest Potential Side Effect: A Rare But Serious Eye Condition",
-      "source": "Nautilus",
-      "licence": "EXCERPT + LINK — commercial, all rights reserved",
-      "credit": "Nautilus",
-      "usable": false,
-      "usable_reason": "licence does not cover images (Nautilus)",
-      "hero_eligible": false,
-      "date_checked": "2026-11-21"
-    },
-    {
-      "image_url": "https://www.newscientist.com/wp-content/uploads/2026/11/SEI_321276518.jpg",
-      "article_link": "https://www.newscientist.com/article/2600126-us-bill-aiming-to-boost-clean-energy-could-backfire/?utm_campaign=RSS|NSNS&utm_content=home&utm_medium=RSS&utm_source=NSNS",
-      "article_title": "US bill aiming to boost clean energy could backfire",
-      "source": "New Scientist Ltd",
-      "licence": "EXCERPT + LINK — commercial, all rights reserved; much of the site is paywalled, the feed itself is free",
-      "credit": "New Scientist Ltd",
-      "usable": false,
-      "usable_reason": "licence does not cover images (New Scientist Ltd)",
-      "hero_eligible": false,
-      "date_checked": "2026-11-21"
-    },
-    {
-      "image_url": "https://cdn.mos.cms.futurecdn.net/bVhGwBRqE9LgZ5wEdB3vzf-1920-80.jpg",
-      "article_link": "https://www.livescience.com/physics-mathematics/mathematics/ai-is-forcing-us-to-rethink-what-mathematical-expertise-means-opinion",
-      "article_title": "An Anthropic mathematician claims to have proven the Riemann hypothesis. We have to rethink how we reward expertise.",
-      "source": "Future plc",
-      "licence": "EXCERPT + LINK — commercial, all rights reserved",
-      "credit": "Arija07 via Getty Images",
-      "usable": false,
-      "usable_reason": "licence does not cover images (Future plc)",
-      "hero_eligible": false,
-      "date_checked": "2026-11-21"
-    },
-    {
-      "image_url": "https://www.universetoday.com/article_images/IMHD-UdeM-System_Welopoai_20261120_130730.jpg",
-      "article_link": "https://www.universetoday.com/articles/a-triple-star-system-that-shouldnt-exist-only-28-light-years-from-earth",
-      "article_title": "A Triple Star System 'That Shouldn't Exist,' Only 28 Light-Years from Earth",
-      "source": "Universe Today",
-      "licence": "EXCERPT + LINK — commercial, all rights reserved",
-      "credit": "Universe Today",
-      "usable": false,
-      "usable_reason": "licence does not cover images (Universe Today)",
-      "hero_eligible": false,
-      "date_checked": "2026-11-21"
-    },
-    {
-      "image_url": "https://futurism.com/wp-content/uploads/2026/11/public-preparing-disaster-costco-tech-outages.jpg?quality=85&w=2048",
-      "article_link": "https://futurism.com/future-society/public-preparing-disaster-costco-tech-outages",
-      "article_title": "The Public Is Prepping for Disaster",
-      "source": "Futurism (Recurrent)",
-      "licence": "EXCERPT + LINK — commercial, all rights reserved",
-      "credit": "Futurism (Recurrent)",
-      "usable": false,
-      "usable_reason": "licence does not cover images (Futurism (Recurrent))",
-      "hero_eligible": false,
-      "date_checked": "2026-11-21"
-    },
-    {
-      "image_url": "https://www.nasa.gov/wp-content/uploads/2026/11/dsc-6269-stennis-honor-awards-1.jpg?w=1024",
-      "article_link": "https://www.nasa.gov/centers-and-facilities/stennis/honor-awards-ceremony-at-stennis/",
-      "article_title": "NASA Honor Awards Ceremony Recognizes Employees at Stennis Space Center",
-      "source": "NASA",
-      "licence": "FULL TEXT — US government work, generally not copyrighted (public domain)",
-      "credit": "NASA",
-      "usable": true,
-      "usable_reason": "licence covers images",
-      "hero_eligible": true,
-      "date_checked": "2026-11-21"
-    },
-    {
-      "image_url": "https://scitechdaily.com/images/Artistic-Reconstruction-of-Young-Girl-With-Copper-Neck-Ring-777x1125.jpg",
-      "article_link": "https://scitechdaily.com/the-origins-of-wealth-inequality-may-go-back-5000-years-ancient-graves-reveal/",
-      "article_title": "The Origins of Wealth Inequality May Go Back 5,000 Years, Ancient Graves Reveal",
-      "source": "SciTechDaily",
-      "licence": "EXCERPT + LINK — commercial, all rights reserved",
-      "credit": "SciTechDaily",
-      "usable": false,
-      "usable_reason": "licence does not cover images (SciTechDaily)",
-      "hero_eligible": false,
-      "date_checked": "2026-11-21"
-    },
-    {
-      "image_url": "https://scx1.b-cdn.net/csz/news/tmb/2026/researchers-trace-shif.jpg",
-      "article_link": "https://phys.org/news/2026-11-shifting-pulsation-modes-scuti-star.html",
-      "article_title": "Researchers trace shifting pulsation modes in δ Scuti star KIC 4737720",
-      "source": "Science X",
-      "licence": "EXCERPT + LINK — publisher allows up to 200 words + hyperlink, no permission needed inside that limit",
-      "credit": "Science X",
-      "usable": false,
-      "usable_reason": "licence does not cover images (Science X)",
-      "hero_eligible": false,
-      "date_checked": "2026-11-21"
-    },
-    {
-      "image_url": "https://scx1.b-cdn.net/csz/news/tmb/2026/venus.jpg",
-      "article_link": "https://phys.org/news/2026-11-venus-conditions-reveal-minerals-ancient.html",
-      "article_title": "Venus-like conditions reveal how minerals could preserve traces of ancient water",
-      "source": "Science X",
-      "licence": "EXCERPT + LINK — publisher allows up to 200 words + hyperlink, no permission needed inside that limit",
-      "credit": "Science X",
-      "usable": false,
-      "usable_reason": "licence does not cover images (Science X)",
-      "hero_eligible": false,
-      "date_checked": "2026-11-21"
-    },
-    {
-      "image_url": "https://bigthink.com/wp-content/uploads/2026/11/root-male-violence_compressed.jpg?quality=85&w=640",
-      "article_link": "https://bigthink.com/mind-behavior/did-men-evolve-to-fight-each-other-scientists-cant-agree/",
-      "article_title": "Did men evolve to fight each other? Scientists can’t agree.",
-      "source": "Big Think",
-      "licence": "EXCERPT + LINK — commercial, all rights reserved",
-      "credit": "Big Think",
-      "usable": false,
-      "usable_reason": "licence does not cover images (Big Think)",
-      "hero_eligible": false,
-      "date_checked": "2026-11-21"
-    },
-    {
-      "image_url": "https://news.fnal.gov/wp-content/uploads/2026/11/chris-polly-award-1024x697.jpg",
-      "article_link": "https://news.fnal.gov/2026/11/fermilabs-chris-polly-wins-prestigious-ernest-orlando-lawrence-award-for-muon-g-2-leadership/",
-      "article_title": "Fermilab’s Chris Polly wins prestigious Ernest Orlando Lawrence Award for Muon g-2 leadership",
-      "source": "Fermilab / DOE",
-      "licence": "EXCERPT + LINK — safe default; no full-text licence established for the magazine (Fermilab terms page could not be confirmed)",
-      "credit": "Fermilab / DOE",
-      "usable": false,
-      "usable_reason": "licence does not cover images (Fermilab / DOE)",
-      "hero_eligible": false,
-      "date_checked": "2026-11-21"
-    },
-    {
-      "image_url": "https://www.nasa.gov/wp-content/uploads/2026/11/pia26804.jpg",
-      "article_link": "https://www.nasa.gov/image-detail/pia26804/",
-      "article_title": "NASA's Curiosity Mars Rover Collects Samples",
-      "source": "NASA",
-      "licence": "FULL TEXT — public domain (see #1)",
-      "credit": "NASA",
-      "usable": true,
-      "usable_reason": "licence covers images",
-      "hero_eligible": true,
-      "date_checked": "2026-11-21"
-    },
-    {
-      "image_url": "https://scitechdaily.com/images/AI-Illustration-of-Prehistoric-Flint-Tools-777x583.jpg",
-      "article_link": "https://scitechdaily.com/why-did-early-humans-collect-strange-stones-500000-years-ago-scientists-have-a-new-theory/",
-      "article_title": "Why Did Early Humans Collect Strange Stones 500,000 Years Ago? Scientists Have a New Theory",
-      "source": "SciTechDaily",
-      "licence": "EXCERPT + LINK — commercial, all rights reserved",
-      "credit": "SciTechDaily",
-      "usable": false,
-      "usable_reason": "licence does not cover images (SciTechDaily)",
-      "hero_eligible": false,
-      "date_checked": "2026-11-21"
-    },
-    {
-      "image_url": "https://futurism.com/wp-content/uploads/2026/11/google-ai-havoc-core-business.jpg?quality=85&w=2048",
-      "article_link": "https://futurism.com/artificial-intelligence/google-ai-havoc-core-business",
-      "article_title": "Google’s Embrace of AI Is Backfiring Spectacularly",
-      "source": "Futurism (Recurrent)",
-      "licence": "EXCERPT + LINK — commercial, all rights reserved",
-      "credit": "Futurism (Recurrent)",
-      "usable": false,
-      "usable_reason": "licence does not cover images (Futurism (Recurrent))",
-      "hero_eligible": false,
-      "date_checked": "2026-11-21"
-    },
-    {
-      "image_url": "https://scx1.b-cdn.net/csz/news/tmb/2026/low-viscosity-lavas-re.jpg",
-      "article_link": "https://phys.org/news/2026-11-viscosity-lavas-reveal-key-mars.html",
-      "article_title": "Low-viscosity lavas reveal a key to Mars's past",
-      "source": "Science X",
-      "licence": "EXCERPT + LINK — publisher allows up to 200 words + hyperlink, no permission needed inside that limit",
-      "credit": "Science X",
-      "usable": false,
-      "usable_reason": "licence does not cover images (Science X)",
-      "hero_eligible": false,
-      "date_checked": "2026-11-21"
+      "date_checked": "2026-11-22"
     }
   ]
 }
