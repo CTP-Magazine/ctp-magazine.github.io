@@ -1,292 +1,422 @@
 {
-  "generated": "2026-11-19T17:14:58.297860+00:00",
-  "date_checked": "2026-11-19",
+  "generated": "2026-11-24T21:40:27.903531+00:00",
+  "date_checked": "2026-11-24",
   "feeds_total": 114,
-  "feeds_succeeded": 114,
-  "feeds_failed": [],
-  "items_fetched": 2038,
-  "duplicates_removed": 71,
-  "near_duplicates_removed": 29,
+  "feeds_succeeded": 112,
+  "feeds_failed": [
+    {
+      "num": 17,
+      "feed": "Space Daily",
+      "url": "https://www.spacedaily.com/rss/",
+      "error": "HTTPError: HTTP Error 403: Forbidden"
+    },
+    {
+      "num": 57,
+      "feed": "Everyday Astronaut",
+      "url": "https://www.everydayastronaut.com/feed/",
+      "error": "ValueError: returned an HTML page, not a feed"
+    }
+  ],
+  "items_fetched": 1902,
+  "duplicates_removed": 55,
+  "near_duplicates_removed": 42,
   "near_duplicate_groups": [
     {
-      "kept_title": "What if space and time don’t exist? Physicists are chasing hints that our reality emerges from something deeper",
-      "kept_feed": "Live Science",
-      "kept_link": "https://www.livescience.com/physics-mathematics/what-if-space-and-time-dont-exist-physicists-are-chasing-hints-that-our-reality-emerges-from-something-deeper",
-      "dropped_title": "What if space and time don’t exist? Physicists are chasing hints that our reality emerges from something deeper - Live Science",
-      "dropped_feed": "Google News — space",
-      "dropped_link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxOdzlrb1p2Y3Via0ZLalplZ1Jrc19Xbjd2U0lsYkxPdEktOTFoMzVyS0pFWTlzaGRQYlZ4MHdmWFJ2MHpaTnRDaXBuU1JzY1NoMGJBUFg0VURNYnRyRTBPTHZyYzByVlAyUGRVTFZUUmJtbnpwOWRVYmZaUUU4RDZ1WFh2Zzd2Z0NCR1BCYk04QkVUTEM2VXJwUEtkRUxOMS1tZlg5b0k1OWN4cHUtT3BXcldJQXBJcnIzNGhoWkdsSktvTmJrOGZ5Q3lVSVVrMmhybGxnOFVzLU8wMVc0Q2tncFFwc3RzekphbTM2ZkpB?oc=5",
-      "signal": "title-similarity"
-    },
-    {
-      "kept_title": "'Afterlife with Archie' casts new versions of 'Riverdale' favorites - upi",
-      "kept_feed": "Google News — afterlife",
-      "kept_link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPbXFqUnNTT3pFQW10ZVJlV1RYYk1abTFfeGNfbkFCUno5NlNmcDB0RGE3bWp5LVFkMVZ6RXB5NHdicm4zeGlZWktpd0toSGttSGtrV0l2M3NPbjNsTU9vSlliMzdUaElhd0tIM21WWGtwR0RXZGdjQXhlSi1DSEZ1dlg1SlVwWkFic3lVNDhHRXkzV21fQnVVOGc5Nklad9IBowFBVV95cUxQT2wtV1ZTWDZIV0ZpQ05oQU1jcDcyNi0zZFRDaE1GQTJadEhfUXNIVFdfczBJUUhsdXlTMzZuN0xnRkczbUpROE8wdnVySlVCUk54aER5SThDMVJaQVJlOHU0RTNCSGc2bnpIN0lCZmJCQTFzNGR6WktpVG52SXdfRTVibTNGS0ZRbzAzM0JNdmVnNUdMdGlJOUhRRXkybFp2NHcw?oc=5",
-      "dropped_title": "Afterlife With Archie Cast: Archie, Betty, Veronica, Jughead & Sabrina Actors In Disney Plus Riverdale Series - TVLine",
-      "dropped_feed": "Google News — afterlife",
-      "dropped_link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPcnVhanJXV0RmLW9GOXA2SHJRSDROcXZsY0lKczE5bXVmYzBzT1hTaUNuYmh2X2ZpXzFmUDR5NDFqZ2NsN3FDZXVWNlNkSkxkZHdRVG42UTJpX1BrODFlV3FsU1A0QXFjTWlfTnJmTjNobXRHV2NRcDdFRTJqQnd6SkZQVndxTHRDempJV1JvQnJJbWpQd3hyS00zaF9XX1hUSDRVWlExYUF2dHBxNHlqa2xwY3hyQQ?oc=5",
-      "signal": "aggregator-event"
-    },
-    {
-      "kept_title": "'Afterlife with Archie' casts new versions of 'Riverdale' favorites - upi",
-      "kept_feed": "Google News — afterlife",
-      "kept_link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPbXFqUnNTT3pFQW10ZVJlV1RYYk1abTFfeGNfbkFCUno5NlNmcDB0RGE3bWp5LVFkMVZ6RXB5NHdicm4zeGlZWktpd0toSGttSGtrV0l2M3NPbjNsTU9vSlliMzdUaElhd0tIM21WWGtwR0RXZGdjQXhlSi1DSEZ1dlg1SlVwWkFic3lVNDhHRXkzV21fQnVVOGc5Nklad9IBowFBVV95cUxQT2wtV1ZTWDZIV0ZpQ05oQU1jcDcyNi0zZFRDaE1GQTJadEhfUXNIVFdfczBJUUhsdXlTMzZuN0xnRkczbUpROE8wdnVySlVCUk54aER5SThDMVJaQVJlOHU0RTNCSGc2bnpIN0lCZmJCQTFzNGR6WktpVG52SXdfRTVibTNGS0ZRbzAzM0JNdmVnNUdMdGlJOUhRRXkybFp2NHcw?oc=5",
-      "dropped_title": "Afterlife with Archie: Archie, Veronica, Betty, Jughead & Sabrina Cast - Bleeding Cool News",
-      "dropped_feed": "Google News — afterlife",
-      "dropped_link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOWGdlWDhsWnZ1Snp5X2RRSVdlbE5YZ2kzdTVHeXQ5enRPWndXM0M1TWVyekJQWTNEQnRIWUM3MnNJMXNmVmR1bW50Ymh2enZKTGlCNmNTWHBzV3BUbjVYamFpSHdjSV93X1ZMSGZGUGRfM1lySWxQUDhIel9mYlhhakk2WkJlbktqSXR5Z1JIMTltQzEyUHBBRQ?oc=5",
-      "signal": "aggregator-event"
-    },
-    {
-      "kept_title": "'Afterlife with Archie' casts new versions of 'Riverdale' favorites - upi",
-      "kept_feed": "Google News — afterlife",
-      "kept_link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPbXFqUnNTT3pFQW10ZVJlV1RYYk1abTFfeGNfbkFCUno5NlNmcDB0RGE3bWp5LVFkMVZ6RXB5NHdicm4zeGlZWktpd0toSGttSGtrV0l2M3NPbjNsTU9vSlliMzdUaElhd0tIM21WWGtwR0RXZGdjQXhlSi1DSEZ1dlg1SlVwWkFic3lVNDhHRXkzV21fQnVVOGc5Nklad9IBowFBVV95cUxQT2wtV1ZTWDZIV0ZpQ05oQU1jcDcyNi0zZFRDaE1GQTJadEhfUXNIVFdfczBJUUhsdXlTMzZuN0xnRkczbUpROE8wdnVySlVCUk54aER5SThDMVJaQVJlOHU0RTNCSGc2bnpIN0lCZmJCQTFzNGR6WktpVG52SXdfRTVibTNGS0ZRbzAzM0JNdmVnNUdMdGlJOUhRRXkybFp2NHcw?oc=5",
-      "dropped_title": "Disney+’s ‘Afterlife With Archie’ Finds Its Archie, Veronica, Betty, Jughead and Sabrina - Yahoo News UK",
-      "dropped_feed": "Google News — afterlife",
-      "dropped_link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOeWY4MGQzd3cxdjZtdGEtY0ZIbkNfOWQ0amJyNEFXdkQ1RU5pdnpDUEd6dHpSSjVEQ1ptX2Z2ZzJTalNVOWhMVVMxbG5QRFB1c0tPZXoyUnJ4NjUyQmV0dU4xSkhMU2dwVUFaUWZ6UVA3V245VFZGNE8zRmJBeU42WVJsTQ?oc=5",
-      "signal": "aggregator-event"
-    },
-    {
-      "kept_title": "'Afterlife with Archie' casts new versions of 'Riverdale' favorites - upi",
-      "kept_feed": "Google News — afterlife",
-      "kept_link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPbXFqUnNTT3pFQW10ZVJlV1RYYk1abTFfeGNfbkFCUno5NlNmcDB0RGE3bWp5LVFkMVZ6RXB5NHdicm4zeGlZWktpd0toSGttSGtrV0l2M3NPbjNsTU9vSlliMzdUaElhd0tIM21WWGtwR0RXZGdjQXhlSi1DSEZ1dlg1SlVwWkFic3lVNDhHRXkzV21fQnVVOGc5Nklad9IBowFBVV95cUxQT2wtV1ZTWDZIV0ZpQ05oQU1jcDcyNi0zZFRDaE1GQTJadEhfUXNIVFdfczBJUUhsdXlTMzZuN0xnRkczbUpROE8wdnVySlVCUk54aER5SThDMVJaQVJlOHU0RTNCSGc2bnpIN0lCZmJCQTFzNGR6WktpVG52SXdfRTVibTNGS0ZRbzAzM0JNdmVnNUdMdGlJOUhRRXkybFp2NHcw?oc=5",
-      "dropped_title": "‘Afterlife With Archie’ Disney+ Series Casts Its Archie, Veronica, Betty, Jughead & Sabrina - IMDb",
-      "dropped_feed": "Google News — afterlife",
-      "dropped_link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5qWXNuWUdEdm5EV3pkREZoUXpsRWVoVVNkMDNFZ0dyRzFYVWRJcTE3a0l1d2M4M0FKdzJTV2tsZkpnN1dlMExzTEVLSVRXVWl3ZnB1Qm5nS2JjUmhhVW9KeTZWanRrY0U?oc=5",
-      "signal": "aggregator-event"
-    },
-    {
-      "kept_title": "'Afterlife with Archie' casts new versions of 'Riverdale' favorites - upi",
-      "kept_feed": "Google News — afterlife",
-      "kept_link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPbXFqUnNTT3pFQW10ZVJlV1RYYk1abTFfeGNfbkFCUno5NlNmcDB0RGE3bWp5LVFkMVZ6RXB5NHdicm4zeGlZWktpd0toSGttSGtrV0l2M3NPbjNsTU9vSlliMzdUaElhd0tIM21WWGtwR0RXZGdjQXhlSi1DSEZ1dlg1SlVwWkFic3lVNDhHRXkzV21fQnVVOGc5Nklad9IBowFBVV95cUxQT2wtV1ZTWDZIV0ZpQ05oQU1jcDcyNi0zZFRDaE1GQTJadEhfUXNIVFdfczBJUUhsdXlTMzZuN0xnRkczbUpROE8wdnVySlVCUk54aER5SThDMVJaQVJlOHU0RTNCSGc2bnpIN0lCZmJCQTFzNGR6WktpVG52SXdfRTVibTNGS0ZRbzAzM0JNdmVnNUdMdGlJOUhRRXkybFp2NHcw?oc=5",
-      "dropped_title": "‘Afterlife With Archie’ Finds Its Archie, Veronica, Betty, Jughead and Sabrina for the Disney+ Zombie Series - IMDb",
-      "dropped_feed": "Google News — afterlife",
-      "dropped_link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9sVWtxWl9KWUVUb0l4MjBCOTRKbHM1dFZmUkFDRVRLdmQ2VEJ6eURGWGw3Wjc5Q0oxWmtLQ05Sak5pYnNIOFZqazh3Y1Y0RFQ0dGlkaEd5NkpEak5mMkhmYllsUGFneEU?oc=5",
-      "signal": "aggregator-event"
-    },
-    {
-      "kept_title": "'Afterlife with Archie' casts new versions of 'Riverdale' favorites - upi",
-      "kept_feed": "Google News — afterlife",
-      "kept_link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPbXFqUnNTT3pFQW10ZVJlV1RYYk1abTFfeGNfbkFCUno5NlNmcDB0RGE3bWp5LVFkMVZ6RXB5NHdicm4zeGlZWktpd0toSGttSGtrV0l2M3NPbjNsTU9vSlliMzdUaElhd0tIM21WWGtwR0RXZGdjQXhlSi1DSEZ1dlg1SlVwWkFic3lVNDhHRXkzV21fQnVVOGc5Nklad9IBowFBVV95cUxQT2wtV1ZTWDZIV0ZpQ05oQU1jcDcyNi0zZFRDaE1GQTJadEhfUXNIVFdfczBJUUhsdXlTMzZuN0xnRkczbUpROE8wdnVySlVCUk54aER5SThDMVJaQVJlOHU0RTNCSGc2bnpIN0lCZmJCQTFzNGR6WktpVG52SXdfRTVibTNGS0ZRbzAzM0JNdmVnNUdMdGlJOUhRRXkybFp2NHcw?oc=5",
-      "dropped_title": "Disney+ Casts Archie, Betty, Veronica, Jughead and Sabrina in Zombie Horror Series ‘Afterlife With Archie’ - Dread Central",
-      "dropped_feed": "Google News — afterlife",
-      "dropped_link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOc1ZnVnIxQWtHLXdJNDc5NlJ1Y0FhQWllVkxoWXFJV0FROE9CMnNLSVJZM0FkeS04Y0dJUUNOZzRsb2oyejY2bnJhRm5zZmhReE5nVlYzdWg2NmxtMG1pMDItaHhCZWhCdDBXeUtyNU5PeU5NUzFQT1pfQjhfQmxHdTNmdHFIamNsNnFJaXNQelQ5WmgtQlFoM2I5cFI?oc=5",
-      "signal": "aggregator-event"
-    },
-    {
-      "kept_title": "'Afterlife with Archie' casts new versions of 'Riverdale' favorites - upi",
-      "kept_feed": "Google News — afterlife",
-      "kept_link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPbXFqUnNTT3pFQW10ZVJlV1RYYk1abTFfeGNfbkFCUno5NlNmcDB0RGE3bWp5LVFkMVZ6RXB5NHdicm4zeGlZWktpd0toSGttSGtrV0l2M3NPbjNsTU9vSlliMzdUaElhd0tIM21WWGtwR0RXZGdjQXhlSi1DSEZ1dlg1SlVwWkFic3lVNDhHRXkzV21fQnVVOGc5Nklad9IBowFBVV95cUxQT2wtV1ZTWDZIV0ZpQ05oQU1jcDcyNi0zZFRDaE1GQTJadEhfUXNIVFdfczBJUUhsdXlTMzZuN0xnRkczbUpROE8wdnVySlVCUk54aER5SThDMVJaQVJlOHU0RTNCSGc2bnpIN0lCZmJCQTFzNGR6WktpVG52SXdfRTVibTNGS0ZRbzAzM0JNdmVnNUdMdGlJOUhRRXkybFp2NHcw?oc=5",
-      "dropped_title": "‘Afterlife With Archie’ Disney+ Series Finds Its Archie, Betty, Veronica, Jughead and Sabrina - Bloody Disgusting",
-      "dropped_feed": "Google News — afterlife",
-      "dropped_link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNNVB5VWRXREZSOXRGdWxOaTdmVjNGMzJGcGVBOEtJZ3JaakNaclIwS3h0NFhWaXdNS3JyRG92VF90UjJzdHYxNV9TVVgwYkZBRUJUOWROOF9hRG43Zkl4VExHSU5MRG1iV2hHeExoNXF5V05jSmUtU0syOTI4RVE4VGllTWJVbktDMEE?oc=5",
-      "signal": "aggregator-event"
-    },
-    {
-      "kept_title": "'Afterlife with Archie' casts new versions of 'Riverdale' favorites - upi",
-      "kept_feed": "Google News — afterlife",
-      "kept_link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPbXFqUnNTT3pFQW10ZVJlV1RYYk1abTFfeGNfbkFCUno5NlNmcDB0RGE3bWp5LVFkMVZ6RXB5NHdicm4zeGlZWktpd0toSGttSGtrV0l2M3NPbjNsTU9vSlliMzdUaElhd0tIM21WWGtwR0RXZGdjQXhlSi1DSEZ1dlg1SlVwWkFic3lVNDhHRXkzV21fQnVVOGc5Nklad9IBowFBVV95cUxQT2wtV1ZTWDZIV0ZpQ05oQU1jcDcyNi0zZFRDaE1GQTJadEhfUXNIVFdfczBJUUhsdXlTMzZuN0xnRkczbUpROE8wdnVySlVCUk54aER5SThDMVJaQVJlOHU0RTNCSGc2bnpIN0lCZmJCQTFzNGR6WktpVG52SXdfRTVibTNGS0ZRbzAzM0JNdmVnNUdMdGlJOUhRRXkybFp2NHcw?oc=5",
-      "dropped_title": "‘Afterlife With Archie’ Disney+ Show Casts Archie, Betty, Veronica, Jughead and Sabrina the Teenage Witch - Variety",
-      "dropped_feed": "Google News — afterlife",
-      "dropped_link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQRzBOZU1XM0U1NlNZSm9xMGt3bk92dWpvQWFhN3hNNTVILTl4OHdlejRBckJyVlVYLUN2RDV1MmZGUU9TUi1qRGkzTEtlMUVIR2pIVVFpSHJ1bzJ5Z2w0RWxqRkhMNi1OVVVuVFlUNkg4VjR6NWdYTTZPRnZFWjBlUkxwQ3JKdVZQX2dz?oc=5",
-      "signal": "aggregator-event"
-    },
-    {
-      "kept_title": "'Afterlife with Archie' casts new versions of 'Riverdale' favorites - upi",
-      "kept_feed": "Google News — afterlife",
-      "kept_link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPbXFqUnNTT3pFQW10ZVJlV1RYYk1abTFfeGNfbkFCUno5NlNmcDB0RGE3bWp5LVFkMVZ6RXB5NHdicm4zeGlZWktpd0toSGttSGtrV0l2M3NPbjNsTU9vSlliMzdUaElhd0tIM21WWGtwR0RXZGdjQXhlSi1DSEZ1dlg1SlVwWkFic3lVNDhHRXkzV21fQnVVOGc5Nklad9IBowFBVV95cUxQT2wtV1ZTWDZIV0ZpQ05oQU1jcDcyNi0zZFRDaE1GQTJadEhfUXNIVFdfczBJUUhsdXlTMzZuN0xnRkczbUpROE8wdnVySlVCUk54aER5SThDMVJaQVJlOHU0RTNCSGc2bnpIN0lCZmJCQTFzNGR6WktpVG52SXdfRTVibTNGS0ZRbzAzM0JNdmVnNUdMdGlJOUhRRXkybFp2NHcw?oc=5",
-      "dropped_title": "‘Afterlife With Archie’ Disney+ Series Casts Archie, Veronica, Betty, Jughead and Sabrina - Mezha.net",
-      "dropped_feed": "Google News — afterlife",
-      "dropped_link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNY0VueHJpU2xhajE1TGVGVFpYVG5raG5NTTR3UHY2ejRHQXdnNmVQSjV3N21naVVoWXZVNzR3TjJ4OFgtS2x1YWs2eXJQZWt4bXVneFRGLTJKVURKWC15ZjB2VlpnbXUybnBfelBOOUpLN0NhRVk2WlFzbElOVmpUNjNyTmZwV28?oc=5",
-      "signal": "aggregator-event"
-    },
-    {
-      "kept_title": "'Afterlife with Archie' casts new versions of 'Riverdale' favorites - upi",
-      "kept_feed": "Google News — afterlife",
-      "kept_link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPbXFqUnNTT3pFQW10ZVJlV1RYYk1abTFfeGNfbkFCUno5NlNmcDB0RGE3bWp5LVFkMVZ6RXB5NHdicm4zeGlZWktpd0toSGttSGtrV0l2M3NPbjNsTU9vSlliMzdUaElhd0tIM21WWGtwR0RXZGdjQXhlSi1DSEZ1dlg1SlVwWkFic3lVNDhHRXkzV21fQnVVOGc5Nklad9IBowFBVV95cUxQT2wtV1ZTWDZIV0ZpQ05oQU1jcDcyNi0zZFRDaE1GQTJadEhfUXNIVFdfczBJUUhsdXlTMzZuN0xnRkczbUpROE8wdnVySlVCUk54aER5SThDMVJaQVJlOHU0RTNCSGc2bnpIN0lCZmJCQTFzNGR6WktpVG52SXdfRTVibTNGS0ZRbzAzM0JNdmVnNUdMdGlJOUhRRXkybFp2NHcw?oc=5",
-      "dropped_title": "Disney+’s New Riverdale Reboot Officially Casts Archie, Jughead, Betty & Veronica - ScreenRant",
-      "dropped_feed": "Google News — afterlife",
-      "dropped_link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQSVRfRFhiX1Y0VmJLREhYUzVqRW1IN0pMNDZGazZoRjZDbkhXbHM3NURmbk93aEY4VHQ1MTByYlBwQzAySGtaQkFaaF9SRVpmY0RDVmpHTnE2SmhZcGd5ZXgtc19PdGJyQ19MWVpRMjFxZXp0ajNQWk5KQWJuclhISzZWdExsWjRKYk9ZdFk4NGNyWXBMZTJMOUZ0VHJSREJiazFESVpjaVBPOXNsM0E?oc=5",
-      "signal": "aggregator-event"
-    },
-    {
-      "kept_title": "'Afterlife with Archie' casts new versions of 'Riverdale' favorites - upi",
-      "kept_feed": "Google News — afterlife",
-      "kept_link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPbXFqUnNTT3pFQW10ZVJlV1RYYk1abTFfeGNfbkFCUno5NlNmcDB0RGE3bWp5LVFkMVZ6RXB5NHdicm4zeGlZWktpd0toSGttSGtrV0l2M3NPbjNsTU9vSlliMzdUaElhd0tIM21WWGtwR0RXZGdjQXhlSi1DSEZ1dlg1SlVwWkFic3lVNDhHRXkzV21fQnVVOGc5Nklad9IBowFBVV95cUxQT2wtV1ZTWDZIV0ZpQ05oQU1jcDcyNi0zZFRDaE1GQTJadEhfUXNIVFdfczBJUUhsdXlTMzZuN0xnRkczbUpROE8wdnVySlVCUk54aER5SThDMVJaQVJlOHU0RTNCSGc2bnpIN0lCZmJCQTFzNGR6WktpVG52SXdfRTVibTNGS0ZRbzAzM0JNdmVnNUdMdGlJOUhRRXkybFp2NHcw?oc=5",
-      "dropped_title": "‘Afterlife With Archie’ Disney+ Series Casts Its Archie, Veronica, Betty, Jughead & Sabrina - Deadline",
-      "dropped_feed": "Google News — afterlife",
-      "dropped_link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQMk15aDlxZkMyVVY5MWJHcHN0XzhNMnI4OVJudVF3aEVJOXVUakxGWEM1TkdrZHJYdFF3aVRISEZVcGZKbmFDXzFZZGVZTmxKV3pjTHRNV2xNdFlBSWFXNXhONjFIYTMwMFpFWUZKUkZuZ0hsZFNvVTlRM3Bvbk00WHV2RlRSamhONVk0T3d2Nnk?oc=5",
-      "signal": "aggregator-event"
-    },
-    {
-      "kept_title": "Astronomers Witness Giant Star ‘Eat’ Another Star - Newsweek",
-      "kept_feed": "Google News — astronomy",
-      "kept_link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQMDBMMUYtaGtFXzk1STVTXzF5X2hVcE5lUEZjREdRT0FyMGxGeGpCekJ0OXdrTU5uTzlzcXNZQ0o0MDhqNlFWRWdLRUprSkJNNUVjSUdrMGhJWHFvU3hQdmpndkE1RGJ1ZFBhNFhJdHJMc1FpUFNEZGxHY2RzNGxYUzQyanUtbnk5?oc=5",
-      "dropped_title": "Astronomers Watch a Giant Star Swallow Its Companion for the First Time - Technology Org",
-      "dropped_feed": "Google News — astronomy",
-      "dropped_link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPaFZ4eERxVFdxT1ptVThXOE53X2lrb0VaTkIxLWF1Y0ZMbTZvZU1LRVJ4ajNYZEJnYzQ2bHV2cmptWGk1clpqTER4MVhHR3kyc2o0eHRUbVAzZGlkUzE3SUstRHo1R05NM0NPVjVoSDVCRkhCM0xCMkdDZGRxTWxaQVFqbUJkR28yY3NvZUMwUEZNejF5SUVDY0xnUUE?oc=5",
-      "signal": "aggregator-event"
-    },
-    {
-      "kept_title": "Lake Pelku",
-      "kept_feed": "NASA Image of the Day",
-      "kept_link": "https://www.nasa.gov/image-detail/iss075e0267074/",
-      "dropped_title": "Lake Pelku",
-      "dropped_feed": "NASA Breaking News",
-      "dropped_link": "https://www.nasa.gov/image-article/lake-pelku/",
-      "signal": "title-similarity"
-    },
-    {
-      "kept_title": "Astronomers discover remarkable triple-star system just 28 light-years from Earth",
-      "kept_feed": "Phys.org — Space News",
-      "kept_link": "https://phys.org/news/2026-11-astronomers-remarkable-triple-star-years.html",
-      "dropped_title": "Astronomers discover remarkable triple-star system just 28 light-years from Earth - Phys.org",
-      "dropped_feed": "Google News — astronomy",
-      "dropped_link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQZDE0R0prM0lJRXpfMmU4Rl8waVZmNzB3X2ExLTlMaGN0eENEaWkxZFZEbk16d1VnOGc4ZTlaVVJfTjdCSUNkYl93WDNZY0tTNENuaGZOUjUxSEJnVy0yQld5ZThUWG4zSnMzakd2S0VHLXNZQTJzYXBRSWJaeUIzYQ?oc=5",
-      "signal": "title-similarity"
-    },
-    {
-      "kept_title": "Empire State Building glows gold for NASA's Voyager spacecraft | Space photo of the day for Nov. 19, 2026",
-      "kept_feed": "Space.com",
-      "kept_link": "https://www.space.com/space-exploration/voyager/empire-state-building-glows-gold-for-nasas-voyager-spacecraft-space-photo-of-the-day-for-nov-19-2026",
-      "dropped_title": "Empire State Building glows gold for NASA's Voyager spacecraft | Space photo of the day for Nov. 19, 2026 - Space",
-      "dropped_feed": "Google News — space",
-      "dropped_link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPcFpXcUtlYWNUQzYtU2pFR3d0ZGZ6MHEwenU2U3Zfa2dDZUk0QWlQM0FaLUtkTVVJbHNOR19zUGl4Sjd2N01Uc0FYOVkwaUN5M1JJSnd6ZUZsQjlzUWJyTGRRMnhSRDJXa3RtREIxcndzZnVTSGlkX1V4OUZrR0Nnc2QyZUV4WXZrVVFIMlRvc3BNdnZGWVI5OXlnRV95c3hHdFNpMzJIYzVQSDFLb2JjdnNQTmpIVjQ1aEdHRkc2ODQ2VElQU29JaW5UUzRxQmViMXpYVnlCcVFpdURuQ0IzTmNn?oc=5",
-      "signal": "title-similarity"
-    },
-    {
-      "kept_title": "USDA Meteorologist Brad Rippey says Strong El Niño Brings Winter Moisture Relief and Spring Severe Weather Risks - Oklahoma Farm Report",
+      "kept_title": "APTOPIX California Extreme Weather - timesdaily.com",
       "kept_feed": "Google News — extreme weather",
-      "kept_link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxNR003bG5JN2JneWlrdGpKQUVaMFJmeHdaQTlKQU1JS0doOE00c00zVUl2MlpDSTkyNU9zRGU1R3hSbkdURHZZd0hjSE1ZMThUVG1jZ21mOXh1Y19VMDFlOFVFUkRfN0p5bzZRNldta25sSFFYc05rNWNlVnVKWlpuYXNULVU3ZUh1d045S21JQ0tOdER6NDhVZEdqdHBicEVTZksySGtXQk41enF3RmJYSm81WFNsd1E1czFsbjdldUNQLUlXZGMzcTlmRmlic0t3eUYyYy10cXFDS0N5MHRzV2ZMRnlhZUxBai1fT3FoeVY?oc=5",
-      "dropped_title": "Nine U.S. states experience extreme weather linked to El Niño - Peoples Gazette Nigeria",
+      "kept_link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPT1lCWk5TWnRja01JT1ZVeEM3c1lnY3NRWXZfcjdkc3dwcWNISk8yYUkwelhYYXZzcHE1dmNUR2xSOTBXeE1hOW1SeTJSVG5sVU5yQ0dYWW9jSy0yakxCX0FHZWUzZUlUbEU5VWtSUHVBdkdoQTdaRmdxTlFCYWZ5SU5qWDRGR0dOVll1R1g2bVB5eUhqaTZfYTBlVUtnY2pQdF9CQjgwaU5TUkE1Q1RDSS1VZl9xY3BFd3VsUXpn?oc=5",
+      "dropped_title": "California Extreme Weather - Times Argus",
       "dropped_feed": "Google News — extreme weather",
-      "dropped_link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNTHhWTGtEVmRuaU9ubXpaWWxOUURuWG0yU0ZhWnVkMFJNTkwxbXFvaDhJZGg1WTNRSWUwYlBJcjA2N2R6NGhWeTgyaEpSRldhdGotVWdvTjlUaWxJb25sLU5zVlFpV1J2MDBWV0FYWjAzX0tPYkZhOHJOQktpOTFMWnFDQkVRbndrelVlQg?oc=5",
+      "dropped_link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPckhvdm14YzJoRDhoSTdDSGItOXpmVy1FRHYweEpqMnd5bEczTXBqUVZpRkU3SURPU0Fhc0pyOVpxdTFWU3BBbnJtN2V6X3ZTanFMWTlpdnFyUHA2WFBkbjBRb3laa0hKR2xzSGZXTmpFbWVvM2pZTk9YM1FSUmF2WTJxZ3IwQXNZTEFsV0NlRElBb3FtRDQyRWQ1QWoxcXB5N09VUnpXYXNjTVhIRldGUWl2c2xRQQ?oc=5",
       "signal": "aggregator-event"
     },
     {
-      "kept_title": "Your Energy in One Word, According to Your Birth Month - Parade Magazine",
-      "kept_feed": "Google News — astrology",
-      "kept_link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9KTGJ0VGF3YktLdUppRHIxQW1LVUhRRk1ROWZwdXFlT1c1M1RHbHB0TUF2VTdfVXpXT0F2cDlIeVgwX1BPY3BrUzVwV21yaWNQNElXMElfWDBBdFRKdUViTzlkeE14LVRv?oc=5",
-      "dropped_title": "What You'll Manifest Before 2026 Ends, According to Your Birth Month - Parade Magazine",
-      "dropped_feed": "Google News — astrology",
-      "dropped_link": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBDLWZZSlVVUGJfTmdpYzltQS0wdm9Pc1lGSGlxN0hGbTdoMXE0WUhsNEFvdlZxUjNkcGpoTEZ0SEhSS0lNcHNObzZuNHE2M2tUSWkyXzM3S01UZFB2eGpCdFBPNExSWjFMOGRaX2xPWmxsMUp6TUFMUzh6Zw?oc=5",
-      "signal": "aggregator-event"
-    },
-    {
-      "kept_title": "Nonprofit Common Space will launch 1st 'humanitarian satellite' in 2027",
-      "kept_feed": "Space.com",
-      "kept_link": "https://www.space.com/space-exploration/satellites/nonprofit-common-space-will-launch-1st-humanitarian-satellite-in-2027",
-      "dropped_title": "Nonprofit Common Space will launch 1st 'humanitarian satellite' in 2027 - Space",
+      "kept_title": "USSF CSO Gen. Schiess Promotes Guardian Ethos at SSC All-Call - Space Force — Space Systems Command (.mil)",
+      "kept_feed": "Google News — space",
+      "kept_link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPekNZeVdlZWs0LVlXSjJNc2tmR0RrLU1TdVpkOEFpSFllQ1c0SnhpTFVmMVhNdDE3S3lEdlk4cGNXdkJhd0RmWXRQeVpSeEV0ZWRnOUpkNk1LdnF5TWRrOTBkVGRLV09aNndyRU1GOUVlajJSWVNZb3Zud2ZnSUk3UXpQSjNXejN2aWV0ZkJsR0VGQ19SeTVMSmktZ0d6czZZdnRUYkhHUjBMLXRfaTd6SHBTdTQ3M28?oc=5",
+      "dropped_title": "Space Systems Command eyes mid-2028 for GPS sustainment upgrade contract - DefenseScoop",
       "dropped_feed": "Google News — space",
-      "dropped_link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQaTV1Uk1NbGkwNnpFQTJCZ3dudHBQT2hITmFQclpDX0ZUejlRRU02OHNVcGNXTGxGc2JMUS1FLVJNRHN4TEJVNUhVTnhjdTlWckRzVVhveDZBOUdDaGV0UFkxcWtoLUJXTU9FX1ZTRjRoeExIUU5lUHVQbldlRFZqTG50ZHVfUzQyQjYtWFdoczI2Q1NVWHhXNVhiLVJOejR5X1p5b1F5SGRaeWc0cUkyQzFEY196VlBTVjZWcA?oc=5",
-      "signal": "title-similarity"
-    },
-    {
-      "kept_title": "What's next for NASA interstellar Voyager 1 probe after passing 1 light-day from Earth?",
-      "kept_feed": "Space.com",
-      "kept_link": "https://www.space.com/space-exploration/voyager/whats-next-for-nasa-interstellar-voyager-1-probe-after-passing-1-light-day-from-earth",
-      "dropped_title": "What's next for NASA interstellar Voyager 1 probe after passing 1 light-day from Earth? - Space",
-      "dropped_feed": "Google News — space",
-      "dropped_link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPOFY4dUlhdHViWlp6MEs0QVkxSFRONlNOaG82QWVpZTlSVE83dUlTeG5rcm8zTXZlNV85Z2Y2RzRHUzRLRmVidEVZcVQtYVlnSm94dFlyOFNMVjF0dzRlTVo3OFFHVVpFdXRSU19CcmhEMFBvSGZ4aG5BNlVvemdBNVFsRk5wbnFMZk5SQUVxa3d5dWhaN2UzYzJNUGtOdlV6LWxuUV93WEFwWk9yeXQ5UnpHZXRsMlpDNXZxQWpTVlRzdFhXS05BWjBiZFd1Zw?oc=5",
-      "signal": "title-similarity"
-    },
-    {
-      "kept_title": "Get $400 off the first Vaonis Vespera Pro model ahead of Black Friday — only eight left in stock",
-      "kept_feed": "Space.com",
-      "kept_link": "https://www.space.com/stargazing/skywatching-kit/get-400-off-the-first-vaonis-vespera-pro-model-ahead-of-black-friday-2026",
-      "dropped_title": "Get $400 off the first Vaonis Vespera Pro model ahead of Black Friday — only eight left in stock",
-      "dropped_feed": "Bing News — space",
-      "dropped_link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aff2e925e1244ae9d7f02b47e4be0bd&url=https%3a%2f%2fwww.space.com%2fstargazing%2fskywatching-kit%2fget-400-off-the-first-vaonis-vespera-pro-model-ahead-of-black-friday-2026&c=3627963272281829486&mkt=en-us",
-      "signal": "title-similarity"
-    },
-    {
-      "kept_title": "Daily Astrology News Alert, 19 November 2026: Aquarius Moon Faces Mars, Jupiter and Ketu Across the Zodia - The Times of India",
-      "kept_feed": "Google News — astrology",
-      "kept_link": "https://news.google.com/rss/articles/CBMizgJBVV95cUxOa0lVRGVYWl9DT3NtemZQOVB1ZWVUd0ZqZWZYV09OOXBGMWEtTFJOWG9KNHJrYlhIS2txa05rMXFRRnZsQ0k4VnRlTmllVWN5V3kzVFV0eDZQUFROTThLcUxSeUR5TDZIMzl1WGt4NVI1UDBuVi1hYWphdFVLZFdiRU1IVnBaYWlwN1F0eVdXZW9PNkhTZjlWMDVGdzNJZkRwMFYyb2wxdmoyNVEwV3ZzaEtOVy1lRUQxVDM2b19HejhTOTRaLWpzVTdMX0I2aHdkdk1JWWJycl9na3NsOWNxQUpvTlFtbmx1ZEpfUmZVUnlGZk4zUnd3V1R2eFhVVXhuOWJYUlg3cmdKbTJDeTFXYXM1clU2czJjdk04ZFcxOWZ2QWtaZ25fam9ucW5UTTczS2x5TnhYLXRTd3Y3di1XVmI4WGxoZHg4SXd2M0Z30gHTAkFVX3lxTE5xTFJYTEtFZHpBdEl4WU1fNzl1cjJZUTFST3ctUEVrbC1vUlN5WjJTOGhQR3lTWDF1Q3RIWEhFQjl4SUQ2a0RCTl9oY2xBUlFxU1dpRXB4d0I3MDR5akdHRzI0encxT0U1dU5yQ1dMbm53LTc0bkt3TVo2Sy04WE5NTm9aNHlhaXFFLTJPYXdBZWUxUU5CajlLdmtZaEJDekNMYVFkdzQyOHdNVmNESy1CWHU2cUg4Nng1cG9VWHVKdGdhbnNTaEx3Q01ZZjU1NGZMdnIyWVFKbXFUa3gxekJjZnFhVDBVeVVwREJ3YnZBLVI0QW4wTXlHRFRSS0F1NkdlQmw2ZXZlbVVoUnRvdFpTQmdsZGdiZnFSNUYxNG9xUkU5d1ptTnJoNjhRVno3clJpQ0VhdjlBSThkNVB3Z09BeWtLclZJYUE4RDFRc3dsZEFqTQ?oc=5",
-      "dropped_title": "Free Will Astrology (Week of November 19) - Las Vegas Weekly",
-      "dropped_feed": "Google News — astrology",
-      "dropped_link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPaGJwNk9nVHJvTWlaYmNXMzRaamxzUGlDTktPSWRIelZSVGdFeExpV3VHd3d2RGI0ZXFHYms0N0xKaVgzUW1uc3RfVG8xVGI1RWh5YmhHN0FvanY2MkdKNXd4dGs5cTBsTHhKajN2c18yaU52ZWhLLWY5a3VfU2lTSk9FanB5XzI3MEE?oc=5",
+      "dropped_link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQMDJDdXV1by1ISlhQRnpQYmxkUmZnZWUxblVKbWFaVXM3Y3lJbUQxNXo1SWhhdnZxMktUal9ZdVh1SE90cmVENmNvWXVGNUpWVjRkR0VpMk1RREVFQjFiclBrMkdmaGtBVlh5R2FfWk5HQlFRbERkcHNsUGNaMzhlS3lYRzQxOVBMTGhmcFpVX0t1Y0ZTQWc?oc=5",
       "signal": "aggregator-event"
     },
     {
-      "kept_title": "The Sky Today on Thursday, November 19: Mercury moves into Libra - Astronomy Magazine",
-      "kept_feed": "Google News — astronomy",
-      "kept_link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNQ0lHQUFmeGVHOU9LdFhkeW51MnpQUXYxUm5SUHFoY0lwRG1paGtiUm9QTU1qTExHbWszZVVHQVJDTE9PVHJoVVZpQXBqRkpSd240X1hCMURBZ3kyaXp6clJwS3gtbnNOT3ZJVzV5R0NyQnFyS1dQNS1CZlcycnhTNlR3?oc=5",
-      "dropped_title": "The Sky Today on Thursday, November 19: Mercury moves into Libra",
-      "dropped_feed": "Astronomy Magazine",
-      "dropped_link": "https://www.astronomy.com/observing/the-sky-today-thursday-november-19-2026/",
-      "signal": "title-similarity"
+      "kept_title": "Pope Francis described profound spiritual crisis in private diary - upi",
+      "kept_feed": "Google News — spirituality",
+      "kept_link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNMG9KTWV2c2VqaTFEbWtLVUw1ampUaDhHREFSOWJia0JfSHdST2FRZFZ2X2hGb0JGelRkbzZiamdEOVo3bk9WWjJiYWJjWXN3M1J1MGF3TllpRGtmNHg0aHJNWUV0eXk4Y2tVNzlLZ3Y1SzQ2bmwyU1lwUTE3aC1tMkFUWnBNYnNnQ0pkUEEzejdReWE2Rll3YmFjNmFvZm5abXppWXFIR0RJWV95S2RJ0gG0AUFVX3lxTE9QUDhubkl4V2NxOW5KSkRwRk12d1VENzk0WEhuaFdsYUVDOXl6VUdIVGFBbUhiVTlERlkxVHppQ0puaVluNXNtdHptbElGUTdvSXMzLUZ0TzZXT2NFelRoejZKZlFITHVtOUxvcHpJb2dNTjJ1YjMtOXEtUlNyaHc2dGo0Sjl3b29LeUtpdlAwME5oSnhFUFJweXpuZU1GMUg0dzN6X0tGU1FZUk5GZ3AwaUtHUA?oc=5",
+      "dropped_title": "Video Pope Francis' new book reveals spiritual struggles - ABC News - Breaking News, Latest News and Videos",
+      "dropped_feed": "Google News — spirituality",
+      "dropped_link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPV1hQU3R2SFFfanYzNmxjWTgxX25mZVlHcWpzYktSYi1MaEoxSHFmdjRGY2g1R0otczY3TXY2eGVqSW0xd1dYOGdrTk1YemJlRUhOUnNJUkFUM0cxR0FxNDJBd3NLeWNTbWJTOC1YTldOWlFfdTVwaGVaRks2Y2drUkRPVXEzcGQyOXdxTDJnT0ZPSWJid20yZzZEZExpZDc2?oc=5",
+      "signal": "aggregator-event"
     },
     {
-      "kept_title": "Don't miss Saturn shine close to the moon on Nov. 20",
-      "kept_feed": "Space.com",
-      "kept_link": "https://www.space.com/stargazing/dont-miss-saturn-shine-close-to-the-moon-on-nov-20",
-      "dropped_title": "Don't miss Saturn shine close to the moon on Nov. 20",
-      "dropped_feed": "Bing News — space",
-      "dropped_link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aff2e925e1244ae9d7f02b47e4be0bd&url=https%3a%2f%2fwww.space.com%2fstargazing%2fdont-miss-saturn-shine-close-to-the-moon-on-nov-20&c=3856032604825183848&mkt=en-us",
-      "signal": "title-similarity"
+      "kept_title": "Pope Francis described profound spiritual crisis in private diary - upi",
+      "kept_feed": "Google News — spirituality",
+      "kept_link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNMG9KTWV2c2VqaTFEbWtLVUw1ampUaDhHREFSOWJia0JfSHdST2FRZFZ2X2hGb0JGelRkbzZiamdEOVo3bk9WWjJiYWJjWXN3M1J1MGF3TllpRGtmNHg0aHJNWUV0eXk4Y2tVNzlLZ3Y1SzQ2bmwyU1lwUTE3aC1tMkFUWnBNYnNnQ0pkUEEzejdReWE2Rll3YmFjNmFvZm5abXppWXFIR0RJWV95S2RJ0gG0AUFVX3lxTE9QUDhubkl4V2NxOW5KSkRwRk12d1VENzk0WEhuaFdsYUVDOXl6VUdIVGFBbUhiVTlERlkxVHppQ0puaVluNXNtdHptbElGUTdvSXMzLUZ0TzZXT2NFelRoejZKZlFITHVtOUxvcHpJb2dNTjJ1YjMtOXEtUlNyaHc2dGo0Sjl3b29LeUtpdlAwME5oSnhFUFJweXpuZU1GMUg0dzN6X0tGU1FZUk5GZ3AwaUtHUA?oc=5",
+      "dropped_title": "Video Pope Francis' new book reveals spiritual struggles - ABC News - Breaking News, Latest News and Videos",
+      "dropped_feed": "Google News — spirituality",
+      "dropped_link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE1ESV9jallFYkhlSFJCeWF5NzB0bXJKRjB4YUY2YVVjMUw2ck5fX2FsM05fYzNWTk4yODhJaWZHSEVxSUR1Y2dJZ3hYd1M?oc=5",
+      "signal": "aggregator-event"
     },
     {
-      "kept_title": "Astronomers have caught a star exploding in a distant galaxy. It could help them tell how fast the Universe is expanding - BBC Sky at Night Magazine",
-      "kept_feed": "Google News — astronomy",
-      "kept_link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFB3V3ozUVdoVTV3SHNZMnZyWFNhaFRNUW4wUUx4VU9WS1UxVjE3bGNkUDdibzFla1hubzB5bXF3X3NxVzdsbEdhZkw1WmxQblNpUU1zc09PN2xKNFJoX2xwQkRFR0RzT1VHaWlsRWFR?oc=5",
-      "dropped_title": "Astronomers spy a ‘bomb exploding inside a living star’ during colossal merger in Andromeda galaxy - Starlust.org",
+      "kept_title": "APTOPIX California Extreme Weather - timesdaily.com",
+      "kept_feed": "Google News — extreme weather",
+      "kept_link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPT1lCWk5TWnRja01JT1ZVeEM3c1lnY3NRWXZfcjdkc3dwcWNISk8yYUkwelhYYXZzcHE1dmNUR2xSOTBXeE1hOW1SeTJSVG5sVU5yQ0dYWW9jSy0yakxCX0FHZWUzZUlUbEU5VWtSUHVBdkdoQTdaRmdxTlFCYWZ5SU5qWDRGR0dOVll1R1g2bVB5eUhqaTZfYTBlVUtnY2pQdF9CQjgwaU5TUkE1Q1RDSS1VZl9xY3BFd3VsUXpn?oc=5",
+      "dropped_title": "California Extreme Weather - WV News",
+      "dropped_feed": "Google News — extreme weather",
+      "dropped_link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPQVVmZWdvSkJhckljalc3TFJLWElDUEI3MUtuajNXLU1qalBHVW9tdzRCakZhZS1GX0wyT1ZBNHE5NENwMHVxRU9DbkRBWTBGVl82eGxjdzB6STJQdUVjOGhpTGJiajRqZGlCNUs0ZlRXZXZMQjU4ejNQbTR4MG1ONmYwbTBiRThRdEZGbm1CZEtxVFI3MTlaOWNmZGtjV0NHcGRFUFl3Q2oyXy1FZFE?oc=5",
+      "signal": "aggregator-event"
+    },
+    {
+      "kept_title": "A Gigantic Stellar Eruption Spreads Planetary Material Into Space",
+      "kept_feed": "Universe Today",
+      "kept_link": "https://www.universetoday.com/articles/a-gigantic-stellar-eruption-spreads-planetary-material-into-space",
+      "dropped_title": "A Gigantic Stellar Eruption Spreads Planetary Material Into Space - Universe Today",
       "dropped_feed": "Google News — astronomy",
-      "dropped_link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNXzc4X0Q3ZFhUMWd0YUJab2JpbkxEMG9XTDZmUFNFU3Y2YjFtR1EzcjhCMlZtMnlxYzR4MmNvTnRLRGxsLUg2Z0VzRm9kM0ItVERkLVBTRVRMekRmVjJmNmxISmlhT3djVC1MWXJlaXBtb05CbHlodHZrMzVoRkdyZzVpQjJnZklxM0xIb0lHaVR1TU5uYTJBMjFNX3gzRWE3Z1g3MTZ2RnU1Q2tGcFVOSDkxUEc4ZzRwUUE?oc=5",
-      "signal": "aggregator-event"
-    },
-    {
-      "kept_title": "Netflix's '3 Body Problem' season 2 trailer gives us a release date and a chilling warning: 'They are coming to exterminate us'",
-      "kept_feed": "Space.com",
-      "kept_link": "https://www.space.com/entertainment/space-movies-shows/netflixs-3-body-problem-season-2-trailer-gives-us-a-release-date-and-a-chilling-warning-they-are-coming-to-exterminate-us",
-      "dropped_title": "Netflix's '3 Body Problem' season 2 trailer gives us a release date and a chilling warning: 'They are coming to exterminate us'",
-      "dropped_feed": "Bing News — space",
-      "dropped_link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aff2e925e1244ae9d7f02b47e4be0bd&url=https%3a%2f%2fwww.space.com%2fentertainment%2fspace-movies-shows%2fnetflixs-3-body-problem-season-2-trailer-gives-us-a-release-date-and-a-chilling-warning-they-are-coming-to-exterminate-us&c=11491439369155993835&mkt=en-us",
+      "dropped_link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPeHUwd0hpYlZUS2dTdGhwOGQ0S2wyZy1jWHhVZGF6c1o2WEprOExzblA5T2JQa3RtbnlFY011a09lTlp6ZGVlb3BQSGpaajRPS1NLOVY0UHRqZDZiUjA1cFhMUl9jUFFSYUxVNmN3SE9NbkZtRzFYQ2NpNnV5LUlRMjhSVF82Y2lYRkdWWG9VNUhKOE45VEF4SHVVU0tVZWFKV3RoYnNBUQ?oc=5",
       "signal": "title-similarity"
     },
     {
-      "kept_title": "Daily Astrology News Alert, 19 November 2026: Aquarius Moon Faces Mars, Jupiter and Ketu Across the Zodia - The Times of India",
+      "kept_title": "APTOPIX California Extreme Weather - timesdaily.com",
+      "kept_feed": "Google News — extreme weather",
+      "kept_link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPT1lCWk5TWnRja01JT1ZVeEM3c1lnY3NRWXZfcjdkc3dwcWNISk8yYUkwelhYYXZzcHE1dmNUR2xSOTBXeE1hOW1SeTJSVG5sVU5yQ0dYWW9jSy0yakxCX0FHZWUzZUlUbEU5VWtSUHVBdkdoQTdaRmdxTlFCYWZ5SU5qWDRGR0dOVll1R1g2bVB5eUhqaTZfYTBlVUtnY2pQdF9CQjgwaU5TUkE1Q1RDSS1VZl9xY3BFd3VsUXpn?oc=5",
+      "dropped_title": "Companies are getting less accurate data on extreme weather just when they need it the most - The Daily Gazette",
+      "dropped_feed": "Google News — extreme weather",
+      "dropped_link": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxNUllhZHFvS1gxQzdYWHBOeFdzdEVMUHNmQTU0X2tUaExXbktNUDMtX05YRWozdGpxS3NYOUs3b3FDZlhjTTFMcHJuLVdDOW80UHJyRGpvX0J1SXFlNEd3Qm9lVFg4WVRjaTZVb2FWNkZCNTlXNllfLWdGSk5SN1BIcjRzTWNKYmxMUTkyRjc5ZGNjTENMZTBaU3czNGRUWmUyVXhNTWhBTGJQd1RhU093RjR3TXhfTDVoWnhmdGw1WWV3Y19vMGZtMkRaamlvZWdUS243Tno4b2JJVGQ0ZE1rS1Z6MzJwVmRqNXF4eE1GbDBUUU1icXY3UC1zVk1IX2NVME11TmExOHl4TGM?oc=5",
+      "signal": "aggregator-event"
+    },
+    {
+      "kept_title": "APTOPIX California Extreme Weather - timesdaily.com",
+      "kept_feed": "Google News — extreme weather",
+      "kept_link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPT1lCWk5TWnRja01JT1ZVeEM3c1lnY3NRWXZfcjdkc3dwcWNISk8yYUkwelhYYXZzcHE1dmNUR2xSOTBXeE1hOW1SeTJSVG5sVU5yQ0dYWW9jSy0yakxCX0FHZWUzZUlUbEU5VWtSUHVBdkdoQTdaRmdxTlFCYWZ5SU5qWDRGR0dOVll1R1g2bVB5eUhqaTZfYTBlVUtnY2pQdF9CQjgwaU5TUkE1Q1RDSS1VZl9xY3BFd3VsUXpn?oc=5",
+      "dropped_title": "Companies are getting less accurate data on extreme weather just when they need it the most - Iosco County News Herald",
+      "dropped_feed": "Google News — extreme weather",
+      "dropped_link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNamxpNnA5SjZLSU5UZG9fTDR1SFlDcERQc05kVGRVMTBtTW1wYTVIOTIxbzVISUt4TlpibVB5WkpWaXVTaDdtZHRtc2Q2TGdXdllKS1V1cllkcFJUd2V5cmtRVnFoTzZIRnZUSldORWp1dWQyRUtTc0duZ21BSEMzTjlnTEo1ZXE4TFg2S3N5cWU?oc=5",
+      "signal": "aggregator-event"
+    },
+    {
+      "kept_title": "APTOPIX California Extreme Weather - timesdaily.com",
+      "kept_feed": "Google News — extreme weather",
+      "kept_link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPT1lCWk5TWnRja01JT1ZVeEM3c1lnY3NRWXZfcjdkc3dwcWNISk8yYUkwelhYYXZzcHE1dmNUR2xSOTBXeE1hOW1SeTJSVG5sVU5yQ0dYWW9jSy0yakxCX0FHZWUzZUlUbEU5VWtSUHVBdkdoQTdaRmdxTlFCYWZ5SU5qWDRGR0dOVll1R1g2bVB5eUhqaTZfYTBlVUtnY2pQdF9CQjgwaU5TUkE1Q1RDSS1VZl9xY3BFd3VsUXpn?oc=5",
+      "dropped_title": "Companies are getting less accurate data on extreme weather just when they need it the most - swiowanewssource.com",
+      "dropped_feed": "Google News — extreme weather",
+      "dropped_link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOdkFRRUwzUmRyWXZJTnp1TDc2QzZTZ3REZjYxY3U5eG1QMGNUQjZDaU5aZ2p0b1lTMmQ0NnBDa1cyUkxUOGxJLVdKNW5EbURYdzNReWlOSjFWMGFmS0JSenRQYjNzZlUxbzlRYW1mVUJpdXl3LUpTeEo5aXFqWERCWUdjZExzbS1yNEV4bXB0UG1ZOXZ2UjdIUjd3?oc=5",
+      "signal": "aggregator-event"
+    },
+    {
+      "kept_title": "Amateur Astronomer? Be a Kilonova Catcher!",
+      "kept_feed": "NASA Breaking News",
+      "kept_link": "https://science.nasa.gov/get-involved/citizen-science/amateur-astronomer-be-a-kilonova-catcher/",
+      "dropped_title": "Amateur Astronomer? Be a Kilonova Catcher! - NASA Science (.gov)",
+      "dropped_feed": "Google News — astronomy",
+      "dropped_link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQTWpNSG1mS1VDWVctRFFJcGRlcDI5eUdQTDExcHpDLWxBdDBUY1c3ajkxSEtDeVdHSmR3OUJXWFhLQzJTLVg3dVUtMk54M1hZRUhVcENFaThsLU5ZQnE4WmtjOVZKWHRMSEd2UXVrTmhyTGdlZ3pPdGZYcmd4ZV9lRDAzUEdXVkF0NjNHa1J6N2xFSWJCRXRJRUN4SQ?oc=5",
+      "signal": "title-similarity"
+    },
+    {
+      "kept_title": "Aquarius Horoscope for November 2026 - Page 8 of 8 - Susan Miller Astrology Zone",
       "kept_feed": "Google News — astrology",
-      "kept_link": "https://news.google.com/rss/articles/CBMizgJBVV95cUxOa0lVRGVYWl9DT3NtemZQOVB1ZWVUd0ZqZWZYV09OOXBGMWEtTFJOWG9KNHJrYlhIS2txa05rMXFRRnZsQ0k4VnRlTmllVWN5V3kzVFV0eDZQUFROTThLcUxSeUR5TDZIMzl1WGt4NVI1UDBuVi1hYWphdFVLZFdiRU1IVnBaYWlwN1F0eVdXZW9PNkhTZjlWMDVGdzNJZkRwMFYyb2wxdmoyNVEwV3ZzaEtOVy1lRUQxVDM2b19HejhTOTRaLWpzVTdMX0I2aHdkdk1JWWJycl9na3NsOWNxQUpvTlFtbmx1ZEpfUmZVUnlGZk4zUnd3V1R2eFhVVXhuOWJYUlg3cmdKbTJDeTFXYXM1clU2czJjdk04ZFcxOWZ2QWtaZ25fam9ucW5UTTczS2x5TnhYLXRTd3Y3di1XVmI4WGxoZHg4SXd2M0Z30gHTAkFVX3lxTE5xTFJYTEtFZHpBdEl4WU1fNzl1cjJZUTFST3ctUEVrbC1vUlN5WjJTOGhQR3lTWDF1Q3RIWEhFQjl4SUQ2a0RCTl9oY2xBUlFxU1dpRXB4d0I3MDR5akdHRzI0encxT0U1dU5yQ1dMbm53LTc0bkt3TVo2Sy04WE5NTm9aNHlhaXFFLTJPYXdBZWUxUU5CajlLdmtZaEJDekNMYVFkdzQyOHdNVmNESy1CWHU2cUg4Nng1cG9VWHVKdGdhbnNTaEx3Q01ZZjU1NGZMdnIyWVFKbXFUa3gxekJjZnFhVDBVeVVwREJ3YnZBLVI0QW4wTXlHRFRSS0F1NkdlQmw2ZXZlbVVoUnRvdFpTQmdsZGdiZnFSNUYxNG9xUkU5d1ptTnJoNjhRVno3clJpQ0VhdjlBSThkNVB3Z09BeWtLclZJYUE4RDFRc3dsZEFqTQ?oc=5",
-      "dropped_title": "Your Daily Singles Horoscope for November 19, 2026 - Yahoo",
+      "kept_link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOdkVtaFhSODBYOGlSYmFsQno0V3ZNSHkta2xEVVVOaDVVSzBFd1VUOFNVNmJXR2t0Z0lxNHhGcGRGV3R4WGlwc2dQRXAxc0tNZGdFeUhwakQxVmQ1SnhKS0Y2dTI5NDZTZHZ1UWRoRDNtNHpzaXlWYUFzOFFUZVBSazV2TVlZdw?oc=5",
+      "dropped_title": "Taurus Horoscope for November 2026 - Page 3 of 8 - Susan Miller Astrology Zone",
       "dropped_feed": "Google News — astrology",
-      "dropped_link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPSjMyNk9ZTzVBOEt3Qjc2WWtLTFdncHlJWUctOTVEb3NZTmYwZmhOWHFaTTNUeW1CcS1FQmotcmNCZFQ1d3J5SmVjYm5PeEtYaTFvc2pIbzF0WElvRURwc0lUcGdOUlhNNjZIanlsNzc3bFI0N0Q0b0Rpb1g0SXVYdjhhWHZMdkVWbHl6NnREVGtla1VGRlE?oc=5",
-      "signal": "aggregator-event"
-    },
-    {
-      "kept_title": "Empire State Building glows gold for NASA's Voyager spacecraft | Space photo of the day for Nov. 19, 2026",
-      "kept_feed": "Space.com",
-      "kept_link": "https://www.space.com/space-exploration/voyager/empire-state-building-glows-gold-for-nasas-voyager-spacecraft-space-photo-of-the-day-for-nov-19-2026",
-      "dropped_title": "Empire State Building glows gold for NASA's Voyager spacecraft | Space photo of the day for Nov. 19, 2026",
-      "dropped_feed": "Bing News — space",
-      "dropped_link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aff2e925e1244ae9d7f02b47e4be0bd&url=https%3a%2f%2fwww.space.com%2fspace-exploration%2fvoyager%2fempire-state-building-glows-gold-for-nasas-voyager-spacecraft-space-photo-of-the-day-for-nov-19-2026&c=6491394937544317335&mkt=en-us",
+      "dropped_link": "https://news.google.com/rss/articles/CBMifEFVX3lxTFA5amR2UjVsQks4Ynh3TzN4UWhaQVY0bTlTdFBRWTFBZWphbEItSWJWbWd2bTJYaVVlYjNUOEM5dEt0MkxQSWhNR3FWcmhuMnN0bzczczB0Z2lsRFhuUzd4bVBobVVacWN1YzFrTHRVb0lKX0xjaFB5TTVnQnE?oc=5",
       "signal": "title-similarity"
     },
     {
-      "kept_title": "Nonprofit Common Space will launch 1st 'humanitarian satellite' in 2027",
+      "kept_title": "Companies are getting less accurate data on extreme weather just when they need it the most",
+      "kept_feed": "The Conversation — US",
+      "kept_link": "https://theconversation.com/companies-are-getting-less-accurate-data-on-extreme-weather-just-when-they-need-it-the-most-295737",
+      "dropped_title": "Companies are getting less accurate data on extreme weather just when they need it the most - The Conversation",
+      "dropped_feed": "Google News — extreme weather",
+      "dropped_link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNNjRqSFdaRFpsYldmYnBNVDJjaUEwTnFfSk5QdkxUcmZ5VEhMUGNXV2RMTkxlZHJKYWswY09Ubk5MbWhEX200TzY1VHRSY3UwSXJWRThEcC1VbzFoNkJybG5yRGNIRk8tbDBGejVmYjVIOGhLS1BITGt2LUdfQVJHU2IyODJmYWoxdE9QUXNOV0xUdmpDZG9WTUxZY19WZUJEc1JNYi1mYWpmUXVmWjNoSFA5dW1XMjNMelZIMUtIMGE5SjVC?oc=5",
+      "signal": "title-similarity"
+    },
+    {
+      "kept_title": "Companies are getting less accurate data on extreme weather just when they need it the most",
+      "kept_feed": "The Conversation — US",
+      "kept_link": "https://theconversation.com/companies-are-getting-less-accurate-data-on-extreme-weather-just-when-they-need-it-the-most-295737",
+      "dropped_title": "Companies are getting less accurate data on extreme weather just when they need it the most - Caledonian Record",
+      "dropped_feed": "Google News — extreme weather",
+      "dropped_link": "https://news.google.com/rss/articles/CBMimgJBVV95cUxObDRJeUI2RFFUNlBpaDJ0UmRvX2pJSVYzeEJ3RDhNMl9GN0ROME42NkhWUXl4MGVOSzNINmNjdGlySF9CY3VoUzFnWDZIelk1dEZzMmczUXJiendkaS1IWWNpRHM4dDBSd2JDdWNLeXUyWTgwd2JxQS1LbWtTWlozRjhBUUdULXI1X2o0WWdrQ2NNVFBha1pQNW1QakdBLUl5aG9wM3pBLUlsVkJKX2RPNU0tR3NESUtRalcwaHd6NVBfQkdMMG5hOThRTkpVczFZOGtQS0JlNHk4MU5uclRNYzJpZ2tTOXRLUl9GWjRJVHcyMU9nTWNILTR3eFF5WnJFN1F1aVN3MlFnYkhmU3hxV0V1VGsxejV1TlE?oc=5",
+      "signal": "title-similarity"
+    },
+    {
+      "kept_title": "1st-ever detection of a dying star's 'final nuclear heartbeat' challenges what we know about our sun's eventual death",
       "kept_feed": "Space.com",
-      "kept_link": "https://www.space.com/space-exploration/satellites/nonprofit-common-space-will-launch-1st-humanitarian-satellite-in-2027",
-      "dropped_title": "Nonprofit Common Space will launch 1st 'humanitarian satellite' in 2027",
+      "kept_link": "https://www.space.com/astronomy/stars/1st-ever-detection-of-a-dying-stars-final-nuclear-heartbeat-challenges-what-we-know-about-our-suns-eventual-death",
+      "dropped_title": "1st-ever detection of a dying star's 'final nuclear heartbeat' challenges what we know about our sun's eventual death - Space",
+      "dropped_feed": "Google News — space",
+      "dropped_link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQamQyRW9UOGNIRDRkRGJQWGJ5ZFR6RDhISHo4VVlLODNMemhGVzBTZ3FwT3p3dnA5eDRYVDdFbUFPdFZZUklkekh0c1dac1kyTV8yTkhtT0tSUWlZOEhDQTBwVDZUUXZzYnhPZjNaRWFUUUZQSjVDTTVHNl8ybmZZYUQzWDVFU3RKNGtTSXVwYjRUTENYRmlGOG5lX2RRWDZXd0tZSVVIUU5tbi15YWRMel9PeUU2Um9FdERQcDhtNTVYSjh1SVlDUnAtMzFyMFM4TEZidWFYNnJMZThoUzlVMUZEano3QQ?oc=5",
+      "signal": "title-similarity"
+    },
+    {
+      "kept_title": "‘Extreme’ Flooding Is Feared in California as King Tides Near Records - The New York Times",
+      "kept_feed": "Google News — extreme weather",
+      "kept_link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNTHZGbEd3Vl9sUnVaNlRJemdsODhjejI5ZXZaSXZYdnlxQ1BMRzVaYWxiQS1mVXhDaDJtdlhiaHI1U3FWd2hoME5ieEpxZnpUT0kzbGRZUXNFbEhYWXdRV1dSa1pvaUFkSllDSXplREhvVFBoSUhZdVJJQU52QjFFaE9oUVJLbnBC?oc=5",
+      "dropped_title": "King tides could break decades-old records and flood communities on both coasts on Thanksgiving week - KTVN",
+      "dropped_feed": "Google News — extreme weather",
+      "dropped_link": "https://news.google.com/rss/articles/CBMijgJBVV95cUxQcXlPZXV3UFdEcmdQRkE5eW82SWZ1RHhJMUFBdVRMMFBTbVFBeFNXMkVMN0Q2UzBxYXliLXlvY0Y2YW9HVC04Yk1hOGxFT3RtaDMwdWt2VmVObkl3ckhjcDExVEdyemZnTXE3c29UVnZWMXZZdEU2ak1oWWM4QmJxWXBhXzVPaUVOWm4wSWE2bDNUY09lRWpKUlA0TTBSRlRjb3F5U2Y5VWZVejhSQ29qbktydEU4TlN5UElwelB4X2pZbnJ2UnQxVzR4NzFMbEg2LXpJcnZ4c0VoMEZ1Ni1MYjR2VTN0bjhUdl8wNDVUaXpTTVhsZkdENGdJU2FuNWFDQ0tBVXJfU3FWbnNCY3c?oc=5",
+      "signal": "aggregator-event"
+    },
+    {
+      "kept_title": "Astronomers spot record-setting quasar in the early universe - Reuters",
+      "kept_feed": "Google News — astronomy",
+      "kept_link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPV0I0WE1tZkpIVlR1OW5iRTF4SFJ2STR6OXhEcnF4NThjS1Y3U051TVpxTHRSeU1nbFViQi1xcW5TcGhnc2hTVVdoR25jMFdTMEdSdS15dEhKdU1HckNQSDB2eXQtZ1luTDN4d0YwYld3WF9lYjJXY1VDMm9hcmx3bjAyNEhZLWtRMlh3UnVkX05hUUdxOHVfbDZrcW55QQ?oc=5",
+      "dropped_title": "Record-Breaking Black Hole Beacon Shines from the Early Universe - Sky & Telescope",
+      "dropped_feed": "Google News — astronomy",
+      "dropped_link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNX1c3RjVQUE9pcWNVVjR5cUtTSVVGTXdfQ09WZ1JZR2tObFIyWmhzVlA3ZGpFaE9TUUpIeGU3OFRyR0pfN1N4RUtNenJIdnRQTE1mcUVhU0RaM2NLWGR0ZkNTZW9tNldhRllvbnROMnRKbUhuclRIZGx4Tk1qZnNUZGxBX05yT0prUjlSZ3FVVnVCZGVmTXFfYmhjbUJ3eVlJMElZdlY0VWxYeGJZ?oc=5",
+      "signal": "aggregator-event"
+    },
+    {
+      "kept_title": "TACTICAL ANALYSIS: How Rhulani Mokwena’s Pyramids FC dismantled Al Ahly - Mozzart Sport Kenya",
+      "kept_feed": "Google News — pyramids",
+      "kept_link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQeXg3Qi15U0pZVDcwWF9INWVRS1h0MlI0N0NqdG5UVHM4ZG4zeUo0NTdiekRiY3J1UHdJRXltdm5kMUhqd19Ta3NRdDZMS3Q5SThOdzdua2tyT0tEaU5YaUdYblpHNHZfQWtNRk51OWtJbGkyZlpRaW0wUHZXSTlXU1NwMjJoX3V2VS1jYWF4YkZTZk84N2NUYXM4V3BwUEQ4dkQ3bl9Yci0xejBhSUdtOGkwY0JnTjFBUkk3Mg?oc=5",
+      "dropped_title": "Egypt’s Al Ahly freeze players’ pay after Pyramids loss - DNE Africa",
+      "dropped_feed": "Google News — pyramids",
+      "dropped_link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9DNzVsbkZ3Mm1TTXNOaDVxZExPTTVOZ242TGNhWVdob19LRUlwZGYxUUoyNUVVenBPM1R1ejhxejJFMkJCUXJCXzhka0otOGx1emJ5VkRBRUtzM2syWTRXNGNIa1gyd2NYaVZGYVV3?oc=5",
+      "signal": "aggregator-event"
+    },
+    {
+      "kept_title": "California Extreme Weather - WV News",
+      "kept_feed": "Google News — extreme weather",
+      "kept_link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPQ284c25sZ20zdXo0aGZTSDZyUHFub2t1VGpWMTd1MjFPMVFaR2huNlJWNGZDZ1FPVGw2SER0czhhM095eTY3MmZzeUs0TnhZakRFMjFKa1lnOFIxWXBKWVp6cEJJYnhadTYwNmN2WHp3VWU0eUFOTTEydHd1NnZYaXdXZ1dKbFpZVHctTGhPdDZiRGdkekFtSk1jb280VlplU1hneGJISHRDQ3FScHc?oc=5",
+      "dropped_title": "California Extreme Weather - Goshen News",
+      "dropped_feed": "Google News — extreme weather",
+      "dropped_link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQdjkyTlZoV3NRVVdYUDBNbG9OUmN2VFo4NGkxMEZNdy1XS1RlRnlyTGs4R1kxWTRMVFV1Q2RiVVl4NXM3eG94cW1Ed0lRTXMwM3kzWHkxbDZ5V3h5aDNmNVR4bmZUMWlzTFhSZkkxM0o3Z1Y5N3NMOTI4WjNTMm0yOTFORFhXaEw1UndQUFdteS1lZzFhQ0NOZ0lwXzJBcG96QW51U2dsTEFfT3pqaE56d0JFMXdFMWVuRWNURw?oc=5",
+      "signal": "title-similarity"
+    },
+    {
+      "kept_title": "'The Private Diary of Pope Francis' reveals the late pope's spiritual struggles - Religion News Service",
+      "kept_feed": "Google News — spirituality",
+      "kept_link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPTmNpNkd1a25IcWYta01JS2UzdGdRb0paSU5COU1Xdm1YMS1FS0lpdi1pWnJMSTFKVUt5SUpLc052X2lyaWZFTDByT3FqTmtfNFhneWlBRWVjSzVrelJjRndNSFBGamlGOTJya01WaWhrQXFhWUhPa1A2TUVKQ3pRb0dpTTZwVkVJRktVcmpVRTljN2hlNjA0Q3lsZV9RUE02S2NRcktWY0U?oc=5",
+      "dropped_title": "Pope Francis’s Diaries Reveal Spiritual Crisis Over Power and Visions of the Devil - ColombiaOne.com",
+      "dropped_feed": "Google News — spirituality",
+      "dropped_link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOZDhhVEZ5U0lQSTBqOV9QalI5MGtfLUtQNTIxUktoRC1UejR4MVRicXJWN3NheVFrYjdpY1dZdTJBbHVhOHJjdmppQVByXy05ajFIQnAwTjBvd1E2WFR5amhXRUlqRmtRUF9wcXVHb3BSMUFGTF9lRExoc3hoRjFFZWZJbjk?oc=5",
+      "signal": "aggregator-event"
+    },
+    {
+      "kept_title": "'The Private Diary of Pope Francis' reveals the late pope's spiritual struggles - Religion News Service",
+      "kept_feed": "Google News — spirituality",
+      "kept_link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPTmNpNkd1a25IcWYta01JS2UzdGdRb0paSU5COU1Xdm1YMS1FS0lpdi1pWnJMSTFKVUt5SUpLc052X2lyaWZFTDByT3FqTmtfNFhneWlBRWVjSzVrelJjRndNSFBGamlGOTJya01WaWhrQXFhWUhPa1A2TUVKQ3pRb0dpTTZwVkVJRktVcmpVRTljN2hlNjA0Q3lsZV9RUE02S2NRcktWY0U?oc=5",
+      "dropped_title": "Pope Francis' private diary reveals a profound spiritual crisis - Fox Business",
+      "dropped_feed": "Google News — spirituality",
+      "dropped_link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1mV1BsS1BwcWVrcklJbE1XdDhiRWh1TWI1QVpoaUFfeGZCTlpGamFCcE1ZZENCeGFDZDA4Z21NTHhMM1p4LWZnRWdQYlk2U2VmeGdES2RtMFF4NlU?oc=5",
+      "signal": "title-similarity"
+    },
+    {
+      "kept_title": "Webb Reveals New Details in Supernova Remnant",
+      "kept_feed": "NASA Image of the Day",
+      "kept_link": "https://www.nasa.gov/image-detail/cas-a-webb-miri/",
+      "dropped_title": "Webb Reveals New Details in Supernova Remnant",
+      "dropped_feed": "NASA Breaking News",
+      "dropped_link": "https://www.nasa.gov/image-article/webb-reveals-new-details-in-supernova-remnant/",
+      "signal": "title-similarity"
+    },
+    {
+      "kept_title": "'The Private Diary of Pope Francis' reveals the late pope's spiritual struggles - Religion News Service",
+      "kept_feed": "Google News — spirituality",
+      "kept_link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPTmNpNkd1a25IcWYta01JS2UzdGdRb0paSU5COU1Xdm1YMS1FS0lpdi1pWnJMSTFKVUt5SUpLc052X2lyaWZFTDByT3FqTmtfNFhneWlBRWVjSzVrelJjRndNSFBGamlGOTJya01WaWhrQXFhWUhPa1A2TUVKQ3pRb0dpTTZwVkVJRktVcmpVRTljN2hlNjA0Q3lsZV9RUE02S2NRcktWY0U?oc=5",
+      "dropped_title": "Pope Francis Diaries Reveal Visions of the Devil, Spiritual Crisis and Confidence in Future Pope Leo XIV - Latin Times",
+      "dropped_feed": "Google News — spirituality",
+      "dropped_link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQVWw3dW1Lb3k4cHBzVjlDLXRlUnRrNks0TEJoclhUX2pmOGZBNUt1Y2puQWpib25YdU9Zd1N5RHp3UmxqVU1jb19uTnZnMU9VMVh3T0c1SEhqazQxSmllYnFCNTdTSFgzdnR2TWVjdnlTLVlzclJvbnVvcll6M1RtY2pOdmp5b2M?oc=5",
+      "signal": "aggregator-event"
+    },
+    {
+      "kept_title": "Flexible simulations model how dark matter collisions may leave their fingerprints on the universe",
+      "kept_feed": "Phys.org — Space News",
+      "kept_link": "https://phys.org/news/2026-11-flexible-simulations-dark-collisions-fingerprints.html",
+      "dropped_title": "Does dark matter leave fingerprints on the Universe? - EurekAlert!",
+      "dropped_feed": "Google News — astronomy",
+      "dropped_link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9BMWdTMG92Z0hLaTY3REd1TmZuWnVySWZtMENVLXRXWE05WTh1OW1FbnBYS1JWQ2huT2htV3V6RzBFUDc5Q0RMVjQtQ1F6cVJ6ZndwRTFDX1NIVUQ4?oc=5",
+      "signal": "title-similarity"
+    },
+    {
+      "kept_title": "Phaethon’s fiery folly - Astronomy Magazine",
+      "kept_feed": "Google News — astronomy",
+      "kept_link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBDVXpaWk5YU1VQM3hPUXQ1UUxpNlo1Vl9kaEVhVzJHdTdTTnB3dVg0OEdOcDU0V1BsUmlXOHVpMEdMOG1PNC04V1pKVEJacnJ1Z3czaEpqbEpHWmU4WDdheWxxbW1CczVaYkE?oc=5",
+      "dropped_title": "Phaethon’s fiery folly",
+      "dropped_feed": "Astronomy Magazine",
+      "dropped_link": "https://www.astronomy.com/observing/phaethons-fiery-folly/",
+      "signal": "title-similarity"
+    },
+    {
+      "kept_title": "Pope Francis described profound spiritual crisis in private diary - upi",
+      "kept_feed": "Google News — spirituality",
+      "kept_link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNMG9KTWV2c2VqaTFEbWtLVUw1ampUaDhHREFSOWJia0JfSHdST2FRZFZ2X2hGb0JGelRkbzZiamdEOVo3bk9WWjJiYWJjWXN3M1J1MGF3TllpRGtmNHg0aHJNWUV0eXk4Y2tVNzlLZ3Y1SzQ2bmwyU1lwUTE3aC1tMkFUWnBNYnNnQ0pkUEEzejdReWE2Rll3YmFjNmFvZm5abXppWXFIR0RJWV95S2RJ0gG0AUFVX3lxTE9QUDhubkl4V2NxOW5KSkRwRk12d1VENzk0WEhuaFdsYUVDOXl6VUdIVGFBbUhiVTlERlkxVHppQ0puaVluNXNtdHptbElGUTdvSXMzLUZ0TzZXT2NFelRoejZKZlFITHVtOUxvcHpJb2dNTjJ1YjMtOXEtUlNyaHc2dGo0Sjl3b29LeUtpdlAwME5oSnhFUFJweXpuZU1GMUg0dzN6X0tGU1FZUk5GZ3AwaUtHUA?oc=5",
+      "dropped_title": "Pope Francis' private diary describes a profound spiritual crisis and encounters with the devil - Los Angeles Times",
+      "dropped_feed": "Google News — spirituality",
+      "dropped_link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQOU41alZZRHdzTGlxODlCNXhhVWhqaTl1Ty1SdHBIZnBsSHF4a3JUWjVDTGZGcWZOenNVNzRRdmhIQk1TNUZzM2pEeEtPQzhQZ3JrV3JrOE5VQm5xWWQwZng0S3RPeEp1TnlTejZiYVliUUkwMnNpTlFXOTNodUlVQTNqUDhMaERIcjFIWE9mYjctQUZVRml3Wkpfc2oxQjhxUFVHMWdXOW4zWnlMZlZRMlh5dmw3MTlIWkVBSm5fNE9ZcXE2bWk4MkdHYzk3UDYtN05EYg?oc=5",
+      "signal": "title-similarity"
+    },
+    {
+      "kept_title": "Astronomers catch ‘galaxy-killing’ wind in the act - Astronomy Magazine",
+      "kept_feed": "Google News — astronomy",
+      "kept_link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNOEgzSUFlc2FNVkMwRXp5ZlE5clVqeEF5ZmR6a0Nia0N3ejZBNlY1VW1tOENEWUdqc1oxZU9OWmVpZ0dfVXV5Y3F6YW8xQUNXVDVVdzdHaXVJSnNnYkdjaTBSWWZFa1d3V2FpcjRFSHVHTXRPQ2FiMVJ4d3VUdzZMMFh2YXlLTGlLZ0Ew?oc=5",
+      "dropped_title": "Astronomers catch ‘galaxy-killing’ wind in the act",
+      "dropped_feed": "Astronomy Magazine",
+      "dropped_link": "https://www.astronomy.com/science/astronomers-catch-galaxy-killing-wind-in-the-act/",
+      "signal": "title-similarity"
+    },
+    {
+      "kept_title": "Simera Sense, Spacemanic, Zaitra and World from Space Join Forces on an End-to-End Dual-Use Mission Solution",
+      "kept_feed": "SpaceNews",
+      "kept_link": "https://spacenews.com/simera-sense-spacemanic-zaitra-and-world-from-space-join-forces-on-an-end-to-end-dual-use-mission-solution/",
+      "dropped_title": "Simera Sense, Spacemanic, Zaitra and World from Space Join Forces on an End-to-End Dual-Use Mission Solution - SpaceNews",
+      "dropped_feed": "Google News — space",
+      "dropped_link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPSUMxdEI0YXVCWXRObXQzZ0g5b0MwdmJOTDczSEFPNjJMQ293eEY4bXZWM3c4NFpNRG1BTzdnNHI4cU9ib2E0cjBwa0ZWMGZoVzRWQXd3YVBabnA3RUcycDIzVXZlcU5LMWl5R0lpNnA3cVhXc3FTRXZYZjA0TWxsc2Vpbjc1dnZteTB4bjNzck9fYmxhQ0VKTkg5M1dEZ0k5akhjMG5OOU10MldGU0pBQVlCNDk3WVBhQmpNN3lOYlItRERlNGxaaA?oc=5",
+      "signal": "title-similarity"
+    },
+    {
+      "kept_title": "Astronomers spot record-setting quasar in the early universe - Reuters",
+      "kept_feed": "Google News — astronomy",
+      "kept_link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPV0I0WE1tZkpIVlR1OW5iRTF4SFJ2STR6OXhEcnF4NThjS1Y3U051TVpxTHRSeU1nbFViQi1xcW5TcGhnc2hTVVdoR25jMFdTMEdSdS15dEhKdU1HckNQSDB2eXQtZ1luTDN4d0YwYld3WF9lYjJXY1VDMm9hcmx3bjAyNEhZLWtRMlh3UnVkX05hUUdxOHVfbDZrcW55QQ?oc=5",
+      "dropped_title": "Astronomers Spot Record-Setting Quasar In The Early Universe - HuffPost",
+      "dropped_feed": "Google News — astronomy",
+      "dropped_link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPb1ZKV2k2NWNYeUJCYW03aG9Eck5ydm5UMVFQVzVZeXFfQ3RhQUlOc1hJQkoyYXJBekVDNjNOQ3BNQnFuX09LNGx2YkVaYjIzNVRvVWtFaFdaTTYtZXZ0Qm9MTWRDZzFyMUU5ejNBNnk3MUk0VGdqWlhfV3lrRm5ycE9Hekp5dFpmVEdKRTI0c25pbGlzNEJWSFN1cW0tWmRpWkllUU1PUVB5cVhpOGVTcdIBtgFBVV95cUxQVHMtUXBrT2VtU3JXMUcxdlNmOENmenpRZzNuX1JJT1hCUml2QXJQTE9fTUtodmZZcFJrWWVvZk9xdFhKdm1vb1FYc0hNb2c2TlJQWC1oSDRzUnFtdmNOUV81TE5HU2FqS0VIVE5RanFqV3Zid2NTc3FiLUtJYkF0TFk1NnQ4Ti1YTGFWQXc3M0gtN2h5UlFRQk5ia3pMZjJEN050b3dFbUhyNHJaUU90VlNjMGU2UQ?oc=5",
+      "signal": "title-similarity"
+    },
+    {
+      "kept_title": "China launching 1st international astronaut to Tiangong space station today: Watch it live",
+      "kept_feed": "Space.com",
+      "kept_link": "https://www.space.com/space-exploration/human-spaceflight/china-shenzhou-24-first-international-astronaut-launch-tiangong-space-station",
+      "dropped_title": "China launching 1st international astronaut to Tiangong space station today: Watch it live - Space",
+      "dropped_feed": "Google News — space",
+      "dropped_link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNVUtWRWNzbmYyLWtyQmlxeTlnc3MyREZpdzhhQlhVS0Q3d2hMMFdsdnhpZjU3d0tOMFEzLTJpVS1MUFpCLUJIY2Itc1lHc2JWRHFNUTJDM0NKckxEN1hYQThCVF9jM2x3LVB0bnZFbzBBcjltcWwxNTQ2YUdwUTQ2UmtYajk2NHNkcHBWTjZFZW54M25jQnA0OUtWYmEtMUtOOWRWU0hjYkI4TG0tNU5nM2RRZ3V1OWV3d0hLSENLMktfMk90VFBJa1dYQmpfR0xr?oc=5",
+      "signal": "title-similarity"
+    },
+    {
+      "kept_title": "Pope Francis described profound spiritual crisis in private diary - upi",
+      "kept_feed": "Google News — spirituality",
+      "kept_link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNMG9KTWV2c2VqaTFEbWtLVUw1ampUaDhHREFSOWJia0JfSHdST2FRZFZ2X2hGb0JGelRkbzZiamdEOVo3bk9WWjJiYWJjWXN3M1J1MGF3TllpRGtmNHg0aHJNWUV0eXk4Y2tVNzlLZ3Y1SzQ2bmwyU1lwUTE3aC1tMkFUWnBNYnNnQ0pkUEEzejdReWE2Rll3YmFjNmFvZm5abXppWXFIR0RJWV95S2RJ0gG0AUFVX3lxTE9QUDhubkl4V2NxOW5KSkRwRk12d1VENzk0WEhuaFdsYUVDOXl6VUdIVGFBbUhiVTlERlkxVHppQ0puaVluNXNtdHptbElGUTdvSXMzLUZ0TzZXT2NFelRoejZKZlFITHVtOUxvcHpJb2dNTjJ1YjMtOXEtUlNyaHc2dGo0Sjl3b29LeUtpdlAwME5oSnhFUFJweXpuZU1GMUg0dzN6X0tGU1FZUk5GZ3AwaUtHUA?oc=5",
+      "dropped_title": "Pope Francis' private diary describes a profound spiritual crisis, encounters with the devil - The Tribune-Democrat",
+      "dropped_feed": "Google News — spirituality",
+      "dropped_link": "https://news.google.com/rss/articles/CBMijgJBVV95cUxPbDNqdGY0MkNmUnR4UWl5akY3N0tMZVVXSHVhZzFWazExbkZGalpPX3QzbDRHdS15N1dGMGVjLVFWa2NmakNkUzY2bWNvUDZPZ2hkRGk2Zm1hTnlLMmJCMVZkR0t5NTJKSFc2clowSWxyV2szd1NZYU9WLWVZbF9qOF9LUldPcTF1UDVpZ0xhekttQkViRmJIaEFuZ3VxdTdmR3I2Z2p0M0l1cDlEcnBqTE96aTVudlFzc3UwRlJod1hUQXZmcTU0VUtWVFMxZGR0QUJjZ0hIMHdRb2pNSkRGSEs3YUJ6V3NaUS13ZDlTTlZIQWpWZmhFUE1QRllOT3k2YmUxSGx1VjJmbG81M1E?oc=5",
+      "signal": "title-similarity"
+    },
+    {
+      "kept_title": "California raised minimum wages for fast‑food workers—here's how it played out 2 years later",
+      "kept_feed": "Phys.org — all science",
+      "kept_link": "https://phys.org/news/2026-11-california-minimum-wages-fastfood-workers.html",
+      "dropped_title": "California raised minimum wages for fast-food workers – here’s how it played out 2 years later",
+      "dropped_feed": "The Conversation — US",
+      "dropped_link": "https://theconversation.com/california-raised-minimum-wages-for-fast-food-workers-heres-how-it-played-out-2-years-later-294552",
+      "signal": "title-similarity"
+    },
+    {
+      "kept_title": "The Download: AI’s gas power boom and a consciousness reality check",
+      "kept_feed": "MIT Technology Review",
+      "kept_link": "https://www.technologyreview.com/2026/11/24/1149669/the-download-data-centers-gas-ai-consciousness/",
+      "dropped_title": "The Download: AI’s gas power boom and a consciousness reality check - MIT Technology Review",
+      "dropped_feed": "Google News — consciousness",
+      "dropped_link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOTmVqR01aa1R0T3BjcWk2ZTc3N2Y3V3pXNEFvSzB0aFlGTFVnT0RZWWN5N1QxUFlDZktwUUtta3BsM0ZjY2xpcW1NT0N1OWdwTHZKMFdoMk1JY0sxWm9qS2MwMGJzRkUwRGxyWmV6a3I3bEtaTXB5b2JYQW55azFKREJxU1hyUVFCQ0dIVUJvMzk5U0ZkWnFmbFg0ZGZwaG5P0gGmAUFVX3lxTE96ODdIc1dpUmVsbElpcjBPQjU5LTl3R2dFY2lQQVF3WDgwclhnWUczcWZLMkFNazNZU3ZxTE9UZ2tsYWVtOWVEUnM3NmIwSHp6VnJRakQ1WDJDUU5pMG8wa3pNZm1vLU1QSC1SN3ZjeXRESXVvaWlqYnlxa0VMbzcwZjRmd0NRNzNGSkVvR1pmMEhLVGQ1LWI5N0FLRmVvTlJwT2ZKV3c?oc=5",
+      "signal": "title-similarity"
+    },
+    {
+      "kept_title": "'Blade Runner 2099' executive producers talk architectural easter eggs and franchise continuity for Prime Video's new sci-fi series (interview)",
+      "kept_feed": "Space.com",
+      "kept_link": "https://www.space.com/entertainment/blade-runner-2099-executive-producers-talk-architectural-easter-eggs-and-franchise-continuity-for-prime-videos-new-sci-fi-series-interview",
+      "dropped_title": "'Blade Runner 2099' executive producers talk architectural easter eggs and franchise continuity for Prime Video's new sci-fi series (interview)",
       "dropped_feed": "Bing News — space",
-      "dropped_link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aff2e925e1244ae9d7f02b47e4be0bd&url=https%3a%2f%2fwww.space.com%2fspace-exploration%2fsatellites%2fnonprofit-common-space-will-launch-1st-humanitarian-satellite-in-2027&c=13331708556775149216&mkt=en-us",
+      "dropped_link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6b060447bc364982a852fdecd0a73b51&url=https%3a%2f%2fwww.space.com%2fentertainment%2fblade-runner-2099-executive-producers-talk-architectural-easter-eggs-and-franchise-continuity-for-prime-videos-new-sci-fi-series-interview&c=17675290674552187553&mkt=en-us",
+      "signal": "title-similarity"
+    },
+    {
+      "kept_title": "'The Private Diary of Pope Francis' reveals the late pope's spiritual struggles - Religion News Service",
+      "kept_feed": "Google News — spirituality",
+      "kept_link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPTmNpNkd1a25IcWYta01JS2UzdGdRb0paSU5COU1Xdm1YMS1FS0lpdi1pWnJMSTFKVUt5SUpLc052X2lyaWZFTDByT3FqTmtfNFhneWlBRWVjSzVrelJjRndNSFBGamlGOTJya01WaWhrQXFhWUhPa1A2TUVKQ3pRb0dpTTZwVkVJRktVcmpVRTljN2hlNjA0Q3lsZV9RUE02S2NRcktWY0U?oc=5",
+      "dropped_title": "Pope Francis’ private diary reveals years of spiritual struggle - PRESS Insider",
+      "dropped_feed": "Google News — spirituality",
+      "dropped_link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9jUm5KYkd0WG0xcDVfRFpsd0FVdmdNeVdkTEwwNDAxQzgwdG9UTEE2VFcxd3pKejJMVEhNMjJiOHkybkNMM2RKTlFfSEMyY2M1RWJMVnA3ZklJR09DLWdEbEs5MGVHZTlzdlhxQllDN0o2NHJDZGRYQ0FlN2pfNGM?oc=5",
+      "signal": "title-similarity"
+    },
+    {
+      "kept_title": "2,200-year-old Roman shipwreck reveals an ingenious waterproofing trick - ScienceDaily",
+      "kept_feed": "Google News — ancient civilizations",
+      "kept_link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5UY3JQUVBZdkhZeGFVdUVQeVlUNUkzRzdlSnN4a1N3ZVVkOXJ1MHR0Yng0S3ZiWUtpT1kyMlNyeDVzN0VMMHNvVXhaODI1M2ZvM2M2VFJGTXEwSFlBTF9qcERFRElYX1BJVUJlaTBKOA?oc=5",
+      "dropped_title": "2,200-year-old Roman shipwreck reveals an ingenious waterproofing trick",
+      "dropped_feed": "ScienceDaily — all",
+      "dropped_link": "https://www.sciencedaily.com/releases/2026/11/261123232342.htm",
+      "signal": "title-similarity"
+    },
+    {
+      "kept_title": "1st-ever detection of a dying star's 'final nuclear heartbeat' challenges what we know about our sun's eventual death",
+      "kept_feed": "Space.com",
+      "kept_link": "https://www.space.com/astronomy/stars/1st-ever-detection-of-a-dying-stars-final-nuclear-heartbeat-challenges-what-we-know-about-our-suns-eventual-death",
+      "dropped_title": "1st-ever detection of a dying star's 'final nuclear heartbeat' challenges what we know about our sun's eventual death",
+      "dropped_feed": "Bing News — space",
+      "dropped_link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6b060447bc364982a852fdecd0a73b51&url=https%3a%2f%2fwww.space.com%2fastronomy%2fstars%2f1st-ever-detection-of-a-dying-stars-final-nuclear-heartbeat-challenges-what-we-know-about-our-suns-eventual-death&c=122061464163723591&mkt=en-us",
+      "signal": "title-similarity"
+    },
+    {
+      "kept_title": "China unveils new space mission crew, with a Pakistani astronaut set to board its space station - AP News",
+      "kept_feed": "Google News — space",
+      "kept_link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPTno4Y1I0UnZqSU1JaG15VG5qTm1HNjhQbUpab2ZIbDQ4YTY1YTdxMkxWenVxOUFOMWhXQUlTT1NIVGZYUGJrRUdkXzdxLXZEMzFmLVlxelhRRXlWbFVQQ1JuVTlBZDhjS09RS1JuTUs1Q3RrWTRHTzBOUFNEQmZha0FXNndUY25NY2ozbTlqSEc0TFVUSUFJ?oc=5",
+      "dropped_title": "China unveils new space mission crew, with a Pakistani astronaut set to board its space station",
+      "dropped_feed": "Phys.org — Space News",
+      "dropped_link": "https://phys.org/news/2026-11-china-unveils-space-mission-crew.html",
+      "signal": "title-similarity"
+    },
+    {
+      "kept_title": "Pope Francis' private diaries reveal spiritual battle with Devil | Daily Sabah - Daily Sabah",
+      "kept_feed": "Google News — spirituality",
+      "kept_link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPWFRCT0hwT0Vub1VBQ0MzNHZqYkJJSW1kNUg1eGhvMnVaTEMyMUNwcE9KUndxeTlFTHpiX0JXTWZzU2o2WWFfNkxHRFRxMEExa01seE80OF9OaEtKMnNqcFlkWjFQREtXc3lCcFpiZ0FEdU9EdmlqRV9EQzR3T21ybFBWc1QwR0ZwcWZsZXBibWxiN1Frdkp4NmF1NEc0Y1FKZ3psUC1n0gGrAUFVX3lxTE5uY3ZmM2hyMklpdDF6UGt6UmU3aUs3X24tSjFWOHctcWVVSjRQQ01fbFVDY21wU3N5S2JMQW4zdWpFcDZiNFRiVkJCWU0xdVpubEdydjR5Z1QzcGpoZjZWT2g1cUFUQnJaTHlpUkFHWDZBbzVudXB6ODR1QldVemtycWN3aldiVXVVaUF3UVRUdGlXbk84a041TllkQzBZbV84SWw3dnRyelBLTQ?oc=5",
+      "dropped_title": "St. Joseph, Pope Francis’ trusted spiritual companion - Aleteia EN",
+      "dropped_feed": "Google News — spirituality",
+      "dropped_link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOS0RmSFZwTWQzOEduM0ZDR3FJWXRlVHdDcElxeS03QklMVEtxRTZvUmxpamxzNXIwdjBSdHRCbW84Z2ZCVXZ2QWUtRXVPWlpPN3hSYkgzdU81NlR0SFN0TjV3bVFqNkZkRXV5ZlFGc3NMX2s3YU1ZTG9mLXlWZGg0dEtGYWhoaENOU3hBZDVxbkdwdkUt?oc=5",
+      "signal": "aggregator-event"
+    },
+    {
+      "kept_title": "Pope Francis' private diaries reveal spiritual battle with Devil | Daily Sabah - Daily Sabah",
+      "kept_feed": "Google News — spirituality",
+      "kept_link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPWFRCT0hwT0Vub1VBQ0MzNHZqYkJJSW1kNUg1eGhvMnVaTEMyMUNwcE9KUndxeTlFTHpiX0JXTWZzU2o2WWFfNkxHRFRxMEExa01seE80OF9OaEtKMnNqcFlkWjFQREtXc3lCcFpiZ0FEdU9EdmlqRV9EQzR3T21ybFBWc1QwR0ZwcWZsZXBibWxiN1Frdkp4NmF1NEc0Y1FKZ3psUC1n0gGrAUFVX3lxTE5uY3ZmM2hyMklpdDF6UGt6UmU3aUs3X24tSjFWOHctcWVVSjRQQ01fbFVDY21wU3N5S2JMQW4zdWpFcDZiNFRiVkJCWU0xdVpubEdydjR5Z1QzcGpoZjZWT2g1cUFUQnJaTHlpUkFHWDZBbzVudXB6ODR1QldVemtycWN3aldiVXVVaUF3UVRUdGlXbk84a041TllkQzBZbV84SWw3dnRyelBLTQ?oc=5",
+      "dropped_title": "Did Pope Francis experience a dark night of the soul? - Aleteia EN",
+      "dropped_feed": "Google News — spirituality",
+      "dropped_link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPV3pJNGdjSlZyTV9PTDRFSXJJN2VvZUNMUDZGZmM2b25xMjk0OTg0elVpbm11LS1jX3RWTG40N0o5N0QyTDltLW5FTFNxcUZjVXh1N3I1Um92clZyaG5KbklCWFFMdXl3U0hxeDZZX2lsY09ua1JySGM4WWh3WWdPaklWOWFodTc0SFlqWg?oc=5",
+      "signal": "aggregator-event"
+    },
+    {
+      "kept_title": "Ahly v Pyramids: leaders win 2-0 in big title boost - Daily News Egypt",
+      "kept_feed": "Google News — pyramids",
+      "kept_link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9DMTdsSEhaeUZmZmdtSW1PRFgtY2dxQlhoaU1CQnBjdGNzQkpCYy1vR1lBWXlXeFVaUE9nd3M0aUZ0U3p4bWlIODhHUkUweG9FLWZxT0Q0ald6M3ozUzdYblI2Zk1LOXRHX0RkcEhUU2ZodDg?oc=5",
+      "dropped_title": "After Pyramids blow, Al Ahly decide when to name Ammouta's successor - LiveScore",
+      "dropped_feed": "Google News — pyramids",
+      "dropped_link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNMWJ2Sjd5Ymd5TzBTV0prY3pFVkdFaldxaHlLTW5hWHR4Wk1hTmRTYmphcW91Q3RxdUdnZDNIaTJkdV9ZaG5QclpXSmh5N2JYREtkZXAyUXZ4SXlBb2dRZmF3Ulp2Sml5R3JPM2tXc1k2VnNaX1gwUjBDR1dFMl81aVA3VWNoSDAzREw5ekgxQ3R0aWZlSWN1Q1NGNTA2am1nZS0wU1ZOR1o0VXdaRTN2N0F5RjlxQUpIaXl4Rg?oc=5",
+      "signal": "aggregator-event"
+    },
+    {
+      "kept_title": "New quasar record tightens constraints on black hole formation scenarios - EurekAlert!",
+      "kept_feed": "Google News — astronomy",
+      "kept_link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1kdFZmNTY4OWRoSHJmd0hiU1FHZlpVMnpLZ3huTjdLUGNFeVByYmdJbXZKYm85RGRTOE9qRl9nQl9WWlN3ckdHQ0NocF9GQUtGOFRMaEluVU9QcnUx?oc=5",
+      "dropped_title": "New quasar record tightens constraints on black hole formation scenarios",
+      "dropped_feed": "Phys.org — Space News",
+      "dropped_link": "https://phys.org/news/2026-11-quasar-tightens-constraints-black-hole.html",
+      "signal": "title-similarity"
+    },
+    {
+      "kept_title": "Double asteroid solar eclipse caught on camera | Space photo of the day for Nov. 24, 2026",
+      "kept_feed": "Space.com",
+      "kept_link": "https://www.space.com/astronomy/asteroids/double-asteroid-solar-eclipse-caught-on-camera-space-photo-of-the-day-for-nov-24-2026",
+      "dropped_title": "Double asteroid solar eclipse caught on camera | Space photo of the day for Nov. 24, 2026",
+      "dropped_feed": "Bing News — space",
+      "dropped_link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6b060447bc364982a852fdecd0a73b51&url=https%3a%2f%2fwww.space.com%2fastronomy%2fasteroids%2fdouble-asteroid-solar-eclipse-caught-on-camera-space-photo-of-the-day-for-nov-24-2026&c=10003143445513026303&mkt=en-us",
       "signal": "title-similarity"
     }
   ],
-  "articles_written": 271,
+  "articles_written": 258,
   "excerpt_over_limit": 0,
-  "images_logged": 97,
-  "images_usable": 5,
-  "images_hero_eligible": 5,
+  "images_logged": 145,
+  "images_usable": 7,
+  "images_hero_eligible": 7,
   "terms_breakdown": {
-    "full_text": 15,
-    "abstract": 103,
-    "excerpt": 153
+    "full_text": 44,
+    "abstract": 0,
+    "excerpt": 214
   },
   "topic_breakdown": {
-    "Space & Astronomy": 48,
-    "UFOs & UAPs": 4,
-    "Consciousness": 37,
+    "Space & Astronomy": 65,
+    "UFOs & UAPs": 8,
+    "Consciousness": 82,
     "Near-Death Experiences": 4,
-    "Physics & Preprints": 105,
-    "Science & the Future": 73
+    "Physics & Preprints": 7,
+    "Science & the Future": 92
   },
   "articles_without_topic": 0
 }
