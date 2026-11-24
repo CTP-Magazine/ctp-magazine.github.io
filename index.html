@@ -791,6 +791,12 @@ button, [role="button"], select, summary, input:not([type="checkbox"], [type="ra
       .mp-note { font-size: 12.5px; color: var(--text); margin: 8px 0 0; }
       .mp-group { font-family: "Rajdhani", sans-serif; font-weight: 600; font-size: 11px; letter-spacing: 1.5px; text-transform: uppercase; color: var(--heading); line-height: 1.3; }
       .cdom-head { font-family: "Rajdhani", sans-serif; font-weight: 700; font-size: 18px; letter-spacing: 2px; text-transform: uppercase; color: var(--heading); margin: 12px 0 6px; }
+      /* CTP Music module — grayscale only (no blue), matches the dark theme. */
+      #ctp-music .module-title{color:var(--text)}
+      #ctp-music .mp-label{color:var(--text)}
+      #ctp-music .mp-group{color:var(--text)}
+      #ctp-music .cdom-head{color:var(--text)}
+      #ctp-music a{color:var(--text); text-decoration:underline}
       .cdom-body { font-size: 14px; color: var(--text-2); margin: 0; }
       .art-search { margin-bottom: 12px; }
       .art-search input {
@@ -1688,12 +1694,12 @@ button, [role="button"], select, summary, input:not([type="checkbox"], [type="ra
       STATIONS.push({ group: g.label, id: s.id, name: s.name, genre: s.genre });
     });
   });
-  /* Widget colours, set in the widget's own settings (dark blue, dashboard palette). */
+  /* Widget colours — grayscale only (no blue), matches the dark theme. */
   var W = {
     color: "%23ffffff", shadow: "false", radius: "6px",
-    bgTo: "%2316425c", bgFrom: "%230d1b24",
-    borderColor: "%2300aeef", borderWidth: "1px",
-    btnBgTo: "%2300aeef", btnBgFrom: "%2300aeef",
+    bgTo: "%231f2937", bgFrom: "%23111827",
+    borderColor: "%236b7280", borderWidth: "1px",
+    btnBgTo: "%234b5563", btnBgFrom: "%234b5563",
     btnBorderColor: "%23ffffff", btnBorderWidth: "1px"
   };
   function widgetURL(st){
