@@ -811,6 +811,14 @@ button, [role="button"], select, summary, input:not([type="checkbox"], [type="ra
       }
       .mp-nav:hover { border-color: var(--hover-border); }
       .mp-station-row .mp-channel-wrap { flex: 1; min-width: 0; text-align: center; }
+      /* CTP Music — widget + group label + note + C-DOMAIN FREQUENCIES (inside the one module) */
+      #ctp-music .module-title a { color: inherit; text-decoration: none; }
+      #ctp-music .module-title a:hover { text-decoration: underline; }
+      .mp-widget { width: 100%; height: 200px; border: 0; display: block; background: var(--blue-wash); }
+      .mp-note { font-size: 12.5px; color: var(--muted); margin: 8px 0 0; }
+      .mp-group { font-family: "Rajdhani", sans-serif; font-weight: 600; font-size: 11px; letter-spacing: 1.5px; text-transform: uppercase; color: var(--heading); line-height: 1.3; }
+      .cdom-head { font-family: "Rajdhani", sans-serif; font-weight: 700; font-size: 18px; letter-spacing: 2px; text-transform: uppercase; color: var(--heading); margin: 12px 0 6px; }
+      .cdom-body { font-size: 14px; color: var(--text-2); margin: 0; }
       .art-search { margin-bottom: 12px; }
       .art-search input {
         width: 100%; padding: 8px 10px; font: inherit; font-size: 14px; min-height: 38px;
@@ -1134,6 +1142,28 @@ button, [role="button"], select, summary, input:not([type="checkbox"], [type="ra
 
       <!-- ================= RIGHT COLUMN ================= -->
       <aside class="col col-right">
+        <section class="module" id="ctp-music" aria-label="CTP Music">
+          <div class="module-title"><a href="https://ctp-music.github.io/" target="_blank" rel="noopener">CTP Music</a></div>
+          <div class="module-body">
+            <div class="mp-label">Now Playing</div>
+            <div class="mp-station-row">
+              <button type="button" class="mp-nav" id="cmPrev" aria-label="Previous station">&#8249;</button>
+              <div class="mp-channel-wrap">
+                <div class="mp-group" id="cmGroup">Chillout &amp; Lounge</div>
+                <div class="mp-channel" id="cmChannel">Abstrait</div>
+                <div class="mp-genre"><span id="cmGenreText">Chillout / Lounge</span> · <a id="cmGenreLink" href="https://laut.fm/abstrait" target="_blank" rel="noopener">laut.fm</a></div>
+              </div>
+              <button type="button" class="mp-nav" id="cmNext" aria-label="Next station">&#8250;</button>
+            </div>
+            <iframe id="cmWidget" class="mp-widget" title="CTP Music — laut.fm player" allow="autoplay"></iframe>
+            <div class="mp-status" id="cmStatus">Stream loaded — press play</div>
+            <div class="mp-source"><a id="cmSourceLink" href="https://laut.fm/abstrait" target="_blank" rel="noopener">stream.laut.fm/abstrait</a></div>
+            <p class="mp-note">Player is <a href="https://laut.fm/" target="_blank" rel="noopener">laut.fm</a>'s own — the stream plays inside their widget, not ours.</p>
+            <div class="cdom-head">C-DOMAIN FREQUENCIES</div>
+            <p class="cdom-body">Sounds of consciousness from around the internet. We&rsquo;re building our own streaming stations &mdash; artists are welcome to <a href="mailto:info@ctp-energy.com">get in touch</a> and submit their MP3s for the stream.</p>
+          </div>
+        </section>
+
         <section class="module" id="magazine-radio" aria-label="CTP Magazine Radio">
           <div class="module-title">CTP Magazine Radio</div>
           <div class="module-body">
@@ -1777,6 +1807,110 @@ button, [role="button"], select, summary, input:not([type="checkbox"], [type="ra
         }
         setInterval(randomNext, 5000);
       })();
+    </script>
+    <script>
+/* CTP Music — laut.fm widget + station toggle (top of the right column, Magazine).
+   Unique cm* ids: the Magazine's own radio already owns the mp* ids. */
+   The player itself is laut.fm's own widget (iframe); this script only picks
+   which station it loads and keeps the station / group / link text in step.
+   Stations are grouped by genre; the ‹ › toggle steps through all 25 in
+   group order, so each group plays through before the next one starts. */
+(function(){
+  var GROUPS = [
+    { label: "New Age & Ambient", stations: [
+      { id: "7rays", name: "7 Rays", genre: "New Age / Ambient / Deep Space" },
+      { id: "new-age", name: "New Age", genre: "New Age" },
+      { id: "ambient", name: "Ambient Radio", genre: "Ambient / Chill / Chillout" },
+      { id: "chilloutzone", name: "Chill Out Zone", genre: "Ambient / Chillout / Space" },
+      { id: "anechoic_chamber_music", name: "Anechoic Chamber Music", genre: "Ambient / Electronica / Drone" }
+    ]},
+    { label: "Chillout & Lounge", stations: [
+      { id: "abstrait", name: "Abstrait", genre: "Chillout / Lounge" },
+      { id: "chillstream", name: "Chillstream", genre: "Ambient / Chillout / Yoga" },
+      { id: "sine-music", name: "Sine Music", genre: "Chillout / Downtempo" },
+      { id: "electrolounge", name: "Electrolounge", genre: "Chillout / Lounge" },
+      { id: "schalldeluxe", name: "Schalldeluxe", genre: "Downtempo" },
+      { id: "relaxing-piano", name: "Relaxing Piano", genre: "Relax / Piano" },
+      { id: "radio_relax", name: "Radio Relax", genre: "Chillout / Easy Listening" },
+      { id: "best-lounge", name: "Best Lounge", genre: "Lounge / Ambient" },
+      { id: "lounge-radio-ibiza", name: "Lounge Radio Ibiza", genre: "Lounge" },
+      { id: "jazzloft", name: "Jazzloft", genre: "Jazz / Lounge" },
+      { id: "bdj_electronic_lounge_radio", name: "BDJ Electronic Lounge Radio", genre: "Electronica / Chill / Chillout" }
+    ]},
+    { label: "Meditation & Relax", stations: [
+      { id: "meditation", name: "Meditation", genre: "Ambient / Relax" },
+      { id: "ayurveda-lounge", name: "Ayurveda Lounge", genre: "Yoga / Meditation" }
+    ]},
+    { label: "Psy & Goa", stations: [
+      { id: "psytrancelicious", name: "Psytrancelicious", genre: "Psychedelic / Goa" },
+      { id: "goa-channel-one", name: "Goa Channel One", genre: "Goa / Psy Trance" },
+      { id: "goa-base", name: "Goa Base", genre: "Goa Trance" },
+      { id: "goanight", name: "Goanight", genre: "Goa / Psy Trance" },
+      { id: "progressive-trance-mix", name: "Progressive Trance Mix", genre: "Progressive Trance" }
+    ]},
+    { label: "Lofi, Electronica & World", stations: [
+      { id: "lofi", name: "Lofi", genre: "Chill / Lofi" },
+      { id: "kriola", name: "Kriola", genre: "World Music" }
+    ]}
+  ];
+  /* Flatten in group order so the toggle walks group by group. */
+  var STATIONS = [];
+  GROUPS.forEach(function(g){
+    g.stations.forEach(function(s){
+      STATIONS.push({ group: g.label, id: s.id, name: s.name, genre: s.genre });
+    });
+  });
+  /* Widget colours, set in the widget's own settings (dark blue, dashboard palette). */
+  var W = {
+    color: "%23ffffff", shadow: "false", radius: "6px",
+    bgTo: "%2316425c", bgFrom: "%230d1b24",
+    borderColor: "%2300aeef", borderWidth: "1px",
+    btnBgTo: "%2300aeef", btnBgFrom: "%2300aeef",
+    btnBorderColor: "%23ffffff", btnBorderWidth: "1px"
+  };
+  function widgetURL(st){
+    return "https://laut.fm/widgets/player_for/" + st + ","
+      + "?player%5Bstations%5D=" + st + "%2C"
+      + "&player%5Bcolor%5D%5Bcolor%5D=" + W.color
+      + "&player%5Bshadow%5D=" + W.shadow
+      + "&player%5Bdisplay%5D%5Bborder%5D%5Bradius%5D=" + W.radius
+      + "&player%5Bcolor%5D%5Bbackground_to%5D=" + W.bgTo
+      + "&player%5Bcolor%5D%5Bbackground_from%5D=" + W.bgFrom
+      + "&player%5Bborder%5D%5Bcolor%5D=" + W.borderColor
+      + "&player%5Bborder%5D%5Bwidth%5D=" + W.borderWidth
+      + "&player%5Bbutton%5D%5Bcolor%5D%5Bbackground_to%5D=" + W.btnBgTo
+      + "&player%5Bbutton%5D%5Bcolor%5D%5Bbackground_from%5D=" + W.btnBgFrom
+      + "&player%5Bbutton%5D%5Bborder%5D%5Bcolor%5D=" + W.btnBorderColor
+      + "&player%5Bbutton%5D%5Bborder%5D%5Bwidth%5D=" + W.btnBorderWidth;
+  }
+  var frame = document.getElementById("cmWidget");
+  if(!frame) return;
+  var groupEl = document.getElementById("cmGroup");
+  var channelEl = document.getElementById("cmChannel");
+  var genreTextEl = document.getElementById("cmGenreText");
+  var genreLinkEl = document.getElementById("cmGenreLink");
+  var sourceEl = document.getElementById("cmSourceLink");
+  var statusEl = document.getElementById("cmStatus");
+  var prevBtn = document.getElementById("cmPrev");
+  var nextBtn = document.getElementById("cmNext");
+  /* Default station: Abstrait, first station of the Chillout & Lounge group. */
+  var idx = 5;
+  function loadStation(i){
+    idx = (i + STATIONS.length) % STATIONS.length;
+    var s = STATIONS[idx];
+    frame.src = widgetURL(s.id);
+    if(groupEl) groupEl.textContent = s.group;
+    if(channelEl) channelEl.textContent = s.name;
+    if(genreTextEl) genreTextEl.textContent = s.genre;
+    var ch = "https://laut.fm/" + s.id;
+    if(genreLinkEl) genreLinkEl.href = ch;
+    if(sourceEl){ sourceEl.href = ch; sourceEl.textContent = "stream.laut.fm/" + s.id; }
+    if(statusEl) statusEl.textContent = "Stream loaded — press play";
+  }
+  if(prevBtn) prevBtn.addEventListener("click", function(){ loadStation(idx - 1); });
+  if(nextBtn) nextBtn.addEventListener("click", function(){ loadStation(idx + 1); });
+  loadStation(idx);
+})();
     </script>
   </body>
 </html>
