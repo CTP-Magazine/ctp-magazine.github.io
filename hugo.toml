@@ -1,0 +1,50 @@
+baseURL = "https://ctp-magazine.github.io/"
+title = "CTP Magazine"
+languageCode = "en"
+enableRobotsTXT = true
+
+# No taxonomies are used on this magazine.
+disableKinds = ["taxonomy", "term", "RSS"]
+
+[markup]
+  [markup.goldmark]
+    # Raw HTML inside markdown (structural blocks, tables, image slots) is
+    # part of the content and must pass through unchanged.
+    unsafe = true
+  [markup.goldmark.renderer]
+    # Keep heading IDs stable for anchor links.
+    unsafe = true
+
+[outputs]
+  home = ["HTML", "ARTICLES"]
+  section = ["HTML"]
+  page = ["HTML"]
+
+[mediaTypes]
+  [mediaTypes."application/json"]
+    suffixes = ["json"]
+
+[outputFormats]
+  [outputFormats.ARTICLES]
+    mediaType = "application/json"
+    baseName = "articles"
+    isPlainText = true
+
+# articles.json is written by aggregate.py at the repo root (the aggregator
+# workflow commits it there, unchanged). Mount it into Hugo's data dir so
+# Hugo reads it as data (site.Data.articles) and generates /articles.json.
+[[module.mounts]]
+  source = "content"
+  target = "content"
+[[module.mounts]]
+  source = "layouts"
+  target = "layouts"
+[[module.mounts]]
+  source = "static"
+  target = "static"
+[[module.mounts]]
+  source = "assets"
+  target = "assets"
+[[module.mounts]]
+  source = "articles.json"
+  target = "data/articles.json"
