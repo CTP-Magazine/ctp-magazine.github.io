@@ -1,0 +1,134 @@
+{{ define "main" }}
+<div class="layout">
+{{ partial "sidebar-left.html" . }}
+<main class="col col-center">
+        <figure class="hero" style="margin:0;">
+          <div class="hero-viewport">
+            <figure class="hero-slide is-active">
+              <a class="hero-link" href="https://www.eso.org/public/images/potw2623a/" target="_blank" rel="noopener">
+                <img src="assets/hero/hero-01-gum-nebulae.jpg" alt="The Gum 10 and Gum 11 nebulae — red-orange celestial clouds lit by young stars" width="1280" height="1040" />
+                <span class="hero-credit"><b>Gum 10 and Gum 11 nebulae</b> · ESO · CC BY 4.0</span>
+              </a>
+            </figure>
+            <figure class="hero-slide" aria-hidden="true">
+              <a class="hero-link" href="https://www.jpl.nasa.gov/images/pia15817-the-helix-nebula-unraveling-at-the-seams/" target="_blank" rel="noopener" tabindex="-1">
+                <img src="assets/hero/hero-02-helix-nebula.jpg" alt="The Helix Nebula unraveling at the seams, seen in infrared" width="1920" height="1920" />
+                <span class="hero-credit"><b>The Helix Nebula</b> · NASA/JPL-Caltech · Public domain</span>
+              </a>
+            </figure>
+            <figure class="hero-slide" aria-hidden="true">
+              <a class="hero-link" href="http://photojournal.jpl.nasa.gov/catalog/PIA08787" target="_blank" rel="noopener" tabindex="-1">
+                <img src="assets/hero/hero-03-andromeda-galaxy.jpg" alt="The Andromeda Galaxy in ultraviolet light" width="1920" height="622" />
+                <span class="hero-credit"><b>Andromeda Galaxy</b> · NASA/JPL-Caltech · Public domain</span>
+              </a>
+            </figure>
+            <figure class="hero-slide" aria-hidden="true">
+              <a class="hero-link" href="https://images.nasa.gov/details/art001e000669" target="_blank" rel="noopener" tabindex="-1">
+                <img src="assets/hero/hero-04-artemis-orion-moon.jpg" alt="The Artemis I Orion spacecraft with the Moon behind it" width="1920" height="1440" />
+                <span class="hero-credit"><b>Artemis I — Orion and the Moon</b> · NASA · Public domain</span>
+              </a>
+            </figure>
+            <figure class="hero-slide" aria-hidden="true">
+              <a class="hero-link" href="https://images.nasa.gov/details/art001e001822" target="_blank" rel="noopener" tabindex="-1">
+                <img src="assets/hero/hero-05-earth-orion-array.jpg" alt="Earth and the Moon seen from the Artemis I Orion spacecraft" width="1920" height="1440" />
+                <span class="hero-credit"><b>Artemis I — Earth and Moon</b> · NASA · Public domain</span>
+              </a>
+            </figure>
+            <figure class="hero-slide" aria-hidden="true">
+              <a class="hero-link" href="https://images.nasa.gov/details/iss058e005282" target="_blank" rel="noopener" tabindex="-1">
+                <img src="assets/hero/hero-06-aurora-earth-limb.jpg" alt="Aurora glowing over Earth's limb, photographed from the International Space Station" width="1920" height="1280" />
+                <span class="hero-credit"><b>Aurora over Earth's limb, from the ISS</b> · NASA · Public domain</span>
+              </a>
+            </figure>
+          </div>
+          <figcaption>
+            <div class="hero-name">CTP Magazine<sup style="font-size:13px; letter-spacing:0;">™</sup></div>
+            <div class="hero-sub">Space, consciousness and the C-domain — curated daily from around the internet.</div>
+          </figcaption>
+        </figure>
+
+        <section class="module vision" id="about" aria-label="About the magazine">
+          <div class="module-title">About the Magazine</div>
+          <div class="module-body">
+            <p class="lead">A classic science magazine for the C-domain era — hard science and the speculative side by side.</p>
+            <p>CTP Magazine is a daily-updating magazine portal curating articles from around the internet — space, astronomy, consciousness, near-death experiences, UFOs and UAPs — in the format of a classic science magazine, OMNI-style.</p>
+            <p>Big visuals, features and short items, and a sense of wonder about the future.</p>
+            <p>It pulls from 114 verified RSS feeds, every one vetted live and cleared for what the magazine may republish before it goes on the list. Articles are refreshed every 12 hours, and every item carries its attribution and a link back to the original.</p>
+          </div>
+        </section>
+
+        <section class="module photo-strip" aria-label="From the magazine">
+          <div class="module-title">From the Magazine</div>
+          <div class="module-body">
+            <div class="strip-grid">
+              <a href="https://www.eso.org/public/images/potw2623a/" target="_blank" rel="noopener"><img src="assets/hero/hero-01-gum-nebulae.jpg" alt="Gum 10 and Gum 11 nebulae — ESO, CC BY 4.0" loading="lazy" /></a>
+              <a href="https://www.jpl.nasa.gov/images/pia15817-the-helix-nebula-unraveling-at-the-seams/" target="_blank" rel="noopener"><img src="assets/hero/hero-02-helix-nebula.jpg" alt="The Helix Nebula — NASA/JPL-Caltech, public domain" loading="lazy" /></a>
+              <a href="http://photojournal.jpl.nasa.gov/catalog/PIA08787" target="_blank" rel="noopener"><img src="assets/hero/hero-03-andromeda-galaxy.jpg" alt="The Andromeda Galaxy — NASA/JPL-Caltech, public domain" loading="lazy" /></a>
+              <a href="https://images.nasa.gov/details/art001e000669" target="_blank" rel="noopener"><img src="assets/hero/hero-04-artemis-orion-moon.jpg" alt="Artemis I — Orion and the Moon — NASA, public domain" loading="lazy" /></a>
+              <a href="https://images.nasa.gov/details/art001e001822" target="_blank" rel="noopener"><img src="assets/hero/hero-05-earth-orion-array.jpg" alt="Artemis I — Earth and Moon — NASA, public domain" loading="lazy" /></a>
+              <a href="https://images.nasa.gov/details/iss058e005282" target="_blank" rel="noopener"><img src="assets/hero/hero-06-aurora-earth-limb.jpg" alt="Aurora over Earth's limb, from the ISS — NASA, public domain" loading="lazy" /></a>
+            </div>
+            <p class="strip-credit">Images: ESO (CC BY 4.0) and NASA (public domain) — from the magazine's hero rotation.</p>
+          </div>
+        </section>
+
+        <section class="module" id="releases" aria-label="Magazine releases">
+          <div class="module-title">Magazine Releases</div>
+          <div class="module-body">
+            <p><b>CTP MAGAZINE ALPHA IS LIVE</b></p>
+            <p class="art-note">November 19, 2026</p>
+            <p>The Alpha launch of CTP Magazine is now live.</p>
+            <p><a href="https://ctp-magazine.github.io/">https://ctp-magazine.github.io/</a></p>
+            <p>CTP Magazine is being built as a publishing and syndication platform for ideas, perspectives, commentary, and original writing across the expanding CTPVerse and the wider worlds of science, technology, innovation, space, culture, and the future.</p>
+            <p>We are opening the door to two groups:</p>
+            <p><b>BLOGGERS: DO YOU HAVE A BLOG?</b></p>
+            <p>If you already publish a blog, articles, essays, or commentary and want to reach readers beyond your existing audience, we want to hear from you.</p>
+            <p>We are interested in syndicating relevant contributions and helping good writing find a broader audience. If you have an existing body of work, a publication, or a blog you would like considered for syndication, get in touch.</p>
+            <p><b>WRITERS AND COLUMNISTS: CONTRIBUTE TO CTP MAGAZINE</b></p>
+            <p>We are also looking for writers, independent journalists, subject-matter contributors, and columnists interested in developing regular or occasional content for CTP Magazine.</p>
+            <p>Bring your perspective, your expertise, your interests, and your voice. We want contributors with something worthwhile to say and the initiative to help build a publication.</p>
+            <p><b>A NOTE ABOUT COMPENSATION AND THE BUSINESS MODEL</b></p>
+            <p>Let's be straightforward about where we are.</p>
+            <p>CTP Magazine is at Alpha launch. We are building the publication and its audience from the ground up. At this stage, we cannot offer contributor payments, salaries, or guaranteed compensation. I don't know when we will reach the traffic levels needed to support paid contributions, and I am not going to pretend otherwise or make promises we cannot yet fulfill.</p>
+            <p>The business model starts with readership. We need to build substantial, sustained traffic. That audience creates the foundation for monetization and, in turn, the possibility of compensating contributors as the publication grows.</p>
+            <p>The immediate opportunity is to participate early, publish work, build visibility, and grow alongside the platform. As CTP Magazine attracts readers, contributors benefit from having their work reach a larger audience. Our objective is to build a publication where increased readership creates value for both the magazine and the people contributing to it.</p>
+            <p>This is a growth-stage publishing initiative. We are being transparent about that from day one.</p>
+            <p>Visit the Alpha, explore what we are building, and share it.</p>
+            <p>If you run a blog you would like syndicated, or you are interested in writing or contributing a column, <a href="mailto:syndication@ctp-energy.com">contact us</a>.</p>
+            <p><b>CTP MAGAZINE</b><br />A publication in the CTPVerse</p>
+            <p><a href="https://ctp-magazine.github.io/">https://ctp-magazine.github.io/</a></p>
+            <p class="art-note">#CTPMagazine #Writing #Blogging #Syndication #Contributors #Publishing #CTPVerse</p>
+          </div>
+        </section>
+
+        <section class="module" id="latest" aria-label="Latest articles">
+          <div class="module-title">Latest Articles</div>
+          <div class="module-body">
+            <div class="art-search">
+              <input type="search" id="artSearch" placeholder="Search article titles…" aria-label="Search article titles" />
+            </div>
+            <p class="art-note" id="artTopicLine">Showing all topics</p>
+            <div id="articleList">
+              <p class="art-note">Loading the latest articles…</p>
+            </div>
+            <div class="art-actions">
+              <button type="button" class="btn" id="artMore" style="display:none;">Show more</button>
+            </div>
+          </div>
+        </section>
+
+        <section class="module" id="syndicate" aria-label="Syndicate with us">
+          <div class="module-title">Syndicate With Us</div>
+          <div class="module-body">
+            <p><b>Write a blog nobody reads? Let the magazine carry it.</b></p>
+            <p>Many bloggers on Substack, Blogger and elsewhere get little traffic, for one simple reason: nobody follows a one-off single blog. The writing is good — the audience never finds it.</p>
+            <p>CTP Magazine syndicates blogs like yours and pushes the articles into this portal, in front of the magazine's readers. An excerpt plus a prominent link back to your original (or full text where your licence allows), with attribution on every item.</p>
+            <p>Your work stays yours — the magazine just puts it where people are already reading.</p>
+            <p>There is no open submission form and no feed drop-off. Syndication is set up by contact: email <a href="mailto:syndication@ctp-energy.com">syndication@ctp-energy.com</a> and the magazine will set it up with you.</p>
+            <p>Every feed is vetted by the magazine first, before it is added — that vetting is what keeps the portal worth reading.</p>
+          </div>
+        </section>
+      </main>
+{{ partial "sidebar-right.html" . }}
+</div>
+{{ end }}
