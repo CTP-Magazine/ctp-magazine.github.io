@@ -1,9 +1,39 @@
 {
-  "generated": "2026-11-25T05:57:59.508604+00:00",
+  "generated": "2026-11-25T20:48:43.474781+00:00",
   "date_checked": "2026-11-25",
   "feeds_total": 114,
-  "feeds_succeeded": 112,
+  "feeds_succeeded": 107,
   "feeds_failed": [
+    {
+      "num": 1,
+      "feed": "NASA Breaking News",
+      "url": "https://www.nasa.gov/rss/dyn/breaking_news.rss",
+      "error": "HTTPError: HTTP Error 429: Too Many Requests"
+    },
+    {
+      "num": 2,
+      "feed": "NASA Image of the Day",
+      "url": "https://www.nasa.gov/rss/dyn/lg_image_of_the_day.rss",
+      "error": "HTTPError: HTTP Error 429: Too Many Requests"
+    },
+    {
+      "num": 3,
+      "feed": "NASA — main news feed",
+      "url": "https://www.nasa.gov/feed/",
+      "error": "HTTPError: HTTP Error 429: Too Many Requests"
+    },
+    {
+      "num": 4,
+      "feed": "NASA — International Space Station",
+      "url": "https://www.nasa.gov/missions/station/feed/",
+      "error": "HTTPError: HTTP Error 429: Too Many Requests"
+    },
+    {
+      "num": 6,
+      "feed": "NASA — Technology",
+      "url": "https://www.nasa.gov/technology/feed/",
+      "error": "HTTPError: HTTP Error 429: Too Many Requests"
+    },
     {
       "num": 17,
       "feed": "Space Daily",
@@ -17,63 +47,297 @@
       "error": "ValueError: returned an HTML page, not a feed"
     }
   ],
-  "items_fetched": 1870,
+  "items_fetched": 1809,
   "duplicates_removed": 54,
-  "near_duplicates_removed": 39,
+  "near_duplicates_removed": 35,
   "near_duplicate_groups": [
     {
-      "kept_title": "California Extreme Weather - The Bakersfield Californian",
+      "kept_title": "APTOPIX California Extreme Weather - Rutland Herald",
       "kept_feed": "Google News — extreme weather",
-      "kept_link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPZ3htRS1EUkhCcV9KZXotMEpmc0gtRUF1bE16WFBaVW9yd21VUjZSdnN4VkVlNmFXbFh5Tmd4OEFIUXB2MjVqRXAyZ24tQ2JaaXJCWE1Mejg5czN2NnlUMGVyZUJpQTVwRXV3YWI4cUtsLVZhY3BxZFRNcmIwMXhBSWdscV9HVHZrU3pCbTNMdmhsUi1iZFVScE4wQjl0QjRjY0tNSHN0b2w1b2twQnlCMGhoRWtKSlVvTnc?oc=5",
-      "dropped_title": "California Extreme Weather - The Bakersfield Californian",
+      "kept_link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxObm5mcENDdzBuclZkRUNUVkl2LXkyQnNGSEdPbk1SeUM0NkxITUJQYUQtME1Hb2R1dVRXd1hTTWtHejl6ZVFlN1VIVl9LRURQVmlRUDdvWUJ0WTJBOWFSUlpnWHVSM245Zjc2VzN4UXdsTnloVDY5TGxheVJoVnlxLW1UWldhRXRqSVc0Q09oZ3RRZC1uSWw5MEY5Y0phRVp6alI4dHlZdFRQWThnMjhoS0ExVUMzVGx2aFB4c1A5bnpxdw?oc=5",
+      "dropped_title": "California Extreme Weather - Goshen News",
       "dropped_feed": "Google News — extreme weather",
-      "dropped_link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNUlptSGJzMlFtM1hIMWxOUVVFOHBncHVjUkVpOTJ6bGtYQjRCT3RBMmhpSi0zWTNXejc4WXZxclZvYXBMdnpnT1JXU0g4U05ON2lsMFpjVHBHVVVWQmpLRmJoaWEyY3N4c1F2QlRlam5jaWtUbnV3MG5vX3J2VGV2SFJCNzhibE1xMlhDOEh6Um9pUE5YVjJoSVNaRG9LbndBTHU2T0dBdElPeTktQ1d5ZDluZmhpLTZoZ1E?oc=5",
+      "dropped_link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNMzVOY1VDZHBiN3dVek1TM3Mxd3BlcmdnQ3dJSW1rR0ktb0FPZFV6YnB1QUtMVWFHS3ozVGl2c1MtbVhtZ1hPMk43WEVWLWlTMGMxQUE5VWsxVzhTbGhOZkpNSnJtX2hlQWJTb3lmZ2RzVDc3UEFFT3F4WUdJUzlJazFlM1ZGTUYzdDJHai1GcHJ3Nkw0OVJIRGtBV0RSQjVwV0JkaGlsUU5fVExfRWRET0loVVBwVjAtWDdnSw?oc=5",
+      "signal": "aggregator-event"
+    },
+    {
+      "kept_title": "APTOPIX California Extreme Weather - Rutland Herald",
+      "kept_feed": "Google News — extreme weather",
+      "kept_link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxObm5mcENDdzBuclZkRUNUVkl2LXkyQnNGSEdPbk1SeUM0NkxITUJQYUQtME1Hb2R1dVRXd1hTTWtHejl6ZVFlN1VIVl9LRURQVmlRUDdvWUJ0WTJBOWFSUlpnWHVSM245Zjc2VzN4UXdsTnloVDY5TGxheVJoVnlxLW1UWldhRXRqSVc0Q09oZ3RRZC1uSWw5MEY5Y0phRVp6alI4dHlZdFRQWThnMjhoS0ExVUMzVGx2aFB4c1A5bnpxdw?oc=5",
+      "dropped_title": "California Extreme Weather - WV News",
+      "dropped_feed": "Google News — extreme weather",
+      "dropped_link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNRUhwdE1fOVhfdktCM0xZUnNyUExxbGYzbGhuRlVXTGpLVHg5NG5nT2JMeHhvVjR1THg5MW54M0RkVEpBbWFQM01JeGx5MjFrRGo0bHh0OXkycGJ2NlJWT1JGSVFkazJuNGF0a3F2Z29BUmFMVXpCNXo2eWJOeFdMVllwV1hmZWp3c1ZMZjNVM19OVHQzalRFem5tdk1PbkJhQTIxOVBFeTNxaGJaUXc?oc=5",
+      "signal": "aggregator-event"
+    },
+    {
+      "kept_title": "Australian astronomers are creating a ‘census of galaxies’ with 4MOST - Cincinnati Enquirer",
+      "kept_feed": "Google News — astronomy",
+      "kept_link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNek9nUDcySmJ3MGhKMm1xQlg3ejNiWGd0YkFveXpBdVF3N0pMcE5ja2ZYQUk5bXlTY3hpbHlJYlF6OTFaSHZlR1VlTk1adzJGNUt6RmZnMXh6NHBTbF9YdnIyYXdhbk1sZWp5MzZUR2RoYWpuMnRCdi1McmpRVXNvWnZHTG4xOUFNZFk3andDdEVWRmNVSnBTMDhnZWlyYVFCTW52TTJGWXNnRWlKcmtTMXVNcFdaWGNTSjdJOE1CUQ?oc=5",
+      "dropped_title": "Australian astronomers are creating a ‘census of galaxies’ with 4MOST - IndyStar",
+      "dropped_feed": "Google News — astronomy",
+      "dropped_link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNYlBpZVZJdzNQTUJtRjBINEZkODY1MUZ0akJVUGxQbEVWLUx0X0Iya1BYVHNMYzVrbDV2YmNnMGZXdDRkZmpjYUxpVFlKMDFiX2wxdUYxUUdGRW5Jc3IyVUFXRXdxcjJpYWxFaE5SSFN5Q0dNOGhaUkFmWmR1YXdQaXpnV1o0RkljdmxEaGl4N1VsbnFsV0VncW9oWE96dkM1TjUxVGs4RkZkQjV1S0piNkFFRjVoenpwSEk3ag?oc=5",
       "signal": "title-similarity"
     },
     {
-      "kept_title": "California Extreme Weather - The Bakersfield Californian",
-      "kept_feed": "Google News — extreme weather",
-      "kept_link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPZ3htRS1EUkhCcV9KZXotMEpmc0gtRUF1bE16WFBaVW9yd21VUjZSdnN4VkVlNmFXbFh5Tmd4OEFIUXB2MjVqRXAyZ24tQ2JaaXJCWE1Mejg5czN2NnlUMGVyZUJpQTVwRXV3YWI4cUtsLVZhY3BxZFRNcmIwMXhBSWdscV9HVHZrU3pCbTNMdmhsUi1iZFVScE4wQjl0QjRjY0tNSHN0b2w1b2twQnlCMGhoRWtKSlVvTnc?oc=5",
-      "dropped_title": "Extreme Weather California - The Bakersfield Californian",
-      "dropped_feed": "Google News — extreme weather",
-      "dropped_link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNdmlWNTNwb2JRSGh2cThmcXhsREg0RlRFRERZRVJGZTBncVA4RlBBZElnZlgtZFYycmtQYjFfRm8ydklOak0wejB6TWlvcktOWjhOWHR6elByUHZ2SzRnY0E2eGZrVnd5UkJFdkR5N1hNYXF6Wm5RWk1aUXlVTWFRcVNOSnhfRlp1OFF1eEJId3U2dU9EVlNROXcydk1Pd0s3Wm1Qb1ZkSzhZYU5IbXpkcVowWHVLZE1vTHc?oc=5",
-      "signal": "title-similarity"
-    },
-    {
-      "kept_title": "California Extreme Weather - The Bakersfield Californian",
-      "kept_feed": "Google News — extreme weather",
-      "kept_link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPZ3htRS1EUkhCcV9KZXotMEpmc0gtRUF1bE16WFBaVW9yd21VUjZSdnN4VkVlNmFXbFh5Tmd4OEFIUXB2MjVqRXAyZ24tQ2JaaXJCWE1Mejg5czN2NnlUMGVyZUJpQTVwRXV3YWI4cUtsLVZhY3BxZFRNcmIwMXhBSWdscV9HVHZrU3pCbTNMdmhsUi1iZFVScE4wQjl0QjRjY0tNSHN0b2w1b2twQnlCMGhoRWtKSlVvTnc?oc=5",
-      "dropped_title": "California Extreme Weather - The Bakersfield Californian",
-      "dropped_feed": "Google News — extreme weather",
-      "dropped_link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPT0JtbXBJbjBLMi1HNUQ2ZkJpTnVyaTNjN2dKOXpiVjlDTUR4YXh6SE5naktYVWY0Ymg0N2FPTHQ3d3BISjJoRFlRMDNoSVItYWRndGdNbUdKWk04YTRQR1RfM1JkczZvNE1hWVM5WEk2NW1XYlY2dGRPYVFwcjlaNHF4TEl5YldWa3U2MWhEaTZGcjFMMVFvbllNS1Y1VkZKczEzSjlFRFNpcU8tOWJpc3BvT2dvN000cXc?oc=5",
-      "signal": "title-similarity"
-    },
-    {
-      "kept_title": "China's Shenzhou-24 carries Pakistan's first astronaut Muhammad Zeeshan Ali into space - BBC",
+      "kept_title": "SpaceX Gets U.S. Approval to Run One Million Orbital Data Centers - WSJ",
       "kept_feed": "Google News — space",
-      "kept_link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFA0eDZwOGtQQnBoOXlyLWhIME9fanAwcGZVWjlNMWhGcmRBeWs2czVPNHRyM2NtQk1sekhQNmFLcjU2VFJLT2Nzb3hTM2xuelVqWmZDU1oxY0xhSXM?oc=5",
-      "dropped_title": "Shenzhou 24: Pakistan's first astronaut goes to space aboard Chinese rocket - BBC",
+      "kept_link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNX0hjaTV1MVlwMmJMM2ZxTVk3SVNhdTlPWUlhYlJlc2ZJcDVscW1VRTdKTUEwczNHRlpPeURRVnhQQzlMeVQwblFXcFdzVVV5S2JWc3d3WUpYbk94NTdmVjh6SFU0VWoxRmZZOFMzdVI3Ukk0UHBub3Vtc0xWbTM1RzhKY0NaeGx5TmNzY0RmNWFiWDAxQmx4Y0NFNUhfMk5DS2c?oc=5",
+      "dropped_title": "US authorizes SpaceX to deploy 1 million satellites for data centers in space - Reuters",
       "dropped_feed": "Google News — space",
-      "dropped_link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5waThhbmJqRWF3ZGt6anVBb3I2WUNiams4QmFhbkUzbU5KSkNxd2lyUm56RVdjb3NXMU8wQVkyTVl6NVZuN2tyVTNfcU5MLXBKWHItR1ZB?oc=5",
+      "dropped_link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNVk5uRnprd285MEw5V2prcHR6bXljVGN4cUZuOHA4eHJUZkFzOVFnS1QtYnZaal8yYUYxa0t1cW84WjVzQWpub0czSGxUblh3STB6WnZxcThWZUxNRDk2emliZ0tfTmk5U3YxY3FZRXdEYWNyb2VMTmlkZE5RNWZHOS12OWdjSkpNdzhGU0Z4NWo3VmpSZHNXWGNJZUFpZjl2T2xuUkRKRXBpOTFqVFdFLXFvV0xHd1czWDFKbFU3OWFGU21B?oc=5",
       "signal": "aggregator-event"
     },
     {
-      "kept_title": "China's Shenzhou-24 carries Pakistan's first astronaut Muhammad Zeeshan Ali into space - BBC",
+      "kept_title": "Europe’s Hera Mission Releases Close-Up Images of the Asteroid Hit by a NASA Spacecraft - The New York Times",
       "kept_feed": "Google News — space",
-      "kept_link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFA0eDZwOGtQQnBoOXlyLWhIME9fanAwcGZVWjlNMWhGcmRBeWs2czVPNHRyM2NtQk1sekhQNmFLcjU2VFJLT2Nzb3hTM2xuelVqWmZDU1oxY0xhSXM?oc=5",
-      "dropped_title": "Historic space mission lifts off with first Pakistan astronaut aboard Chinese rocket - BBC",
+      "kept_link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQMUhDWEtyX3NjaXJQdlgxVFMtQmpxNi02TllLa09tcW4yV1FaQndseTkzMzd5RlJQTVZpWldnZTdySDBycVRTUEw2Yl9hTjUzeUlfSm40eGttbE1RcGpycnRGZFZoV0t5WUhxbjN2QzMxVjFiYS02R29hNWFPQmhjZE1PSzY?oc=5",
+      "dropped_title": "Hera spacecraft gets 1st up-close look at stadium-sized hole punched in asteroid by NASA DART mission - Space",
       "dropped_feed": "Google News — space",
-      "dropped_link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5tZV9uSHktS1RuLXVvY042ZndDWV9CQXBHVUoydkZPTHZfSUx0OHlnUHc1TjhJcXFRRDg0R0lJaHZKal9OaEYxZEc3VDNuNFYtSnR3cUc2ejA?oc=5",
+      "dropped_link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPcks2cFhLVGxRTlROWmU2M2tLTG42RFJaWk9qbTU4b2w1OUxUQkdrZmFfTUh1dlVGRFhRWkRFUjEzTnA3c2FCMDZDOHFrOWEwTkhoWHNCTFA3UGRVcmRoVWEzSnN0SVFWMVFUX01HX0ktY01MNk9ORlhJTzQ1LWFDUFczMS1uVm95YnAzUmxGdXBfeUQzUWtfc2NzM1dJVWdfRWhLanRqaGtiNDZsZFJHcU9JQ3VodGd1bllzZ0ZTOUxKY19wQU9xV3JlTEpRQ1A2MU5jMTZnTWRkX0U?oc=5",
       "signal": "aggregator-event"
     },
     {
-      "kept_title": "Extreme weather and travel chaos threaten Thanksgiving plans - Fox News",
+      "kept_title": "NASA sends planes to monitor US Army's lead detonation. 'Irresponsible' to compare it to Chernobyl, agency chief says",
+      "kept_feed": "Space.com",
+      "kept_link": "https://www.space.com/technology/aerospace/nasa-sends-planes-to-monitor-us-armys-lead-detonation-irresponsible-to-compare-it-to-chernobyl-agency-chief-says",
+      "dropped_title": "NASA sends planes to monitor US Army's lead detonation. 'Irresponsible' to compare it to Chernobyl, agency chief says - Space",
+      "dropped_feed": "Google News — space",
+      "dropped_link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPS2piSUhZUWpRSWRjLWR2UkFZYnlQV0d0TzdQakVGS2NmM0prWGs4UGJ2S2hjMllSMGVzTUhiaFZYTGhmTlJvOEZGbWFyTnRfSXJaQ0JhdmxwQmxMb3NkNjVCY3lVeGJ1YmFOZnFNX1lCTnpoeW9mY1pwdFBUaDVyLU4xM3R2eWJVY3phVzIzbzB4S0pDT2pFd05VU1M3TDVlTzVzXy1nWFN3djFVMmZMVmtFZmdnajNtc1Y0Tno2emJaTDBVbnBSUmZtcHJvOWtram5CSy0zZ0dRTmVnd1NMRG1MakNfaUpaX000?oc=5",
+      "signal": "title-similarity"
+    },
+    {
+      "kept_title": "Using lunar craters as free radiation shields for moon base nuclear reactors",
+      "kept_feed": "Phys.org — Space News",
+      "kept_link": "https://phys.org/news/2026-11-lunar-craters-free-shields-moon.html",
+      "dropped_title": "Using Lunar Craters as Free Radiation Shields for Moon Base Nuclear Reactors",
+      "dropped_feed": "Universe Today",
+      "dropped_link": "https://www.universetoday.com/articles/using-lunar-craters-as-free-radiation-shields-for-moon-base-nuclear-reactors",
+      "signal": "title-similarity"
+    },
+    {
+      "kept_title": "Extreme weather causing travel woes around the nation - KXLY.com",
       "kept_feed": "Google News — extreme weather",
-      "kept_link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE80STlNRnlIOFJFR2tWN3ZvWFdrV3ltTWhrVU5mQnVUTGZ1TmJOc1RjeEk4QXBpZnVnU3M0ZzU1NktuSTBzT2xQLU1XczV2b0ZOX01TU2Nn?oc=5",
-      "dropped_title": "Forum to Focus on Extreme Weather and the Impact of Animal Disease - Madison's Country Q106",
+      "kept_link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNdy1BbHhGUk93Qm53STNiaHhReldvVnpvOUVaeUJQWDdOM0MzaWxuSTQyUEt0MF80d21Tb2xkQ1MwQzlpTlo4SXM1Ml9ZNng1TWNFckxDNmljQ0JmcVhoeExrdnlRRzNpMmlLWnRFYkJEZFVpTG1uYkJsQ0l1S1NqSEoxbEFKcWVfbThZb2k0V3ZlMTlMUThfS0hLWnlJckJ4MXZsbld3MjZQNkYyX29HMVhMWnVwRjViR2hFdTZQZERtYk1QY0pZ?oc=5",
+      "dropped_title": "Extreme weather exposes weak points in global oil and natural gas shipping, IEA finds - The Watchers - Watching the world evolve and transform",
       "dropped_feed": "Google News — extreme weather",
-      "dropped_link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxObUUtdTBCbG11LU1wUUtQUS0zb2tmTkRlaGNHQ1ZER3lHQjFibVgwYUNaZ0pmblM1REFuME5ESmRTTU96eVd6UzYzTlN5WmdiUE9sYWQ2TXdrWGhkR3QyWHBQNDIwLTVaaEQ4NVJpel9wY2ZkZkdiRnhpQVppanRfOXBHMlJ0QXkyZklEME5mOFJ4OERWanhWVGF1TzhxbXNi?oc=5",
+      "dropped_link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPb3BOS3lFcEdCaE5sdUJMNGNueEZfRTdveWVGcm15Z3JJdnNZVkZYd256WXBQTkpMa0pWYUtRQUhGU2RNLVV1UU5NVThQdW55TURSOHcyQjVrajdmTlVxa1RjTjQ1dF82bVlOc3pQNjFIWVFuWk93R2UxMVNRaWJMNFUyWFFZQ1lKcUZ0U0VrSW9OOFJiNkNwSnFKc3BzVUFYalYzeG10UEVpWDBtOHlUbXI4N2xkRlNu?oc=5",
       "signal": "aggregator-event"
+    },
+    {
+      "kept_title": "‘Dig’: Amy Poehler and Hugh Laurie dish on that surprise Season 1 finale heel turn and near-death experience - IMDb",
+      "kept_feed": "Google News — near-death experience",
+      "kept_link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1nbllUUGE0WmQ4X0pZNUdZMVJTUG5hWHJ3WEJTWUx6aGFPWmJHVmo0aDktQm8tc3pHQjZQbmpoRG9pREJfV0M4amZmYXlPQXhXWHVhY2xET0lkZ21TVVJyTk12MHg3NmM?oc=5",
+      "dropped_title": "‘Dig’: Amy Poehler and Hugh Laurie dish on that surprise Season 1 finale heel turn and near-death experience - Gold Derby",
+      "dropped_feed": "Google News — near-death experience",
+      "dropped_link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOT2FKWG1WeE9sNVFNMi0zalUyX1NDMUJiNUs5REpyV0MwNER1MjRhUGxaYVFfV2d6ajgxdzkxR1NhdzdBNjd6Z2drTnFVdGxGT0VPNHQ1V1UzbDRURndCX0pVZVFWaHozUXc2OW9VeFRfTUxxY0RsaFhTSEt4MzA4NndwSEFjSUpJODlua2p2TU5rREpyOXM1NFJyTUlJT0lhWUtOX0MyUDdjQ1RDem9z?oc=5",
+      "signal": "title-similarity"
+    },
+    {
+      "kept_title": "In Japan's Snow Country, Artisans Put Extreme Weather to Work - National Geographic",
+      "kept_feed": "Google News — extreme weather",
+      "kept_link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPdmR4cXB4NGFiRnpyaW9Ob3RjU0ZUQmhuZE5kY19hcE9EQXlSMGJsdDFrbDQ5ZkhsOFd0NnNjdFJWanhyV0lvaU5tQ1FoV1VYZEJlVGxKNUpKeGd4dGw2MmNrUHRWdV8xWnlFZDR0MjBlZm0xUW1NUmtWTmJQem5zQlN0MEktUlRybkl2T3JHYnRBRzlWUmlwbkhGNGRhMzhTYzJycUVzdDNUMmhHdnY5bQ?oc=5",
+      "dropped_title": "Extreme weather threatens Thanksgiving travel across the country - WHAS11",
+      "dropped_feed": "Google News — extreme weather",
+      "dropped_link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQZ09BSF8wYTFaaDdaWEROdlBTNmRkazNyc09jemlGQWxYbDJfVEtxREtwYnhzSGd2cXRkTVYtMUJXVHlsY0xtM0tiSldYTVhJek9oMWU5X2FpNmJVeDd1dk9VOFNGbVlDTWtFRzVmMEtweEJuUzVWblctZDdtWmJWRWNXY0ZQYzZhQ3ZJdXBFZmd4WmZUY0M5M0w3Y2NNOG9tbVdlVzNSYmE1UGFhUUZQVzhHb0stamdHMDNfVklmNU0tZWp0Q1BudGgwQml2U2FPSTJRR1BnM1E?oc=5",
+      "signal": "aggregator-event"
+    },
+    {
+      "kept_title": "Ancient Cahokia transformed amid droughts and flooding—climate change is reshaping modern communities in similar ways",
+      "kept_feed": "Phys.org — all science",
+      "kept_link": "https://phys.org/news/2026-11-ancient-cahokia-droughts-climate-reshaping.html",
+      "dropped_title": "Ancient Cahokia was transformed amid droughts and flooding – climate change is reshaping modern communities in similar ways",
+      "dropped_feed": "The Conversation — US",
+      "dropped_link": "https://theconversation.com/ancient-cahokia-was-transformed-amid-droughts-and-flooding-climate-change-is-reshaping-modern-communities-in-similar-ways-294435",
+      "signal": "title-similarity"
+    },
+    {
+      "kept_title": "A New Discovery is Re-Drawing the Map of the Milky Way",
+      "kept_feed": "Universe Today",
+      "kept_link": "https://www.universetoday.com/articles/a-new-discovery-is-re-drawing-the-map-of-the-milky-way",
+      "dropped_title": "A New Discovery is Re-Drawing the Map of the Milky Way - Universe Today",
+      "dropped_feed": "Google News — astronomy",
+      "dropped_link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPOVF5WjN3N0tjQTAzUmNwZ3dWbzVWRm9uTXVXTVVpcjh6MXFfTjJzOXBHbjRDTEdiUllRWHpHb3Y5S0s1NDVnZmVXazM2Wjhpd1dENDAyUzZIYkdpbGJzWWhvM0Y0YnBSYnZwVFM5NkVQZUFSbkJQY1VfRkJSRnhaeE54bkp5NUJMc2JwLWtucTE5OHlxLTFtcA?oc=5",
+      "signal": "title-similarity"
+    },
+    {
+      "kept_title": "Astronomers discover the most distant and ancient supermassive black hole-powered quasar in the universe",
+      "kept_feed": "Space.com",
+      "kept_link": "https://www.space.com/astronomy/black-holes/dark-universe-detective-telescope-discovers-most-distant-and-ancient-supermassive-black-hole-powered-quasar",
+      "dropped_title": "Astronomers discover the most distant and ancient supermassive black hole-powered quasar in the universe - Space",
+      "dropped_feed": "Google News — space",
+      "dropped_link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNOWQxeXo2NWl5a196NUJHZmdzd1dJUXZGaWJTQUNISzJtZ293dkF3dkFpbHBmcEN5eEpxQkdMS3dELXlOTEZnT0lRblJmX1hPQ0owOHJqSXBHWVhnUlZZbk9qb3FsaFRqZzJVejd0eEVlNzMxSS1VT1NET2twcnRvX3p3d19vWWF5aDZxTXJrcHZWQmZHQ0ZvdW8wZzJIZl80Q0NfSGZ4NGd4Wk5Ma0cxQkFJNXpaeG8yNGVsdUd4LWtIQmtLeVVYTzg2dld4bWpTQTQ5dUtTSDhSS0M3T1F0bm1EZk9Udw?oc=5",
+      "signal": "title-similarity"
+    },
+    {
+      "kept_title": "Impact Day: Flooding rains and severe weather risk for South Florida - WPBF",
+      "kept_feed": "Google News — extreme weather",
+      "kept_link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNYnoyWGFmejk4Z19qY21vQVdXZUdYcHdUcGxLcmMyU3VPTTdJSWIyel9lVFpYRFIxalZZM3k0WVNZNUQ1R0ZOSnZpZXRiYzUzMTYzZXZDUG5sUVpBLTJzUFJpdVF2SzIxQmExS0lyaEJUeFZxQ0RESl9YNFp4djByUERaMnNYS29jWWl3TkFSOEo5dnFiUEE?oc=5",
+      "dropped_title": "Severe El Nino stokes fears for Amazon after months of extreme weather - Anadolu Ajansı",
+      "dropped_feed": "Google News — extreme weather",
+      "dropped_link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQSnp5QzZ3eXREd0xrc0VKVlNnVFRoT1JpdzJUc1VGcGpHQ01YWDF4Z0FxblZqejVNLVVaMFFDTEFBd3ppb0VtWHNBUHpXekhtVzdGTnE0Mk11c1V1UDdSTXQ1ZWhPZXM3OFVhZ1ljWXVtUDJVX3BXNTVWUXh5S0J2SjR0M094Nl9yb2ZLbVFVdkJsN0ZiV0tWUktPWF95UnBoU1VYMnUtVk1HemxFR2c?oc=5",
+      "signal": "aggregator-event"
+    },
+    {
+      "kept_title": "SpaceX Starship debris becomes art in Ashley Zelinskie's 'The Weight of Space' (video, photos)",
+      "kept_feed": "Space.com",
+      "kept_link": "https://www.space.com/entertainment/spacex-starship-debris-becomes-art-in-ashley-zelinskies-the-weight-of-space-video-photos",
+      "dropped_title": "SpaceX Starship debris becomes art in Ashley Zelinskie's 'The Weight of Space' (video, photos)",
+      "dropped_feed": "Bing News — space",
+      "dropped_link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6b0749a5d0af4beda605cab0397c6a09&url=https%3a%2f%2fwww.space.com%2fentertainment%2fspacex-starship-debris-becomes-art-in-ashley-zelinskies-the-weight-of-space-video-photos&c=8262996866860676893&mkt=en-us",
+      "signal": "title-similarity"
+    },
+    {
+      "kept_title": "Green light for Starmind: SpaceX gets approval to deploy 1 million AI satellites",
+      "kept_feed": "Space.com",
+      "kept_link": "https://www.space.com/space-exploration/launches-spacecraft/green-light-for-starmind-spacex-gets-approval-to-deploy-1-million-ai-satellites",
+      "dropped_title": "Green light for Starmind: SpaceX gets approval to deploy 1 million AI satellites",
+      "dropped_feed": "Bing News — space",
+      "dropped_link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6b0749a5d0af4beda605cab0397c6a09&url=https%3a%2f%2fwww.space.com%2fspace-exploration%2flaunches-spacecraft%2fgreen-light-for-starmind-spacex-gets-approval-to-deploy-1-million-ai-satellites&c=4246393254468591570&mkt=en-us",
+      "signal": "title-similarity"
+    },
+    {
+      "kept_title": "Watch live: Europe unveils 1st close-up views of asteroid Dimorphos after NASA's DART impact",
+      "kept_feed": "Space.com",
+      "kept_link": "https://www.space.com/space-exploration/asteroid-comet-missions/watch-live-europe-unveils-1st-close-up-views-of-asteroid-dimorphos-after-nasas-dart-impact",
+      "dropped_title": "Watch live: Europe unveils 1st close-up views of asteroid Dimorphos after NASA's DART impact",
+      "dropped_feed": "Bing News — space",
+      "dropped_link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6b0749a5d0af4beda605cab0397c6a09&url=https%3a%2f%2fwww.space.com%2fspace-exploration%2fasteroid-comet-missions%2fwatch-live-europe-unveils-1st-close-up-views-of-asteroid-dimorphos-after-nasas-dart-impact&c=15274893858668624031&mkt=en-us",
+      "signal": "title-similarity"
+    },
+    {
+      "kept_title": "A space telescope hunting for dark matter just discovered something unexpected - ScienceDaily",
+      "kept_feed": "Google News — space",
+      "kept_link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5HQmZpY2NmdnZPX2MtYmliNGhQUHpLR28waDR1MlE1ekZGZ2Vrd21aTXVtdmJDcERILVFTbUFZNzN6ZXZTeXpwMjF2azlPUjd6ZHlRNlQxQnl2MEdXOFRqbGhLSVZEY01ZaFpoRUNzRQ?oc=5",
+      "dropped_title": "A space telescope hunting for dark matter just discovered something unexpected",
+      "dropped_feed": "ScienceDaily — Space & Time",
+      "dropped_link": "https://www.sciencedaily.com/releases/2026/11/261124055852.htm",
+      "signal": "title-similarity"
+    },
+    {
+      "kept_title": "‘Blade Runner 2099’ cast praise the incredible set designs that brought the sci-fi universe to life: ‘it was all so well-realized’ (interview)",
+      "kept_feed": "Space.com",
+      "kept_link": "https://www.space.com/entertainment/space-movies-shows/blade-runner-2099-cast-praise-the-incredible-set-designs-that-brought-the-sci-fi-universe-to-life-it-was-all-so-well-realized-interview",
+      "dropped_title": "‘Blade Runner 2099’ cast praise the incredible set designs that brought the sci-fi universe to life: ‘it was all so well-realized’ (interview)",
+      "dropped_feed": "Bing News — space",
+      "dropped_link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6b0749a5d0af4beda605cab0397c6a09&url=https%3a%2f%2fwww.space.com%2fentertainment%2fspace-movies-shows%2fblade-runner-2099-cast-praise-the-incredible-set-designs-that-brought-the-sci-fi-universe-to-life-it-was-all-so-well-realized-interview&c=14257477255046217612&mkt=en-us",
+      "signal": "title-similarity"
+    },
+    {
+      "kept_title": "Extreme Weather Doesn’t Wait for a Business Plan - Cleaning & Maintenance Management",
+      "kept_feed": "Google News — extreme weather",
+      "kept_link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE4zblhvdjdBWkU2N2F1OGNsdkVtdHFIVUZDV1g0bjllZlB5Ulg2MjA3OVI3Z2U0QWtwX3BBMVJ3S1IwTy16Si03UGR4NmpMXzVNOEFoUHc1T2dCZnRFMEZmamw0NHlvTm1ya3Vndm1pWG1WN0N3WHlkTWNRZXBXcHc?oc=5",
+      "dropped_title": "89-year-old Beretania Florist navigates high shipping costs, extreme weather - The Business Journals",
+      "dropped_feed": "Google News — extreme weather",
+      "dropped_link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPZ2tvdDZ4cC1mZENEaWtzTUZUcFAtTThOUXJMclVYa1ppX0Q2X2tiNVpOVGdhMmJsMnUxcUxhSHVyMWJHODBTbEk0TXVHaUVndEhzSDNYa0VDY3NkMlRXM0wwYXNYcFU2dTgxTDdNLURSSTJhS0JsLUxRbUN3RC1RV2dNalFOUVAzNWp5SVJLMFlScjNYYlpsenhka3ZMNWM3Vnd0N2M4ekc?oc=5",
+      "signal": "aggregator-event"
+    },
+    {
+      "kept_title": "Pakistani astronaut becomes 1st international visitor to China's Tiangong space station (photos)",
+      "kept_feed": "Space.com",
+      "kept_link": "https://www.space.com/space-exploration/human-spaceflight/pakistani-astronaut-becomes-1st-international-visitor-to-chinas-tiangong-space-station-photos",
+      "dropped_title": "Pakistani astronaut becomes 1st international visitor to China's Tiangong space station (photos)",
+      "dropped_feed": "Bing News — space",
+      "dropped_link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6b0749a5d0af4beda605cab0397c6a09&url=https%3a%2f%2fwww.space.com%2fspace-exploration%2fhuman-spaceflight%2fpakistani-astronaut-becomes-1st-international-visitor-to-chinas-tiangong-space-station-photos&c=15769913738383756480&mkt=en-us",
+      "signal": "title-similarity"
+    },
+    {
+      "kept_title": "Uranus at opposition today, November 25, 2026",
+      "kept_feed": "EarthSky",
+      "kept_link": "https://earthsky.org/astronomy-essentials/uranus-at-opposition-closest-brightest-best/",
+      "dropped_title": "Horoscopes Today, November 25, 2026 - USA Today",
+      "dropped_feed": "Google News — astrology",
+      "dropped_link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOZzF0aXNWOG5nMnR1X002Mm1qOWVaQ1ZEdFNNYURFM2t4cmJ2cGlva3owQlRSS2hFMl9WTW93a3FpLW5RWF9Vang0WC1ib1UyUE9qMV9sNHp4X2RiWk5kQWpnMUJCcFp1ZTVaOVZiNTFvX0N6bl9rdUFZbGtkaGR5MGlwTlJwNTdrZzRveUF3VWs?oc=5",
+      "signal": "title-similarity"
+    },
+    {
+      "kept_title": "What is a thought made of? Why human consciousness may be beyond AI’s reach - ScienceDaily",
+      "kept_feed": "Google News — consciousness",
+      "kept_link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBaQVcyRk5nZVhJaUlNTWRLWEgxbnFyTTI3Vmh0T1V4bXp1SlZWLVVsdkZNSGNLS1g0ZFo2UGo4VGtiRHQxZFdSNVU2T2RqUmtvQXNYamkxY1VfdWxCaGRiRUhTVEp5X2dYZ096RFlDRQ?oc=5",
+      "dropped_title": "What is a thought made of? Why human consciousness may be beyond AI’s reach",
+      "dropped_feed": "ScienceDaily — Mind & Brain",
+      "dropped_link": "https://www.sciencedaily.com/releases/2026/11/261124055712.htm",
+      "signal": "title-similarity"
+    },
+    {
+      "kept_title": "Hera spacecraft gets 1st up-close look at stadium-sized hole punched in asteroid by NASA DART mission",
+      "kept_feed": "Space.com",
+      "kept_link": "https://www.space.com/astronomy/asteroids/hera-spacecraft-gets-1st-up-close-look-at-stadium-sized-hole-punched-in-asteroid-by-nasa-dart-mission",
+      "dropped_title": "Hera spacecraft gets 1st up-close look at stadium-sized hole punched in asteroid by NASA DART mission",
+      "dropped_feed": "Bing News — space",
+      "dropped_link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6b0749a5d0af4beda605cab0397c6a09&url=https%3a%2f%2fwww.space.com%2fastronomy%2fasteroids%2fhera-spacecraft-gets-1st-up-close-look-at-stadium-sized-hole-punched-in-asteroid-by-nasa-dart-mission&c=10006880544913121513&mkt=en-us",
+      "signal": "title-similarity"
+    },
+    {
+      "kept_title": "Uranus at opposition today, November 25, 2026",
+      "kept_feed": "EarthSky",
+      "kept_link": "https://earthsky.org/astronomy-essentials/uranus-at-opposition-closest-brightest-best/",
+      "dropped_title": "The Sky Today on Wednesday, November 25: Uranus at opposition - Astronomy Magazine",
+      "dropped_feed": "Google News — astronomy",
+      "dropped_link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNMGVTbXltVjlSWnAzLU5jY1ZJY3plUXd6blVYX3kwalNDdXZycGx5Y0V2UHhCZF9lNVdERnZ6a3FBQjhtU0ZYU0tlVDhKU2xpdXBsUDlYc1hvLW14UkhCNV80RnBXNGd6R1FMVVdDVjRQZ01qOG1FUUVqZ25NLVgtWnV2UQ?oc=5",
+      "signal": "title-similarity"
+    },
+    {
+      "kept_title": "Uranus at opposition today, November 25, 2026",
+      "kept_feed": "EarthSky",
+      "kept_link": "https://earthsky.org/astronomy-essentials/uranus-at-opposition-closest-brightest-best/",
+      "dropped_title": "The Sky Today on Wednesday, November 25: Uranus at opposition",
+      "dropped_feed": "Astronomy Magazine",
+      "dropped_link": "https://www.astronomy.com/observing/the-sky-today-wednesday-november-25-2026/",
+      "signal": "title-similarity"
+    },
+    {
+      "kept_title": "NASA sends planes to monitor US Army's lead detonation. 'Irresponsible' to compare it to Chernobyl, agency chief says",
+      "kept_feed": "Space.com",
+      "kept_link": "https://www.space.com/technology/aerospace/nasa-sends-planes-to-monitor-us-armys-lead-detonation-irresponsible-to-compare-it-to-chernobyl-agency-chief-says",
+      "dropped_title": "NASA sends planes to monitor US Army's lead detonation. 'Irresponsible' to compare it to Chernobyl, agency chief says",
+      "dropped_feed": "Bing News — space",
+      "dropped_link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6b0749a5d0af4beda605cab0397c6a09&url=https%3a%2f%2fwww.space.com%2ftechnology%2faerospace%2fnasa-sends-planes-to-monitor-us-armys-lead-detonation-irresponsible-to-compare-it-to-chernobyl-agency-chief-says&c=17684530936597778577&mkt=en-us",
+      "signal": "title-similarity"
+    },
+    {
+      "kept_title": "China’s Shenzhou 24 spacecraft docks at space station with first foreign astronaut - NBC News",
+      "kept_feed": "Google News — space",
+      "kept_link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPbVhIMFFLSkVWQ3FQVUJZYl83OTF4N3BxR2pReVpwal9iMzg5a1VFQnVqQnNRTVJZZ0I0RWVMMHpZZ0pvclJoN25tSzhwSjRzaXNWdFJRQVlpZm9xSVl2YW40STZiSTdFVmJTbmlXVkN5eUV2a1FfNkRaLXZMSjFDY2RhZHNsNUowdkpQUzFMREl1b0NQdmczQUpXZHJQb0VNb01meGFUb3d2b1I0Z2VwVVpiVQ?oc=5",
+      "dropped_title": "From stargazing to space: Pakistan watches its first astronaut take flight - Al Jazeera",
+      "dropped_feed": "Google News — space",
+      "dropped_link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPTlpJSC1pNHl1UjQwXzUwV0dtUnl6dElWcENYSkVPVFFKeWo1QkFEU1BfRHFDa2psOGhCWk5uNmNmb1B1aC04TWh2dU15WkNKbHFSeWtqOHJMLWlQQXRVbkZpeGlzaXI1Z2RfNVJMYkxkVGpPQ1RRSVRzMWJhY2pJek1yNi1kb1FpNUxDNVhyNkY3WjNnZ3B5aXQ5aTdhaDlHMEN1b2FhbGlmcmpYZ1B6QzYyem9ibW9mNzQ00gHAAUFVX3lxTE9aWjVRYVc5TnlPYm45bm96UnVlS0hhd095aGw2S1BSS2Vjaml6Q3U4RHpMWWZzb1VlSEZiWjczMEhoeDNMYjdMb3RTU25ZOGhLQ1N3V0doenJXTDZtZjFzeVNrd1g3R0JnWEVVVlItbDcwWGVOTFZKczNESUFkTmdwNlhJRGV0QlV2ajJhVXBJTUJTTDlNUHc1TlBRbTNiYmtkOVFYVXhaZUNvMWNIakh1QnZ5OGRwVF9TWW9nNi1vMw?oc=5",
+      "signal": "aggregator-event"
+    },
+    {
+      "kept_title": "Your Daily Horoscope by Madame Clairevoyant: November 25, 2026 - The Cut",
+      "kept_feed": "Google News — astrology",
+      "kept_link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOcEVBMkVhMWtmSzBCZklzQkZEbURXLXZiS0k0OXpRM0k1TGViWW9WbHZZR0NuemZ4V1RRVlo3dklZVWVMVmpDS3B5clVxWDhjWTNfV2xFZGlza1c5eGRha3paaHpxMTBfblJEOXhncGE3WWlfRFJvbWVfRk1VeW1RTmN4UjZxZVZZZnp1aURZUHJnNE5FVWI0?oc=5",
+      "dropped_title": "Your Daily Singles Horoscope for November 25, 2026 - Yahoo",
+      "dropped_feed": "Google News — astrology",
+      "dropped_link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPMTB4U2xoWXFHM2JXZ3YtM1JUMVlabXlWdUw0RlVIX0tkWEYwVV9CVDJlVmk4MTlnNW9EbXg2c2I2U2lJX0UzcUVCYjFxbmtjU2FwTzByRWk5TVhoa3pYYVVjemVLWEhvdllEMF9fLWg5Ry01eFVoM3BkcV9LcmYzN21FcG5qYTBIcXFsQ0lQY2xZajdzVkE?oc=5",
+      "signal": "title-similarity"
+    },
+    {
+      "kept_title": "Satellites watch volcanic eruptions add new beaches on Iwo Jima | Space photo of the day for Nov. 25, 2026",
+      "kept_feed": "Space.com",
+      "kept_link": "https://www.space.com/astronomy/earth/satellites-watch-volcanic-eruptions-add-new-beaches-on-iwo-jima-space-photo-of-the-day-for-nov-25-2026",
+      "dropped_title": "Satellites watch volcanic eruptions add new beaches on Iwo Jima | Space photo of the day for Nov. 25, 2026",
+      "dropped_feed": "Bing News — space",
+      "dropped_link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6b0749a5d0af4beda605cab0397c6a09&url=https%3a%2f%2fwww.space.com%2fastronomy%2fearth%2fsatellites-watch-volcanic-eruptions-add-new-beaches-on-iwo-jima-space-photo-of-the-day-for-nov-25-2026&c=11804663501978307494&mkt=en-us",
+      "signal": "title-similarity"
+    },
+    {
+      "kept_title": "Astronomers discover the most distant and ancient supermassive black hole-powered quasar in the universe",
+      "kept_feed": "Space.com",
+      "kept_link": "https://www.space.com/astronomy/black-holes/dark-universe-detective-telescope-discovers-most-distant-and-ancient-supermassive-black-hole-powered-quasar",
+      "dropped_title": "Astronomers discover the most distant and ancient supermassive black hole-powered quasar in the universe",
+      "dropped_feed": "Bing News — space",
+      "dropped_link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6b0749a5d0af4beda605cab0397c6a09&url=https%3a%2f%2fwww.space.com%2fastronomy%2fblack-holes%2fdark-universe-detective-telescope-discovers-most-distant-and-ancient-supermassive-black-hole-powered-quasar&c=8585247749717906765&mkt=en-us",
+      "signal": "title-similarity"
+    },
+    {
+      "kept_title": "November's full moon dazzles skywatchers with a stunning Beaver Moon supermoon (photos)",
+      "kept_feed": "Space.com",
+      "kept_link": "https://www.space.com/stargazing/novembers-full-moon-dazzles-skywatchers-with-a-stunning-beaver-moon-supermoon-photos-nov-24-2026",
+      "dropped_title": "November's full moon dazzles skywatchers with a stunning Beaver Moon supermoon (photos)",
+      "dropped_feed": "Bing News — space",
+      "dropped_link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6b0749a5d0af4beda605cab0397c6a09&url=https%3a%2f%2fwww.space.com%2fstargazing%2fnovembers-full-moon-dazzles-skywatchers-with-a-stunning-beaver-moon-supermoon-photos-nov-24-2026&c=16776490461359545264&mkt=en-us",
+      "signal": "title-similarity"
     },
     {
       "kept_title": "Extreme weather and travel chaos threaten Thanksgiving plans - Fox News",
@@ -85,311 +349,41 @@
       "signal": "aggregator-event"
     },
     {
-      "kept_title": "Daily Horoscope for November 25, 2026 - Sun Sentinel",
+      "kept_title": "Your Daily Horoscope by Madame Clairevoyant: November 25, 2026 - The Cut",
       "kept_feed": "Google News — astrology",
-      "kept_link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOWHlpc1ZMM1MyaGRuQ2hhU2M1cVRtX3lPdmNhYUZSNlNBMm9BX09mdUZqSWdLUTVnTndoc19qUGZCN1o4SG1oVzRNVDBsMTJJNnY4dk9Xd2ZrcGc5MVlXWkNTMkNkRHR5TU1Jb0JZU0lNRm4tZUdrMy1icjZoTDlXbE16NA?oc=5",
-      "dropped_title": "Daily Horoscope for November 25, 2026 - The Virginian-Pilot",
+      "kept_link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOcEVBMkVhMWtmSzBCZklzQkZEbURXLXZiS0k0OXpRM0k1TGViWW9WbHZZR0NuemZ4V1RRVlo3dklZVWVMVmpDS3B5clVxWDhjWTNfV2xFZGlza1c5eGRha3paaHpxMTBfblJEOXhncGE3WWlfRFJvbWVfRk1VeW1RTmN4UjZxZVZZZnp1aURZUHJnNE5FVWI0?oc=5",
+      "dropped_title": "Daily Horoscope for November 25, 2026 - Hartford Courant",
       "dropped_feed": "Google News — astrology",
-      "dropped_link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNRTlnY3FVaDJNM2pFTl9MLTZxT242dWZLN0dBeG0tdVc1dzh6Q21oYlV1TzFEb3hWY0ppRVVoV1Z2Z2ZLTzRIOU50M3RSZzFMZ25ZM2pjMjNxQmY2Q0Q3VWRSalRObFpId3BQR3BKN0s4b0xyTV80SWZPaE9rMmVZQnRR?oc=5",
+      "dropped_link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE84VF80VUdJZEJFU0NvTWlZX3BSRFZaS2puLUlaMm5ud252VVNnRkJ6R2lQVU9mTjEybmItODJzeG9kZkRNcDd5WENHNGlYUTN0NWZaUWUtaUUxZG04ZlJzeDlTdF82TXJ6ZXVKNlhDQVZ6bjdMa1ltMGQxQ0U?oc=5",
       "signal": "title-similarity"
     },
     {
-      "kept_title": "China's Shenzhou-24 mission launches 1st international astronaut to Tiangong space station - Space",
-      "kept_feed": "Google News — space",
-      "kept_link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNVUtWRWNzbmYyLWtyQmlxeTlnc3MyREZpdzhhQlhVS0Q3d2hMMFdsdnhpZjU3d0tOMFEzLTJpVS1MUFpCLUJIY2Itc1lHc2JWRHFNUTJDM0NKckxEN1hYQThCVF9jM2x3LVB0bnZFbzBBcjltcWwxNTQ2YUdwUTQ2UmtYajk2NHNkcHBWTjZFZW54M25jQnA0OUtWYmEtMUtOOWRWU0hjYkI4TG0tNU5nM2RRZ3V1OWV3d0hLSENLMktfMk90VFBJa1dYQmpfR0xr?oc=5",
-      "dropped_title": "China launches Shenzhou-24 crew including Pakistani to its space station - as it happened - Reuters",
+      "kept_title": "Pakistani astronaut becomes 1st international visitor to China's Tiangong space station (photos)",
+      "kept_feed": "Space.com",
+      "kept_link": "https://www.space.com/space-exploration/human-spaceflight/pakistani-astronaut-becomes-1st-international-visitor-to-chinas-tiangong-space-station-photos",
+      "dropped_title": "Pakistani astronaut becomes first foreigner to board China's Tiangong space station - Reuters",
       "dropped_feed": "Google News — space",
-      "dropped_link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQMkM2N0EwbEJkMjJSUjQtaXQzVTBpMFlhd2ZJVmRoTU5tUlJMRFFoOVJPNlY5bVVHTUdubmk5RGNhM3RXZHJBY2YtcG9wVEJlYVQ5WDFkUnE4amlOWkxHcU9ya1VZQ0F2ZGV3RVNSZEZVOHNUaGNVQXVwYnR0bmY5NmpXTWJsRUFNelNkaDU1R3lfMGw5aFc0N09rOUQ3eVlCZUYxYjh1M1F3aXU0bUdOQjJXclZNNEE?oc=5",
-      "signal": "aggregator-event"
-    },
-    {
-      "kept_title": "Daily Horoscope for November 25, 2026 - Sun Sentinel",
-      "kept_feed": "Google News — astrology",
-      "kept_link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOWHlpc1ZMM1MyaGRuQ2hhU2M1cVRtX3lPdmNhYUZSNlNBMm9BX09mdUZqSWdLUTVnTndoc19qUGZCN1o4SG1oVzRNVDBsMTJJNnY4dk9Xd2ZrcGc5MVlXWkNTMkNkRHR5TU1Jb0JZU0lNRm4tZUdrMy1icjZoTDlXbE16NA?oc=5",
-      "dropped_title": "The Sky Today, November 25, 2026 - Yahoo",
-      "dropped_feed": "Google News — astrology",
-      "dropped_link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQYlhhWGVLTjFodmtLUktHN3MzRi1VUnB0QUdEb1g5TU43MmcycmtSdFZxdjgwMFBUMFpCNWZyN25yeTBxMzk1VjVJa0ZLNml5UEtsQnM2SjR6VWhPb3p1UnNoYkp3eWdLYUxRWWdZN3FiVUFicVlFTlNqTkRBTmNrYTlTM20wdTZRNlE?oc=5",
-      "signal": "aggregator-event"
-    },
-    {
-      "kept_title": "“This Star System Should Not Exist”: Astronomers Discover a Cosmic Mystery Just 28 Light-Years Away",
-      "kept_feed": "SciTechDaily",
-      "kept_link": "https://scitechdaily.com/this-star-system-should-not-exist-astronomers-discover-a-cosmic-mystery-just-28-light-years-away/",
-      "dropped_title": "“This Star System Should Not Exist”: Astronomers Discover a Cosmic Mystery Just 28 Light-Years Away - SciTechDaily",
-      "dropped_feed": "Google News — astronomy",
-      "dropped_link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNTmlfZFRPRTY4Q2htd0x0OUdkanJEYlNCYUQyOTNaMEdVYXQyV1VxMHYyOHpkTVQzcEJDLTlwb3ktRkYxN29ZVjViQWtTalVVMGtyQnI4d2hWN2c4Ql9WZEJ1dC11TmtQWW1DelRKbUVfb2RZN2NRb2Z4MUxqa3hPQ3NBWDg5Wl9DX1NJWS1naVJ5TkdPeHBwMHVSRlViTjFkaFJnWElaT3ZTSDdISnN0ZFJxS0YxdGlRSzZHOFBBMA?oc=5",
-      "signal": "title-similarity"
-    },
-    {
-      "kept_title": "SpaceX launches secretive spy satellites from California for US Space Force (video)",
-      "kept_feed": "Space.com",
-      "kept_link": "https://www.space.com/space-exploration/launches-spacecraft/spacex-launches-secretive-spy-satellites-from-california-for-us-space-force-video",
-      "dropped_title": "SpaceX launches secretive spy satellites from California for US Space Force (video) - Space",
-      "dropped_feed": "Google News — space",
-      "dropped_link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQc2tac1I2ZjNiTVpaV1N3Q1pYaXNoWElya3VZcEprcUcyeHpEcEtDVm1mdzVkQS10TUlSSWpDOFdZNXdfbWRrY21wNzRKcXVITTBSamRJX0JrQlFNdnE3bEc0eHFhZjNOSkpMQlMyUDRqVHBSVUtrVXhMaUsyR0tmQmRSek5yMV9RczlyYjNmVUtfV1A5RlBvaGJ0VmdGMVpsV2RaSHpPRzE2cFd5MGpOZmU1TGVEQWpjby01clR5dmpQNGI2V1JQckJ5ZnBKcmFVaUVscUcySjc?oc=5",
-      "signal": "title-similarity"
-    },
-    {
-      "kept_title": "On this day in space! Nov. 24, 1947: The US Navy launches the 1st Aerobee sounding rocket, but it didn't reach space",
-      "kept_feed": "Space.com",
-      "kept_link": "https://www.space.com/space-exploration/on-this-day-in-space-november-24-2026",
-      "dropped_title": "On this day in space! Nov. 24, 1947: The US Navy launches the 1st Aerobee sounding rocket, but it didn't reach space - Space",
-      "dropped_feed": "Google News — space",
-      "dropped_link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNa1ZDUjUybElfZU9yWkFHQi1KMDYxS3BtWHZsR1hhS0pzR2NpU2Zmc2dZRmtsNE5Xem5mbHkwV2hIbS1UR2M0dEZmUGVKRDNLYVpUSmVpZ3lHaWI2SGZpVVl5ODQ5Ym9KZ2lHZHlLc09ILVdFXzlqVkxtTWNOdTljSzBHaw?oc=5",
-      "signal": "title-similarity"
-    },
-    {
-      "kept_title": "Pope Francis' diary recounts spiritual crisis, visions of Satan and Hell: 'Eyes of fire' - Christian Post",
-      "kept_feed": "Google News — spirituality",
-      "kept_link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNejE4WGt1elpwSDBnYlZtNjgzMUtrZURoY25SeEdfS2J1OVFaQXYxajNxdktIbzl0OEo5cHRWVGh0WTAyTHF4SVNzQk9wVEkyVF91RDY5MlZSOW1zdlBsM2U4cFFoRUs2T3JoeHczbXRFVkM0QU5OdFdxQjV5ZkpRa2V2R0pwd0hWaG9EUC1WMTQ0Tkh2M1lnTlhiczZtZDJ2cXpB?oc=5",
-      "dropped_title": "Pope Francis' Diary Reveals Spiritual Crisis - Howl.Link",
-      "dropped_feed": "Google News — spirituality",
-      "dropped_link": "https://news.google.com/rss/articles/CBMiO0FVX3lxTFB2NjRLTmJhM3FjUkpSNXNkekItNHZaY0swSV9na0d2M1U3anpvSk50SFdBOFBlcjlFUzRj?oc=5",
-      "signal": "title-similarity"
-    },
-    {
-      "kept_title": "Pope Francis' diary recounts spiritual crisis, visions of Satan and Hell: 'Eyes of fire' - Christian Post",
-      "kept_feed": "Google News — spirituality",
-      "kept_link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNejE4WGt1elpwSDBnYlZtNjgzMUtrZURoY25SeEdfS2J1OVFaQXYxajNxdktIbzl0OEo5cHRWVGh0WTAyTHF4SVNzQk9wVEkyVF91RDY5MlZSOW1zdlBsM2U4cFFoRUs2T3JoeHczbXRFVkM0QU5OdFdxQjV5ZkpRa2V2R0pwd0hWaG9EUC1WMTQ0Tkh2M1lnTlhiczZtZDJ2cXpB?oc=5",
-      "dropped_title": "What should we make of Pope Francis’ visions of hell and the devil? - America Magazine",
-      "dropped_feed": "Google News — spirituality",
-      "dropped_link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPdUY5SG9lSUl5bkdwZmFjS3FKMjBhLWw4aXo2dGl4VElIR2JGMUFlVmFVUzNIYTR3VTYtbS1PZGF2VWlqVC1hRUJ2RGJPZFZObGhVa3FjemViYVJjbnB1Z3FuWXM4MGt3Tk1MUmx6UUl0WXJwRnZiR014dUk2ZVQ4YVNRWjFWLUZKRG0yb2VKdmtwVGhiZUlIOGw0TEwzTnlfQWVrUHpjaEZRazBjNWdsZmd4a3Ntc2p1MzJDMEpQVWpSZWVMdVE?oc=5",
-      "signal": "aggregator-event"
-    },
-    {
-      "kept_title": "Chief of Space Gen. Douglas Schiess Visits Vandenberg Space Force Base - Vandenberg Space Force Base (.mil)",
-      "kept_feed": "Google News — space",
-      "kept_link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQQTROSXlSMzduQXhPZHRxbU5zSnM2LVJnRVJkMmZlVnpGMTR0TC1SMDFtWmRXVFB1aVNwZkhLZHotV1JqTkZMUFhVVEJXai1aVTZBcUxmQktjRVN2WHBFTXZBRmw1Qnd5MjM2eFNobnJpWmoxYjEyblh0OEhFd2wxbmNOMVJ1RnVhMkV1UXQ1Um9ZekxQbmxmc2ZLa3BRakIxMXg2SmluOGhiVHJFUmpIRi1raDRQZjBDUk8tVlMzR2c2ZU1wSkhyR1pDZk5SbFdWZE5CYnJHMi1nMXhDLXc?oc=5",
-      "dropped_title": "USSF CSO Gen. Schiess Promotes Guardian Ethos at SSC All-Call - Space Force — Space Systems Command (.mil)",
-      "dropped_feed": "Google News — space",
-      "dropped_link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPekNZeVdlZWs0LVlXSjJNc2tmR0RrLU1TdVpkOEFpSFllQ1c0SnhpTFVmMVhNdDE3S3lEdlk4cGNXdkJhd0RmWXRQeVpSeEV0ZWRnOUpkNk1LdnF5TWRrOTBkVGRLV09aNndyRU1GOUVlajJSWVNZb3Zud2ZnSUk3UXpQSjNXejN2aWV0ZkJsR0VGQ19SeTVMSmktZ0d6czZZdnRUYkhHUjBMLXRfaTd6SHBTdTQ3M28?oc=5",
-      "signal": "aggregator-event"
-    },
-    {
-      "kept_title": "Pope Francis' diary recounts spiritual crisis, visions of Satan and Hell: 'Eyes of fire' - Christian Post",
-      "kept_feed": "Google News — spirituality",
-      "kept_link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNejE4WGt1elpwSDBnYlZtNjgzMUtrZURoY25SeEdfS2J1OVFaQXYxajNxdktIbzl0OEo5cHRWVGh0WTAyTHF4SVNzQk9wVEkyVF91RDY5MlZSOW1zdlBsM2U4cFFoRUs2T3JoeHczbXRFVkM0QU5OdFdxQjV5ZkpRa2V2R0pwd0hWaG9EUC1WMTQ0Tkh2M1lnTlhiczZtZDJ2cXpB?oc=5",
-      "dropped_title": "Pope Francis described profound spiritual crisis in private diary - upi",
-      "dropped_feed": "Google News — spirituality",
-      "dropped_link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNMG9KTWV2c2VqaTFEbWtLVUw1ampUaDhHREFSOWJia0JfSHdST2FRZFZ2X2hGb0JGelRkbzZiamdEOVo3bk9WWjJiYWJjWXN3M1J1MGF3TllpRGtmNHg0aHJNWUV0eXk4Y2tVNzlLZ3Y1SzQ2bmwyU1lwUTE3aC1tMkFUWnBNYnNnQ0pkUEEzejdReWE2Rll3YmFjNmFvZm5abXppWXFIR0RJWV95S2RJ0gG0AUFVX3lxTE9QUDhubkl4V2NxOW5KSkRwRk12d1VENzk0WEhuaFdsYUVDOXl6VUdIVGFBbUhiVTlERlkxVHppQ0puaVluNXNtdHptbElGUTdvSXMzLUZ0TzZXT2NFelRoejZKZlFITHVtOUxvcHpJb2dNTjJ1YjMtOXEtUlNyaHc2dGo0Sjl3b29LeUtpdlAwME5oSnhFUFJweXpuZU1GMUg0dzN6X0tGU1FZUk5GZ3AwaUtHUA?oc=5",
-      "signal": "aggregator-event"
-    },
-    {
-      "kept_title": "California Extreme Weather - The Bakersfield Californian",
-      "kept_feed": "Google News — extreme weather",
-      "kept_link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPZ3htRS1EUkhCcV9KZXotMEpmc0gtRUF1bE16WFBaVW9yd21VUjZSdnN4VkVlNmFXbFh5Tmd4OEFIUXB2MjVqRXAyZ24tQ2JaaXJCWE1Mejg5czN2NnlUMGVyZUJpQTVwRXV3YWI4cUtsLVZhY3BxZFRNcmIwMXhBSWdscV9HVHZrU3pCbTNMdmhsUi1iZFVScE4wQjl0QjRjY0tNSHN0b2w1b2twQnlCMGhoRWtKSlVvTnc?oc=5",
-      "dropped_title": "California Extreme Weather - WV News",
-      "dropped_feed": "Google News — extreme weather",
-      "dropped_link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQOUlFeXFBdjdOYmdTY0E2U3FoOFNacDFGVVROUnVDdFpNU09hMDIweWZ2OWJuSXJxWFRzTW5BMjNWMWhtMVhTbG5SWXRXYUlxcV9aQjd4SElaaXRvTkNVWEV3aUxtdTlfRWhSbkNtUFRXSmNqTGw2VEowZGd5OGdlajdxY3pDaTVYT3lJbDlIa29HVmt0el9DVml6Sk9UaVg2WlgzamFxZ0tCbU1iZmc?oc=5",
-      "signal": "title-similarity"
-    },
-    {
-      "kept_title": "Companies are getting less accurate data on extreme weather just when they need it the most - Indiana Gazette Online",
-      "kept_feed": "Google News — extreme weather",
-      "kept_link": "https://news.google.com/rss/articles/CBMihwJBVV95cUxNZHloV2lQLTNzbUNQdzY4ZjU2NFc2OHNXMVF2NUQ2dDJKcEZha0trZHNCSnFkdzNhRlBzTHFTa0xLc1VGTXdUYXlMRmE5dzA1SklpR2swcTVrZHZDV1A3SUhEekF5bDhmSEpNczMyLUFGUFNQNWVNWEFKSlgtOWRhdWt4ejFxYkdxclVULXdsNVd0MUR1QW5ySEN4M05EdlBmUkN0cWFzQnoxM3VJdXhOSFVERVA4Y3JvNWpmN3pGaGlhX3l0N3hWckFRQTdiOVE3TlFOYVhqLVAwNlpDN2lTMG9uUndDNlNQVU5qcEtpQU5NTnBGSVp2bmw3SVdTR2IwWWYtcXRmdw?oc=5",
-      "dropped_title": "Companies are getting less accurate data on extreme weather just when they need it the most - swiowanewssource.com",
-      "dropped_feed": "Google News — extreme weather",
-      "dropped_link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOdkFRRUwzUmRyWXZJTnp1TDc2QzZTZ3REZjYxY3U5eG1QMGNUQjZDaU5aZ2p0b1lTMmQ0NnBDa1cyUkxUOGxJLVdKNW5EbURYdzNReWlOSjFWMGFmS0JSenRQYjNzZlUxbzlRYW1mVUJpdXl3LUpTeEo5aXFqWERCWUdjZExzbS1yNEV4bXB0UG1ZOXZ2UjdIUjd3?oc=5",
-      "signal": "title-similarity"
-    },
-    {
-      "kept_title": "Amateur Astronomer? Be a Kilonova Catcher!",
-      "kept_feed": "NASA Breaking News",
-      "kept_link": "https://science.nasa.gov/get-involved/citizen-science/amateur-astronomer-be-a-kilonova-catcher/",
-      "dropped_title": "Amateur Astronomer? Be a Kilonova Catcher! - NASA Science (.gov)",
-      "dropped_feed": "Google News — astronomy",
-      "dropped_link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQTWpNSG1mS1VDWVctRFFJcGRlcDI5eUdQTDExcHpDLWxBdDBUY1c3ajkxSEtDeVdHSmR3OUJXWFhLQzJTLVg3dVUtMk54M1hZRUhVcENFaThsLU5ZQnE4WmtjOVZKWHRMSEd2UXVrTmhyTGdlZ3pPdGZYcmd4ZV9lRDAzUEdXVkF0NjNHa1J6N2xFSWJCRXRJRUN4SQ?oc=5",
-      "signal": "title-similarity"
-    },
-    {
-      "kept_title": "Companies are getting less accurate data on extreme weather just when they need it the most - Indiana Gazette Online",
-      "kept_feed": "Google News — extreme weather",
-      "kept_link": "https://news.google.com/rss/articles/CBMihwJBVV95cUxNZHloV2lQLTNzbUNQdzY4ZjU2NFc2OHNXMVF2NUQ2dDJKcEZha0trZHNCSnFkdzNhRlBzTHFTa0xLc1VGTXdUYXlMRmE5dzA1SklpR2swcTVrZHZDV1A3SUhEekF5bDhmSEpNczMyLUFGUFNQNWVNWEFKSlgtOWRhdWt4ejFxYkdxclVULXdsNVd0MUR1QW5ySEN4M05EdlBmUkN0cWFzQnoxM3VJdXhOSFVERVA4Y3JvNWpmN3pGaGlhX3l0N3hWckFRQTdiOVE3TlFOYVhqLVAwNlpDN2lTMG9uUndDNlNQVU5qcEtpQU5NTnBGSVp2bmw3SVdTR2IwWWYtcXRmdw?oc=5",
-      "dropped_title": "Companies are getting less accurate data on extreme weather just when they need it the most",
-      "dropped_feed": "The Conversation — US",
-      "dropped_link": "https://theconversation.com/companies-are-getting-less-accurate-data-on-extreme-weather-just-when-they-need-it-the-most-295737",
-      "signal": "title-similarity"
-    },
-    {
-      "kept_title": "Companies are getting less accurate data on extreme weather just when they need it the most - Indiana Gazette Online",
-      "kept_feed": "Google News — extreme weather",
-      "kept_link": "https://news.google.com/rss/articles/CBMihwJBVV95cUxNZHloV2lQLTNzbUNQdzY4ZjU2NFc2OHNXMVF2NUQ2dDJKcEZha0trZHNCSnFkdzNhRlBzTHFTa0xLc1VGTXdUYXlMRmE5dzA1SklpR2swcTVrZHZDV1A3SUhEekF5bDhmSEpNczMyLUFGUFNQNWVNWEFKSlgtOWRhdWt4ejFxYkdxclVULXdsNVd0MUR1QW5ySEN4M05EdlBmUkN0cWFzQnoxM3VJdXhOSFVERVA4Y3JvNWpmN3pGaGlhX3l0N3hWckFRQTdiOVE3TlFOYVhqLVAwNlpDN2lTMG9uUndDNlNQVU5qcEtpQU5NTnBGSVp2bmw3SVdTR2IwWWYtcXRmdw?oc=5",
-      "dropped_title": "Companies are getting less accurate data on extreme weather just when they need it the most - The Conversation",
-      "dropped_feed": "Google News — extreme weather",
-      "dropped_link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNNjRqSFdaRFpsYldmYnBNVDJjaUEwTnFfSk5QdkxUcmZ5VEhMUGNXV2RMTkxlZHJKYWswY09Ubk5MbWhEX200TzY1VHRSY3UwSXJWRThEcC1VbzFoNkJybG5yRGNIRk8tbDBGejVmYjVIOGhLS1BITGt2LUdfQVJHU2IyODJmYWoxdE9QUXNOV0xUdmpDZG9WTUxZY19WZUJEc1JNYi1mYWpmUXVmWjNoSFA5dW1XMjNMelZIMUtIMGE5SjVC?oc=5",
-      "signal": "title-similarity"
-    },
-    {
-      "kept_title": "1st-ever detection of a dying star's 'final nuclear heartbeat' challenges what we know about our sun's eventual death",
-      "kept_feed": "Space.com",
-      "kept_link": "https://www.space.com/astronomy/stars/1st-ever-detection-of-a-dying-stars-final-nuclear-heartbeat-challenges-what-we-know-about-our-suns-eventual-death",
-      "dropped_title": "1st-ever detection of a dying star's 'final nuclear heartbeat' challenges what we know about our sun's eventual death - Space",
-      "dropped_feed": "Google News — astronomy",
-      "dropped_link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQamQyRW9UOGNIRDRkRGJQWGJ5ZFR6RDhISHo4VVlLODNMemhGVzBTZ3FwT3p3dnA5eDRYVDdFbUFPdFZZUklkekh0c1dac1kyTV8yTkhtT0tSUWlZOEhDQTBwVDZUUXZzYnhPZjNaRWFUUUZQSjVDTTVHNl8ybmZZYUQzWDVFU3RKNGtTSXVwYjRUTENYRmlGOG5lX2RRWDZXd0tZSVVIUU5tbi15YWRMel9PeUU2Um9FdERQcDhtNTVYSjh1SVlDUnAtMzFyMFM4TEZidWFYNnJMZThoUzlVMUZEano3QQ?oc=5",
-      "signal": "title-similarity"
-    },
-    {
-      "kept_title": "California Extreme Weather - The Bakersfield Californian",
-      "kept_feed": "Google News — extreme weather",
-      "kept_link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPZ3htRS1EUkhCcV9KZXotMEpmc0gtRUF1bE16WFBaVW9yd21VUjZSdnN4VkVlNmFXbFh5Tmd4OEFIUXB2MjVqRXAyZ24tQ2JaaXJCWE1Mejg5czN2NnlUMGVyZUJpQTVwRXV3YWI4cUtsLVZhY3BxZFRNcmIwMXhBSWdscV9HVHZrU3pCbTNMdmhsUi1iZFVScE4wQjl0QjRjY0tNSHN0b2w1b2twQnlCMGhoRWtKSlVvTnc?oc=5",
-      "dropped_title": "California Extreme Weather - WV News",
-      "dropped_feed": "Google News — extreme weather",
-      "dropped_link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPQ284c25sZ20zdXo0aGZTSDZyUHFub2t1VGpWMTd1MjFPMVFaR2huNlJWNGZDZ1FPVGw2SER0czhhM095eTY3MmZzeUs0TnhZakRFMjFKa1lnOFIxWXBKWVp6cEJJYnhadTYwNmN2WHp3VWU0eUFOTTEydHd1NnZYaXdXZ1dKbFpZVHctTGhPdDZiRGdkekFtSk1jb280VlplU1hneGJISHRDQ3FScHc?oc=5",
-      "signal": "title-similarity"
-    },
-    {
-      "kept_title": "Daily Horoscope for November 25, 2026 - Sun Sentinel",
-      "kept_feed": "Google News — astrology",
-      "kept_link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOWHlpc1ZMM1MyaGRuQ2hhU2M1cVRtX3lPdmNhYUZSNlNBMm9BX09mdUZqSWdLUTVnTndoc19qUGZCN1o4SG1oVzRNVDBsMTJJNnY4dk9Xd2ZrcGc5MVlXWkNTMkNkRHR5TU1Jb0JZU0lNRm4tZUdrMy1icjZoTDlXbE16NA?oc=5",
-      "dropped_title": "Horoscope Today: Daily astrological predictions for November 25, 2026 - The Times of India",
-      "dropped_feed": "Google News — astrology",
-      "dropped_link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQdnZ0Ul94VkVkZmN2ZGp1ME9mTWJ5VGNEVGVMckczQklDdjY2WGZ0dDNhR1NmXzBTaXJwTDgtdlM0YzBWUVlhN21aVmVKcklHSEdabUtwSkdXdmw2Zzl1S1BfdUVXNUpSSy1TZmtBNVVVUWNVOENKdk13ZDZSLWhDbVI4elhObWlzR3JzTENYa1hFeVZQSmRWbVdlSmFzNGd3YzZrdWprVXM1aWk5S0M0M0IzSDQwVWU5aE1ndnZOakZMVnFrOEkwaU9SZDhoTEtkSHVlMWJicmxjdy1RWkR2aG1wWdIB6AFBVV95cUxNdmpadDAzX1VrejdFSTBILVJsRkFQcXQ3S3JpYUhJeEpvbmdGOFdMdWtwZ0lhV2FxNWItbVQ3elVRS0lWWjJBeEIzR0RDanFoRWtNbHZwS2pGNWYtVWRFQkZVMENhQXZRLTlhYnkyT0VMcUNydEE5RU1XV0pwamdfWEZIa0F0LWNCVFE1emJxdGpoSVBDSkN3Z091MVVPb2JqT0dObGRjeWQwdkpQcjktdm5JVVljRWZDTWl5TWtXQnVvaC1id2pIU05iSlhRWlltMGV6WElKQlg4V3FYckxRTEU0U1pIakZm?oc=5",
-      "signal": "title-similarity"
-    },
-    {
-      "kept_title": "Webb Reveals New Details in Supernova Remnant",
-      "kept_feed": "NASA Image of the Day",
-      "kept_link": "https://www.nasa.gov/image-detail/cas-a-webb-miri/",
-      "dropped_title": "Webb Reveals New Details in Supernova Remnant",
-      "dropped_feed": "NASA Breaking News",
-      "dropped_link": "https://www.nasa.gov/image-article/webb-reveals-new-details-in-supernova-remnant/",
-      "signal": "title-similarity"
-    },
-    {
-      "kept_title": "Pope Francis' private diary reveals a profound spiritual crisis - Fox News",
-      "kept_feed": "Google News — spirituality",
-      "kept_link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFB3TVNUU2JxWEhMOEk3ZlhSVzQ1dWg4Tkc0V19WOXFsbEwydDVKcHA1WlZaSkRLTlc4WXZzVUZYYk5pUFZMWFdOZjFNVERfWWdZamJkR1d3?oc=5",
-      "dropped_title": "Pope Francis' private diary describes a profound spiritual crisis and encounters with the devil - Los Angeles Times",
-      "dropped_feed": "Google News — spirituality",
-      "dropped_link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQOU41alZZRHdzTGlxODlCNXhhVWhqaTl1Ty1SdHBIZnBsSHF4a3JUWjVDTGZGcWZOenNVNzRRdmhIQk1TNUZzM2pEeEtPQzhQZ3JrV3JrOE5VQm5xWWQwZng0S3RPeEp1TnlTejZiYVliUUkwMnNpTlFXOTNodUlVQTNqUDhMaERIcjFIWE9mYjctQUZVRml3Wkpfc2oxQjhxUFVHMWdXOW4zWnlMZlZRMlh5dmw3MTlIWkVBSm5fNE9ZcXE2bWk4MkdHYzk3UDYtN05EYg?oc=5",
-      "signal": "title-similarity"
-    },
-    {
-      "kept_title": "Astronomers catch ‘galaxy-killing’ wind in the act - Astronomy Magazine",
-      "kept_feed": "Google News — astronomy",
-      "kept_link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNOEgzSUFlc2FNVkMwRXp5ZlE5clVqeEF5ZmR6a0Nia0N3ejZBNlY1VW1tOENEWUdqc1oxZU9OWmVpZ0dfVXV5Y3F6YW8xQUNXVDVVdzdHaXVJSnNnYkdjaTBSWWZFa1d3V2FpcjRFSHVHTXRPQ2FiMVJ4d3VUdzZMMFh2YXlLTGlLZ0Ew?oc=5",
-      "dropped_title": "Astronomers catch ‘galaxy-killing’ wind in the act",
-      "dropped_feed": "Astronomy Magazine",
-      "dropped_link": "https://www.astronomy.com/science/astronomers-catch-galaxy-killing-wind-in-the-act/",
-      "signal": "title-similarity"
-    },
-    {
-      "kept_title": "Sideline Trainers and Loss of Consciousness Cut Odds of Delayed Concussion Removal - Bioengineer.org",
-      "kept_feed": "Google News — consciousness",
-      "kept_link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNYjNDcDZ3ckhEdklpU2ZUODFYejJnMlN0dXVjSHFkYUQxTVd0UjZIQnd2clVzM1duTUc5bXVtU2xtTy1JUHh4NUF3T09ULW1SR2JUMFI4dU4xTWNiVFkwdjB6R0J3QkEzcDRoOTByRlFlYm5jY3p6YnhKbkt1SG91S2VJY2VKeWxVSFJranllUWpIZkNqRkN5ZlV0N0VteWRHSFVsMGlnSTJWRm8?oc=5",
-      "dropped_title": "Sideline Trainers and Loss of Consciousness Cut Odds of Delayed Concussion Removal",
-      "dropped_feed": "Bing News — consciousness",
-      "dropped_link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6b0678dcf3f14d768a6e0ec69b6209f7&url=https%3a%2f%2fbioengineer.org%2fsideline-trainers-and-loss-of-consciousness-cut-odds-of-delayed-concussion-removal%2f&c=16733295744144066129&mkt=en-us",
-      "signal": "title-similarity"
-    },
-    {
-      "kept_title": "Why mega-constellations have a hidden space junk blind spot",
-      "kept_feed": "Phys.org — Space News",
-      "kept_link": "https://phys.org/news/2026-11-mega-constellations-hidden-space-junk.html",
-      "dropped_title": "Why Mega-Constellations Have a Hidden Space Junk Blind Spot",
-      "dropped_feed": "Universe Today",
-      "dropped_link": "https://www.universetoday.com/articles/why-mega-constellations-have-a-hidden-space-junk-blind-spot",
-      "signal": "title-similarity"
-    },
-    {
-      "kept_title": "SpaceX launches secretive spy satellites from California for US Space Force (video)",
-      "kept_feed": "Space.com",
-      "kept_link": "https://www.space.com/space-exploration/launches-spacecraft/spacex-launches-secretive-spy-satellites-from-california-for-us-space-force-video",
-      "dropped_title": "SpaceX launches secretive spy satellites from California for US Space Force (video)",
-      "dropped_feed": "Bing News — space",
-      "dropped_link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6b0678dcc0f144f8a67680e623fef437&url=https%3a%2f%2fwww.space.com%2fspace-exploration%2flaunches-spacecraft%2fspacex-launches-secretive-spy-satellites-from-california-for-us-space-force-video&c=10144469549831585076&mkt=en-us",
-      "signal": "title-similarity"
-    },
-    {
-      "kept_title": "China's Shenzhou-24 mission launches 1st international astronaut to Tiangong space station - Space",
-      "kept_feed": "Google News — space",
-      "kept_link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNVUtWRWNzbmYyLWtyQmlxeTlnc3MyREZpdzhhQlhVS0Q3d2hMMFdsdnhpZjU3d0tOMFEzLTJpVS1MUFpCLUJIY2Itc1lHc2JWRHFNUTJDM0NKckxEN1hYQThCVF9jM2x3LVB0bnZFbzBBcjltcWwxNTQ2YUdwUTQ2UmtYajk2NHNkcHBWTjZFZW54M25jQnA0OUtWYmEtMUtOOWRWU0hjYkI4TG0tNU5nM2RRZ3V1OWV3d0hLSENLMktfMk90VFBJa1dYQmpfR0xr?oc=5",
-      "dropped_title": "China's Shenzhou-24 mission launches 1st international astronaut to Tiangong space station",
-      "dropped_feed": "Space.com",
-      "dropped_link": "https://www.space.com/space-exploration/human-spaceflight/china-shenzhou-24-first-international-astronaut-launch-tiangong-space-station",
-      "signal": "title-similarity"
-    },
-    {
-      "kept_title": "NASA Hubble's new view of NGC 4394 raises the bar",
-      "kept_feed": "Phys.org — Space News",
-      "kept_link": "https://phys.org/news/2026-11-nasa-hubble-view-ngc-bar.html",
-      "dropped_title": "NASA Hubble’s New View of NGC 4394 Raises the Bar",
-      "dropped_feed": "NASA Breaking News",
-      "dropped_link": "https://science.nasa.gov/missions/hubble/nasa-hubbles-new-view-of-ngc-4394-raises-the-bar/",
-      "signal": "title-similarity"
-    },
-    {
-      "kept_title": "On this day in space! Nov. 24, 1947: The US Navy launches the 1st Aerobee sounding rocket, but it didn't reach space",
-      "kept_feed": "Space.com",
-      "kept_link": "https://www.space.com/space-exploration/on-this-day-in-space-november-24-2026",
-      "dropped_title": "On this day in space! Nov. 24, 1947: The US Navy launches the 1st Aerobee sounding rocket, but it didn't reach space",
-      "dropped_feed": "Bing News — space",
-      "dropped_link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6b0678dcc0f144f8a67680e623fef437&url=https%3a%2f%2fwww.space.com%2fspace-exploration%2fon-this-day-in-space-november-24-2026&c=6553477253955644925&mkt=en-us",
-      "signal": "title-similarity"
-    },
-    {
-      "kept_title": "2026 Full Moon calendar: When to see the Full Moon and phases - Astronomy Magazine",
-      "kept_feed": "Google News — astronomy",
-      "kept_link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5mN3k3Z1FhTWk5UWdZdzdUVkd4alJHSHowcG1xSlFtRDdYa25NdkZmV2p4WEN5WVhEV1FJRWdKLUZaU3Rzdmk3QjMzN1NiMEt1aHpaQjJCODJxN3FkZmdEeHBMMEpMalFWUk5nNlVvZG9wWjA3TllIR0piUFdudw?oc=5",
-      "dropped_title": "2026 Full Moon calendar: When to see the Full Moon and phases",
-      "dropped_feed": "Astronomy Magazine",
-      "dropped_link": "https://www.astronomy.com/observing/full-moon-calendar-dates-times-types/",
-      "signal": "title-similarity"
-    },
-    {
-      "kept_title": "The Download: AI’s gas power boom and a consciousness reality check",
-      "kept_feed": "MIT Technology Review",
-      "kept_link": "https://www.technologyreview.com/2026/11/24/1149669/the-download-data-centers-gas-ai-consciousness/",
-      "dropped_title": "The Download: AI’s gas power boom and a consciousness reality check - MIT Technology Review",
-      "dropped_feed": "Google News — consciousness",
-      "dropped_link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOTmVqR01aa1R0T3BjcWk2ZTc3N2Y3V3pXNEFvSzB0aFlGTFVnT0RZWWN5N1QxUFlDZktwUUtta3BsM0ZjY2xpcW1NT0N1OWdwTHZKMFdoMk1JY0sxWm9qS2MwMGJzRkUwRGxyWmV6a3I3bEtaTXB5b2JYQW55azFKREJxU1hyUVFCQ0dIVUJvMzk5U0ZkWnFmbFg0ZGZwaG5P0gGmAUFVX3lxTE96ODdIc1dpUmVsbElpcjBPQjU5LTl3R2dFY2lQQVF3WDgwclhnWUczcWZLMkFNazNZU3ZxTE9UZ2tsYWVtOWVEUnM3NmIwSHp6VnJRakQ1WDJDUU5pMG8wa3pNZm1vLU1QSC1SN3ZjeXRESXVvaWlqYnlxa0VMbzcwZjRmd0NRNzNGSkVvR1pmMEhLVGQ1LWI5N0FLRmVvTlJwT2ZKV3c?oc=5",
-      "signal": "title-similarity"
-    },
-    {
-      "kept_title": "Watch November's full Beaver Moon live online today with supermoon livestream",
-      "kept_feed": "Space.com",
-      "kept_link": "https://www.space.com/stargazing/watch-novembers-full-beaver-moon-live-online-with-supermoon-livestream-nov-24-2026",
-      "dropped_title": "Watch November's full Beaver Moon live online today with supermoon livestream - Space",
-      "dropped_feed": "Google News — space",
-      "dropped_link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOZFdVeFVRa1F3VXl3c2tfbmI3X2N5Tzd0b1hjU084RHdBbVBpZHgyQkNPN25Vdmc5Rzdwd2VxcUtfOHlEeXNhR3RucGYwN1RXUXNqVjNKajRxcDNHaDA3MmpoamZyeU9tOEJ6aHEzbUNhSklrMkk1RDNjbEVJYWZaa2FsVXZyY0EtdlRxMFpGVEEyMGZNcHpEb3ZJWFpmbzBDTUMxMHo0TFRQcTBmLVVnRkthdFltQQ?oc=5",
-      "signal": "title-similarity"
-    },
-    {
-      "kept_title": "'Blade Runner 2099' executive producers talk architectural easter eggs and franchise continuity for Prime Video's new sci-fi series (interview)",
-      "kept_feed": "Space.com",
-      "kept_link": "https://www.space.com/entertainment/blade-runner-2099-executive-producers-talk-architectural-easter-eggs-and-franchise-continuity-for-prime-videos-new-sci-fi-series-interview",
-      "dropped_title": "'Blade Runner 2099' executive producers talk architectural easter eggs and franchise continuity for Prime Video's new sci-fi series (interview)",
-      "dropped_feed": "Bing News — space",
-      "dropped_link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6b0678dcc0f144f8a67680e623fef437&url=https%3a%2f%2fwww.space.com%2fentertainment%2fblade-runner-2099-executive-producers-talk-architectural-easter-eggs-and-franchise-continuity-for-prime-videos-new-sci-fi-series-interview&c=17675290674552187553&mkt=en-us",
-      "signal": "title-similarity"
-    },
-    {
-      "kept_title": "2,200-year-old Roman shipwreck reveals an ingenious waterproofing trick - Science Daily",
-      "kept_feed": "Google News — ancient civilizations",
-      "kept_link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5UY3JQUVBZdkhZeGFVdUVQeVlUNUkzRzdlSnN4a1N3ZVVkOXJ1MHR0Yng0S3ZiWUtpT1kyMlNyeDVzN0VMMHNvVXhaODI1M2ZvM2M2VFJGTXEwSFlBTF9qcERFRElYX1BJVUJlaTBKOA?oc=5",
-      "dropped_title": "2,200-year-old Roman shipwreck reveals an ingenious waterproofing trick",
-      "dropped_feed": "ScienceDaily — all",
-      "dropped_link": "https://www.sciencedaily.com/releases/2026/11/261123232342.htm",
+      "dropped_link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNbUNDa1I5NlZaa2hiOFJGSHJlOHkyU3QtMEl0S2lvbGNlTWhJdGd6TzA3TV9VV0p2azc3OUZWeU0zLWtZbjZ3dlc5SXAxSklBbmlOeU5GcFdhMzZWbnJPTExMWG9KcElUOUotS3BGMDJmS2xVVV95MjFiYzdFTEcwOE1DU0tRY1ZmTzFHQ2pvYmFQUVY4dmRCb2tERDZZZV9IMWpLUTA0NXFNYnlwMm1UaTJyaXE2bThCMDRza1JDZlg?oc=5",
       "signal": "title-similarity"
     }
   ],
-  "articles_written": 261,
+  "articles_written": 265,
   "excerpt_over_limit": 0,
-  "images_logged": 148,
-  "images_usable": 7,
-  "images_hero_eligible": 7,
+  "images_logged": 139,
+  "images_usable": 1,
+  "images_hero_eligible": 0,
   "terms_breakdown": {
-    "full_text": 47,
+    "full_text": 32,
     "abstract": 0,
-    "excerpt": 214
+    "excerpt": 233
   },
   "topic_breakdown": {
-    "Space & Astronomy": 71,
-    "UFOs & UAPs": 9,
-    "Consciousness": 88,
-    "Near-Death Experiences": 3,
-    "Physics & Preprints": 6,
-    "Science & the Future": 84
+    "Space & Astronomy": 70,
+    "UFOs & UAPs": 6,
+    "Consciousness": 82,
+    "Near-Death Experiences": 2,
+    "Physics & Preprints": 8,
+    "Science & the Future": 97
   },
   "articles_without_topic": 0
 }
