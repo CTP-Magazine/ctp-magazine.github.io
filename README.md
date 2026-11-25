@@ -54,7 +54,7 @@ There is **no open submission form**. Bloggers contact the magazine to set it up
 
 ## The site
 
-Built on the CTP-EOS template — same format and structure, same 41 themes, same left and right column modules, mobile-friendly throughout. A media player sits at the top of the right column. The footer carries the full privacy, copyright, publication, and syndication information.
+Built on the CTP-EOS template — same format and structure, same 52 themes, same left and right column modules, mobile-friendly throughout. A media player sits at the top of the right column. The footer carries the full privacy, copyright, publication, and syndication information.
 
 ## Related
 
