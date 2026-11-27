@@ -145,7 +145,7 @@
               var more = document.createElement('a');
               more.className = 'a-more';
               more.href = url; more.target = '_blank'; more.rel = 'noopener';
-              more.textContent = 'Read more at ' + (src || 'the original') + ' ↗';
+              more.textContent = 'Read more at ' + (src || 'the original');
               card.appendChild(more);
             }
             listEl.appendChild(card);
