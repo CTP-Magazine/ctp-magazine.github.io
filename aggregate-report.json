@@ -1,8 +1,8 @@
 {
-  "generated": "2026-11-27T05:43:52.687184+00:00",
+  "generated": "2026-11-27T20:26:45.950606+00:00",
   "date_checked": "2026-11-27",
   "feeds_total": 114,
-  "feeds_succeeded": 112,
+  "feeds_succeeded": 110,
   "feeds_failed": [
     {
       "num": 17,
@@ -15,64 +15,346 @@
       "feed": "Everyday Astronaut",
       "url": "https://www.everydayastronaut.com/feed/",
       "error": "ValueError: returned an HTML page, not a feed"
+    },
+    {
+      "num": 58,
+      "feed": "Space Policy Online",
+      "url": "https://www.spacepolicyonline.com/feed/",
+      "error": "ValueError: returned an HTML page, not a feed"
+    },
+    {
+      "num": 60,
+      "feed": "UFO Joe",
+      "url": "https://www.ufojoe.net/feed/",
+      "error": "ValueError: returned an HTML page, not a feed"
     }
   ],
-  "items_fetched": 1874,
-  "duplicates_removed": 63,
-  "near_duplicates_removed": 41,
+  "items_fetched": 1850,
+  "duplicates_removed": 55,
+  "near_duplicates_removed": 39,
   "near_duplicate_groups": [
     {
-      "kept_title": "Storms across US disrupt travel and force Thanksgiving parade cancellations - The Guardian",
-      "kept_feed": "Google News — extreme weather",
-      "kept_link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPTFcwRlp6TFNsWnE0UXRMQkdYbzZJOU82NDR6TVVmYnE2aGhSWnVBV1BEU0NqbExKLTJib3RVQ2FDWUpPZ1FjSVgwVzZYYUhqZjJDV1QwQUUyUGdYc3hwbXNKNC1SNld1Y01vaFVQdXFvVUdvNVNqV1pQNEw0SGZfaEY3UEMtczVLR0tLaHNGdXZtX1dCTUx6WWhvWTdmdXJIWWdWag?oc=5",
-      "dropped_title": "Major Thanksgiving storm brings flooding, flight delays across US - BBC",
+      "kept_title": "When bad weather hits a fragile financial system",
+      "kept_feed": "Phys.org — all science",
+      "kept_link": "https://phys.org/news/2026-11-bad-weather-fragile-financial.html",
+      "dropped_title": "When bad weather hits a fragile financial system - Phys.org",
       "dropped_feed": "Google News — extreme weather",
-      "dropped_link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE45bUpwdlMwTTBqVE5uMnQ0TXQyQ0hnLUVlU1B2akk2bmxaMTQyUG9BOG1xaFE4RUpERmlMS3NQVGJ6ek84Um1UX25PTWJ5Z0Jzd1FaamtsWlZjcjg?oc=5",
+      "dropped_link": "https://news.google.com/rss/articles/CBMickFVX3lxTE53ZDFWYkdHaEVEY01zemZ5ak5xaGF1N0NiWmJIN3AzVFpSNVBza3FxX1lOMUkwaEQ2WFc1WVIyLS1LYmI2NnVmQjIxM0RLMW5scGl0Wk9FRHpaaDdvY3Q1VkJvT3hCNndWY0ZORERrM3BtQQ?oc=5",
+      "signal": "title-similarity"
+    },
+    {
+      "kept_title": "New Jersey Extreme Weather - The Northern Virginia Daily",
+      "kept_feed": "Google News — extreme weather",
+      "kept_link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPbUJZUVJmTWk0T1Z2TFpYWi0wRlVmNWNveTNSbkdTa1BkSkk2ZGFKNi15NGVIODRfTG4wUEJLRGc1SlFfTy1KMHZRbXFRVVE0VldQUUllQU0wWEYwTkRpRjQtRUVQalY1aUZ0UXpMMnYtb1psZWRXWFozUjFBYUJZbGMtRnVJZzdLVjVtMG9aTGNidXZIcXRsc3JKS0tvY1ZLLU9RNENnWWlCbldYNWZ3R0l5aFJ5RlJ5LXR3M2kxOHNLdw?oc=5",
+      "dropped_title": "US Delaware Extreme Weather - The Northern Virginia Daily",
+      "dropped_feed": "Google News — extreme weather",
+      "dropped_link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNdmhjMHNZOExWbkF3S0J5ZEtkMXladjBQR3F2dWhwamtkR1dtajVybjN5clNiWkV0ZTYzV3RvblNPbGVjMGloSzc3NUpUTkdScWlqWmRscDN0b1hCbU9KbHU0VmpIRjEtUFVFTVdLcVItazhOMzdYRENpOV81X2ZXRW5jRk9lNXI1Y1hYLWdsVURHMmc4UGlaSUs2dHREbFBWdVpadXFMNHM1OEZWT1pOOF9YdlFTWDVYQThoc0J4Zk5lTFE?oc=5",
       "signal": "aggregator-event"
     },
     {
-      "kept_title": "Daily horoscope for zodiac signs: Astrological predictions for today, 27 November 2026 - Lifestyle Asia",
+      "kept_title": "New Jersey Extreme Weather - The Northern Virginia Daily",
+      "kept_feed": "Google News — extreme weather",
+      "kept_link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPbUJZUVJmTWk0T1Z2TFpYWi0wRlVmNWNveTNSbkdTa1BkSkk2ZGFKNi15NGVIODRfTG4wUEJLRGc1SlFfTy1KMHZRbXFRVVE0VldQUUllQU0wWEYwTkRpRjQtRUVQalY1aUZ0UXpMMnYtb1psZWRXWFozUjFBYUJZbGMtRnVJZzdLVjVtMG9aTGNidXZIcXRsc3JKS0tvY1ZLLU9RNENnWWlCbldYNWZ3R0l5aFJ5RlJ5LXR3M2kxOHNLdw?oc=5",
+      "dropped_title": "APTOPIX New Jersey Extreme Weather - The Northern Virginia Daily",
+      "dropped_feed": "Google News — extreme weather",
+      "dropped_link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOdGZ5MmNNVmREVFhoVjlJcUktZGIwcVNBNVNCWDg0YWRVeXJYTTJDQ0pmSEJ4RzZVcjNERHprYW1EeTdUdTc4aFVBUVpBaF8tRTFSMnFqcmZIMUVVcE03b3pyb3c4VnJEVXI4QU5vcjRBNzdyYkJ6M21HRWlLNTl2X0xPNmJqbE5CdktrSE1uSGd6Q1poLXBSQmFfcE92aDdkQ3UwQmwtcXBLdWFLdHdIbjhsbUFnMDU3TUNqcU9pVEZOQQ?oc=5",
+      "signal": "aggregator-event"
+    },
+    {
+      "kept_title": "The lowest price ever on the Canon EOS R6 II tops some of the best Black Friday camera deals we've seen today",
+      "kept_feed": "Space.com",
+      "kept_link": "https://www.space.com/stargazing/astrophotography/the-lowest-price-ever-on-the-canon-eos-r6-ii-tops-some-of-the-best-black-friday-camera-deals-weve-seen-today",
+      "dropped_title": "Black Friday has seen this camera drop its lowest ever price - Space",
+      "dropped_feed": "Google News — space",
+      "dropped_link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxNYlFjX0o3c3lDcGsxTnZZQWRscXBERFNxUlhVUU9KdGVERWNaVEp0X3FUV1pfa0JoaWxObVZoWmd2cFhHVU1jbzJVblliOHVhSGFHT3M2ZkNLajZMTmhBMEUzWkFKb2NWS290ZWoyZkxldElSajBXSU1kSFBNOXh3RXR6RmU5OG81M2V2bzAySTRnMnNHazRuMjdEN3JOOEowTVlzOG5LQ1JTeGNQaXFpVzFJYVVCdmp1Z3pGeHItSzJNREFIZHdXWTVlTFR6VFd0NV83d1o0dExGQzlTTll2UnBPRU12dkNjNE9MNWVPdw?oc=5",
+      "signal": "title-similarity"
+    },
+    {
+      "kept_title": "New Jersey Extreme Weather - The Northern Virginia Daily",
+      "kept_feed": "Google News — extreme weather",
+      "kept_link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPbUJZUVJmTWk0T1Z2TFpYWi0wRlVmNWNveTNSbkdTa1BkSkk2ZGFKNi15NGVIODRfTG4wUEJLRGc1SlFfTy1KMHZRbXFRVVE0VldQUUllQU0wWEYwTkRpRjQtRUVQalY1aUZ0UXpMMnYtb1psZWRXWFozUjFBYUJZbGMtRnVJZzdLVjVtMG9aTGNidXZIcXRsc3JKS0tvY1ZLLU9RNENnWWlCbldYNWZ3R0l5aFJ5RlJ5LXR3M2kxOHNLdw?oc=5",
+      "dropped_title": "New Jersey Extreme Weather - WV News",
+      "dropped_feed": "Google News — extreme weather",
+      "dropped_link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPRVpKdE1iQ241Q1JqSFRPVDIwTmlkdnVjVWpJVUV5WDhrelRlSGdhSGoxSUVtUE5UY05yaDk4a2piLTJmSmVlNEZ6d2ZUdTJSLUdwSG9kbTMwOHVYNHdMU2pfUm5Ock8zZXNIdktQYlZtYWl6WHBxS1cxS1VSSVRNV3dPVWhXaEZabTlKb0FtWmNBaERYMThWdDJYUVRYcU9lYjgzUWpxcDE2TWh0YlE?oc=5",
+      "signal": "title-similarity"
+    },
+    {
+      "kept_title": "Taurus Horoscope Today, November 28, 2026: Complete one demanding task before taking on a new responsibil - The Times of India",
       "kept_feed": "Google News — astrology",
-      "kept_link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNTXlDUklxSlNmRjdSelpwX1hqSkNLeEZvNXRLa1ZQbE1mR0ZzdV9YbG9GdzE1WVVid0tqYTZjb3dsWHF1MXJzNjdSbGtLU2hiQm4tWmhDTWVPemtGSEhwdzkzZk85eUVLVFVUTmpaSGZmMVlzRHJjakNNalg1V010YjN3TTdiczhTQjZlbEM3Wk9WRkowbGFZeWptcFNUcXNSblFwV3BjczI2OHFZY0ZoM0RqREhOajFOU0t3YUpWMnQ4VDdPLThMbVU3UElCVFJzc1pWT1BB?oc=5",
-      "dropped_title": "Daily Horoscope for November 27, 2026 - Sun Sentinel",
+      "kept_link": "https://news.google.com/rss/articles/CBMilgJBVV95cUxNMl8wT2Y1MEFrT2Rnb3NqSlg1OGxlSmNJOU1NTlVKNDJzYTltT1BEYURZMGEyRTMwY2xkNXJQaWZxcTBMdHA4S2tlYjFHRjAyZHh2cEZTblN6cU5qWkw1VzBGOHRTVWJ3U1ZGTWlfZFFJel85RkdmaVRYdTVYM25fLTFpT0UwZ1pLMm5RWi1MbEdXNUpNblNzZld2TzRBUktjUlJ4UnREa3BOeU5McE80RUZKWW0ySjRQd0g1RnFZT2p0ZUNxZEJFRG9Mel9lcUxCcmFFckZDUUkxM3BnRmtreHVFM2FHRU1mOG1UVE9iY282OVNhMFBhOVl6VHkxRE1tVjNQcDhsRUhxMHB2MEdqU1B4U0ZnUdIBmwJBVV95cUxONTdLUUJwY2JSYWdfVjZvQi1JZEZyTnBuSGFFaVlSeUhoSV9CcXJfZUFIdjJNTjdPVjU0Q0psQWczbkx5aFptSDhTeWpBQmFwRW9xcmM1akJxbVJCT3NTbjlpWjBwc3pfR0l5TnMwb1F0MXJrcm5yU2M3NDliSWZyY1A0TFU4YjJsc3ZSR05wNWhLR1VOWmRRVFU5cnptbVpKNGNlWFVzcFpLX1RfVkNDdmpWdDJnREVoZmR6SlJTeXZQYk5QZXNhcnByc2ZNeTl0T2dHc0wyMk9KaG84YVgzVU84cUxSb3o4S1N5eWtHR3BKZkw5Tjl0OEFwV3ZxRzVtbEZ0Z21hYV9nNEVCVEtjeVFnVlFqLUJIbm9B?oc=5",
+      "dropped_title": "Aries Horoscope Today, November 28, 2026: Check property documents carefully before making a financial co - The Times of India",
       "dropped_feed": "Google News — astrology",
-      "dropped_link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxObC1IdC1LVWxJczJsU1VnZ1BFdUxXRmNfTG05RmhRaU05YjBmb3RlbHI4TWcxalliS01GUHA4U1VNcjBodDBJOGdjWHFqWU5OWlRIUWEyVW1iQXdiV0xkM184SVN5YXFlS21iV3BHb0l0TFQ5eWtiY1l4dXh3QnRlMjI1bw?oc=5",
+      "dropped_link": "https://news.google.com/rss/articles/CBMinAJBVV95cUxQMXUwTTEydzFrRkxCWWZPX24xUXJzems1V05TVVMzaDkwNUk3SFlGSlNmRjR5WEJLbHJCblhIZFQtMENPbWk0a1N4aDd6ZkNRa3BJaGVLVFpWWDZ3dTBNc1JyZEg4bFZXZ0k5aFpPb0lQOVBSWGozTVFhZHBMZ2JCbnRNSkJjS3RmNXFQa2tua0tkRHY4QkZMa2NTckxoSFM4RTg3dWZiN1pQY2I5anBzbTZVOHpxUTV0dzFQV3hwcXA4NHU4a1RoNnlrZTdKTlBkbG5tUTF3cHFtbWVtRy1YbC0zRTNZLTNTMmJWRHduTFFYamN5VnIxUngwandzaGdybE42Nm42RzNVYjBUelNTdkRGNUxFNXI3UXhOYdIBogJBVV95cUxQY3l2RXQwTE0yWDZLQ1NHbWNoTU4yTEM2c1lRMFgzT0FqNjZZcW1mTVpLMHhLc2VTMElMME9neUZaaDJBUkp1NnJBSjZKSC1YYWNyWVE3VE1wUkt3TE8xd2g4eWNtWGtIellOZGtzVUdzeWhTZmdrNEFzZnpIUmVBM3lCYjdHTUE3MDQ0YlZZTFhFa1J1TWtWYURXTzkxOHFzdy1QTXNpa1VSNjVtWk9tRVVvaHNGdDhYYVZ6c2ZXbWZwbTY0V202dFZ2RUJGTGFtQ0lVSmFFMTNzc25ZNm82TDR4N1cxNkVKNlVTZERmS1hLa0duM2QzNmFNUlRIb25VQnZndXkyYWJtbEdDWHZjUUsyM2Z6V0ZuMEczWTBOR3Z2Zw?oc=5",
+      "signal": "aggregator-event"
+    },
+    {
+      "kept_title": "New Jersey Extreme Weather - The Northern Virginia Daily",
+      "kept_feed": "Google News — extreme weather",
+      "kept_link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPbUJZUVJmTWk0T1Z2TFpYWi0wRlVmNWNveTNSbkdTa1BkSkk2ZGFKNi15NGVIODRfTG4wUEJLRGc1SlFfTy1KMHZRbXFRVVE0VldQUUllQU0wWEYwTkRpRjQtRUVQalY1aUZ0UXpMMnYtb1psZWRXWFozUjFBYUJZbGMtRnVJZzdLVjVtMG9aTGNidXZIcXRsc3JKS0tvY1ZLLU9RNENnWWlCbldYNWZ3R0l5aFJ5RlJ5LXR3M2kxOHNLdw?oc=5",
+      "dropped_title": "US Delaware Extreme Weather - The Grand Junction Daily Sentinel",
+      "dropped_feed": "Google News — extreme weather",
+      "dropped_link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOYW9LM0dVdUtEZmlPWlJ6WEZfYVY1SlJfTVc5V19nR05HUV8wLTVPTkF6dEpEbHZpM016QmJvZkFvS2Zhclo5M0RBTUtudHhWQ1JGMG54OURDM0o2Y1Y4eE1vdHhfWElLSjNCWmlXWEVCY3V0X1oyN3M5VE9tMzRieElCbDNiZVhremJkdUpodVFxUVJ5MEhnd2JYUHlqTFJJTnF4eEpzcWtMYWx2ZGR3?oc=5",
+      "signal": "aggregator-event"
+    },
+    {
+      "kept_title": "Robots, not astronauts, will have to fix space data centers",
+      "kept_feed": "Phys.org — Space News",
+      "kept_link": "https://phys.org/news/2026-11-robots-astronauts-space-centers.html",
+      "dropped_title": "Robots, not astronauts, will have to fix space data centers - Phys.org",
+      "dropped_feed": "Google News — space",
+      "dropped_link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBmZW1ubHhMOVNmS3QxZ2FiaE1IdnhRb0phNWVFejkzajNQM0FYbHBuYzFUVTl2bUQ4cEU1bU9ncXNxLTFYTTVQajdKbTFiOE5IT1FhZWMteWtlMGd0bGtSVXpHVVB3dWJyVUpuQ0VtOFRScFl1?oc=5",
       "signal": "title-similarity"
     },
     {
-      "kept_title": "Daily horoscope for zodiac signs: Astrological predictions for today, 27 November 2026 - Lifestyle Asia",
+      "kept_title": "Cindy Kimberly On Her Near-Death Experience, Hannah Montana, and Making Pop Music - NYLON",
+      "kept_feed": "Google News — near-death experience",
+      "kept_link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOVWtwdk9sZGlLZXJLVGhJVFJIdlNRblppZnZkUVNBM0JydzBISTV1el9Rc3RpOGRUVDI5aUpuWDRxc0o2cEp0YXFHS3JXSVF1WmdOdUhNMkV1MHdnOXMxZlJWTlJYTFN2a2t0VWNwZk0wYTVVQ25xUjZmVHU3S0lFbQ?oc=5",
+      "dropped_title": "Shaykh Al-Karkari Speaks on Near-Death Experience at UChicago and in Denver - The Courier-Journal",
+      "dropped_feed": "Google News — near-death experience",
+      "dropped_link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQTkNGNi1EVHIyX3RoRnFsTnRueUlIMHFHQUpqSzh3SnpVSXFncmdwRmZzYk16dUU5U2tSUlNwRE4tVHpiZXBGb2lpdUZ2bzg4UXZjbXFfQTFMNkdxbFpDWHA4SHVvRTR3dWt6N29ySTdoVmZmQ2xjWjU0MWRucXpGb0FQbi1lR1N5TzdsWjA1empscUNGVllGUWVtd053M1BienpLMTI3aDlpWURMV29lRW9uajd1aWN4LWhXOGJ6Vndfc2g5akQ1T1dnMmxVVndE?oc=5",
+      "signal": "aggregator-event"
+    },
+    {
+      "kept_title": "Preview: Perfect Pyramids FC eye Champions League Group D flying start against Morocco’s MAS Fes - Ahram Online",
+      "kept_feed": "Google News — pyramids",
+      "kept_link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE0wa2VXem8tRUc0T3ZNWXpWZjA3a184SmNqLVFydC1FZlVFNG1reVo4azNOTW9XNm9XcmRkcDRzaDVDY0pmSkhvLVZtVXVwLTB1MEkwV2ZUeG0?oc=5",
+      "dropped_title": "Pyramids FC vs MAS de Fès LIVE: How to Watch - beIN SPORTS",
+      "dropped_feed": "Google News — pyramids",
+      "dropped_link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxOVzlpZEtDMzJjRXpxRHh5d2FyZWR6NloxSnQ4TWVxd1lfdVVqRjliT2ZDei1XNFZtbXVNYnRJdVQ5azljZjhUV05QakFtN0p0MVN6QU9FTmp6dFdtMThuTUx2a3lqSTBadldzVm9fWWxTMEQ2QldJT2tMRmJ0UGR3Yy1FV2VHc1ZUY2lteDlhWlUwdW1RSjJaMktGZVg3ek5yZzM0eVlrMDVzVlBmOGM5ak9LaE5FdlJQRmZWVldubVAzaTZIRUtnd3F0cjc5ZTQ5UmRaMHc3ODRYLTRCVG9UaWx6ZlpMTGNIM1E?oc=5",
+      "signal": "aggregator-event"
+    },
+    {
+      "kept_title": "Astronomers Discover the Sun Contains 55% More Silver Than Previously Thought",
+      "kept_feed": "SciTechDaily",
+      "kept_link": "https://scitechdaily.com/astronomers-discover-the-sun-contains-55-more-silver-than-previously-thought/",
+      "dropped_title": "Astronomers Discover the Sun Contains 55% More Silver Than Previously Thought - SciTechDaily",
+      "dropped_feed": "Google News — astronomy",
+      "dropped_link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQSzcwYlcwT3dTZXR2ZS1Cb3lBSGV0WTlTRzRnVzdCREpfOWZUN0FCWGtTbUY1NUxKdTMzYWUtbVluUzJiYkVMODhoVzBVUHRCbk53VE12bXFmcGdibEtBRWktc3hna3FhdXl4WEdOTndRdWVlNnY2LUdUcnc0SUdrTTdRVDJxYTBNMk5MRnNNVzZUb084Q3haaFoxM2tVcm15bF8wTg?oc=5",
+      "signal": "title-similarity"
+    },
+    {
+      "kept_title": "On this day in space! Nov. 27, 1885: Astronomer captures 1st known photo of a meteor during an Andromedid meteor storm",
+      "kept_feed": "Space.com",
+      "kept_link": "https://www.space.com/space-exploration/on-this-day-in-space-november-27-2026",
+      "dropped_title": "On this day in space! Nov. 27, 1885: Astronomer captures 1st known photo of a meteor during an Andromedid meteor storm - Space",
+      "dropped_feed": "Google News — space",
+      "dropped_link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNOWlvS0lTZ19kWmpJRFFSZzdVNVdKNk1BTFk1QThRN2hUMDVVYnU0WHVRRXZfSnFFLUZjRDlFbzVTYzBDT2hRQ1lhY2haRHhmSjJydHZPV05RQk1oMmk4ZFNWSHh6OHpoTzl3aFBhNEZwdHpOdDJjd2V2QnJORzk1cmFDZw?oc=5",
+      "signal": "title-similarity"
+    },
+    {
+      "kept_title": "Governments Invest $71.8B in Space Defense as Militarization of Space Accelerates",
+      "kept_feed": "SpaceNews",
+      "kept_link": "https://spacenews.com/governments-invest-71-8b-in-space-defense-as-militarization-of-space-accelerates/",
+      "dropped_title": "Governments Invest $71.8B in Space Defense as Militarization of Space Accelerates - SpaceNews",
+      "dropped_feed": "Google News — space",
+      "dropped_link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQZElkMWxEdnZLNGtiNTQxa3RGNWdjZUhGcnVzYjJrRENoQlRfWE91Q0ZYQzR4QzV4YW15Q2ZvVUdZYl9sUTFaeUllaFl2VXctTkVrVjc1Q01EOFBGZExMUWZFQmVjTDU2cy1XU1U3ZHFuVUM1TVJWX1pJb2xib1BFRHlhR1N2Rmphdl9hajdTaHpVVHlFQk1sNXlRMXAydFVuRzFfVFJ3?oc=5",
+      "signal": "title-similarity"
+    },
+    {
+      "kept_title": "Aquarius Horoscope Tomorrow, November 28, 2026: Leo Moon Brings a Partner’s Warm Gesture Tonight - The Times of India",
       "kept_feed": "Google News — astrology",
-      "kept_link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNTXlDUklxSlNmRjdSelpwX1hqSkNLeEZvNXRLa1ZQbE1mR0ZzdV9YbG9GdzE1WVVid0tqYTZjb3dsWHF1MXJzNjdSbGtLU2hiQm4tWmhDTWVPemtGSEhwdzkzZk85eUVLVFVUTmpaSGZmMVlzRHJjakNNalg1V010YjN3TTdiczhTQjZlbEM3Wk9WRkowbGFZeWptcFNUcXNSblFwV3BjczI2OHFZY0ZoM0RqREhOajFOU0t3YUpWMnQ4VDdPLThMbVU3UElCVFJzc1pWT1BB?oc=5",
-      "dropped_title": "Daily Horoscope for November 27, 2026 - Hartford Courant",
+      "kept_link": "https://news.google.com/rss/articles/CBMihAJBVV95cUxQaUdxOXpjcFYyQnBCWEJFZUlsc3QzT3RGWFVVQWtKc0w4MWpLN0pSdVV2eWxNSXJGTjE0dnZwNVNEV2d0SmswMmhES09TczZEeElfYVU1Q1Q4VmtrQ0lUQzJHNU9CSUhDdC1CbG4zZlU0OEhpU1pST1VsUzRxM2RBc2ZabGJhMzh3X2M4UTVsbVNOVGJ3TzhIeFFOQUluV0VmR2ZUX1Y1aEZGZ040QTlhNDhWTEdwNnBFMVVPSWRDTlNkRzY5cGEwZEc0WDd4WHdjcElneDZNU1RoQ0k4MVR1NjNoU0c1cm12OGdhZHhLcW5GQnJnbEpTT1J6TkwyN3FOUGNhUdIBigJBVV95cUxPUXdqNFVtWnE3d05qSHAteUpoMTkwTFFJWXI5N095NkhKVmpOVTI1VTdIODRpcmtDeFBzd005S0hLNDJSY2ZmN3hGWmNveFFaU3RmejFxWV9wNXZ4emNSSUQyVnJyZFFRUDkzZUNseDc3M3BjOW5kb3dmeVBlMkdNRnVHQ0ptdjlPWDQwaHJPUzdZUm1WTzRfZ2JGS1pZdmtDVkk3TXU4Z3FSLXo1dVBvT2JxN0gyUWdjLUFTZzBTQTZ1bWZTVFRaYzd5SlZLRFN2X1psamlhRlMxbkpiVWJWM3lVV2k4cnpqWlluem1FTklMZG9sZlB1MDFZX0llV0w0a3FWU1laWkRKUQ?oc=5",
+      "dropped_title": "Love Horoscope Predictions, 27th November 2026: Ardra Moon in Gemini Fills Chats With Misunderstandings, - The Times of India",
       "dropped_feed": "Google News — astrology",
-      "dropped_link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1tMjhOMDU3VE03YTJkNUs4Y2pEczdwQUNZZ1hWQ3NuYlBNaUhZeW5tU1ZFZV9uNmE5bG1xS3RibnZZbDg2amVJci1wa2VHMGJWT1NWX3FIc2ZDTnNtOVpsY3RsLU44T21pbWEwQ2VkRWlBVFlDNklyYXU5VmI?oc=5",
+      "dropped_link": "https://news.google.com/rss/articles/CBMiywJBVV95cUxQbU4yVG45NHVPT3RKTEk4OU1NZmZHSWNRUEFDR0c3NkE4QVUwMjFRNlRkYnZkcEo3MHFyTGVYWEhzaWpvN2ZuMWVTck1SUHZyT3RjYXZkdjl3VTlBNnN6U3UxT3k0Sm1qNjhXSEdWWmNfaGFrWHlvd1dLNG1JRkRLMmFueGtKZFJNamJkcDkwdkxFQ0ZOWDM0ZWNWeGc1VlVvZGNrVVpHZ0dZSWx4OEVPb3drZVhXMnVUemNVUU1KaG9ZSmxjcFp6SWpLMmxRbzVneWFnakFHRVNuZFNfRV9qRGRITmJFdmhfamhFeGVhX1hjTHNvb2RtSWo0R0lBZkgzR19GanoyVzR5LTUtbDhRaVlUcmxLa2NkUE85d2IzazJXb0xsU0lyV0M5cDVJY04xQ1lIRnJTN1JrUl83ZzVSeXRBT05IWDlwUW5B0gHQAkFVX3lxTE1pQjM1NDVzNnN2N3FTYUt1c04xaXAzT3dlUW1nYURIVVcyVllsdlNPajVNb1lRUmZpQVUtbmE4eWFWbFBoR1h1ejlnNVF0NUxUSkZQTTZ5RU90R1JXdG81S2ZNMnV0U0N4Z19kV2RWNE0xNnQ1Q0R3WHdKNmZncGF6M2xBclRPM3ltZEp4UExUMlo1dHpFT0xxYlBUMVVqYm5JTlNWZVllbnZoMFNqSmZhR09KX1lEMzAwQXJodDRpeUl3bnc4WkUyOVp0cUVtcElPS1ZJZXpINEN0VXRLSGxEODcyQ2tBQXhUMk5hRXE1S1hJN0pqOHhmNXU0UUR6OWxEWFNDcF95dlBseDhRT2NZOVUzOXpMOWFOYV9EelRxMjRuMlpGM0xuWWRWUVUyQVJFT0o4RHUxMVNmVFJfZ2RyTGZTbDNIbDVDcVRBdDlGdA?oc=5",
+      "signal": "aggregator-event"
+    },
+    {
+      "kept_title": "Aquarius Horoscope Tomorrow, November 28, 2026: Leo Moon Brings a Partner’s Warm Gesture Tonight - The Times of India",
+      "kept_feed": "Google News — astrology",
+      "kept_link": "https://news.google.com/rss/articles/CBMihAJBVV95cUxQaUdxOXpjcFYyQnBCWEJFZUlsc3QzT3RGWFVVQWtKc0w4MWpLN0pSdVV2eWxNSXJGTjE0dnZwNVNEV2d0SmswMmhES09TczZEeElfYVU1Q1Q4VmtrQ0lUQzJHNU9CSUhDdC1CbG4zZlU0OEhpU1pST1VsUzRxM2RBc2ZabGJhMzh3X2M4UTVsbVNOVGJ3TzhIeFFOQUluV0VmR2ZUX1Y1aEZGZ040QTlhNDhWTEdwNnBFMVVPSWRDTlNkRzY5cGEwZEc0WDd4WHdjcElneDZNU1RoQ0k4MVR1NjNoU0c1cm12OGdhZHhLcW5GQnJnbEpTT1J6TkwyN3FOUGNhUdIBigJBVV95cUxPUXdqNFVtWnE3d05qSHAteUpoMTkwTFFJWXI5N095NkhKVmpOVTI1VTdIODRpcmtDeFBzd005S0hLNDJSY2ZmN3hGWmNveFFaU3RmejFxWV9wNXZ4emNSSUQyVnJyZFFRUDkzZUNseDc3M3BjOW5kb3dmeVBlMkdNRnVHQ0ptdjlPWDQwaHJPUzdZUm1WTzRfZ2JGS1pZdmtDVkk3TXU4Z3FSLXo1dVBvT2JxN0gyUWdjLUFTZzBTQTZ1bWZTVFRaYzd5SlZLRFN2X1psamlhRlMxbkpiVWJWM3lVV2k4cnpqWlluem1FTklMZG9sZlB1MDFZX0llV0w0a3FWU1laWkRKUQ?oc=5",
+      "dropped_title": "Capricorn Horoscope Tomorrow, November 28, 2026: Mars in Virgo Gives a Push to a Course or Long Trip - The Times of India",
+      "dropped_feed": "Google News — astrology",
+      "dropped_link": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxQeGZNM0pnZ3ZldWJhd0Y2NDktcFM2WUlQWlpCMnoyX21DQ25OT0FVR1NtMFN2WnRFN0JKcVpOOXFNN0pIX3Fha2JCZ0xzQll6VjhqR0U2UjFUODJXT2RkZU5vYnFhdmZrbDdpWkZlVHl0cktHOWYydmp3WnV2Qm5UZlRCak5JMW5IczlsZUVrWGtxRm81cG1ROWIzdGlBMkVIZ2lTaGtJbzRMRUxicXRSeG5TZXlnMEEtaFQtZVdvNnJkM1IwZFJvZEg4aHhzTFRBNVhFd1RseWFLNDNjd0d5c2tjbnFycFNpMjJYSlBtdEEycnBUZk5XOHJPbl9Wc0xSdjlYU1JxdzRBM03SAZACQVVfeXFMUEsxQ1BsTVJJS1ExbVBXQ29pNjl1WExmdzZFWEduRWlGaXdvRHU4Wm02VVRIbXc0eTREYVV6UWxqbWRhYW53TS01WjRUMHJSY2FXaEtaNUtZVlozX0dhcUY1OVlKSlFneHpOY1BaUDFOU2tnakVWSEVoOVdQNU5rcTNJelY1RlRRcUladFRXTkRlWW8zaURndWYwLXVROGZUZzN5YXdlZmZHNlBvUi1sZVBaMjhsNGQxajhxRnlXZFZNTl9SR2JoaHU2UDFBVHQyYllmVEdEbWN3dEJTMVhvSXJYYzhtc3dIS1JSNHVmZUpSVFQ4cHh1cDRZYlFmLUJ4QnZjdWlTZ0NNNWoxeDAzVzk?oc=5",
+      "signal": "aggregator-event"
+    },
+    {
+      "kept_title": "Artemis III Astronaut Andre Douglas Visits VAB",
+      "kept_feed": "NASA Image of the Day",
+      "kept_link": "https://www.nasa.gov/image-detail/afs-8-101-1328/",
+      "dropped_title": "Artemis III Astronaut Andre Douglas Visits VAB",
+      "dropped_feed": "NASA Breaking News",
+      "dropped_link": "https://www.nasa.gov/image-article/artemis-iii-astronaut-andre-douglas-visits-vab/",
       "signal": "title-similarity"
     },
     {
-      "kept_title": "Missouri Extreme Weather - The Northern Virginia Daily",
-      "kept_feed": "Google News — extreme weather",
-      "kept_link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNQUFaWUxlb0hxNUswQXZ3cXNzdFlnT0tFZC1sSFZIVlJPVUNFLVVMNk9mcjJRenk0dHpIXzY4NUU5VnQ4Z3MzRkZ3TEg2ZFVqUV9qY3g3Z0RlVU9jdGxpcnpzT215WVBiblRIdFBXMDJWeF9qbno1OG55WkZET21JWHk4SHp6T01UM0ctZ2pJbXdfNlFHMGRRaTFyYlEwX09FakVEMXRHLWxJNkNlcU81UmZIdHEyUkIzM1BKSHEwQQ?oc=5",
-      "dropped_title": "Missouri Extreme Weather - Times Argus",
-      "dropped_feed": "Google News — extreme weather",
-      "dropped_link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNNVRJaVdLMG5LNV9jNmVoczJEVG1qUFllMzV4NGxXMkQ3S1NfM1FXTTJWQkh3aUI0ZjJlNjJ3Tk1DbV9fbkxDWHpnQ2w2UWttYU5wWmp2VUJ0THQzX0RadnhLVGRNeFNvSVV3RWxIbnpjX0xYZkpKenlWQzU1cEpBWFFsMURtQlR4MWkyekxyMUFhSVNtak8wWmhUbXFvTUprcTRNN0dpLUN0cHJ1dlRjME9jRQ?oc=5",
+      "kept_title": "'Bad Omen': Ancient Pyramid in Mexico Collapsed Into A Heap of Rubble - ScienceAlert",
+      "kept_feed": "Google News — pyramids",
+      "kept_link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOYnVVUFJERk9hVzlKNWsxcTdQRHdrQ3RPTXBJQ3g3WEdiT3paNGdYUXJwSjM5RC0tLXdUUXZyU0prdTl1VVBpNGVHTFo2dW9EMkt3NjZ4U3VXdmF1ZTJPaXdINURsZXpwOFQ4b184bThIQXhxNmZDU3VxYmo3WmhWSk1OVjdRSGNrQWhvaHF4cTBOMHplYmRxUTM0VQ?oc=5",
+      "dropped_title": "'Bad Omen': Ancient Pyramid in Mexico Collapsed Into A Heap of Rubble",
+      "dropped_feed": "ScienceAlert",
+      "dropped_link": "https://www.sciencealert.com/bad-omen-ancient-pyramid-in-mexico-collapsed-into-a-heap-of-rubble",
       "signal": "title-similarity"
     },
     {
-      "kept_title": "Missouri Extreme Weather - The Northern Virginia Daily",
-      "kept_feed": "Google News — extreme weather",
-      "kept_link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNQUFaWUxlb0hxNUswQXZ3cXNzdFlnT0tFZC1sSFZIVlJPVUNFLVVMNk9mcjJRenk0dHpIXzY4NUU5VnQ4Z3MzRkZ3TEg2ZFVqUV9qY3g3Z0RlVU9jdGxpcnpzT215WVBiblRIdFBXMDJWeF9qbno1OG55WkZET21JWHk4SHp6T01UM0ctZ2pJbXdfNlFHMGRRaTFyYlEwX09FakVEMXRHLWxJNkNlcU81UmZIdHEyUkIzM1BKSHEwQQ?oc=5",
-      "dropped_title": "Missouri Extreme Weather - Goshen News",
-      "dropped_feed": "Google News — extreme weather",
-      "dropped_link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQa0QtSG83d21XMHFlOTFwWFc5QTJ0OEFqYkpTQUVhY2gzRTRYcElFZEIwYldOQkRNNWJVZkdwTXIxX0hpcl9WWFdPamhMdnNGVE5tNmkxUTQzMnB1dVVmMHBrM0M3eE13VFJyX3F4cXVNb1ZsUzQ5Y1ZhUXdDWWdIRHhzWlJyUmF2bXVXQ1d3OWFKYWgxT1B4R0wtWFhPb1EyMlNkWDFsRWg5MUxUcEswbTlMcFloeTZqckE?oc=5",
+      "kept_title": "Artemis III astronauts meet their spacecraft | Space photo of the day for Nov. 27, 2026",
+      "kept_feed": "Space.com",
+      "kept_link": "https://www.space.com/space-exploration/artemis/artemis-iii-astronauts-meet-their-moonship-space-photo-of-the-day-for-nov-27-2026",
+      "dropped_title": "Artemis III astronauts meet their spacecraft | Space photo of the day for Nov. 27, 2026 - Space",
+      "dropped_feed": "Google News — space",
+      "dropped_link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNallUNVhJZU1BNVN0dGJDU0Q1cmVvc2x4Q1Q3RVNEWEptd2xyeDhHMFlTc2RHLUJrLXIyQjY1eVlmM1lNTFFpNWZqVjRXanNHOEZSbmVRRFc1SmZMZF9SMDNKbkdtNC1vQkFpOHF1OE1IN2F2U0xDVl9ydFRpZVF4YTNEY1hQcWxwWFYzX2pQUXBrbWxVbVV3eEZfQllOTkxSdFp1RTI0ZDYxSHlYVkQxM2h2Z0FQeEhyaG53NGRJYjJ3VjA5dEsyeg?oc=5",
       "signal": "title-similarity"
     },
     {
-      "kept_title": "Missouri Extreme Weather - The Northern Virginia Daily",
+      "kept_title": "Bauhaus And Love And Rockets Legend David J Releases ‘Postcards From The Afterlife’ - That Eric Alper",
+      "kept_feed": "Google News — afterlife",
+      "kept_link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQUy1mZWNEcDhBR1JOakhTd05KUVhUZ0t6eW0tbFRMZjVpaHBBODB1WVBQNEhmaTlYV3cxUGVFUGowVk14UG1sVHNiSFkxcm03NVVhdnFRUDRCNzlUTlJOUEh6YjNrNmNwaGk5NTVxdTBfdWw0QXhTREl1OFZTcEN6T1paVFU0OHA4OGs2TGxJUGYzdkN0T2xpMEQ1Z19mNXR1WTlRQjJjRVlPd0NnRG83SExjcFVIdHM2NjJMX2RIbnA?oc=5",
+      "dropped_title": "David J Releases New Album 'Postcards From The Afterlife' Ahead Of December 2026 UK Tour - All Music Magazine UK",
+      "dropped_feed": "Google News — afterlife",
+      "dropped_link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQTkl5QjU0OWpzamEtQmo0RkJDZU1NMkh1R1BnSWdSNzFYRmpWT0tFU3h6Qy1BZm9yTUFqQUhKVFZmSmg4TUJUTk1qc2tfUkhZRzYwTzZiRk9NUnotRldCV3dTRjJ1czZjc1gwN2RfVEtDSGRDakt0ZDNZRkFKSFZrc0M2OVU5NXI4OEZralFSLU9WZW5ReTZ4VlpGbm9vdVUyU1hNbmpRRU56Z0FVT1ZnZ0RjR1dLdG41alRJSFZXRjdrYldS?oc=5",
+      "signal": "aggregator-event"
+    },
+    {
+      "kept_title": "NASA’s NG-25 Mission to Launch Pioneering Space Crops Research",
+      "kept_feed": "NASA Breaking News",
+      "kept_link": "https://science.nasa.gov/science-research/biological-physical-sciences/nasas-ng-25-mission-to-launch-pioneering-space-crops-research/",
+      "dropped_title": "NASA’s NG-25 Mission to Launch Pioneering Space Crops Research - NASA Science (.gov)",
+      "dropped_feed": "Google News — space",
+      "dropped_link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOSVRDUUR6dXdJenpOazJPOTM0c1lvYXhEc3lTMkNkUGZQb2RXLTJHZUd4NE5tS2tvUWF5MVRBamlkNFZiNzRaWEViOFhVN0pjNTd3RGp5cFlDVG1FSUNGS1NleHA4eU1jNnNZSjdQZFRVdDg5ZE5wLTdUbFJnMUVTVEYwZVJ6cnZDV0ptM3NjczFYQzl0V3FlVDhVNEFsd2dOUmJqTUozTTQ1anhJanY0MXZ6VDdCd0JrcVEtWE80d1lfV2NGUzlZZXNGaTZGUQ?oc=5",
+      "signal": "title-similarity"
+    },
+    {
+      "kept_title": "Record temperature surge in November fuels extreme weather - Financial Times",
       "kept_feed": "Google News — extreme weather",
-      "kept_link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNQUFaWUxlb0hxNUswQXZ3cXNzdFlnT0tFZC1sSFZIVlJPVUNFLVVMNk9mcjJRenk0dHpIXzY4NUU5VnQ4Z3MzRkZ3TEg2ZFVqUV9qY3g3Z0RlVU9jdGxpcnpzT215WVBiblRIdFBXMDJWeF9qbno1OG55WkZET21JWHk4SHp6T01UM0ctZ2pJbXdfNlFHMGRRaTFyYlEwX09FakVEMXRHLWxJNkNlcU81UmZIdHEyUkIzM1BKSHEwQQ?oc=5",
-      "dropped_title": "Missouri Extreme Weather - WV News",
+      "kept_link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPVmNFYmdIeDc4c3VpWVUxMUwyaTk3SER2UUMtREhDZHNYYjMwY2I4VW1yV2dnVWxTV093d01UQWNKUW14UVhuaFAzSnRnSDMtT1h6NW9rOFU0Q05XWEhDMFJpQ2dza0lKLWptMFBEcmhmTnFsN0NxZlp3Rm90ZzVzczh0eDk?oc=5",
+      "dropped_title": "APTOPIX New York Extreme Weather - KIMT",
       "dropped_feed": "Google News — extreme weather",
-      "dropped_link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOY3JuT3RCZGdCTnhFSXNEWWN3VGtwWVkxOTlKeFdwLUdyUTVSSUxYREJnSENnUGkyd3Izdzc4Z0FKSDByVTVpTExLTUwwRW5sMXRmWG9tbWx5dHFxendGMzRSTzcxWE1ETzVVR1p0cE1CY3NpRlFyZWJwd094SXJ4YzNPTE5RRTFXU2t0TmVjYk5DaENiMXNMemtKaVU0bWYyQXpyWWxqUTA2cmc?oc=5",
+      "dropped_link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQa2x4X3ZrclJDdEVFYklYZGlmN2N6c243anI4RnQ0RzZfNTRzQ2U5UENNQnFyTjlsc1FvamJ2VkhweGxTblVfVHNSWExoT2ZKUXVWMzhTd2ZJWWtEMms3X21vMGlqRkpJcjdodGhiM25oQ01UZHlkclFKNnJNb1pmNUxVVFFWZjdtdGkya3MtcTdPRlJzT0xOVk9fS05vam9DLVdn?oc=5",
+      "signal": "aggregator-event"
+    },
+    {
+      "kept_title": "Record temperature surge in November fuels extreme weather - Financial Times",
+      "kept_feed": "Google News — extreme weather",
+      "kept_link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPVmNFYmdIeDc4c3VpWVUxMUwyaTk3SER2UUMtREhDZHNYYjMwY2I4VW1yV2dnVWxTV093d01UQWNKUW14UVhuaFAzSnRnSDMtT1h6NW9rOFU0Q05XWEhDMFJpQ2dza0lKLWptMFBEcmhmTnFsN0NxZlp3Rm90ZzVzczh0eDk?oc=5",
+      "dropped_title": "Macy's postpones New York Thanksgiving Day Parade amid extreme weather - DW.com",
+      "dropped_feed": "Google News — extreme weather",
+      "dropped_link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOU3NxaFZ5ZFNYSGhkbFB2azBub0lfc1p6My1NM2Nodmt1M2gzNUVBNDVYakxtUzE1MlA2VmVrNGd1VDBaTzlROE10TUg2TnFDN29GRmNCMmpkVE4zaG9QdVZUaVRaT21rdkgxMlp0RTBfbmRTMk5xWEk1dDdoNWE0YUh4a1cyN3ZOc2J4Z3FCb2ZyLW9OOGc2NF9IRW1wc2duT01QM1Z0bGpKdw?oc=5",
+      "signal": "aggregator-event"
+    },
+    {
+      "kept_title": "Astronomers watch a red giant star greedily devour a stellar 'Bao bun' before erupting: 'We couldn't quite believe our luck'",
+      "kept_feed": "Space.com",
+      "kept_link": "https://www.space.com/astronomy/stars/astronomers-watch-a-red-giant-star-greedily-devour-a-stellar-bao-bun-before-erupting-we-couldnt-quite-believe-our-luck",
+      "dropped_title": "Astronomers watch a red giant star greedily devour a stellar 'Bao bun' before erupting: 'We couldn't quite believe our luck' - Space",
+      "dropped_feed": "Google News — space",
+      "dropped_link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPRWlGWUJRWHFFc2tQaWE2T0lJWVJvOHlwYTFzYkNueWY4YThybDllSFdEbUtGVHFQU1N2MkVEdXNwWGIwbG9ZTGRERG90LU9oNXlLSlA5R3BBUFVCckJZNVVxbnlrVHJSTVNDMjVINjliSEpRUE96elV6eF9XUExuWmxLYS14Yk5DWFg4RDBLbWhoenRxTG1jUFlKQ1RTUWxQa0xVQ0h5TVFsZ0V1Nmp3aWdaMHFTVlc0S2FFYzNwTVFMSE5rcGtsYVFad1lta09JLXJ4ZWp1R2FodTN4RVppOXEtZzRBS3FMaGliVA?oc=5",
+      "signal": "title-similarity"
+    },
+    {
+      "kept_title": "James Webb telescope discovers mysterious red object just 450 million years after the Big Bang — and it could be a baby black hole",
+      "kept_feed": "Live Science",
+      "kept_link": "https://www.livescience.com/space/astronomy/james-webb-telescope-discovers-earliest-little-red-dot-candidate-yet-just-450-million-years-after-the-big-bang",
+      "dropped_title": "James Webb telescope discovers earliest 'little red dot' candidate yet, just 450 million years after the Big Bang - Live Science",
+      "dropped_feed": "Google News — astronomy",
+      "dropped_link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNaDBCYk9tYi1iUldzNDZxU1RWODRZalN3SzFzNUd2MGdDNU0wXzhET0Z4M2NjSDRpMV9wWlc5Y3Z3cDdwWEcxNGRabVloaDZzdUViNGt0b2JfUG5RbHdTcXdjTnp2ajhtX2k2U1BUaEhuQVNkaXBTYkRtMktZbnp0TGdnTVRQOEF0RVFSSlliWG5zMldaQzdVZHFrQjZxZXFhejZPR1hsVER3LXlidGhkQVRxekZkYklnaVl6cmZVZDd2VUZjeUcxMUVrTXVvRFcybTFBb1E3aVVZZm5qZkt6UV9lY2Z2QWtCMUE?oc=5",
+      "signal": "title-similarity"
+    },
+    {
+      "kept_title": "Dropping missiles from orbit? 2 European companies sign agreement to study the idea",
+      "kept_feed": "Space.com",
+      "kept_link": "https://www.space.com/technology/dropping-missiles-from-orbit-2-european-companies-sign-agreement-to-study-the-idea",
+      "dropped_title": "Dropping missiles from orbit? 2 European companies sign agreement to study the idea",
+      "dropped_feed": "Bing News — space",
+      "dropped_link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6b09e78122a3494dafcdf1668ced9f74&url=https%3a%2f%2fwww.space.com%2ftechnology%2fdropping-missiles-from-orbit-2-european-companies-sign-agreement-to-study-the-idea&c=3035868271989764565&mkt=en-us",
+      "signal": "title-similarity"
+    },
+    {
+      "kept_title": "Horoscopes Today, November 27, 2026 - USA Today",
+      "kept_feed": "Google News — astrology",
+      "kept_link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOb1EwWkV1b0E2d0UxSmFzTjNIdVR6MjJjOFBra3ktWnczbFZRbExldmlFT3EtdUtiRlJkWGtmUG9xdWJkNC1OQ3RITHpISHhLaXJMdXdSazFQWFBoX0ZrTGRqUkNIdHg3eEd6UlJfellPNmJoTldTVHVOWDFKUWc5dHZnQU9uQlFxR09yWThPLUQ?oc=5",
+      "dropped_title": "Daily Astrology News Alert for November 27, 2026: The moon is in Gemini and it’s Ardra Nakshatra, which m - The Times of India",
+      "dropped_feed": "Google News — astrology",
+      "dropped_link": "https://news.google.com/rss/articles/CBMi4wJBVV95cUxQaVFTckRiMkUxN2lwblBPRExpam9kNm53dnRKNXBVeU10WDY3U09NTlMzLVh0MG0yZUxmNjhCakg5eDlTbDE4b2RGblVFb1FZM0NrekFGc2QtVmlVS01TcVZpYzdValZaVGE5eE16SW4wN1BtQnZCazdmQzJ6cWhrLV8yc0g0MWViY0RxMUJyMGVPYW1ZZjAwX1NjOXlvVk9XOXJOSzFVd0ZoRy1lWUVtNTdUNVc1bWNjZUlDcHI5QlQ2dXVBLVNZajFUZ1EzZno5bUs1aWZrcWJBVXk5TGFuaW05OVVhNUlYbk01MWFKUU53aW9POHBQMWFiUjZzLUFCWFZtZ01WUC0zWExTNFh5M0dWYmFpWXN6Tks4d011S1RwaWdDbi05eGZURnBNakJmT1dHRDJZMTc3Ti1hc0tCbGUxV1hDUWcxS0tPc0dMTjJybTlRM09HRjEtZ0xrM3ZDTjRZ0gHoAkFVX3lxTE9XRE1LdHNRc09seDJ6M2NxMklWRzZKaEVhM0JCa2RoaS15YVhZelVUenpwT1c2RmlUQUdKRVAxcWc0bE9tNDRjeklRSlNXUjVjTWIzcDNoU1lXWXZxbko5QkRRV1hQTEZFc2htVk56bXpMTFFBR19GY0hhRktfQVY5eGhUeHM0RElhVTJRM0x1Z3pXZ1J6aTBPRWRzSFc1VlI3U3lPSDRsUFdZQ29PY3RYNTRJNVdqTDN2M2NYLXpSMG1kMVJwY0JBV1hGb0pWdWYxVGw5NjlJcXZwX2MzQzNFVEVGU08tVVZLbGUzUml5NzRDM2tJNG1PN29qNjUzOUpYSW1SdV9sZFBkbUpQcG9mckNDLTBGTFVNTlFTTzN4SEROVlo2X3NPRXFyX0N3RVl1LU5lQ2llSnJPZzFNa1FFQW9ib1BvQTg4X1hoQ3NhSjNGa2FVeFNOaDVKTmZrSjlXQWlPQUtGWA?oc=5",
+      "signal": "aggregator-event"
+    },
+    {
+      "kept_title": "The Sky Today on Friday, November 27: Catch Comet Hartley-IRAS - Astronomy Magazine",
+      "kept_feed": "Google News — astronomy",
+      "kept_link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBvaUt2UW5ELWlTNVBibTF6S2FZLXB2R0hMWTdJSTRqSU5xazlxeE5TckhLOTVXVl9pZnVwQm40NzJBbnZZajV1MnlrY2dmbnI4Q0pPUy1rd0d3bmtZbm1NdWtxdVVPZEI1c0l3ZHV6RnFCZE9SUUdxcmFtaWdJc2c?oc=5",
+      "dropped_title": "The Sky Today on Friday, November 27: Catch Comet Hartley-IRAS",
+      "dropped_feed": "Astronomy Magazine",
+      "dropped_link": "https://www.astronomy.com/observing/the-sky-today-friday-november-27-2026/",
+      "signal": "title-similarity"
+    },
+    {
+      "kept_title": "Who turned the W upside down? Why Cassiopeia won't sit still",
+      "kept_feed": "Space.com",
+      "kept_link": "https://www.space.com/stargazing/who-turned-the-w-upside-down-why-cassiopeia-wont-sit-still",
+      "dropped_title": "Who turned the W upside down? Why Cassiopeia won't sit still",
+      "dropped_feed": "Bing News — space",
+      "dropped_link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6b09e78122a3494dafcdf1668ced9f74&url=https%3a%2f%2fwww.space.com%2fstargazing%2fwho-turned-the-w-upside-down-why-cassiopeia-wont-sit-still&c=1128413391712672435&mkt=en-us",
+      "signal": "title-similarity"
+    },
+    {
+      "kept_title": "On this day in space! Nov. 27, 1885: Astronomer captures 1st known photo of a meteor during an Andromedid meteor storm",
+      "kept_feed": "Space.com",
+      "kept_link": "https://www.space.com/space-exploration/on-this-day-in-space-november-27-2026",
+      "dropped_title": "On this day in space! Nov. 27, 1885: Astronomer captures 1st known photo of a meteor during an Andromedid meteor storm",
+      "dropped_feed": "Bing News — space",
+      "dropped_link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6b09e78122a3494dafcdf1668ced9f74&url=https%3a%2f%2fwww.space.com%2fspace-exploration%2fon-this-day-in-space-november-27-2026&c=11379100009808071249&mkt=en-us",
+      "signal": "title-similarity"
+    },
+    {
+      "kept_title": "Yoga and Meditation Centers - Global Market Size, Share, Trends, and Growth Forecasts (2026-2031) | Corporate Wellness and Hybrid Services Fuel 9.5% CAGR to USD 23.34 Billion ...",
+      "kept_feed": "Bing News — meditation",
+      "kept_link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6b09e781a53249dfbb15a4643c8041f5&url=https%3a%2f%2ffinance.yahoo.com%2fhealthcare%2farticles%2fyoga-meditation-centers-global-market-162800167.html&c=11340820342159783562&mkt=en-us",
+      "dropped_title": "Exploring India’s Wellness Tourism: Yoga, Ayurveda & Meditation Experiences for International Travellers",
+      "dropped_feed": "Bing News — meditation",
+      "dropped_link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6b09e781a53249dfbb15a4643c8041f5&url=https%3a%2f%2fwww.usatoday.com%2fpress-release%2fstory%2f61034%2fexploring-indias-wellness-tourism-yoga-ayurveda-meditation-experiences-for-international-travellers%2f&c=3172160827565830718&mkt=en-us",
+      "signal": "aggregator-event"
+    },
+    {
+      "kept_title": "Don't get ripped off this Black Friday! Shop safely online with our scam-spotting guide",
+      "kept_feed": "Space.com",
+      "kept_link": "https://www.space.com/stargazing/skywatching-kit/dont-get-ripped-off-this-black-friday-shop-safely-online-with-our-scam-spotting-guide",
+      "dropped_title": "Don't get ripped off this Black Friday! Shop safely online with our scam-spotting guide",
+      "dropped_feed": "Bing News — space",
+      "dropped_link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6b09e78122a3494dafcdf1668ced9f74&url=https%3a%2f%2fwww.space.com%2fstargazing%2fskywatching-kit%2fdont-get-ripped-off-this-black-friday-shop-safely-online-with-our-scam-spotting-guide&c=6103568382199034626&mkt=en-us",
+      "signal": "title-similarity"
+    },
+    {
+      "kept_title": "Make the most of the new moon on Dec. 8 and get closer views of the stars with the Celestron Inspire 100AZ",
+      "kept_feed": "Space.com",
+      "kept_link": "https://www.space.com/stargazing/skywatching-kit/make-the-most-of-the-new-moon-on-dec-8-and-get-closer-views-of-the-stars-with-the-celestron-inspire-100az",
+      "dropped_title": "Make the most of the new moon on Dec. 8 and get closer views of the stars with the Celestron Inspire 100AZ",
+      "dropped_feed": "Bing News — space",
+      "dropped_link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6b09e78122a3494dafcdf1668ced9f74&url=https%3a%2f%2fwww.space.com%2fstargazing%2fskywatching-kit%2fmake-the-most-of-the-new-moon-on-dec-8-and-get-closer-views-of-the-stars-with-the-celestron-inspire-100az&c=16646622740149298108&mkt=en-us",
+      "signal": "title-similarity"
+    },
+    {
+      "kept_title": "Artemis III astronauts meet their spacecraft | Space photo of the day for Nov. 27, 2026",
+      "kept_feed": "Space.com",
+      "kept_link": "https://www.space.com/space-exploration/artemis/artemis-iii-astronauts-meet-their-moonship-space-photo-of-the-day-for-nov-27-2026",
+      "dropped_title": "Artemis III astronauts meet their spacecraft | Space photo of the day for Nov. 27, 2026",
+      "dropped_feed": "Bing News — space",
+      "dropped_link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6b09e78122a3494dafcdf1668ced9f74&url=https%3a%2f%2fwww.space.com%2fspace-exploration%2fartemis%2fartemis-iii-astronauts-meet-their-moonship-space-photo-of-the-day-for-nov-27-2026&c=5053011228769458869&mkt=en-us",
+      "signal": "title-similarity"
+    },
+    {
+      "kept_title": "Giant Underground UFO Bunker Plan Revealed in Pentagon Docs - Newsweek",
+      "kept_feed": "Google News — UAP",
+      "kept_link": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBjV195bEN0eFdCcm5VTmlLbXJjbHktZ3ZJZjA5RjlHNGNoV0hUeklzSzVjZkFydURnb0ltNi1zVE9zZnMtMVNzOWx5c3FtZ29oRFd0M3EtdjNfaVU1Vm5TN0FXM2V2eGkyd1R5NzJ1UlZJNUoxeWJfd3ZqUQ?oc=5",
+      "dropped_title": "Giant Underground UFO Bunker Plan Revealed in Pentagon Docs",
+      "dropped_feed": "Bing News — UFO",
+      "dropped_link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6b09e78172794936ac223e5556f1aef7&url=https%3a%2f%2fwww.newsweek.com%2fgiant-underground-ufo-bunker-pentagon-12773453&c=13789235734287795624&mkt=en-us",
+      "signal": "title-similarity"
+    },
+    {
+      "kept_title": "What We Got Wrong About Comas - The Atlantic",
+      "kept_feed": "Google News — consciousness",
+      "kept_link": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBpbWQ0ZlQ1VndTeV9EN1Rxb0ZZN3VNSG8xQWtQLWI5d2FvMDQySHZKTEIyZjRGSklGb2tzS0V0UTMtSnAzcl9SUEx2bVRQdnlsd1ZVdXdHWDc4RVI4OTFpQnktM3QtV2dLTUN4V0hxRlZJM1V4NGZsM3JB?oc=5",
+      "dropped_title": "What We Got Wrong About Comas",
+      "dropped_feed": "Bing News — consciousness",
+      "dropped_link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6b09e781c8ad4bd5bec15947a2b81b05&url=https%3a%2f%2fwww.theatlantic.com%2fscience%2f2026%2f11%2fcoma-consciousness%2f689574%2f&c=7503515483372254268&mkt=en-us",
+      "signal": "title-similarity"
+    },
+    {
+      "kept_title": "Astronomers watch a red giant star greedily devour a stellar 'Bao bun' before erupting: 'We couldn't quite believe our luck'",
+      "kept_feed": "Space.com",
+      "kept_link": "https://www.space.com/astronomy/stars/astronomers-watch-a-red-giant-star-greedily-devour-a-stellar-bao-bun-before-erupting-we-couldnt-quite-believe-our-luck",
+      "dropped_title": "Astronomers watch a red giant star greedily devour a stellar 'Bao bun' before erupting: 'We couldn't quite believe our luck'",
+      "dropped_feed": "Bing News — space",
+      "dropped_link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6b09e78122a3494dafcdf1668ced9f74&url=https%3a%2f%2fwww.space.com%2fastronomy%2fstars%2fastronomers-watch-a-red-giant-star-greedily-devour-a-stellar-bao-bun-before-erupting-we-couldnt-quite-believe-our-luck&c=623967810668621291&mkt=en-us",
       "signal": "title-similarity"
     },
     {
@@ -85,30 +367,12 @@
       "signal": "title-similarity"
     },
     {
-      "kept_title": "Today's Horoscope - November 27, 2026: Check horoscope for all sun signs - Deccan Herald",
-      "kept_feed": "Google News — astrology",
-      "kept_link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQbWxxTWVCV3hXY090TmZacWFNeDJRZ19KQ21heVhxWUZ1b05ZWmZOVTh2NE9GNVVaWTloUU54VFE1dk9kdGRVdHNWNkZrSFF1aWZtU1N3cU5hLUxHX3lsMVRqaFRfZDdWZmpHa282U1Nqa2E5MGd4VzlWQjk0V2hHa2FNNGUxZWc1bjNKbldmcEJDelQ0ZEZVMGxDOTRRTGw3T3ZSZHoteUNhaEU4d3ZvSWpYLVNrRFE?oc=5",
-      "dropped_title": "Libra Shani Horoscope Today, 27 November 2026: Moon Moves Into Punarvasu This Afternoon, Shani Tests Your - The Times of India",
-      "dropped_feed": "Google News — astrology",
-      "dropped_link": "https://news.google.com/rss/articles/CBMivAJBVV95cUxQaTBLbTdKZ1gwa2kyYmlUMzA4a2ktVURtOHExVWlmRmxheXFyejcwNHNOX2JzWXpNeDN6S2dpRkFubFhJTU1jSWtWMGlxUlU0V205V21OZjNINUd4eUpub0VsVUlwdnlaMUE5WnoybkJINFVlOUplc1pxU25EQThHcmo3elZWdnQ3MTY3cFRoQWQ2RWhzQ3FtVF9sUXYyUEE2MGM4MVBHaGNXa29hTWRkVmtXLU02ZDhGY0xzc0Y2MWpNNmVxd1FMQjRMYVJxNUduSnF6WlV3em5QeFZBNllIN3gyWHhLajVSeVJGREx4bmkxQ2dWbi1qR3FzT3RRZmNWeVV5VldNc0h1UldhT3pMNmxidmN3LUVMS0tjSS14WkVaeWY5QkUwQm9WRGIzaWFRR0NGdnJvOWpMU3dw0gHCAkFVX3lxTFA5WjNxalViMjBZLXVzZ1NSUGRFaENaZnpFRHZyRGNqbDlWMXJXTW1pd1UybUl0QmV5ZVBYNkNDU0FHZFI2bFhvMmlXTUVzV0J2eGVTV3NMTmcxWkd1U2Fha1E1R2xSOFBhU1loOTczSE1QZm5xTURvWUE3aHVCSEt2Wk9sZ1BOY3pjZXVmbFJCUHZXV01uaU00SThqTGJGMDNfMTRyajB6ZFB5SHdTcW5DdGdLUl8tbkxlNmJCMmNhRllMMlY0UWMwWnN0RjBEd0pSN0JIVGlXRmtQejhwTGdjTGJyd3JraFFCSTFTeU1nM3dxNGRqZzY5dTdGUmlrdzYwRFU5a212OW5RWmRHRHRNLVltRWhUUy1oSXlWWnp2dWIta1VWY0M0VXVWc1JhcEJTcU92OEZrU0IxcHdCT2JuMXc?oc=5",
-      "signal": "aggregator-event"
-    },
-    {
-      "kept_title": "FCC approves 1 million SpaceX data centers in space. Astronomers are dismayed. - The Washington Post",
-      "kept_feed": "Google News — astronomy",
-      "kept_link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPWWRGMWR3bjFJZmlWaVE5Si0zTk56UnpEcDNYS0gxalgyV2Q5ZVBiNWRoMVAycmRvVUlfN1Mydm00dlpZdWZsTkVPMGtabEZsQ3FlNC1QbXFSZTF1MXhMQ2p0R3JtRUg1VlEyUFc2aVBGVkMwWHFrZl9UanJfQkg3VkNMejE1ZEs4TUdNVE1KdkZELURVd0NHNnZaOHJRZUhCMUxyckJqMmZGUEl2enh2MmRVd2V5VnpnaUNpakx5QnVUSXdWUmc?oc=5",
-      "dropped_title": "SpaceX Just Got Approval to Launch One Million AI Satellites. Astronomers Are Horrified - ZME Science",
-      "dropped_feed": "Google News — astronomy",
-      "dropped_link": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBOYmV1WGROQUYycnR5cEo2bkU4TEhMbnZ5UXoxOTA4RUZqWUdSRkxERzZFSVFVRDNHYWNVYTZvZmlFZ3Q1cThTLWZyeVlEWGtuN0NXYXJHQU1va0dtRU01anc4dXg0ME9tZXpoenAzX1k2TWlYNF9ZLW0zYzQ?oc=5",
-      "signal": "aggregator-event"
-    },
-    {
-      "kept_title": "FCC approves 1 million SpaceX data centers in space. Astronomers are dismayed. - The Washington Post",
-      "kept_feed": "Google News — astronomy",
-      "kept_link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPWWRGMWR3bjFJZmlWaVE5Si0zTk56UnpEcDNYS0gxalgyV2Q5ZVBiNWRoMVAycmRvVUlfN1Mydm00dlpZdWZsTkVPMGtabEZsQ3FlNC1QbXFSZTF1MXhMQ2p0R3JtRUg1VlEyUFc2aVBGVkMwWHFrZl9UanJfQkg3VkNMejE1ZEs4TUdNVE1KdkZELURVd0NHNnZaOHJRZUhCMUxyckJqMmZGUEl2enh2MmRVd2V5VnpnaUNpakx5QnVUSXdWUmc?oc=5",
-      "dropped_title": "The FCC Approves SpaceX’s Plan for 1 Million Space Satellites - Truthout",
-      "dropped_feed": "Google News — space",
-      "dropped_link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOMDIwRmJES0xUanhpMmExSjVFYy1aRW50VTBoYjJ4S29TVnlBNXMwZWVld19TVjF6VENvVjVuQXR5eVhNbHFDeUt2Nzlpa0xQZ2VXTzNoaXlKMGxGTlg5ZjVmYnhRQkZfdE96dGQyMWdPTFJmTlAxeDd3M0szUGljaVYzakRldTBxdUlUb2JSV3RrQ19aY3c?oc=5",
+      "kept_title": "The Sky This Week from November 27 to December 4: Brilliant Venus",
+      "kept_feed": "Astronomy Magazine",
+      "kept_link": "https://www.astronomy.com/the-sky-this-week/the-sky-this-week-from-november-27-to-december-4-2026/",
+      "dropped_title": "The Sky This Week from November 27 to December 4: Brilliant Venus",
+      "dropped_feed": "Bing News — astronomy",
+      "dropped_link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6b09e781146441c2926bca534beca4f6&url=https%3a%2f%2fwww.astronomy.com%2fthe-sky-this-week%2fthe-sky-this-week-from-november-27-to-december-4-2026%2f&c=2513990104879365100&mkt=en-us",
       "signal": "title-similarity"
     },
     {
@@ -119,295 +383,25 @@
       "dropped_feed": "Google News — astronomy",
       "dropped_link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFAycWR0NUpfMmxBbUo1cFNrTFJwUFNyRWFHZUVlaldjdVRMcEpJdXAwZDhsa0dXQzFJeTVpR09tMm9Dd0E2SkIxb1BxbVhZcUhDalBtazNEeERidVpaekZoaFVMei1mS0pmeXFXbUFXVTg5azlJUUE?oc=5",
       "signal": "title-similarity"
-    },
-    {
-      "kept_title": "'Star Trek IV: The Voyage Home' at 40: 'Trek' has never been as joyous or fun as in 'the one with the whales'",
-      "kept_feed": "Space.com",
-      "kept_link": "https://www.space.com/entertainment/space-movies-shows/star-trek-iv-the-voyage-home-at-40-trek-has-never-been-as-joyous-or-fun-as-in-the-one-with-the-whales",
-      "dropped_title": "'Star Trek IV: The Voyage Home' at 40: 'Trek' has never been as joyous or fun as in 'the one with the whales' - Space",
-      "dropped_feed": "Google News — space",
-      "dropped_link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQbE0xQ0gxVTlnQzZhTHY5TlR0V29fOW5kdG0zTHU2bFRJMmFXS3pvSzdfR2ZrY0JjT05sYVFYdWw5eldCdjhxc3NUWm9Camtxbk1VN1ZWcXhLb2pEZXlpb2t3d0tsVUV5Vmk3amtpWHZ5Q1B5OV94VDhRV205MjBsbnRqLVQwMG54RC1yekk5M195a1NoVzRVYVZiVURBN0NlRWkwSzlyVGhIS043bFFLcmFPUkFDSzk5X1I3TnFYd3hqcFdESXZxR0xpT3VDdUZJRm0tOXBRT0VDZy0yUHlmNHREX2t0MUpMS09peQ?oc=5",
-      "signal": "title-similarity"
-    },
-    {
-      "kept_title": "The ‘bare-knuckled’ future of life in space with Tim Marshall",
-      "kept_feed": "SpaceNews",
-      "kept_link": "https://spacenews.com/the-bare-knuckled-future-of-life-in-space-with-tim-marshall/",
-      "dropped_title": "The ‘bare-knuckled’ future of life in space with Tim Marshall - SpaceNews",
-      "dropped_feed": "Google News — space",
-      "dropped_link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNdWhmS21nUS1BR1h6UUItaVZCamg5a1Rwa3JzZ1FVNm5WWFRVUWxPNi1EeU52TTRBZTVDT3hyUF9OODFmQ25jT01oRjdVZUJINVNWd25zWjRwUjJhVHlOYUQzaFFFaWstVVZvMDJXeERoWG5tX1RMRVJGY1VvWDZhaGNUOHN4aHJkR3c?oc=5",
-      "signal": "title-similarity"
-    },
-    {
-      "kept_title": "AI Helps Three Powerful Supercomputers Simulate The Milky Way In Extraordinary Detail",
-      "kept_feed": "Universe Today",
-      "kept_link": "https://www.universetoday.com/articles/ai-helps-three-powerful-supercomputers-simulate-the-milky-way-in-extraordinary-detail",
-      "dropped_title": "AI Helps Three Powerful Supercomputers Simulate The Milky Way In Extraordinary Detail - Universe Today",
-      "dropped_feed": "Google News — astronomy",
-      "dropped_link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPaHRqdS1yRTJac0tSRUQtcVBHWUgtdVA4ZEpyMUc4SW92ZmFXNkpveDExeXZVaTk2Q3RuYVJtLTNzOHBwRzJGcTg2VGNpT1BQWXpmS2JDVGtla0ZlZzYzRU5VSWNJYUMwRnVXY3NMTXhQQmtWNlBJbVUweS1acHJKUDdTNEd2bnR6NVItNHN4SzRVVVJLcXlocDJjamFhRWlGZFRQVUJqU0t6NnpueDVmZGNKM3ZzWFdwWEVkOU9qRV9xQQ?oc=5",
-      "signal": "title-similarity"
-    },
-    {
-      "kept_title": "ESO statement on approval of launch of one million space data centres - Eso.org",
-      "kept_feed": "Google News — space",
-      "kept_link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBDZDZjWVdZcUhESXYzWmZTZzhuV3ZYUGdGV2Y0NHdvYVA4S3RwQ19NUWU5cUxBWmozYnZ4eC0tTVpfR2lycXhTU2dYV05UVWN4VkE?oc=5",
-      "dropped_title": "ESO statement on approval of launch of one million space data centres",
-      "dropped_feed": "ESO News",
-      "dropped_link": "https://www.eso.org/public/news/eso2614/",
-      "signal": "title-similarity"
-    },
-    {
-      "kept_title": "On this day in space! Nov. 26, 2011: NASA's 2-ton nuclear-powered Curiosity rover launches to Mars",
-      "kept_feed": "Space.com",
-      "kept_link": "https://www.space.com/space-exploration/on-this-day-in-space-november-26-2026",
-      "dropped_title": "On this day in space! Nov. 26, 2011: NASA's 2-ton nuclear-powered Curiosity rover launches to Mars - Space",
-      "dropped_feed": "Google News — space",
-      "dropped_link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQWVVJUG5iR2JScFY1MHg5SVY4WFNHM09yMTFvSUU1bmlMWmg3b2Y3clUxdmNaOWplcDhSdjBCZ1ZuQlBfbVdiRVkwdTk3YnVDTk4xQUx2RnRsQzF0amkwMVNzMzVuX2x3aDYxeklsLVpENUtTZXRpa09LMW4xNUtRZ0tzUQ?oc=5",
-      "signal": "title-similarity"
-    },
-    {
-      "kept_title": "Robots, Not Astronauts, Will Have to Fix Space Data Centers",
-      "kept_feed": "Universe Today",
-      "kept_link": "https://www.universetoday.com/articles/robots-not-astronauts-will-have-to-fix-space-data-centers",
-      "dropped_title": "Robots, Not Astronauts, Will Have to Fix Space Data Centers - Universe Today",
-      "dropped_feed": "Google News — space",
-      "dropped_link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQM2RaelhHUXFhbWZPT1pxREtYOEdBM3pZdUFoVURRR0pPX1RDamg4UlU0NnIxY05uaEJKYUxybjJoekV6RXNhOFFXdm5OWVZmT2otZDl0YUE1VXh4QmlRWG1kV3ZzSVZtWTRqZlZnMlB1UXVadkJuUlFPanUwX0pRVnR1QnZUNlpvd3dWUWphQkxyY0dnc1h4MUJablc?oc=5",
-      "signal": "title-similarity"
-    },
-    {
-      "kept_title": "The closest exoplanets may host magnetic fields - Astronomy Magazine",
-      "kept_feed": "Google News — astronomy",
-      "kept_link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQSk55VXdPZ2xjbUEwZVBuRGw4ZDhWM2xvSXYyRGVhZDZkMWFGdUVWVi1BeVlNT21WMEdCSUo4R3BnRkJmRnVkLXEzNFVqX0VLVEtkbU51bGZvTjVXTmZkelcyYUVXZkNEVy1GampsT3F5VDIzUjl5YzRvbnFsSnpHUU80TjZReG5Ib1E?oc=5",
-      "dropped_title": "The closest exoplanets may host magnetic fields",
-      "dropped_feed": "Astronomy Magazine",
-      "dropped_link": "https://www.astronomy.com/science/the-closest-exoplanets-may-host-magnetic-fields/",
-      "signal": "title-similarity"
-    },
-    {
-      "kept_title": "New York Extreme Weather - TelegraphHerald.com",
-      "kept_feed": "Google News — extreme weather",
-      "kept_link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxORGFSeDF6MTAwdXlMSU80ME1Xa2ppZGU3LWpmTktKcUhoX096V3BlTjNJM1NCUHg1ck0zWUZFb3JYeXZqMVg4TTFZazJPcmpwRGQxYlZxRTl4OUhDY3JKTm9nUkhLams0b0xnYlM3WDRtdmhTUWVoSjNOZ281bzc3Qk9WMHhndjNwd1FmM3JCUmI3OVU0cmYyaw?oc=5",
-      "dropped_title": "New York Extreme Weather - Indiana Gazette Online",
-      "dropped_feed": "Google News — extreme weather",
-      "dropped_link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNQW8tZXNzS3VoTDBKZHRFYWNrbklyX0c1aS1rbnVpUjVDVExrcWtRWnJtRnFIWXlWTHpsWVdVRGFxeHZZYTVHOVE4Tzl1VU55X28weUM4Y0JCaFAxM25tOG1jX1JVaUVNQU4xTzBMTVZlMVFnSWhOaXk5UzN2ZEhQQUwtNll6Wjc5cm1hbWVrRkQ3ZUY2dUZQNFhaUGlaNlRYdVRjTVJPRDNKVDNMSENxRzA4dnlPRXdu?oc=5",
-      "signal": "title-similarity"
-    },
-    {
-      "kept_title": "Thanksgiving night sky 2026 — What to look for after dinner tonight",
-      "kept_feed": "Space.com",
-      "kept_link": "https://www.space.com/stargazing/thanksgiving-night-sky-2026-what-to-look-for-after-dinner-tonight",
-      "dropped_title": "Thanksgiving night sky 2026 — What to look for after dinner tonight - Space",
-      "dropped_feed": "Google News — astronomy",
-      "dropped_link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxONFd1WnIzZldUR0NEampCLWktQ3hoUlk1clhnX2xXTG9rYlRKTXdxMW5lMlpkZmpnTUFRaHBORzNKelJYYlpQeFZ4Ym52NG9oUVQzTHRkUWg2c29MZXc2U0N1dE9xUk1MZ2thckVvRW5VTWpWY21IcTd6MGpkQ0k5Z05UOWp1YkJfSlZyRnlsejQzYThmaEZsclctRGhyMFE?oc=5",
-      "signal": "title-similarity"
-    },
-    {
-      "kept_title": "This pocket-sized smart telescope is small enough to take anywhere, now 19% cheaper for Black Friday — plus a chance to win one for free!",
-      "kept_feed": "Space.com",
-      "kept_link": "https://www.space.com/stargazing/skywatching-kit/dwarflab-dwarf-mini-smart-telescope-80-dollars-off-black-friday-deal-2026",
-      "dropped_title": "This pocket-sized smart telescope is small enough to take anywhere, now 19% cheaper for Black Friday — plus a chance to win one for free!",
-      "dropped_feed": "Bing News — space",
-      "dropped_link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6b0918943e9549c89c0986c95ca465ef&url=https%3a%2f%2fwww.space.com%2fstargazing%2fskywatching-kit%2fdwarflab-dwarf-mini-smart-telescope-80-dollars-off-black-friday-deal-2026&c=8602920223204074994&mkt=en-us",
-      "signal": "title-similarity"
-    },
-    {
-      "kept_title": "Thanksgiving night sky 2026 — What to look for after dinner tonight",
-      "kept_feed": "Space.com",
-      "kept_link": "https://www.space.com/stargazing/thanksgiving-night-sky-2026-what-to-look-for-after-dinner-tonight",
-      "dropped_title": "Thanksgiving night sky 2026 — What to look for after dinner tonight",
-      "dropped_feed": "Bing News — space",
-      "dropped_link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6b0918943e9549c89c0986c95ca465ef&url=https%3a%2f%2fwww.space.com%2fstargazing%2fthanksgiving-night-sky-2026-what-to-look-for-after-dinner-tonight&c=16207714583002644147&mkt=en-us",
-      "signal": "title-similarity"
-    },
-    {
-      "kept_title": "'Star Trek IV: The Voyage Home' at 40: 'Trek' has never been as joyous or fun as in 'the one with the whales'",
-      "kept_feed": "Space.com",
-      "kept_link": "https://www.space.com/entertainment/space-movies-shows/star-trek-iv-the-voyage-home-at-40-trek-has-never-been-as-joyous-or-fun-as-in-the-one-with-the-whales",
-      "dropped_title": "'Star Trek IV: The Voyage Home' at 40: 'Trek' has never been as joyous or fun as in 'the one with the whales'",
-      "dropped_feed": "Bing News — space",
-      "dropped_link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6b0918943e9549c89c0986c95ca465ef&url=https%3a%2f%2fwww.space.com%2fentertainment%2fspace-movies-shows%2fstar-trek-iv-the-voyage-home-at-40-trek-has-never-been-as-joyous-or-fun-as-in-the-one-with-the-whales&c=13027510387075213773&mkt=en-us",
-      "signal": "title-similarity"
-    },
-    {
-      "kept_title": "Your Daily Horoscope by Madame Clairevoyant: November 26, 2026 - The Cut",
-      "kept_feed": "Google News — astrology",
-      "kept_link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPUEdOX29lRTFlRjJTT0hpY0pfVTlkdjBad3ZZSjhHM012MFNvR0VPUDNPeVNsaUg5dUhlM3hFYjBQTWs1MWdFLVFXd0JhOUJkaEpxX19hUWd3dVBzMnhtT0FaaGh6VHJDeWdmTWFMYVY4S3Y3Z3BydjJGSGxhdlJyc3RNVWIzQWVMX1dGOVI3N1ZTOFF5S2xn?oc=5",
-      "dropped_title": "Horoscopes Today, November 26, 2026 - USA Today",
-      "dropped_feed": "Google News — astrology",
-      "dropped_link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPcjRpMjdtNkplb0F5WnQ1TnJ1Tlk4X2dPQXphZ1VQb1dUNFBoVHJBZ3djQnBEYWZ0SUtaOEYwQmJqM1JaSG83Z2M5SEE5Yzh1Z2E4cjZfSFF0TEhwa0NueUt5WENwMGRabGsxRHBZc2lGM1pUUmNmcm0wOXh3RUxnNWVseEh6ZDVVYlVWX3VmUFI?oc=5",
-      "signal": "aggregator-event"
-    },
-    {
-      "kept_title": "US authorizes SpaceX to deploy 1 million satellites for AI data centers in space - CNN",
-      "kept_feed": "Google News — space",
-      "kept_link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOQ0x2cTY1eldxQW5lTHFueTItMEJDQXlWYXJSLWQzWVdKV3Y5UVNSd2dwMUNCcVNtTTZWLVBZSklFcm11X0JtczRyQzJzV0huclBsZzdKQWJTLUxlOEhxU0tlUndoTFlyWkxIVTF4bGxwM1FWbTBEWjlpTk9oZ1RIaGtmdXVUbjFG?oc=5",
-      "dropped_title": "FCC says SpaceX can deploy 1 million satellites for data centers in space. Scientists are skeptical",
-      "dropped_feed": "Phys.org — Space News",
-      "dropped_link": "https://phys.org/news/2026-11-fcc-spacex-deploy-million-satellites.html",
-      "signal": "title-similarity"
-    },
-    {
-      "kept_title": "Can't wait for Dune: Part 3? Catch up on the sandy sci-fi saga with this half-price HBO Max Black Friday deal",
-      "kept_feed": "Space.com",
-      "kept_link": "https://www.space.com/entertainment/space-movies-shows/cant-wait-for-dune-part-3-catch-up-on-the-sandy-sci-fi-saga-with-this-half-price-hbo-max-black-friday-deal",
-      "dropped_title": "Can't wait for Dune: Part 3? Catch up on the sandy sci-fi saga with this half-price HBO Max Black Friday deal",
-      "dropped_feed": "Bing News — space",
-      "dropped_link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6b0918943e9549c89c0986c95ca465ef&url=https%3a%2f%2fwww.space.com%2fentertainment%2fspace-movies-shows%2fcant-wait-for-dune-part-3-catch-up-on-the-sandy-sci-fi-saga-with-this-half-price-hbo-max-black-friday-deal&c=14547022993090043849&mkt=en-us",
-      "signal": "title-similarity"
-    },
-    {
-      "kept_title": "Your Daily Horoscope by Madame Clairevoyant: November 26, 2026 - The Cut",
-      "kept_feed": "Google News — astrology",
-      "kept_link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPUEdOX29lRTFlRjJTT0hpY0pfVTlkdjBad3ZZSjhHM012MFNvR0VPUDNPeVNsaUg5dUhlM3hFYjBQTWs1MWdFLVFXd0JhOUJkaEpxX19hUWd3dVBzMnhtT0FaaGh6VHJDeWdmTWFMYVY4S3Y3Z3BydjJGSGxhdlJyc3RNVWIzQWVMX1dGOVI3N1ZTOFF5S2xn?oc=5",
-      "dropped_title": "Daily Astrology News Alert, 26 November 2026: Moon Moves into Gemini as Mercury Picks Up Speed in Libra, - The Times of India",
-      "dropped_feed": "Google News — astrology",
-      "dropped_link": "https://news.google.com/rss/articles/CBMiyAJBVV95cUxQa1lkdzRUU0VFcW9uU1RaV0V1aWUwWGUyZGg4N01Rc09wTVczQ295MmhhdURlZW5pZjU3X3dnbHlhWFUzNFA0NXZqbVhwR1BXV0dCUHFBUWRpaVVPWndUVnNzQzJTSjYyY1hmcVRsTHp1M25UQ1U5MWRJWkFxS2V0eEdiU0pkSUJXb2dPRWVyNHhSZ0FOTDQwbkd1YmxDbWZveUJNMGtZUkxLLXk5dUFHb3lhVHR3OVpDWXNhSzBDUm9tV2dzNmdNd2t0aU1iaXhuOHhWYjdYMWszNDhlYXNqa2xZTzctRU8yQkxQYUlfTGZ6eEg4ckJKLWp0VkNSUXdPeW9UR3NGVzJDMmVIVUdTMzdNOGVBdGloaWRCdFFqYWtJMU13cUFDZy1pWUdkTl9Ob19zeDlGeUo2MUFyT0RQUGdnb2NzRzF30gHOAkFVX3lxTE9iUVRDZENxWmdiWTNTZFZEcGIzMXNRYnVNOWZXV2RqVHhZelRDVWEtdjQzX3JiZkFpYTItT0taZWtsQjMyQW9qOHFYTDBzcEJfcWllaHhPRzBrQ21HLVNxenR6QllyRGh1Y0lpck9Ud2ExTzc1ZW1DRnBwMDN4aDlodUJEQnBqT0xaSWZRcGwtMWJvcjJ1eS1SLTcxV01mVGpEdWR1TkNZVmI0Tm1YS1dBa3VzcmxLMm9CQlBGcjZFcHpKNlZJRWZ4b3BTSnNESFVVRWh1QXRrTUtwdTBUU0EzQ3ROWHZqN3ZJNVlVbFI0ZFRMRUhWU1JBT193VGZKSXNaS1E2QnhieGJITFI3cWlUQW9RSzhNSEtTTXZLRlBhdHFBczExWEV0czRkM1VGeUpTSnkyX2htY2pWeUhUakt6U0M3aVM3djZnMjlTTUE?oc=5",
-      "signal": "aggregator-event"
-    },
-    {
-      "kept_title": "Light trails - Astronomy Magazine",
-      "kept_feed": "Google News — astronomy",
-      "kept_link": "https://news.google.com/rss/articles/CBMickFVX3lxTE95eXpod0JPNzVTODlEdkxFS0VXc1RnRm52aW40cXV5RDdYWW9JZ2x1M2VKQUFJVXBIeEp3d1VJMW1BTm5Sdk5GQ3JOOHVsekFnX2pyUUNUVVJSWkpSaWJNTzBMX0pHcjVmNFpjOUs5aVhSQQ?oc=5",
-      "dropped_title": "Light trails",
-      "dropped_feed": "Astronomy Magazine",
-      "dropped_link": "https://www.astronomy.com/picture-of-the-day/photo/light-trails/",
-      "signal": "title-similarity"
-    },
-    {
-      "kept_title": "Venus shines at its brightest in the predawn sky this week. Here's where to look",
-      "kept_feed": "Space.com",
-      "kept_link": "https://www.space.com/stargazing/venus-shines-at-its-brightest-in-the-predawn-sky-this-week-heres-where-to-look-nov-27-2026",
-      "dropped_title": "Venus shines at its brightest in the predawn sky this week. Here's where to look",
-      "dropped_feed": "Bing News — space",
-      "dropped_link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6b0918943e9549c89c0986c95ca465ef&url=https%3a%2f%2fwww.space.com%2fstargazing%2fvenus-shines-at-its-brightest-in-the-predawn-sky-this-week-heres-where-to-look-nov-27-2026&c=13692750134134942168&mkt=en-us",
-      "signal": "title-similarity"
-    },
-    {
-      "kept_title": "On this day in space! Nov. 26, 2011: NASA's 2-ton nuclear-powered Curiosity rover launches to Mars",
-      "kept_feed": "Space.com",
-      "kept_link": "https://www.space.com/space-exploration/on-this-day-in-space-november-26-2026",
-      "dropped_title": "On this day in space! Nov. 26, 2011: NASA's 2-ton nuclear-powered Curiosity rover launches to Mars",
-      "dropped_feed": "Bing News — space",
-      "dropped_link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6b0918943e9549c89c0986c95ca465ef&url=https%3a%2f%2fwww.space.com%2fspace-exploration%2fon-this-day-in-space-november-26-2026&c=18057265739891873665&mkt=en-us",
-      "signal": "title-similarity"
-    },
-    {
-      "kept_title": "Cloudy Thanksgiving spoiling your stargazing? These star projectors are on offer for Black Friday",
-      "kept_feed": "Space.com",
-      "kept_link": "https://www.space.com/stargazing/skywatching-kit/cloudy-thanksgiving-spoiling-your-stargazing-these-star-projectors-are-on-offer-for-black-friday",
-      "dropped_title": "Cloudy Thanksgiving spoiling your stargazing? These star projectors are on offer for Black Friday",
-      "dropped_feed": "Bing News — space",
-      "dropped_link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6b0918943e9549c89c0986c95ca465ef&url=https%3a%2f%2fwww.space.com%2fstargazing%2fskywatching-kit%2fcloudy-thanksgiving-spoiling-your-stargazing-these-star-projectors-are-on-offer-for-black-friday&c=10085741429419403044&mkt=en-us",
-      "signal": "title-similarity"
-    },
-    {
-      "kept_title": "Rocket Lab sending Japanese satellite to orbit on Thanksgiving Day launch: Watch it live",
-      "kept_feed": "Space.com",
-      "kept_link": "https://www.space.com/space-exploration/launches-spacecraft/rocket-lab-sending-japanese-satellite-to-orbit-on-thanksgiving-day-launch-watch-it-live",
-      "dropped_title": "Rocket Lab sending Japanese satellite to orbit on Thanksgiving Day launch: Watch it live",
-      "dropped_feed": "Bing News — space",
-      "dropped_link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6b0918943e9549c89c0986c95ca465ef&url=https%3a%2f%2fwww.space.com%2fspace-exploration%2flaunches-spacecraft%2frocket-lab-sending-japanese-satellite-to-orbit-on-thanksgiving-day-launch-watch-it-live&c=16261710337897980643&mkt=en-us",
-      "signal": "title-similarity"
-    },
-    {
-      "kept_title": "Cosmic 'betta fish' glows in spectacular nebula portrait | Space photo of the day for Nov. 26, 2026",
-      "kept_feed": "Space.com",
-      "kept_link": "https://www.space.com/astronomy/cosmic-betta-fish-glows-in-spectacular-nebula-portrait-space-photo-of-the-day-for-nov-26-2026",
-      "dropped_title": "Cosmic 'betta fish' glows in spectacular nebula portrait | Space photo of the day for Nov. 26, 2026",
-      "dropped_feed": "Bing News — space",
-      "dropped_link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6b0918943e9549c89c0986c95ca465ef&url=https%3a%2f%2fwww.space.com%2fastronomy%2fcosmic-betta-fish-glows-in-spectacular-nebula-portrait-space-photo-of-the-day-for-nov-26-2026&c=10914687974019498261&mkt=en-us",
-      "signal": "title-similarity"
-    },
-    {
-      "kept_title": "Prepare for Avengers: Doomsday and catch the entire MCU on Disney+ — now only $4.99/month",
-      "kept_feed": "Space.com",
-      "kept_link": "https://www.space.com/entertainment/space-movies-shows/prepare-for-avengers-doomsday-and-catch-the-entire-mcu-on-disney-now-only-4-99-month",
-      "dropped_title": "Prepare for Avengers: Doomsday and catch the entire MCU on Disney+ — now only $4.99/month",
-      "dropped_feed": "Bing News — space",
-      "dropped_link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6b0918943e9549c89c0986c95ca465ef&url=https%3a%2f%2fwww.space.com%2fentertainment%2fspace-movies-shows%2fprepare-for-avengers-doomsday-and-catch-the-entire-mcu-on-disney-now-only-4-99-month&c=3516953155157525272&mkt=en-us",
-      "signal": "title-similarity"
-    },
-    {
-      "kept_title": "Secret Pentagon UFO hunt drew blueprints for hidden Nevada bunker to store ‘exotic’ materials - Fox News",
-      "kept_feed": "Google News — UAP",
-      "kept_link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPNXNLNWFEMVZEY2JmMGk3bUhDcThxbW95Y0tGLVlaZU9sMlREdEJrcmNaTmdOclhpcFJ0RGlwbkZxWXlpajJLbjFBcUFraGFVZG8tYkdGR2Q0SHlmTHVFYTN0Qy1XQlVpalVCQ2pRZmg0QkU5SmVNREJfSURaTGtZbml2TzdiVWZrU0hFMkdvSnNEM2laYzA2aHdycmdLdlJOR1hUSEFVVUs4Q000WWROVtIBtgFBVV95cUxQb2wweUdfUHFhc1VRY2xwUjhYLXVUN3VYdUpKdUdjMjJxeDB1RThvWjJEaC1YMzVDNXU5aFlienFpUkV3MzEzYzNhNzNTM0FhbGRzMWZKa3FRd2ZlNGxsQXExeEQ0aXgycGlpbWJDTHQ0dFBFcHFWNHBEeE1VVUdyekZBRjBIalVKZjk4aVk3dWZuYlZvZVFiZmpsNXhsZ2xsUURKOFFDckRVb0dvQ0txTkY4aGZBZw?oc=5",
-      "dropped_title": "Secret Pentagon UFO hunt drew blueprints for hidden Nevada bunker to store ‘exotic’ materials",
-      "dropped_feed": "Bing News — UFO",
-      "dropped_link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6b091894140a4e39b6a9be6250475e15&url=https%3a%2f%2fwww.msn.com%2fen-us%2fnews%2fother%2fsecret-pentagon-ufo-hunt-drew-blueprints-for-hidden-nevada-bunker-to-store-exotic-materials%2far-AA2ihw7C&c=13377592846516461890&mkt=en-us",
-      "signal": "title-similarity"
-    },
-    {
-      "kept_title": "Secret Pentagon UFO hunt drew blueprints for hidden Nevada bunker to store ‘exotic’ materials - Fox News",
-      "kept_feed": "Google News — UAP",
-      "kept_link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPNXNLNWFEMVZEY2JmMGk3bUhDcThxbW95Y0tGLVlaZU9sMlREdEJrcmNaTmdOclhpcFJ0RGlwbkZxWXlpajJLbjFBcUFraGFVZG8tYkdGR2Q0SHlmTHVFYTN0Qy1XQlVpalVCQ2pRZmg0QkU5SmVNREJfSURaTGtZbml2TzdiVWZrU0hFMkdvSnNEM2laYzA2aHdycmdLdlJOR1hUSEFVVUs4Q000WWROVtIBtgFBVV95cUxQb2wweUdfUHFhc1VRY2xwUjhYLXVUN3VYdUpKdUdjMjJxeDB1RThvWjJEaC1YMzVDNXU5aFlienFpUkV3MzEzYzNhNzNTM0FhbGRzMWZKa3FRd2ZlNGxsQXExeEQ0aXgycGlpbWJDTHQ0dFBFcHFWNHBEeE1VVUdyekZBRjBIalVKZjk4aVk3dWZuYlZvZVFiZmpsNXhsZ2xsUURKOFFDckRVb0dvQ0txTkY4aGZBZw?oc=5",
-      "dropped_title": "Secret Pentagon UFO hunt drew blueprints for hidden Nevada bunker to store exotic materials",
-      "dropped_feed": "Bing News — UAP",
-      "dropped_link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6b09189452f24053b02eb79d5b0aa7e9&url=https%3a%2f%2fwww.msn.com%2fen-us%2flifestyle%2fother%2fsecret-pentagon-ufo-hunt-drew-blueprints-for-hidden-nevada-bunker-to-store-exotic-materials%2far-AA2ihw7C&c=12743225453645218380&mkt=en-us",
-      "signal": "title-similarity"
-    },
-    {
-      "kept_title": "Space plants with hot sauce: What ISS astronauts will be eating on Thanksgiving (video)",
-      "kept_feed": "Space.com",
-      "kept_link": "https://www.space.com/space-exploration/human-spaceflight/space-plants-with-hot-sauce-what-iss-astronauts-will-be-eating-on-thanksgiving-video",
-      "dropped_title": "Space plants with hot sauce: What ISS astronauts will be eating on Thanksgiving (video)",
-      "dropped_feed": "Bing News — space",
-      "dropped_link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6b0918943e9549c89c0986c95ca465ef&url=https%3a%2f%2fwww.space.com%2fspace-exploration%2fhuman-spaceflight%2fspace-plants-with-hot-sauce-what-iss-astronauts-will-be-eating-on-thanksgiving-video&c=6154202873303451108&mkt=en-us",
-      "signal": "title-similarity"
-    },
-    {
-      "kept_title": "Pentagon declassifies three military UAP sensor videos from 2020, 2023 and 2026 - Fox News",
-      "kept_feed": "Google News — UAP",
-      "kept_link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9scC1EVG8xckM5bTBTUk9nYWpIWm9iM2hzUlJQR0NHYmZsWVNJNXJKZXR3bVBvX0FZeXJuUC1rS2prbDFKcUlIT2g0NTQzWTVzSzh1S3dR?oc=5",
-      "dropped_title": "Pentagon declassifies three military UAP sensor videos from 2020, 2023 and 2026 - Yahoo",
-      "dropped_feed": "Google News — UAP",
-      "dropped_link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQSFNwdUw0czFEQTNjeEpjRElDV3hSQVJoWmFhTzVtQ1R3ZHU4TE9yMVd2MU10anhGdV9NQVhrT3JmWFhhYlphcTNIdmJ6SFd5Nk9mMUxyZDN0Z2UyNmdyaThKNExuNW5mS0JINkF0YVZHTDlXckNoOHlNbXBaTWtKSzFvbVI1Z3BWOFJmWVpKTW4talk?oc=5",
-      "signal": "title-similarity"
-    },
-    {
-      "kept_title": "Catch up on 60 years of Star Trek this Thanksgiving weekend on Paramount+ — plans now 79% off",
-      "kept_feed": "Space.com",
-      "kept_link": "https://www.space.com/entertainment/space-movies-shows/catch-up-on-60-years-of-star-trek-this-thanksgiving-weekend-on-paramount-plans-now-79-percent-off",
-      "dropped_title": "Catch up on 60 years of Star Trek this Thanksgiving weekend on Paramount+ — plans now 79% off",
-      "dropped_feed": "Bing News — space",
-      "dropped_link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6b0918943e9549c89c0986c95ca465ef&url=https%3a%2f%2fwww.space.com%2fentertainment%2fspace-movies-shows%2fcatch-up-on-60-years-of-star-trek-this-thanksgiving-weekend-on-paramount-plans-now-79-percent-off&c=4799505989333359146&mkt=en-us",
-      "signal": "title-similarity"
-    },
-    {
-      "kept_title": "Your Daily Horoscope by Madame Clairevoyant: November 26, 2026 - The Cut",
-      "kept_feed": "Google News — astrology",
-      "kept_link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPUEdOX29lRTFlRjJTT0hpY0pfVTlkdjBad3ZZSjhHM012MFNvR0VPUDNPeVNsaUg5dUhlM3hFYjBQTWs1MWdFLVFXd0JhOUJkaEpxX19hUWd3dVBzMnhtT0FaaGh6VHJDeWdmTWFMYVY4S3Y3Z3BydjJGSGxhdlJyc3RNVWIzQWVMX1dGOVI3N1ZTOFF5S2xn?oc=5",
-      "dropped_title": "Daily Horoscope for November 26, 2026 - Chicago Tribune",
-      "dropped_feed": "Google News — astrology",
-      "dropped_link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQS255aGh3ejBkYzFySlpWZmt5WmF4dkJZODF2QS1yUlJMS1otZ0k0TFI0TU42Y1Ntb3NudWhKWUZfczF5Um8yRkRlTXl5VlpuLUNiOTkzR1FIZ0RweWY2X1hiY0JFbGFZeWV0QnRtVFhmeVZDOVY2UnRYX3BQZzlWdXFYS2ZhUQ?oc=5",
-      "signal": "title-similarity"
-    },
-    {
-      "kept_title": "FCC approves 1 million SpaceX data centers in space. Astronomers are dismayed. - The Washington Post",
-      "kept_feed": "Google News — astronomy",
-      "kept_link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPWWRGMWR3bjFJZmlWaVE5Si0zTk56UnpEcDNYS0gxalgyV2Q5ZVBiNWRoMVAycmRvVUlfN1Mydm00dlpZdWZsTkVPMGtabEZsQ3FlNC1QbXFSZTF1MXhMQ2p0R3JtRUg1VlEyUFc2aVBGVkMwWHFrZl9UanJfQkg3VkNMejE1ZEs4TUdNVE1KdkZELURVd0NHNnZaOHJRZUhCMUxyckJqMmZGUEl2enh2MmRVd2V5VnpnaUNpakx5QnVUSXdWUmc?oc=5",
-      "dropped_title": "FCC Approves SpaceX Request to Launch One Million Data Centers into Space - Earthjustice",
-      "dropped_feed": "Google News — space",
-      "dropped_link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNWmNrSDRMQzhUUXdHek1HRkFicXN4Um8wRlFsM2JQRVVDZERjV08yY1Q4R2dNVVBsR2g4QWhidUU2aTl1THNTYm9Qc1FRU0xzZTVtcjVYZGhyNnh2UTNPQTJ6cGdQS3NoSnN0ZTlKd3ZSUDFpbTV1VXUtSXQ1LVpqZ3pQM0RYLUxXZWg4WGJDM0N5OUtKS0ZQRDl3Zkl2Nm9aWVA2cUJJNGpsM21kZkE?oc=5",
-      "signal": "title-similarity"
     }
   ],
-  "articles_written": 259,
+  "articles_written": 261,
   "excerpt_over_limit": 0,
-  "images_logged": 135,
-  "images_usable": 2,
-  "images_hero_eligible": 2,
+  "images_logged": 128,
+  "images_usable": 5,
+  "images_hero_eligible": 4,
   "terms_breakdown": {
-    "full_text": 9,
+    "full_text": 7,
     "abstract": 0,
-    "excerpt": 250
+    "excerpt": 254
   },
   "topic_breakdown": {
-    "Space & Astronomy": 67,
-    "UFOs & UAPs": 18,
-    "Consciousness": 55,
-    "Near-Death Experiences": 6,
-    "Physics & Preprints": 3,
-    "Science & the Future": 110
+    "Space & Astronomy": 71,
+    "UFOs & UAPs": 11,
+    "Consciousness": 60,
+    "Near-Death Experiences": 5,
+    "Physics & Preprints": 7,
+    "Science & the Future": 107
   },
   "articles_without_topic": 0
 }
