@@ -1,17 +1,521 @@
 {
-  "generated": "2026-11-27",
+  "generated": "2026-11-28",
   "images": [
     {
-      "image_url": "https://scx1.b-cdn.net/csz/news/tmb/2026/field-team-walking-thr.jpg",
-      "article_link": "https://phys.org/news/2026-11-recovery-vietnam-tropical-forests-isnt.html",
-      "article_title": "Once logging stops, recovery of Vietnam's tropical forests isn't guaranteed",
+      "image_url": "https://www.universetoday.com/article_images/bepicolombo-mercury-orbit-insertion-020.jpg_750_20261128_043742.jpg",
+      "article_link": "https://www.universetoday.com/articles/bepicolombo-captures-mercury-orbit-after-8-year-trip",
+      "article_title": "BepiColombo Captures Mercury Orbit After 8-Year Trip",
+      "source": "Universe Today",
+      "licence": "EXCERPT + LINK — commercial, all rights reserved",
+      "credit": "Universe Today",
+      "usable": false,
+      "usable_reason": "licence does not cover images (Universe Today)",
+      "hero_eligible": false,
+      "date_checked": "2026-11-28"
+    },
+    {
+      "image_url": "https://scx1.b-cdn.net/csz/news/tmb/2022/peaches.jpg",
+      "article_link": "https://phys.org/news/2026-11-explore-ai-smart-sensors-food.html",
+      "article_title": "Researchers explore the use of AI and smart sensors to improve food safety quickly, affordably",
       "source": "Science X",
       "licence": "EXCERPT + LINK — up to 200 words + hyperlink, no permission needed inside that limit",
       "credit": "Science X",
       "usable": false,
       "usable_reason": "licence does not cover images (Science X)",
       "hero_eligible": false,
-      "date_checked": "2026-11-27"
+      "date_checked": "2026-11-28"
+    },
+    {
+      "image_url": "https://www.universetoday.com/article_images/Ceres_wp201704.jpg",
+      "article_link": "https://www.universetoday.com/articles/nuclear-pathfinder-mission-to-ceres-would-usher-in-era-of-interplanetary-transport",
+      "article_title": "Nuclear Pathfinder Mission To Ceres Would Usher In Era Of Interplanetary Transport",
+      "source": "Universe Today",
+      "licence": "EXCERPT + LINK — commercial, all rights reserved",
+      "credit": "Universe Today",
+      "usable": false,
+      "usable_reason": "licence does not cover images (Universe Today)",
+      "hero_eligible": false,
+      "date_checked": "2026-11-28"
+    },
+    {
+      "image_url": "https://www.sciencealert.com/images/2026/11/moon-tube-1200x675.png",
+      "article_link": "https://www.sciencealert.com/astronomers-detect-evidence-of-vast-tunnels-beneath-the-surface-of-the-moon",
+      "article_title": "Astronomers Detect Evidence of Vast Tunnels Beneath The Surface of The Moon",
+      "source": "ScienceAlert",
+      "licence": "EXCERPT + LINK — commercial, all rights reserved",
+      "credit": "ScienceAlert",
+      "usable": false,
+      "usable_reason": "licence does not cover images (ScienceAlert)",
+      "hero_eligible": false,
+      "date_checked": "2026-11-28"
+    },
+    {
+      "image_url": "https://scitechdaily.com/images/Ytterbium-Ions-Create-Dual-Frequency-Combs-777x1093.jpg",
+      "article_link": "https://scitechdaily.com/caltech-scientists-make-billions-of-atoms-flash-in-perfect-quantum-harmony/",
+      "article_title": "Caltech Scientists Make Billions of Atoms Flash in Perfect Quantum Harmony",
+      "source": "SciTechDaily",
+      "licence": "EXCERPT + LINK — commercial, all rights reserved",
+      "credit": "SciTechDaily",
+      "usable": false,
+      "usable_reason": "licence does not cover images (SciTechDaily)",
+      "hero_eligible": false,
+      "date_checked": "2026-11-28"
+    },
+    {
+      "image_url": "https://scx1.b-cdn.net/csz/news/tmb/2026/the-event-horizon-tele.jpg",
+      "article_link": "https://phys.org/news/2026-11-event-horizon-telescope-views-dynamics.html",
+      "article_title": "Event Horizon Telescope views the dynamics and geometry of a black hole jet in extreme detail",
+      "source": "Science X",
+      "licence": "EXCERPT + LINK — publisher allows up to 200 words + hyperlink, no permission needed inside that limit",
+      "credit": "Science X",
+      "usable": false,
+      "usable_reason": "licence does not cover images (Science X)",
+      "hero_eligible": false,
+      "date_checked": "2026-11-28"
+    },
+    {
+      "image_url": "https://www.sciencealert.com/images/2026/11/ManinBlueRedLight-2560x1440-1-1200x675.jpg",
+      "article_link": "https://www.sciencealert.com/men-can-lose-their-y-chromosome-with-age-and-we-may-finally-know-the-cost",
+      "article_title": "Men Can Lose Their Y Chromosome With Age, And We May Finally Know The Cost",
+      "source": "ScienceAlert",
+      "licence": "EXCERPT + LINK — commercial, all rights reserved",
+      "credit": "ScienceAlert",
+      "usable": false,
+      "usable_reason": "licence does not cover images (ScienceAlert)",
+      "hero_eligible": false,
+      "date_checked": "2026-11-28"
+    },
+    {
+      "image_url": "https://scx1.b-cdn.net/csz/news/tmb/2026/should-space-data-cent.jpg",
+      "article_link": "https://phys.org/news/2026-11-space-centers-solar-panels-nuclear.html",
+      "article_title": "Should space data centers run on solar panels, nuclear reactors or both?",
+      "source": "Science X",
+      "licence": "EXCERPT + LINK — publisher allows up to 200 words + hyperlink, no permission needed inside that limit",
+      "credit": "Science X",
+      "usable": false,
+      "usable_reason": "licence does not cover images (Science X)",
+      "hero_eligible": false,
+      "date_checked": "2026-11-28"
+    },
+    {
+      "image_url": "https://scitechdaily.com/images/Electric-Field-of-Light-Accelerates-Electrons-777x886.jpg",
+      "article_link": "https://scitechdaily.com/scientists-watch-electrons-make-an-impossible-looking-quantum-leap/",
+      "article_title": "Scientists Watch Electrons Make an Impossible-Looking Quantum Leap",
+      "source": "SciTechDaily",
+      "licence": "EXCERPT + LINK — commercial, all rights reserved",
+      "credit": "SciTechDaily",
+      "usable": false,
+      "usable_reason": "licence does not cover images (SciTechDaily)",
+      "hero_eligible": false,
+      "date_checked": "2026-11-28"
+    },
+    {
+      "image_url": "https://scx1.b-cdn.net/csz/news/tmb/2026/new-technologies-help.jpg",
+      "article_link": "https://phys.org/news/2026-11-technologies-natural-history-museum-uncover.html",
+      "article_title": "New technologies help Natural History Museum uncover 92 species in its transformed gardens",
+      "source": "Science X",
+      "licence": "EXCERPT + LINK — up to 200 words + hyperlink, no permission needed inside that limit",
+      "credit": "Science X",
+      "usable": false,
+      "usable_reason": "licence does not cover images (Science X)",
+      "hero_eligible": false,
+      "date_checked": "2026-11-28"
+    },
+    {
+      "image_url": "https://scitechdaily.com/images/Harness-Sun-Fusion-Energy-777x518.jpg",
+      "article_link": "https://scitechdaily.com/physicists-crack-a-44-year-old-nuclear-fusion-mystery/",
+      "article_title": "Physicists Crack a 44-Year-Old Nuclear Fusion Mystery",
+      "source": "SciTechDaily",
+      "licence": "EXCERPT + LINK — commercial, all rights reserved",
+      "credit": "SciTechDaily",
+      "usable": false,
+      "usable_reason": "licence does not cover images (SciTechDaily)",
+      "hero_eligible": false,
+      "date_checked": "2026-11-28"
+    },
+    {
+      "image_url": "https://scx1.b-cdn.net/csz/news/tmb/2026/survival-experts-in-th.jpg",
+      "article_link": "https://phys.org/news/2026-11-rna-discovery-reveals-gut-bacterium.html",
+      "article_title": "RNA discovery reveals how gut bacterium adapts to life in intestinal mucus",
+      "source": "Science X",
+      "licence": "EXCERPT + LINK — up to 200 words + hyperlink, no permission needed inside that limit",
+      "credit": "Science X",
+      "usable": false,
+      "usable_reason": "licence does not cover images (Science X)",
+      "hero_eligible": false,
+      "date_checked": "2026-11-28"
+    },
+    {
+      "image_url": "https://scx1.b-cdn.net/csz/news/tmb/2026/artificial-intelligenc-29.jpg",
+      "article_link": "https://phys.org/news/2026-11-ai-simulates-electron-longer-conventional.html",
+      "article_title": "AI simulates electron hops over far longer times than conventional quantum calculations",
+      "source": "Science X",
+      "licence": "EXCERPT + LINK — up to 200 words + hyperlink, no permission needed inside that limit",
+      "credit": "Science X",
+      "usable": false,
+      "usable_reason": "licence does not cover images (Science X)",
+      "hero_eligible": false,
+      "date_checked": "2026-11-28"
+    },
+    {
+      "image_url": "https://scx1.b-cdn.net/csz/news/tmb/2026/voltage-pulses-and-car.jpg",
+      "article_link": "https://phys.org/news/2026-11-conversion-carbon-dioxide-chemical-feedstocks.html",
+      "article_title": "Targeted conversion of carbon dioxide into chemical feedstocks: CO₂ helps shape its own catalyst",
+      "source": "Science X",
+      "licence": "EXCERPT + LINK — up to 200 words + hyperlink, no permission needed inside that limit",
+      "credit": "Science X",
+      "usable": false,
+      "usable_reason": "licence does not cover images (Science X)",
+      "hero_eligible": false,
+      "date_checked": "2026-11-28"
+    },
+    {
+      "image_url": "https://scx1.b-cdn.net/csz/news/tmb/2026/a-simple-microscope-op.jpg",
+      "article_link": "https://phys.org/news/2026-11-lens-simple-microscope-possibilities-quantitative.html",
+      "article_title": "Rocks under the lens: A simple microscope opens new possibilities for quantitative rock analysis",
+      "source": "Science X",
+      "licence": "EXCERPT + LINK — up to 200 words + hyperlink, no permission needed inside that limit",
+      "credit": "Science X",
+      "usable": false,
+      "usable_reason": "licence does not cover images (Science X)",
+      "hero_eligible": false,
+      "date_checked": "2026-11-28"
+    },
+    {
+      "image_url": "https://scx1.b-cdn.net/csz/news/tmb/2026/researchers-study-bat.jpg",
+      "article_link": "https://phys.org/news/2026-11-lab-rsv-human-cells-antibodies.html",
+      "article_title": "Lab experiments suggest bat RSV can enter human cells, but existing antibodies block it",
+      "source": "Science X",
+      "licence": "EXCERPT + LINK — up to 200 words + hyperlink, no permission needed inside that limit",
+      "credit": "Science X",
+      "usable": false,
+      "usable_reason": "licence does not cover images (Science X)",
+      "hero_eligible": false,
+      "date_checked": "2026-11-28"
+    },
+    {
+      "image_url": "https://www.psypost.org/wp-content/uploads/2025/10/depressed-teen.jpg",
+      "article_link": "https://www.psypost.org/how-emotional-abuse-and-family-dynamics-shape-teen-depression-over-time/",
+      "article_title": "Dysfunctional family patterns linked to adolescent depressive symptoms",
+      "source": "PsyPost",
+      "licence": "EXCERPT + LINK — commercial, all rights reserved",
+      "credit": "PsyPost",
+      "usable": false,
+      "usable_reason": "licence does not cover images (PsyPost)",
+      "hero_eligible": false,
+      "date_checked": "2026-11-28"
+    },
+    {
+      "image_url": "https://scx1.b-cdn.net/csz/news/tmb/2026/polyu-researchers-deve.jpg",
+      "article_link": "https://phys.org/news/2026-11-battery-free-implant-harvests-ultrasound.html",
+      "article_title": "Battery-free implant harvests ultrasound energy and glows to reveal its condition",
+      "source": "Science X",
+      "licence": "EXCERPT + LINK — up to 200 words + hyperlink, no permission needed inside that limit",
+      "credit": "Science X",
+      "usable": false,
+      "usable_reason": "licence does not cover images (Science X)",
+      "hero_eligible": false,
+      "date_checked": "2026-11-28"
+    },
+    {
+      "image_url": "https://scx1.b-cdn.net/csz/news/tmb/2026/parent-working.jpg",
+      "article_link": "https://phys.org/news/2026-11-life-job-satisfaction-strongly-pay.html",
+      "article_title": "Work-life balance predicts job satisfaction more strongly than pay or flexible working in study",
+      "source": "Science X",
+      "licence": "EXCERPT + LINK — up to 200 words + hyperlink, no permission needed inside that limit",
+      "credit": "Science X",
+      "usable": false,
+      "usable_reason": "licence does not cover images (Science X)",
+      "hero_eligible": false,
+      "date_checked": "2026-11-28"
+    },
+    {
+      "image_url": "https://www.universetoday.com/article_images/20261124_Yamaguchi_Fig.1_20261126_235908.jpg",
+      "article_link": "https://www.universetoday.com/articles/all-the-gaps-we-see-in-protoplanetary-disks-arent-from-planets",
+      "article_title": "All the Gaps We See in Protoplanetary Disks Aren't From Planets",
+      "source": "Universe Today",
+      "licence": "EXCERPT + LINK — commercial, all rights reserved",
+      "credit": "Universe Today",
+      "usable": false,
+      "usable_reason": "licence does not cover images (Universe Today)",
+      "hero_eligible": false,
+      "date_checked": "2026-11-28"
+    },
+    {
+      "image_url": "https://www.universetoday.com/article_images/eso2607a_20261127_194910.jpg",
+      "article_link": "https://www.universetoday.com/articles/the-eso-is-deeply-concerned-about-space-data-centers-and-the-rest-of-us-should-be-too",
+      "article_title": "The ESO is Deeply Concerned About Space Data Centers, and the Rest of Us Should Be Too",
+      "source": "Universe Today",
+      "licence": "EXCERPT + LINK — commercial, all rights reserved",
+      "credit": "Universe Today",
+      "usable": false,
+      "usable_reason": "licence does not cover images (Universe Today)",
+      "hero_eligible": false,
+      "date_checked": "2026-11-28"
+    },
+    {
+      "image_url": "https://scx1.b-cdn.net/csz/news/tmb/2026/new-research-establish.jpg",
+      "article_link": "https://phys.org/news/2026-11-fundamental-complexity-limit-quantum-circuit.html",
+      "article_title": "New research establishes fundamental complexity limit for quantum circuit optimization",
+      "source": "Science X",
+      "licence": "EXCERPT + LINK — up to 200 words + hyperlink, no permission needed inside that limit",
+      "credit": "Science X",
+      "usable": false,
+      "usable_reason": "licence does not cover images (Science X)",
+      "hero_eligible": false,
+      "date_checked": "2026-11-28"
+    },
+    {
+      "image_url": "https://scx1.b-cdn.net/csz/news/tmb/2026/californias-brawley-se.jpg",
+      "article_link": "https://phys.org/news/2026-11-fiber-optic-unearths-complexity-small.html",
+      "article_title": "Fiber-optic sensing unearths surprising complexity in small California earthquake",
+      "source": "Science X",
+      "licence": "EXCERPT + LINK — up to 200 words + hyperlink, no permission needed inside that limit",
+      "credit": "Science X",
+      "usable": false,
+      "usable_reason": "licence does not cover images (Science X)",
+      "hero_eligible": false,
+      "date_checked": "2026-11-28"
+    },
+    {
+      "image_url": "https://www.twz.com/wp-content/uploads/2026/11/GettyImages-50610834.jpg?quality=85",
+      "article_link": "https://www.twz.com/news-features/bunker-talk-lets-talk-about-all-the-things-we-did-and-didnt-cover-this-week-217",
+      "article_title": "Bunker Talk: Let’s Talk About All The Things We Did And Didn’t Cover This Week",
+      "source": "The War Zone (Recurrent)",
+      "licence": "EXCERPT + LINK — commercial, all rights reserved; UAP is one of its beats, not its whole feed",
+      "credit": "The War Zone (Recurrent)",
+      "usable": false,
+      "usable_reason": "licence does not cover images (The War Zone (Recurrent))",
+      "hero_eligible": false,
+      "date_checked": "2026-11-28"
+    },
+    {
+      "image_url": "https://scx1.b-cdn.net/csz/news/tmb/2026/hku-engineering-team-r.jpg",
+      "article_link": "https://phys.org/news/2026-11-reveal-interlayer-elastic-limits-van.html",
+      "article_title": "Engineers reveal the interlayer elastic limits of van der Waals crystals",
+      "source": "Science X",
+      "licence": "EXCERPT + LINK — up to 200 words + hyperlink, no permission needed inside that limit",
+      "credit": "Science X",
+      "usable": false,
+      "usable_reason": "licence does not cover images (Science X)",
+      "hero_eligible": false,
+      "date_checked": "2026-11-28"
+    },
+    {
+      "image_url": "https://scx1.b-cdn.net/csz/news/tmb/2026/orcas-wellness-check-2.jpg",
+      "article_link": "https://phys.org/news/2026-11-drone-poop-sniffing-dog-scientists.html",
+      "article_title": "Using a drone and a poop-sniffing dog, scientists perform health checks on endangered orcas",
+      "source": "Science X",
+      "licence": "EXCERPT + LINK — up to 200 words + hyperlink, no permission needed inside that limit",
+      "credit": "Science X",
+      "usable": false,
+      "usable_reason": "licence does not cover images (Science X)",
+      "hero_eligible": false,
+      "date_checked": "2026-11-28"
+    },
+    {
+      "image_url": "https://scx1.b-cdn.net/csz/news/tmb/2024/berlin-wall.jpg",
+      "article_link": "https://phys.org/news/2026-11-chaos-began-fall-berlin-wall.html",
+      "article_title": "'That's when the chaos began': The fall of the Berlin Wall in the words of East and West Germans",
+      "source": "Science X",
+      "licence": "EXCERPT + LINK — up to 200 words + hyperlink, no permission needed inside that limit",
+      "credit": "Science X",
+      "usable": false,
+      "usable_reason": "licence does not cover images (Science X)",
+      "hero_eligible": false,
+      "date_checked": "2026-11-28"
+    },
+    {
+      "image_url": "https://scx1.b-cdn.net/csz/news/tmb/2026/hku-chemists-find-barr.jpg",
+      "article_link": "https://phys.org/news/2026-11-newly-barrier-nucleic-acid-medicines.html",
+      "article_title": "Newly discovered barrier could explain why nucleic acid medicines remain trapped inside cells",
+      "source": "Science X",
+      "licence": "EXCERPT + LINK — up to 200 words + hyperlink, no permission needed inside that limit",
+      "credit": "Science X",
+      "usable": false,
+      "usable_reason": "licence does not cover images (Science X)",
+      "hero_eligible": false,
+      "date_checked": "2026-11-28"
+    },
+    {
+      "image_url": "https://scitechdaily.com/images/Illustration-of-Flows-Around-a-Protein-Rich-Droplet-777x419.jpg",
+      "article_link": "https://scitechdaily.com/crowded-proteins-can-change-how-enzymes-work/",
+      "article_title": "Crowded Proteins Can Change How Enzymes Work",
+      "source": "SciTechDaily",
+      "licence": "EXCERPT + LINK — commercial, all rights reserved",
+      "credit": "SciTechDaily",
+      "usable": false,
+      "usable_reason": "licence does not cover images (SciTechDaily)",
+      "hero_eligible": false,
+      "date_checked": "2026-11-28"
+    },
+    {
+      "image_url": "https://scx1.b-cdn.net/csz/news/tmb/2026/more-water-in-the-atmo.jpg",
+      "article_link": "https://phys.org/news/2026-11-warmer-atmosphere-doesnt-rivers.html",
+      "article_title": "Why a warmer atmosphere doesn't guarantee more water in rivers",
+      "source": "Science X",
+      "licence": "EXCERPT + LINK — up to 200 words + hyperlink, no permission needed inside that limit",
+      "credit": "Science X",
+      "usable": false,
+      "usable_reason": "licence does not cover images (Science X)",
+      "hero_eligible": false,
+      "date_checked": "2026-11-28"
+    },
+    {
+      "image_url": "https://scx1.b-cdn.net/csz/news/tmb/2026/storybook-and-child.jpg",
+      "article_link": "https://phys.org/news/2026-11-storybook-characters-children-perseverance.html",
+      "article_title": "Can storybook characters teach children about perseverance?",
+      "source": "Science X",
+      "licence": "EXCERPT + LINK — up to 200 words + hyperlink, no permission needed inside that limit",
+      "credit": "Science X",
+      "usable": false,
+      "usable_reason": "licence does not cover images (Science X)",
+      "hero_eligible": false,
+      "date_checked": "2026-11-28"
+    },
+    {
+      "image_url": "https://scx1.b-cdn.net/csz/news/tmb/2026/teacher-at-computer.jpg",
+      "article_link": "https://phys.org/news/2026-11-ai-child-problem.html",
+      "article_title": "AI could be used to write your child's report. Is this a problem?",
+      "source": "Science X",
+      "licence": "EXCERPT + LINK — up to 200 words + hyperlink, no permission needed inside that limit",
+      "credit": "Science X",
+      "usable": false,
+      "usable_reason": "licence does not cover images (Science X)",
+      "hero_eligible": false,
+      "date_checked": "2026-11-28"
+    },
+    {
+      "image_url": "https://scx1.b-cdn.net/csz/news/tmb/2026/denisovan-remains-and.jpg",
+      "article_link": "https://phys.org/news/2026-11-denisovan-unknown-archaic-human-lineage.html",
+      "article_title": "Denisovan remains and an unknown archaic human lineage discovered in southern China",
+      "source": "Science X",
+      "licence": "EXCERPT + LINK — up to 200 words + hyperlink, no permission needed inside that limit",
+      "credit": "Science X",
+      "usable": false,
+      "usable_reason": "licence does not cover images (Science X)",
+      "hero_eligible": false,
+      "date_checked": "2026-11-28"
+    },
+    {
+      "image_url": "https://scitechdaily.com/images/Galong-Co-Glacial-Lake-in-the-Himalayas-777x518.jpg",
+      "article_link": "https://scitechdaily.com/glaciers-are-melting-at-alarmingly-different-rates-and-climate-alone-cant-explain-why/",
+      "article_title": "Glaciers Are Melting at Alarmingly Different Rates and Climate Alone Can’t Explain Why",
+      "source": "SciTechDaily",
+      "licence": "EXCERPT + LINK — commercial, all rights reserved",
+      "credit": "SciTechDaily",
+      "usable": false,
+      "usable_reason": "licence does not cover images (SciTechDaily)",
+      "hero_eligible": false,
+      "date_checked": "2026-11-28"
+    },
+    {
+      "image_url": "https://scx1.b-cdn.net/csz/news/tmb/2025/hot-earth.jpg",
+      "article_link": "https://phys.org/news/2026-11-world-experiencing-abnormally-hot-days.html",
+      "article_title": "The world is experiencing a string of abnormally hot days—and records are being shattered",
+      "source": "Science X",
+      "licence": "EXCERPT + LINK — up to 200 words + hyperlink, no permission needed inside that limit",
+      "credit": "Science X",
+      "usable": false,
+      "usable_reason": "licence does not cover images (Science X)",
+      "hero_eligible": false,
+      "date_checked": "2026-11-28"
+    },
+    {
+      "image_url": "https://scx1.b-cdn.net/csz/news/tmb/2026/crop-production-system.jpg",
+      "article_link": "https://phys.org/news/2026-11-strawberries-cucumbers-lemon-basil-future.html",
+      "article_title": "Strawberries, cucumbers and lemon basil show promise for future moon and Mars menus",
+      "source": "Science X",
+      "licence": "EXCERPT + LINK — publisher allows up to 200 words + hyperlink, no permission needed inside that limit",
+      "credit": "Science X",
+      "usable": false,
+      "usable_reason": "licence does not cover images (Science X)",
+      "hero_eligible": false,
+      "date_checked": "2026-11-28"
+    },
+    {
+      "image_url": "https://www.sciencealert.com/images/2026/11/convergence-1200x675.png",
+      "article_link": "https://www.sciencealert.com/scientists-discover-a-quantum-twist-on-a-367-year-old-physics-problem",
+      "article_title": "A 367-Year-Old Physics Problem Just Got a Surprising Quantum Twist",
+      "source": "ScienceAlert",
+      "licence": "EXCERPT + LINK — commercial, all rights reserved",
+      "credit": "ScienceAlert",
+      "usable": false,
+      "usable_reason": "licence does not cover images (ScienceAlert)",
+      "hero_eligible": false,
+      "date_checked": "2026-11-28"
+    },
+    {
+      "image_url": "https://scitechdaily.com/images/Baboon-Sitting-777x518.jpg",
+      "article_link": "https://scitechdaily.com/eagles-hunting-human-sized-baboons-challenge-long-held-evolutionary-theory/",
+      "article_title": "Eagles Hunting Human-Sized Baboons Challenge Long-Held Evolutionary Theory",
+      "source": "SciTechDaily",
+      "licence": "EXCERPT + LINK — commercial, all rights reserved",
+      "credit": "SciTechDaily",
+      "usable": false,
+      "usable_reason": "licence does not cover images (SciTechDaily)",
+      "hero_eligible": false,
+      "date_checked": "2026-11-28"
+    },
+    {
+      "image_url": "https://www.essentiafoundation.org/wp-content/uploads/avatar_user_198_1795810558-32x32.jpg",
+      "article_link": "https://www.essentiafoundation.org/four-perspectives-on-the-self/reading/",
+      "article_title": "Four perspectives on the self",
+      "source": "Essentia Foundation",
+      "licence": "EXCERPT + LINK — all rights reserved (safe default); idealism / consciousness science",
+      "credit": "Essentia Foundation",
+      "usable": false,
+      "usable_reason": "licence does not cover images (Essentia Foundation)",
+      "hero_eligible": false,
+      "date_checked": "2026-11-28"
+    },
+    {
+      "image_url": "https://scx1.b-cdn.net/csz/news/tmb/2024/brain-and-ai.jpg",
+      "article_link": "https://phys.org/news/2026-11-aiassisted-devaluing-business-degrees.html",
+      "article_title": "Is AI‑assisted thinking devaluing business degrees?",
+      "source": "Science X",
+      "licence": "EXCERPT + LINK — up to 200 words + hyperlink, no permission needed inside that limit",
+      "credit": "Science X",
+      "usable": false,
+      "usable_reason": "licence does not cover images (Science X)",
+      "hero_eligible": false,
+      "date_checked": "2026-11-28"
+    },
+    {
+      "image_url": "https://scx1.b-cdn.net/csz/news/tmb/2026/melting-barents-sea-ic.jpg",
+      "article_link": "https://phys.org/news/2026-11-barents-sea-ice-eastern-europe.html",
+      "article_title": "Melting Barents Sea ice gives Eastern Europe's farmers a spring boost",
+      "source": "Science X",
+      "licence": "EXCERPT + LINK — up to 200 words + hyperlink, no permission needed inside that limit",
+      "credit": "Science X",
+      "usable": false,
+      "usable_reason": "licence does not cover images (Science X)",
+      "hero_eligible": false,
+      "date_checked": "2026-11-28"
+    },
+    {
+      "image_url": "https://cdn.mos.cms.futurecdn.net/r6d3pEvV2XvhbrDqovrEe5-1920-80.jpg",
+      "article_link": "https://www.space.com/entertainment/space-toys-lego/love-star-wars-andy-weir-or-ryan-gosling-these-lego-star-wars-and-project-hail-mary-sets-are-my-favorites",
+      "article_title": "Love Star Wars, Andy Weir or Ryan Gosling? These Lego Star Wars and Project Hail Mary sets are my favorites",
+      "source": "Future plc",
+      "licence": "EXCERPT + LINK — commercial, all rights reserved",
+      "credit": "Mike Harris",
+      "usable": false,
+      "usable_reason": "licence does not cover images (Future plc)",
+      "hero_eligible": false,
+      "date_checked": "2026-11-28"
+    },
+    {
+      "image_url": "https://www.twz.com/wp-content/uploads/2026/11/f-35-light-colored-aim-9x-sidewinder-middle-east.jpg?quality=85",
+      "article_link": "https://www.twz.com/air/unique-aim-9x-sidewinders-now-seen-on-usaf-f-35as-in-the-middle-east",
+      "article_title": "Unique AIM-9X Sidewinders Now Seen On USAF F-35As In The Middle East",
+      "source": "The War Zone (Recurrent)",
+      "licence": "EXCERPT + LINK — commercial, all rights reserved; UAP is one of its beats, not its whole feed",
+      "credit": "The War Zone (Recurrent)",
+      "usable": false,
+      "usable_reason": "licence does not cover images (The War Zone (Recurrent))",
+      "hero_eligible": false,
+      "date_checked": "2026-11-28"
     },
     {
       "image_url": "https://scx1.b-cdn.net/csz/news/tmb/2026/hera-reveals-stadium-s.jpg",
@@ -23,31 +527,7 @@
       "usable": false,
       "usable_reason": "licence does not cover images (Science X)",
       "hero_eligible": false,
-      "date_checked": "2026-11-27"
-    },
-    {
-      "image_url": "https://scx1.b-cdn.net/csz/news/tmb/2026/income-inequality.jpg",
-      "article_link": "https://phys.org/news/2026-11-income-inequality-similar-countries.html",
-      "article_title": "Income inequality is rising while becoming more similar across countries",
-      "source": "Science X",
-      "licence": "EXCERPT + LINK — up to 200 words + hyperlink, no permission needed inside that limit",
-      "credit": "Science X",
-      "usable": false,
-      "usable_reason": "licence does not cover images (Science X)",
-      "hero_eligible": false,
-      "date_checked": "2026-11-27"
-    },
-    {
-      "image_url": "https://scx1.b-cdn.net/csz/news/tmb/2026/bad-weather.jpg",
-      "article_link": "https://phys.org/news/2026-11-bad-weather-fragile-financial.html",
-      "article_title": "When bad weather hits a fragile financial system",
-      "source": "Science X",
-      "licence": "EXCERPT + LINK — up to 200 words + hyperlink, no permission needed inside that limit",
-      "credit": "Science X",
-      "usable": false,
-      "usable_reason": "licence does not cover images (Science X)",
-      "hero_eligible": false,
-      "date_checked": "2026-11-27"
+      "date_checked": "2026-11-28"
     },
     {
       "image_url": "https://futurism.com/wp-content/uploads/2026/11/meta-moderation-broken-human-ai.jpg?quality=85&w=2048",
@@ -59,31 +539,7 @@
       "usable": false,
       "usable_reason": "licence does not cover images (Futurism (Recurrent))",
       "hero_eligible": false,
-      "date_checked": "2026-11-27"
-    },
-    {
-      "image_url": "https://scx1.b-cdn.net/csz/news/tmb/2026/antarctic-sea-ice-exte-4.jpg",
-      "article_link": "https://phys.org/news/2026-11-antarctic-sea-ice-extent.html",
-      "article_title": "Antarctic sea ice extent hits new low",
-      "source": "Science X",
-      "licence": "EXCERPT + LINK — up to 200 words + hyperlink, no permission needed inside that limit",
-      "credit": "Science X",
-      "usable": false,
-      "usable_reason": "licence does not cover images (Science X)",
-      "hero_eligible": false,
-      "date_checked": "2026-11-27"
-    },
-    {
-      "image_url": "https://scx1.b-cdn.net/csz/news/tmb/2026/maximizing-profits-in.jpg",
-      "article_link": "https://phys.org/news/2026-11-european-oil-gas-firms-downplayed.html",
-      "article_title": "European oil and gas firms likely downplayed energy crisis profits, study finds",
-      "source": "Science X",
-      "licence": "EXCERPT + LINK — up to 200 words + hyperlink, no permission needed inside that limit",
-      "credit": "Science X",
-      "usable": false,
-      "usable_reason": "licence does not cover images (Science X)",
-      "hero_eligible": false,
-      "date_checked": "2026-11-27"
+      "date_checked": "2026-11-28"
     },
     {
       "image_url": "https://cdn.mos.cms.futurecdn.net/oVUXUEqaKCjK52YaTQMBQ4-1920-80.jpg",
@@ -95,43 +551,7 @@
       "usable": false,
       "usable_reason": "licence does not cover images (Future plc)",
       "hero_eligible": false,
-      "date_checked": "2026-11-27"
-    },
-    {
-      "image_url": "https://scx1.b-cdn.net/csz/news/tmb/2026/study-shows-path-to-mo-1.jpg",
-      "article_link": "https://phys.org/news/2026-11-path-resilient-future-canada-forests.html",
-      "article_title": "Study shows path to more resilient future for Canada's forests",
-      "source": "Science X",
-      "licence": "EXCERPT + LINK — up to 200 words + hyperlink, no permission needed inside that limit",
-      "credit": "Science X",
-      "usable": false,
-      "usable_reason": "licence does not cover images (Science X)",
-      "hero_eligible": false,
-      "date_checked": "2026-11-27"
-    },
-    {
-      "image_url": "https://scx1.b-cdn.net/csz/news/tmb/2026/study-links-a-magnitud.jpg",
-      "article_link": "https://phys.org/news/2026-11-carbon-storage-wells-linked-earthquakes.html",
-      "article_title": "Carbon storage wells linked to earthquakes near Canadian city",
-      "source": "Science X",
-      "licence": "EXCERPT + LINK — up to 200 words + hyperlink, no permission needed inside that limit",
-      "credit": "Science X",
-      "usable": false,
-      "usable_reason": "licence does not cover images (Science X)",
-      "hero_eligible": false,
-      "date_checked": "2026-11-27"
-    },
-    {
-      "image_url": "https://scx1.b-cdn.net/csz/news/tmb/2026/student-study-1.jpg",
-      "article_link": "https://phys.org/news/2026-11-overlooked-group-gifted-children.html",
-      "article_title": "New educational program developed for an often-overlooked group of gifted children",
-      "source": "Science X",
-      "licence": "EXCERPT + LINK — up to 200 words + hyperlink, no permission needed inside that limit",
-      "credit": "Science X",
-      "usable": false,
-      "usable_reason": "licence does not cover images (Science X)",
-      "hero_eligible": false,
-      "date_checked": "2026-11-27"
+      "date_checked": "2026-11-28"
     },
     {
       "image_url": "https://www.psypost.org/wp-content/uploads/2026/11/eggs.jpg",
@@ -143,31 +563,7 @@
       "usable": false,
       "usable_reason": "licence does not cover images (PsyPost)",
       "hero_eligible": false,
-      "date_checked": "2026-11-27"
-    },
-    {
-      "image_url": "https://scx1.b-cdn.net/csz/news/tmb/2026/africas-coastal.jpg",
-      "article_link": "https://phys.org/news/2026-11-satellite-reveal-worsen-africa-coastal.html",
-      "article_title": "Satellite maps reveal sinking land could worsen flooding across Africa's coastal cities by 2050",
-      "source": "Science X",
-      "licence": "EXCERPT + LINK — up to 200 words + hyperlink, no permission needed inside that limit",
-      "credit": "Science X",
-      "usable": false,
-      "usable_reason": "licence does not cover images (Science X)",
-      "hero_eligible": false,
-      "date_checked": "2026-11-27"
-    },
-    {
-      "image_url": "https://scx1.b-cdn.net/csz/news/tmb/2026/how-mammals-zigzagged-1.jpg",
-      "article_link": "https://phys.org/news/2026-11-mammals-zigzagged-modern-posture.html",
-      "article_title": "How mammals zigzagged their way to modern posture",
-      "source": "Science X",
-      "licence": "EXCERPT + LINK — up to 200 words + hyperlink, no permission needed inside that limit",
-      "credit": "Science X",
-      "usable": false,
-      "usable_reason": "licence does not cover images (Science X)",
-      "hero_eligible": false,
-      "date_checked": "2026-11-27"
+      "date_checked": "2026-11-28"
     },
     {
       "image_url": "https://cdn.mos.cms.futurecdn.net/ihTDar3HRcfjgiC5bDXJbU-1920-80.jpg",
@@ -179,7 +575,7 @@
       "usable": false,
       "usable_reason": "licence does not cover images (Future plc)",
       "hero_eligible": false,
-      "date_checked": "2026-11-27"
+      "date_checked": "2026-11-28"
     },
     {
       "image_url": "https://lede-admin.nautil.us/wp-content/uploads/sites/70/2026/11/MMA-28.3.113-recto-cropped.jpg?w=564",
@@ -191,7 +587,7 @@
       "usable": false,
       "usable_reason": "licence does not cover images (Nautilus)",
       "hero_eligible": false,
-      "date_checked": "2026-11-27"
+      "date_checked": "2026-11-28"
     },
     {
       "image_url": "https://www.twz.com/wp-content/uploads/2026/11/BAE-Systems-CV90-IFV_340960.jpg?quality=85",
@@ -203,7 +599,7 @@
       "usable": false,
       "usable_reason": "licence does not cover images (The War Zone (Recurrent))",
       "hero_eligible": false,
-      "date_checked": "2026-11-27"
+      "date_checked": "2026-11-28"
     },
     {
       "image_url": "https://www.twz.com/wp-content/uploads/2026/11/Silent-Night-black12.jpg?quality=85&w=2048",
@@ -215,7 +611,7 @@
       "usable": false,
       "usable_reason": "licence does not cover images (The War Zone (Recurrent))",
       "hero_eligible": false,
-      "date_checked": "2026-11-27"
+      "date_checked": "2026-11-28"
     },
     {
       "image_url": "https://futurism.com/wp-content/uploads/2026/11/tidal-bans-ai-music.jpg?quality=85&w=2048",
@@ -227,31 +623,7 @@
       "usable": false,
       "usable_reason": "licence does not cover images (Futurism (Recurrent))",
       "hero_eligible": false,
-      "date_checked": "2026-11-27"
-    },
-    {
-      "image_url": "https://scx1.b-cdn.net/csz/news/tmb/2026/researchers-call-for-a-2.jpg",
-      "article_link": "https://phys.org/news/2026-11-benefits-green-space.html",
-      "article_title": "Researchers call for a better understanding of who benefits from new green space",
-      "source": "Science X",
-      "licence": "EXCERPT + LINK — up to 200 words + hyperlink, no permission needed inside that limit",
-      "credit": "Science X",
-      "usable": false,
-      "usable_reason": "licence does not cover images (Science X)",
-      "hero_eligible": false,
-      "date_checked": "2026-11-27"
-    },
-    {
-      "image_url": "https://scx1.b-cdn.net/csz/news/tmb/2026/atlas-finds-hints-of-t.jpg",
-      "article_link": "https://phys.org/news/2026-11-atlas-hints-hidden-vacuum.html",
-      "article_title": "ATLAS finds hints of the hidden structure of the vacuum",
-      "source": "Science X",
-      "licence": "EXCERPT + LINK — up to 200 words + hyperlink, no permission needed inside that limit",
-      "credit": "Science X",
-      "usable": false,
-      "usable_reason": "licence does not cover images (Science X)",
-      "hero_eligible": false,
-      "date_checked": "2026-11-27"
+      "date_checked": "2026-11-28"
     },
     {
       "image_url": "https://cdn.mos.cms.futurecdn.net/EzVDSBn7836zG7uwxhz4UU-1920-80.jpg",
@@ -263,31 +635,7 @@
       "usable": false,
       "usable_reason": "licence does not cover images (Future plc)",
       "hero_eligible": false,
-      "date_checked": "2026-11-27"
-    },
-    {
-      "image_url": "https://scx1.b-cdn.net/csz/news/tmb/2026/study-uncovers-pm25s-w.jpg",
-      "article_link": "https://phys.org/news/2026-11-fine-particle-pollution-weaken-greening.html",
-      "article_title": "Fine particle pollution may weaken spring greening by clogging leaf pores",
-      "source": "Science X",
-      "licence": "EXCERPT + LINK — up to 200 words + hyperlink, no permission needed inside that limit",
-      "credit": "Science X",
-      "usable": false,
-      "usable_reason": "licence does not cover images (Science X)",
-      "hero_eligible": false,
-      "date_checked": "2026-11-27"
-    },
-    {
-      "image_url": "https://scx1.b-cdn.net/csz/news/tmb/2026/ozone-hole-one-of-the.jpg",
-      "article_link": "https://phys.org/news/2026-11-ozone-hole-largest-decades.html",
-      "article_title": "Ozone hole one of the largest in decades",
-      "source": "Science X",
-      "licence": "EXCERPT + LINK — up to 200 words + hyperlink, no permission needed inside that limit",
-      "credit": "Science X",
-      "usable": false,
-      "usable_reason": "licence does not cover images (Science X)",
-      "hero_eligible": false,
-      "date_checked": "2026-11-27"
+      "date_checked": "2026-11-28"
     },
     {
       "image_url": "https://scx1.b-cdn.net/csz/news/tmb/2026/dextre-robot-attached.jpg",
@@ -299,19 +647,7 @@
       "usable": false,
       "usable_reason": "licence does not cover images (Science X)",
       "hero_eligible": false,
-      "date_checked": "2026-11-27"
-    },
-    {
-      "image_url": "https://scx1.b-cdn.net/csz/news/tmb/2026/thanksgiving-dinner.jpg",
-      "article_link": "https://phys.org/news/2026-11-families-thanksgiving-college-science-students.html",
-      "article_title": "As families gather for Thanksgiving, college science students need training to talk across societal divides",
-      "source": "Science X",
-      "licence": "EXCERPT + LINK — up to 200 words + hyperlink, no permission needed inside that limit",
-      "credit": "Science X",
-      "usable": false,
-      "usable_reason": "licence does not cover images (Science X)",
-      "hero_eligible": false,
-      "date_checked": "2026-11-27"
+      "date_checked": "2026-11-28"
     },
     {
       "image_url": "https://www.sciencealert.com/images/2026/10/IllustrationOfAHeartWithYellowRhythmLinesOnBlackBackground-1200x675.png",
@@ -323,7 +659,7 @@
       "usable": false,
       "usable_reason": "licence does not cover images (ScienceAlert)",
       "hero_eligible": false,
-      "date_checked": "2026-11-27"
+      "date_checked": "2026-11-28"
     },
     {
       "image_url": "https://futurism.com/wp-content/uploads/2026/11/treasury-vibe-coding-game-hack.jpg?quality=85&w=2048",
@@ -335,7 +671,7 @@
       "usable": false,
       "usable_reason": "licence does not cover images (Futurism (Recurrent))",
       "hero_eligible": false,
-      "date_checked": "2026-11-27"
+      "date_checked": "2026-11-28"
     },
     {
       "image_url": "https://scx1.b-cdn.net/csz/news/tmb/2026/researchers-develop-ma.jpg",
@@ -347,19 +683,7 @@
       "usable": false,
       "usable_reason": "licence does not cover images (Science X)",
       "hero_eligible": false,
-      "date_checked": "2026-11-27"
-    },
-    {
-      "image_url": "https://scx1.b-cdn.net/csz/news/tmb/2026/new-fern-species-disco.jpg",
-      "article_link": "https://phys.org/news/2026-11-fern-species-years-mistaken.html",
-      "article_title": "New fern species discovered after nearly 200 years of being mistaken for another",
-      "source": "Science X",
-      "licence": "EXCERPT + LINK — up to 200 words + hyperlink, no permission needed inside that limit",
-      "credit": "Science X",
-      "usable": false,
-      "usable_reason": "licence does not cover images (Science X)",
-      "hero_eligible": false,
-      "date_checked": "2026-11-27"
+      "date_checked": "2026-11-28"
     },
     {
       "image_url": "https://scitechdaily.com/images/Matthias-Maurer-and-Aidan-Cowley-Work-in-a-Simulated-Moon-Landscape-777x437.jpg",
@@ -371,7 +695,7 @@
       "usable": false,
       "usable_reason": "licence does not cover images (SciTechDaily)",
       "hero_eligible": false,
-      "date_checked": "2026-11-27"
+      "date_checked": "2026-11-28"
     },
     {
       "image_url": "https://cdn.mos.cms.futurecdn.net/Z8ZijBuhm64NGVLQHocFhg-1920-80.png",
@@ -383,31 +707,7 @@
       "usable": false,
       "usable_reason": "licence does not cover images (Future plc)",
       "hero_eligible": false,
-      "date_checked": "2026-11-27"
-    },
-    {
-      "image_url": "https://scx1.b-cdn.net/csz/news/tmb/2026/clipping-leash-on-a-do.jpg",
-      "article_link": "https://phys.org/news/2026-11-dog-survey-owner-key.html",
-      "article_title": "Dog bite survey identifies owner control as key to preventing attacks across breeds",
-      "source": "Science X",
-      "licence": "EXCERPT + LINK — up to 200 words + hyperlink, no permission needed inside that limit",
-      "credit": "Science X",
-      "usable": false,
-      "usable_reason": "licence does not cover images (Science X)",
-      "hero_eligible": false,
-      "date_checked": "2026-11-27"
-    },
-    {
-      "image_url": "https://scx1.b-cdn.net/csz/news/tmb/2026/ancient-skull-reveals.jpg",
-      "article_link": "https://phys.org/news/2026-11-ancient-skull-reveals-early-largest.html",
-      "article_title": "Ancient skull reveals an early relative of the largest bone-cracking hyena",
-      "source": "Science X",
-      "licence": "EXCERPT + LINK — up to 200 words + hyperlink, no permission needed inside that limit",
-      "credit": "Science X",
-      "usable": false,
-      "usable_reason": "licence does not cover images (Science X)",
-      "hero_eligible": false,
-      "date_checked": "2026-11-27"
+      "date_checked": "2026-11-28"
     },
     {
       "image_url": "https://i0.wp.com/nasawatch.com/wp-content/uploads/2026/11/NASAWATCHSCONSOLE.jpg?fit=1024%2C578&amp;ssl=1",
@@ -419,7 +719,7 @@
       "usable": true,
       "usable_reason": "licence covers images",
       "hero_eligible": false,
-      "date_checked": "2026-11-27"
+      "date_checked": "2026-11-28"
     },
     {
       "image_url": "https://cdn.mos.cms.futurecdn.net/hfPAZVrcaF9AUrpXh62jA4-1920-80.jpg",
@@ -431,7 +731,7 @@
       "usable": false,
       "usable_reason": "licence does not cover images (Future plc)",
       "hero_eligible": false,
-      "date_checked": "2026-11-27"
+      "date_checked": "2026-11-28"
     },
     {
       "image_url": "https://www.psypost.org/wp-content/uploads/2026/11/psychology-ghost.jpg",
@@ -443,19 +743,7 @@
       "usable": false,
       "usable_reason": "licence does not cover images (PsyPost)",
       "hero_eligible": false,
-      "date_checked": "2026-11-27"
-    },
-    {
-      "image_url": "https://scx1.b-cdn.net/csz/news/tmb/2026/why-does-the-word-huge.jpg",
-      "article_link": "https://phys.org/news/2026-11-word-huge-large.html",
-      "article_title": "Why does the word 'huge' sound so large?",
-      "source": "Science X",
-      "licence": "EXCERPT + LINK — up to 200 words + hyperlink, no permission needed inside that limit",
-      "credit": "Science X",
-      "usable": false,
-      "usable_reason": "licence does not cover images (Science X)",
-      "hero_eligible": false,
-      "date_checked": "2026-11-27"
+      "date_checked": "2026-11-28"
     },
     {
       "image_url": "https://scx1.b-cdn.net/csz/news/tmb/2026/the-dark-matter-puzzle.jpg",
@@ -467,7 +755,7 @@
       "usable": false,
       "usable_reason": "licence does not cover images (Science X)",
       "hero_eligible": false,
-      "date_checked": "2026-11-27"
+      "date_checked": "2026-11-28"
     },
     {
       "image_url": "https://cdn.mos.cms.futurecdn.net/9JG4GMLHuUC6fxKL9UuRnF-1920-80.jpg",
@@ -479,7 +767,7 @@
       "usable": false,
       "usable_reason": "licence does not cover images (Future plc)",
       "hero_eligible": false,
-      "date_checked": "2026-11-27"
+      "date_checked": "2026-11-28"
     },
     {
       "image_url": "https://lede-admin.nautil.us/wp-content/uploads/sites/70/2026/11/AdobeStock_585473449.jpeg?w=564",
@@ -491,7 +779,7 @@
       "usable": false,
       "usable_reason": "licence does not cover images (Nautilus)",
       "hero_eligible": false,
-      "date_checked": "2026-11-27"
+      "date_checked": "2026-11-28"
     },
     {
       "image_url": "https://scitechdaily.com/images/Sun-Surface-Close-Up-Solar-Flares-777x518.jpg",
@@ -503,7 +791,7 @@
       "usable": false,
       "usable_reason": "licence does not cover images (SciTechDaily)",
       "hero_eligible": false,
-      "date_checked": "2026-11-27"
+      "date_checked": "2026-11-28"
     },
     {
       "image_url": "https://futurism.com/wp-content/uploads/2026/11/healthcare-specialists-automate-jobs-ai.jpg?quality=85&w=2048",
@@ -515,31 +803,7 @@
       "usable": false,
       "usable_reason": "licence does not cover images (Futurism (Recurrent))",
       "hero_eligible": false,
-      "date_checked": "2026-11-27"
-    },
-    {
-      "image_url": "https://scx1.b-cdn.net/csz/news/tmb/2026/researchers-reveal-sex.jpg",
-      "article_link": "https://phys.org/news/2026-11-reveal-sex-chromosome-evolution-molecular.html",
-      "article_title": "Researchers reveal sex chromosome evolution and molecular sex markers in the pitcher plant Nepenthes mirabilis",
-      "source": "Science X",
-      "licence": "EXCERPT + LINK — up to 200 words + hyperlink, no permission needed inside that limit",
-      "credit": "Science X",
-      "usable": false,
-      "usable_reason": "licence does not cover images (Science X)",
-      "hero_eligible": false,
-      "date_checked": "2026-11-27"
-    },
-    {
-      "image_url": "https://scx1.b-cdn.net/csz/news/tmb/2026/hello-dolly--new-deep.jpg",
-      "article_link": "https://phys.org/news/2026-11-dolly-parton-deep-sea-namesake.html",
-      "article_title": "Dolly Parton gets a deep-sea namesake: Bathyadmetella dollypartonae",
-      "source": "Science X",
-      "licence": "EXCERPT + LINK — up to 200 words + hyperlink, no permission needed inside that limit",
-      "credit": "Science X",
-      "usable": false,
-      "usable_reason": "licence does not cover images (Science X)",
-      "hero_eligible": false,
-      "date_checked": "2026-11-27"
+      "date_checked": "2026-11-28"
     },
     {
       "image_url": "https://cdn.mos.cms.futurecdn.net/xf3udo62TuvnPft8dfwVLL-1920-80.jpg",
@@ -551,7 +815,7 @@
       "usable": false,
       "usable_reason": "licence does not cover images (Future plc)",
       "hero_eligible": false,
-      "date_checked": "2026-11-27"
+      "date_checked": "2026-11-28"
     },
     {
       "image_url": "https://scitechdaily.com/images/Black-Holes-Accretion-Disk-Launches-Star-Destroying-Jet-777x518.jpg",
@@ -563,7 +827,7 @@
       "usable": false,
       "usable_reason": "licence does not cover images (SciTechDaily)",
       "hero_eligible": false,
-      "date_checked": "2026-11-27"
+      "date_checked": "2026-11-28"
     },
     {
       "image_url": "https://scx1.b-cdn.net/csz/news/tmb/2026/scars-from-meteor-blas.jpg",
@@ -575,7 +839,7 @@
       "usable": false,
       "usable_reason": "licence does not cover images (Science X)",
       "hero_eligible": false,
-      "date_checked": "2026-11-27"
+      "date_checked": "2026-11-28"
     },
     {
       "image_url": "https://lede-admin.nautil.us/wp-content/uploads/sites/70/2026/11/01-species.jpg?w=564",
@@ -587,7 +851,7 @@
       "usable": false,
       "usable_reason": "licence does not cover images (Nautilus)",
       "hero_eligible": false,
-      "date_checked": "2026-11-27"
+      "date_checked": "2026-11-28"
     },
     {
       "image_url": "https://futurism.com/wp-content/uploads/2026/11/vigilante-trapping-waymos-traffic-cones-egging2.jpg?quality=85&w=2048",
@@ -599,7 +863,7 @@
       "usable": false,
       "usable_reason": "licence does not cover images (Futurism (Recurrent))",
       "hero_eligible": false,
-      "date_checked": "2026-11-27"
+      "date_checked": "2026-11-28"
     },
     {
       "image_url": "https://cdn.mos.cms.futurecdn.net/TXS2EvyVSpnsLxQcssmgqD-1920-80.jpg",
@@ -611,7 +875,7 @@
       "usable": false,
       "usable_reason": "licence does not cover images (Future plc)",
       "hero_eligible": false,
-      "date_checked": "2026-11-27"
+      "date_checked": "2026-11-28"
     },
     {
       "image_url": "https://scx1.b-cdn.net/csz/news/tmb/2026/the-faintest-supernova.jpg",
@@ -623,7 +887,7 @@
       "usable": false,
       "usable_reason": "licence does not cover images (Science X)",
       "hero_eligible": false,
-      "date_checked": "2026-11-27"
+      "date_checked": "2026-11-28"
     },
     {
       "image_url": "https://i0.wp.com/spacenews.com/wp-content/uploads/2025/04/novaspace-square.png?fit=1021%2C1024&amp;ssl=1",
@@ -635,7 +899,7 @@
       "usable": false,
       "usable_reason": "licence does not cover images (SpaceNews Inc.)",
       "hero_eligible": false,
-      "date_checked": "2026-11-27"
+      "date_checked": "2026-11-28"
     },
     {
       "image_url": "https://bigthink.com/wp-content/uploads/2026/11/war-on-paperbacks.jpg?quality=85&w=640",
@@ -647,7 +911,7 @@
       "usable": false,
       "usable_reason": "licence does not cover images (Big Think)",
       "hero_eligible": false,
-      "date_checked": "2026-11-27"
+      "date_checked": "2026-11-28"
     },
     {
       "image_url": "https://s.w.org/images/core/emoji/17.0.2/72x72/1f447.png",
@@ -659,7 +923,7 @@
       "usable": false,
       "usable_reason": "licence does not cover images (Teslarati)",
       "hero_eligible": false,
-      "date_checked": "2026-11-27"
+      "date_checked": "2026-11-28"
     },
     {
       "image_url": "https://scx1.b-cdn.net/csz/news/tmb/2026/could-a-hidden-planet.jpg",
@@ -671,7 +935,7 @@
       "usable": false,
       "usable_reason": "licence does not cover images (Science X)",
       "hero_eligible": false,
-      "date_checked": "2026-11-27"
+      "date_checked": "2026-11-28"
     },
     {
       "image_url": "https://cdn.mos.cms.futurecdn.net/DSjDMSi5hZMEmkrKAsCb9G-1920-80.jpg",
@@ -683,7 +947,7 @@
       "usable": false,
       "usable_reason": "licence does not cover images (Future plc)",
       "hero_eligible": false,
-      "date_checked": "2026-11-27"
+      "date_checked": "2026-11-28"
     },
     {
       "image_url": "https://www.nasa.gov/wp-content/uploads/2026/11/ksc-20261117-ph-kls02-0020orig.jpg",
@@ -695,7 +959,7 @@
       "usable": true,
       "usable_reason": "licence covers images",
       "hero_eligible": true,
-      "date_checked": "2026-11-27"
+      "date_checked": "2026-11-28"
     },
     {
       "image_url": "https://www.psypost.org/wp-content/uploads/2022/10/skinny-teen-woman-looks-in-the-mirror.jpg",
@@ -707,7 +971,7 @@
       "usable": false,
       "usable_reason": "licence does not cover images (PsyPost)",
       "hero_eligible": false,
-      "date_checked": "2026-11-27"
+      "date_checked": "2026-11-28"
     },
     {
       "image_url": "https://cdn.mos.cms.futurecdn.net/5kzoKptxXxBsrwhMS9JAeA-1920-80.jpg",
@@ -719,7 +983,7 @@
       "usable": false,
       "usable_reason": "licence does not cover images (Future plc)",
       "hero_eligible": false,
-      "date_checked": "2026-11-27"
+      "date_checked": "2026-11-28"
     },
     {
       "image_url": "https://singularityhub.com/uploads/2026/11/nasa-lunar-surface-craters.jpeg?auto=webp",
@@ -731,7 +995,7 @@
       "usable": false,
       "usable_reason": "licence does not cover images (Singularity University)",
       "hero_eligible": false,
-      "date_checked": "2026-11-27"
+      "date_checked": "2026-11-28"
     },
     {
       "image_url": "https://lede-admin.nautil.us/wp-content/uploads/sites/70/2026/11/Shannon-Excerpt-HERO.jpg?w=564",
@@ -743,7 +1007,7 @@
       "usable": false,
       "usable_reason": "licence does not cover images (Nautilus)",
       "hero_eligible": false,
-      "date_checked": "2026-11-27"
+      "date_checked": "2026-11-28"
     },
     {
       "image_url": "https://futurism.com/wp-content/uploads/2026/11/bankrupt-chatbot-startup-child-data.jpg?quality=85&w=2048",
@@ -755,7 +1019,7 @@
       "usable": false,
       "usable_reason": "licence does not cover images (Futurism (Recurrent))",
       "hero_eligible": false,
-      "date_checked": "2026-11-27"
+      "date_checked": "2026-11-28"
     },
     {
       "image_url": "https://images-assets.nasa.gov/image/jsc2026e415098/jsc2026e415098~large.jpg?w=1920&#038;h=1080&#038;fit=clip&#038;crop=faces%2Cfocalpoint",
@@ -767,7 +1031,7 @@
       "usable": true,
       "usable_reason": "licence covers images",
       "hero_eligible": true,
-      "date_checked": "2026-11-27"
+      "date_checked": "2026-11-28"
     },
     {
       "image_url": "https://scx1.b-cdn.net/csz/news/tmb/2026/asiaa-science-highligh-3.jpg",
@@ -779,7 +1043,7 @@
       "usable": false,
       "usable_reason": "licence does not cover images (Science X)",
       "hero_eligible": false,
-      "date_checked": "2026-11-27"
+      "date_checked": "2026-11-28"
     },
     {
       "image_url": "https://www.psypost.org/wp-content/uploads/2026/06/narcissistic-businessman.jpg",
@@ -791,7 +1055,7 @@
       "usable": false,
       "usable_reason": "licence does not cover images (PsyPost)",
       "hero_eligible": false,
-      "date_checked": "2026-11-27"
+      "date_checked": "2026-11-28"
     },
     {
       "image_url": "https://spectrum.ieee.org/media-library/smiling-man-in-glasses-sits-at-a-desk-surrounded-by-computer-monitors-and-gadgets.png?id=68731256&width=980",
@@ -803,7 +1067,7 @@
       "usable": false,
       "usable_reason": "licence does not cover images (IEEE)",
       "hero_eligible": false,
-      "date_checked": "2026-11-27"
+      "date_checked": "2026-11-28"
     },
     {
       "image_url": "https://www.newscientist.com/wp-content/uploads/2026/11/SEI_322096127.jpg",
@@ -815,7 +1079,7 @@
       "usable": false,
       "usable_reason": "licence does not cover images (New Scientist Ltd)",
       "hero_eligible": false,
-      "date_checked": "2026-11-27"
+      "date_checked": "2026-11-28"
     },
     {
       "image_url": "https://futurism.com/wp-content/uploads/2026/11/mit-drinks-anthropic-taking-over-world.jpg?quality=85&w=2048",
@@ -827,7 +1091,7 @@
       "usable": false,
       "usable_reason": "licence does not cover images (Futurism (Recurrent))",
       "hero_eligible": false,
-      "date_checked": "2026-11-27"
+      "date_checked": "2026-11-28"
     },
     {
       "image_url": "https://scx1.b-cdn.net/csz/news/tmb/2026/a-small-galaxys-giant.jpg",
@@ -839,7 +1103,7 @@
       "usable": false,
       "usable_reason": "licence does not cover images (Science X)",
       "hero_eligible": false,
-      "date_checked": "2026-11-27"
+      "date_checked": "2026-11-28"
     },
     {
       "image_url": "https://scitechdaily.com/images/Teeth-Oral-Health-Gum-Disease-Inflammation-777x518.jpg",
@@ -851,7 +1115,7 @@
       "usable": false,
       "usable_reason": "licence does not cover images (SciTechDaily)",
       "hero_eligible": false,
-      "date_checked": "2026-11-27"
+      "date_checked": "2026-11-28"
     },
     {
       "image_url": "https://www.psypost.org/wp-content/uploads/2024/09/prison-inmate-criminal.jpg",
@@ -863,7 +1127,7 @@
       "usable": false,
       "usable_reason": "licence does not cover images (PsyPost)",
       "hero_eligible": false,
-      "date_checked": "2026-11-27"
+      "date_checked": "2026-11-28"
     },
     {
       "image_url": "https://www.psypost.org/wp-content/uploads/2026/03/psilocybin.jpg",
@@ -875,7 +1139,7 @@
       "usable": false,
       "usable_reason": "licence does not cover images (PsyPost)",
       "hero_eligible": false,
-      "date_checked": "2026-11-27"
+      "date_checked": "2026-11-28"
     },
     {
       "image_url": "https://wp.technologyreview.com/wp-content/uploads/2026/02/MITcarscams.jpg?w=840",
@@ -887,7 +1151,7 @@
       "usable": false,
       "usable_reason": "licence does not cover images (MIT)",
       "hero_eligible": false,
-      "date_checked": "2026-11-27"
+      "date_checked": "2026-11-28"
     },
     {
       "image_url": "https://lede-admin.nautil.us/wp-content/uploads/sites/70/2026/11/Underwater-scene-of-an-individual-blue-sucker_UpperMissouri-River-Montana-image-captured-by-Zach-Shattuck.jpg?w=564",
@@ -899,7 +1163,7 @@
       "usable": false,
       "usable_reason": "licence does not cover images (Nautilus)",
       "hero_eligible": false,
-      "date_checked": "2026-11-27"
+      "date_checked": "2026-11-28"
     },
     {
       "image_url": "https://futurism.com/wp-content/uploads/2026/11/dea-fentanyl-streets-seizing.jpg?quality=85&w=2048",
@@ -911,7 +1175,7 @@
       "usable": false,
       "usable_reason": "licence does not cover images (Futurism (Recurrent))",
       "hero_eligible": false,
-      "date_checked": "2026-11-27"
+      "date_checked": "2026-11-28"
     },
     {
       "image_url": "https://scitechdaily.com/images/Intestinal-Gut-Bacteria-Microbiome-777x583.jpg",
@@ -923,19 +1187,7 @@
       "usable": false,
       "usable_reason": "licence does not cover images (SciTechDaily)",
       "hero_eligible": false,
-      "date_checked": "2026-11-27"
-    },
-    {
-      "image_url": "https://www.universetoday.com/article_images/Kilopower_experiment_20261127_124117.jpg",
-      "article_link": "https://www.universetoday.com/articles/should-space-data-centers-run-on-solar-panels-nuclear-reactors-or-both",
-      "article_title": "Should Space Data Centers Run on Solar Panels, Nuclear Reactors, or Both?",
-      "source": "Universe Today",
-      "licence": "EXCERPT + LINK — commercial, all rights reserved",
-      "credit": "Universe Today",
-      "usable": false,
-      "usable_reason": "licence does not cover images (Universe Today)",
-      "hero_eligible": false,
-      "date_checked": "2026-11-27"
+      "date_checked": "2026-11-28"
     },
     {
       "image_url": "https://scitechdaily.com/images/Rising-Dementia-Alzheimers-Erasing-Brain-777x397.jpg",
@@ -947,7 +1199,7 @@
       "usable": false,
       "usable_reason": "licence does not cover images (SciTechDaily)",
       "hero_eligible": false,
-      "date_checked": "2026-11-27"
+      "date_checked": "2026-11-28"
     },
     {
       "image_url": "https://www.psypost.org/wp-content/uploads/2026/01/angry-woman.jpg",
@@ -959,7 +1211,7 @@
       "usable": false,
       "usable_reason": "licence does not cover images (PsyPost)",
       "hero_eligible": false,
-      "date_checked": "2026-11-27"
+      "date_checked": "2026-11-28"
     },
     {
       "image_url": "https://www.sciencealert.com/images/2026/11/astronaut-wormhole-1200x675.png",
@@ -971,7 +1223,7 @@
       "usable": false,
       "usable_reason": "licence does not cover images (ScienceAlert)",
       "hero_eligible": false,
-      "date_checked": "2026-11-27"
+      "date_checked": "2026-11-28"
     },
     {
       "image_url": "https://earthsky.org/upl/2022/11/Bellatrix-orion-orions-belt.jpg",
@@ -983,7 +1235,7 @@
       "usable": false,
       "usable_reason": "licence does not cover images (EarthSky)",
       "hero_eligible": false,
-      "date_checked": "2026-11-27"
+      "date_checked": "2026-11-28"
     },
     {
       "image_url": "https://media.wired.com/photos/6b03f84cb82d3b05468e7f25/master/pass/maccomputer.jpg",
@@ -995,7 +1247,7 @@
       "usable": false,
       "usable_reason": "licence does not cover images (Condé Nast)",
       "hero_eligible": false,
-      "date_checked": "2026-11-27"
+      "date_checked": "2026-11-28"
     },
     {
       "image_url": "https://earthsky.org/upl/2026/11/Headshot_of_Anders_Celsius-800x910.jpg",
@@ -1007,7 +1259,7 @@
       "usable": false,
       "usable_reason": "licence does not cover images (EarthSky)",
       "hero_eligible": false,
-      "date_checked": "2026-11-27"
+      "date_checked": "2026-11-28"
     },
     {
       "image_url": "https://tricycle.org/wp-content/uploads/2026/11/9781645475231-405x625.jpg",
@@ -1019,7 +1271,7 @@
       "usable": false,
       "usable_reason": "licence does not cover images (Tricycle (The Tricycle Foundation))",
       "hero_eligible": false,
-      "date_checked": "2026-11-27"
+      "date_checked": "2026-11-28"
     },
     {
       "image_url": "https://www.psypost.org/wp-content/uploads/2026/11/psychology-bedroom-thoughts.jpg",
@@ -1031,7 +1283,7 @@
       "usable": false,
       "usable_reason": "licence does not cover images (PsyPost)",
       "hero_eligible": false,
-      "date_checked": "2026-11-27"
+      "date_checked": "2026-11-28"
     },
     {
       "image_url": "https://cdn.mos.cms.futurecdn.net/j4u2WKgS5fwuqpTfqRPKnd-1920-80.png",
@@ -1043,7 +1295,7 @@
       "usable": false,
       "usable_reason": "licence does not cover images (Future plc)",
       "hero_eligible": false,
-      "date_checked": "2026-11-27"
+      "date_checked": "2026-11-28"
     },
     {
       "image_url": "https://images.aeonmedia.co/images/c26f206d-2e06-4e5b-8156-0d964a42cffc/essay-main-gettyimages-2247445825.jpg?width=1200&quality=75&format=auto",
@@ -1055,7 +1307,7 @@
       "usable": false,
       "usable_reason": "licence does not cover images (Aeon Media)",
       "hero_eligible": false,
-      "date_checked": "2026-11-27"
+      "date_checked": "2026-11-28"
     },
     {
       "image_url": "https://cdn.mos.cms.futurecdn.net/dxgXiwdRJLcbLjxjBQmSME-1920-80.jpg",
@@ -1067,7 +1319,7 @@
       "usable": false,
       "usable_reason": "licence does not cover images (Future plc)",
       "hero_eligible": false,
-      "date_checked": "2026-11-27"
+      "date_checked": "2026-11-28"
     },
     {
       "image_url": "https://www.sciencealert.com/images/2026/10/GettyImages-1300865464-2560x1440-1-1200x675.jpg",
@@ -1079,7 +1331,7 @@
       "usable": false,
       "usable_reason": "licence does not cover images (ScienceAlert)",
       "hero_eligible": false,
-      "date_checked": "2026-11-27"
+      "date_checked": "2026-11-28"
     },
     {
       "image_url": "https://cdn.mos.cms.futurecdn.net/EHPBHHjBn3mQ6TkbZZf437-1920-80.jpg",
@@ -1091,7 +1343,7 @@
       "usable": false,
       "usable_reason": "licence does not cover images (Future plc)",
       "hero_eligible": false,
-      "date_checked": "2026-11-27"
+      "date_checked": "2026-11-28"
     },
     {
       "image_url": "https://www.sciencealert.com/images/2026/11/not-actually-a-mammoth-1200x675.png",
@@ -1103,7 +1355,7 @@
       "usable": false,
       "usable_reason": "licence does not cover images (ScienceAlert)",
       "hero_eligible": false,
-      "date_checked": "2026-11-27"
+      "date_checked": "2026-11-28"
     },
     {
       "image_url": "https://earthsky.org/upl/2026/10/2026-Nov-26-27-Moon-D.jpeg",
@@ -1115,7 +1367,7 @@
       "usable": false,
       "usable_reason": "licence does not cover images (EarthSky)",
       "hero_eligible": false,
-      "date_checked": "2026-11-27"
+      "date_checked": "2026-11-28"
     },
     {
       "image_url": "https://www.newscientist.com/wp-content/uploads/2026/11/SEI320172312.jpg",
@@ -1127,7 +1379,7 @@
       "usable": false,
       "usable_reason": "licence does not cover images (New Scientist Ltd)",
       "hero_eligible": false,
-      "date_checked": "2026-11-27"
+      "date_checked": "2026-11-28"
     },
     {
       "image_url": "https://www.newscientist.com/wp-content/uploads/2026/11/SEI320161113.jpg",
@@ -1139,7 +1391,7 @@
       "usable": false,
       "usable_reason": "licence does not cover images (New Scientist Ltd)",
       "hero_eligible": false,
-      "date_checked": "2026-11-27"
+      "date_checked": "2026-11-28"
     },
     {
       "image_url": "https://www.sciencealert.com/images/2026/11/female-driver-1200x675.jpg",
@@ -1151,7 +1403,7 @@
       "usable": false,
       "usable_reason": "licence does not cover images (ScienceAlert)",
       "hero_eligible": false,
-      "date_checked": "2026-11-27"
+      "date_checked": "2026-11-28"
     },
     {
       "image_url": "https://www.newscientist.com/wp-content/uploads/2026/11/SEI_322115076.jpg",
@@ -1163,7 +1415,7 @@
       "usable": false,
       "usable_reason": "licence does not cover images (New Scientist Ltd)",
       "hero_eligible": false,
-      "date_checked": "2026-11-27"
+      "date_checked": "2026-11-28"
     },
     {
       "image_url": "https://www.sciencealert.com/images/2026/11/BeethovenPortrait2026-1200x675.png",
@@ -1175,7 +1427,7 @@
       "usable": false,
       "usable_reason": "licence does not cover images (ScienceAlert)",
       "hero_eligible": false,
-      "date_checked": "2026-11-27"
+      "date_checked": "2026-11-28"
     },
     {
       "image_url": "https://bigthink.com/wp-content/uploads/2023/01/AdobeStock_247511276.jpeg?quality=85&w=640",
@@ -1187,7 +1439,7 @@
       "usable": false,
       "usable_reason": "licence does not cover images (Big Think)",
       "hero_eligible": false,
-      "date_checked": "2026-11-27"
+      "date_checked": "2026-11-28"
     },
     {
       "image_url": "https://assets.science.nasa.gov/dynamicimage/assets/science/cds/apod/apod/2026/november/Plenilunio1_2048r.jpg?w=2022&#038;h=2048&#038;fit=clip",
@@ -1199,7 +1451,7 @@
       "usable": false,
       "usable_reason": "APOD image — credit is on the article page, often a named photographer; not verifiable from the feed",
       "hero_eligible": false,
-      "date_checked": "2026-11-27"
+      "date_checked": "2026-11-28"
     },
     {
       "image_url": "https://assets.science.nasa.gov/dynamicimage/assets/science/esd/eo/images/iotd/2026/shivelyuch-socked-in/shivelyuchcloud_oli2_20261108.jpg?w=1440&#038;h=960&#038;fit=clip",
@@ -1211,43 +1463,7 @@
       "usable": true,
       "usable_reason": "licence covers images",
       "hero_eligible": true,
-      "date_checked": "2026-11-27"
-    },
-    {
-      "image_url": "https://www.sciencealert.com/images/2026/11/desert-sand-in-hand-1200x675.jpg",
-      "article_link": "https://www.sciencealert.com/a-billion-years-of-history-vanished-into-nothing-we-finally-know-why",
-      "article_title": "A Billion Years of History Vanished Into Nothing. We Finally Know Why.",
-      "source": "ScienceAlert",
-      "licence": "EXCERPT + LINK — commercial, all rights reserved",
-      "credit": "ScienceAlert",
-      "usable": false,
-      "usable_reason": "licence does not cover images (ScienceAlert)",
-      "hero_eligible": false,
-      "date_checked": "2026-11-27"
-    },
-    {
-      "image_url": "https://www.sciencealert.com/images/2026/11/Calm-Brain-In-Blue-And-White-Tones-1200x675.png",
-      "article_link": "https://www.sciencealert.com/a-simple-chore-may-help-calm-your-mind-and-its-popular-with-zen-monks",
-      "article_title": "A Simple Chore May Help Calm Your Mind, And It's Popular With Zen Monks",
-      "source": "ScienceAlert",
-      "licence": "EXCERPT + LINK — commercial, all rights reserved",
-      "credit": "ScienceAlert",
-      "usable": false,
-      "usable_reason": "licence does not cover images (ScienceAlert)",
-      "hero_eligible": false,
-      "date_checked": "2026-11-27"
-    },
-    {
-      "image_url": "https://www.sciencealert.com/images/2026/11/Central-Park-Grass-Soil-1200x675.jpg",
-      "article_link": "https://www.sciencealert.com/something-in-new-york-citys-soil-kills-lung-cancer-cells",
-      "article_title": "Something in New York City's Soil Kills Lung Cancer Cells",
-      "source": "ScienceAlert",
-      "licence": "EXCERPT + LINK — commercial, all rights reserved",
-      "credit": "ScienceAlert",
-      "usable": false,
-      "usable_reason": "licence does not cover images (ScienceAlert)",
-      "hero_eligible": false,
-      "date_checked": "2026-11-27"
+      "date_checked": "2026-11-28"
     },
     {
       "image_url": "https://scitechdaily.com/images/American-Bison-at-Caprock-Canyons-State-Park-777x583.jpg",
@@ -1259,7 +1475,7 @@
       "usable": false,
       "usable_reason": "licence does not cover images (SciTechDaily)",
       "hero_eligible": false,
-      "date_checked": "2026-11-27"
+      "date_checked": "2026-11-28"
     },
     {
       "image_url": "https://scitechdaily.com/images/Life-Reconstruction-of-the-Hell-Chicken-Infernogallus-777x1005.jpg",
@@ -1271,7 +1487,7 @@
       "usable": false,
       "usable_reason": "licence does not cover images (SciTechDaily)",
       "hero_eligible": false,
-      "date_checked": "2026-11-27"
+      "date_checked": "2026-11-28"
     },
     {
       "image_url": "https://scitechdaily.com/images/Women-Holding-Noses-Bad-Stinky-Smell-777x518.jpg",
@@ -1283,7 +1499,7 @@
       "usable": false,
       "usable_reason": "licence does not cover images (SciTechDaily)",
       "hero_eligible": false,
-      "date_checked": "2026-11-27"
+      "date_checked": "2026-11-28"
     },
     {
       "image_url": "https://www.universetoday.com/article_images/Blue_and_Gold_Binary_Stars_20261126_230710.png",
@@ -1295,7 +1511,7 @@
       "usable": false,
       "usable_reason": "licence does not cover images (Universe Today)",
       "hero_eligible": false,
-      "date_checked": "2026-11-27"
+      "date_checked": "2026-11-28"
     },
     {
       "image_url": "https://scitechdaily.com/images/Color-Voronoi-Diagram-777x518.jpg",
@@ -1307,7 +1523,7 @@
       "usable": false,
       "usable_reason": "licence does not cover images (SciTechDaily)",
       "hero_eligible": false,
-      "date_checked": "2026-11-27"
+      "date_checked": "2026-11-28"
     },
     {
       "image_url": "https://scx1.b-cdn.net/csz/news/tmb/2026/destiny-a-new-model-to.jpg",
@@ -1319,7 +1535,7 @@
       "usable": false,
       "usable_reason": "licence does not cover images (Science X)",
       "hero_eligible": false,
-      "date_checked": "2026-11-27"
+      "date_checked": "2026-11-28"
     },
     {
       "image_url": "https://scitechdaily.com/images/ARPES-Probing-P-Wave-Spin-Texture-777x583.jpg",
@@ -1331,7 +1547,7 @@
       "usable": false,
       "usable_reason": "licence does not cover images (SciTechDaily)",
       "hero_eligible": false,
-      "date_checked": "2026-11-27"
+      "date_checked": "2026-11-28"
     },
     {
       "image_url": "https://cdn.mos.cms.futurecdn.net/qoeRGJKGjDM7T5s8wiAjLB-1920-80.jpg",
@@ -1343,7 +1559,7 @@
       "usable": false,
       "usable_reason": "licence does not cover images (Future plc)",
       "hero_eligible": false,
-      "date_checked": "2026-11-27"
+      "date_checked": "2026-11-28"
     },
     {
       "image_url": "https://www.universetoday.com/article_images/1-Clipper_EGA_still.width-1320_20261126_173405.jpg",
@@ -1355,7 +1571,7 @@
       "usable": false,
       "usable_reason": "licence does not cover images (Universe Today)",
       "hero_eligible": false,
-      "date_checked": "2026-11-27"
+      "date_checked": "2026-11-28"
     },
     {
       "image_url": "https://www.psypost.org/wp-content/uploads/2025/08/artificial-intelligence.jpg",
@@ -1367,7 +1583,7 @@
       "usable": false,
       "usable_reason": "licence does not cover images (PsyPost)",
       "hero_eligible": false,
-      "date_checked": "2026-11-27"
+      "date_checked": "2026-11-28"
     },
     {
       "image_url": "https://scitechdaily.com/images/Next-Generation-Solar-Panels-Illustration-777x518.jpg",
@@ -1379,7 +1595,7 @@
       "usable": false,
       "usable_reason": "licence does not cover images (SciTechDaily)",
       "hero_eligible": false,
-      "date_checked": "2026-11-27"
+      "date_checked": "2026-11-28"
     },
     {
       "image_url": "https://scx1.b-cdn.net/csz/news/tmb/2026/jwst-studies-an-extrem.jpg",
@@ -1391,7 +1607,7 @@
       "usable": false,
       "usable_reason": "licence does not cover images (Science X)",
       "hero_eligible": false,
-      "date_checked": "2026-11-27"
+      "date_checked": "2026-11-28"
     },
     {
       "image_url": "https://www.psypost.org/wp-content/uploads/2026/11/thinkingofex.jpg",
@@ -1403,7 +1619,7 @@
       "usable": false,
       "usable_reason": "licence does not cover images (PsyPost)",
       "hero_eligible": false,
-      "date_checked": "2026-11-27"
+      "date_checked": "2026-11-28"
     },
     {
       "image_url": "https://cdn.mos.cms.futurecdn.net/x6hjuYnx3tRF9F3x3HMja8-1920-80.jpg",
@@ -1415,7 +1631,7 @@
       "usable": false,
       "usable_reason": "licence does not cover images (Future plc)",
       "hero_eligible": false,
-      "date_checked": "2026-11-27"
+      "date_checked": "2026-11-28"
     },
     {
       "image_url": "https://scx1.b-cdn.net/csz/news/tmb/2026/runaway-pulsar-escapes.jpg",
@@ -1427,7 +1643,7 @@
       "usable": false,
       "usable_reason": "licence does not cover images (Science X)",
       "hero_eligible": false,
-      "date_checked": "2026-11-27"
+      "date_checked": "2026-11-28"
     },
     {
       "image_url": "https://cdn.mos.cms.futurecdn.net/szHt9dU6zaSF5Di5ugivg6-1920-80.jpg",
@@ -1439,103 +1655,7 @@
       "usable": false,
       "usable_reason": "licence does not cover images (Future plc)",
       "hero_eligible": false,
-      "date_checked": "2026-11-27"
-    },
-    {
-      "image_url": "https://cdn.mos.cms.futurecdn.net/5XaDPK25xYRne5oxgKdrA6-1920-80.jpg",
-      "article_link": "https://www.space.com/entertainment/space-movies-shows/star-trek-iv-the-voyage-home-at-40-trek-has-never-been-as-joyous-or-fun-as-in-the-one-with-the-whales",
-      "article_title": "'Star Trek IV: The Voyage Home' at 40: 'Trek' has never been as joyous or fun as in 'the one with the whales'",
-      "source": "Future plc",
-      "licence": "EXCERPT + LINK — commercial, all rights reserved",
-      "credit": "Paramount",
-      "usable": false,
-      "usable_reason": "licence does not cover images (Future plc)",
-      "hero_eligible": false,
-      "date_checked": "2026-11-27"
-    },
-    {
-      "image_url": "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/11/space-minds-podcast-space-comm-marhsall-2000-1500.jpg?fit=1024%2C768&amp;ssl=1",
-      "article_link": "https://spacenews.com/the-bare-knuckled-future-of-life-in-space-with-tim-marshall/",
-      "article_title": "The ‘bare-knuckled’ future of life in space with Tim Marshall",
-      "source": "SpaceNews Inc.",
-      "licence": "EXCERPT + LINK — commercial, all rights reserved",
-      "credit": "SpaceNews Inc.",
-      "usable": false,
-      "usable_reason": "licence does not cover images (SpaceNews Inc.)",
-      "hero_eligible": false,
-      "date_checked": "2026-11-27"
-    },
-    {
-      "image_url": "https://www.universetoday.com/article_images/JWST_NGC_628_20261126_144850.jpg",
-      "article_link": "https://www.universetoday.com/articles/ai-helps-three-powerful-supercomputers-simulate-the-milky-way-in-extraordinary-detail",
-      "article_title": "AI Helps Three Powerful Supercomputers Simulate The Milky Way In Extraordinary Detail",
-      "source": "Universe Today",
-      "licence": "EXCERPT + LINK — commercial, all rights reserved",
-      "credit": "Universe Today",
-      "usable": false,
-      "usable_reason": "licence does not cover images (Universe Today)",
-      "hero_eligible": false,
-      "date_checked": "2026-11-27"
-    },
-    {
-      "image_url": "https://cdn.mos.cms.futurecdn.net/Kdgg95rATVFgxDDFxULuNj-1920-80.jpg",
-      "article_link": "https://www.space.com/entertainment/space-movies-shows/cant-wait-for-dune-part-3-catch-up-on-the-sandy-sci-fi-saga-with-this-half-price-hbo-max-black-friday-deal",
-      "article_title": "Can't wait for Dune: Part 3? Catch up on the sandy sci-fi saga with this half-price HBO Max Black Friday deal",
-      "source": "Future plc",
-      "licence": "EXCERPT + LINK — commercial, all rights reserved",
-      "credit": "Legendary Pictures",
-      "usable": false,
-      "usable_reason": "licence does not cover images (Future plc)",
-      "hero_eligible": false,
-      "date_checked": "2026-11-27"
-    },
-    {
-      "image_url": "https://scitechdaily.com/images/3D-Rod-Shaped-Bacteria-Colon-Gut-Microbiome-777x518.jpg",
-      "article_link": "https://scitechdaily.com/hidden-viruses-in-the-human-gut-offer-new-clues-to-a-disorder-affecting-millions/",
-      "article_title": "Hidden Viruses in the Human Gut Offer New Clues to a Disorder Affecting Millions",
-      "source": "SciTechDaily",
-      "licence": "EXCERPT + LINK — commercial, all rights reserved",
-      "credit": "SciTechDaily",
-      "usable": false,
-      "usable_reason": "licence does not cover images (SciTechDaily)",
-      "hero_eligible": false,
-      "date_checked": "2026-11-27"
-    },
-    {
-      "image_url": "https://www.psypost.org/wp-content/uploads/2026/11/motherdaughter.jpg",
-      "article_link": "https://www.psypost.org/a-childs-early-test-scores-arent-just-an-academic-milestone-psychology-researchers-discovered-they-are-linked-to-how-their-mothers-physical-health-holds-up/",
-      "article_title": "A child’s early test scores aren’t just an academic milestone — psychology researchers discovered they are linked to how their mother’s physical health holds up",
-      "source": "PsyPost",
-      "licence": "EXCERPT + LINK — commercial, all rights reserved",
-      "credit": "PsyPost",
-      "usable": false,
-      "usable_reason": "licence does not cover images (PsyPost)",
-      "hero_eligible": false,
-      "date_checked": "2026-11-27"
-    },
-    {
-      "image_url": "https://cdn.eso.org/images/screen/eso2607a.jpg",
-      "article_link": "https://www.eso.org/public/news/eso2614/",
-      "article_title": "ESO statement on approval of launch of one million space data centres",
-      "source": "European Southern Observatory",
-      "licence": "FULL TEXT — press releases / announcements are CC BY 4.0, reproducible without fee",
-      "credit": "European Southern Observatory",
-      "usable": true,
-      "usable_reason": "licence covers images",
-      "hero_eligible": true,
-      "date_checked": "2026-11-27"
-    },
-    {
-      "image_url": "https://cdn.mos.cms.futurecdn.net/L8EGfoybRtmyRMkZgLF48Z-1920-80.jpg",
-      "article_link": "https://www.space.com/stargazing/venus-shines-at-its-brightest-in-the-predawn-sky-this-week-heres-where-to-look-nov-27-2026",
-      "article_title": "Venus shines at its brightest in the predawn sky this week. Here's where to look",
-      "source": "Future plc",
-      "licence": "EXCERPT + LINK — commercial, all rights reserved",
-      "credit": "Photo by Peter Zay/Anadolu via Getty Images",
-      "usable": false,
-      "usable_reason": "licence does not cover images (Future plc)",
-      "hero_eligible": false,
-      "date_checked": "2026-11-27"
+      "date_checked": "2026-11-28"
     }
   ]
 }
